@@ -1,0 +1,590 @@
+{
+  "id": "dar-masun",
+  "title": "الدر المصون في علوم الكتاب المكنون",
+  "author": "السمين الحلبي",
+  "publisher": "دار القلم",
+  "editionEditor": "أحمد بن محمد الخراط",
+  "version": "2026-08-10",
+  "source": "الموسوعة القرآنية quranpedia.net",
+  "url": "https://quranpedia.net/book/162",
+  "download": "https://quranpedia.net/dumps/tafsir-book-162.json.gz",
+  "sha256": "398b6013ee54309463eb40d3cfeb1e1f0ceb1f8fb685ac4f5faf964fa2ddf37f",
+  "license": "./assets/library/LICENSE.json",
+  "scope": "نص مرجعي تراثي في الإعراب والتفسير وتوجيه القراءات، وفق فهرسة آيات المصدر. قد يمتد الكلام إلى آيات مجاورة، وترد فيه قراءات خارج العشر. لا تستخرج منه نسب القراء آلياً، ولا يمثل توجيهاً محرراً لكل سجل أداء.",
+  "transformation": "تحويل وسوم التنسيق إلى نص فقط مع إبقاء ترتيب المقاطع وبيانات الجزء والصفحة حيث أتاحها المصدر. لا اختصار للمضمون ولا توليد للقراءات.",
+  "verseCount": 4820,
+  "surahCount": 114,
+  "blockCount": 11202,
+  "surahs": [
+    {
+      "surah": 1,
+      "verses": 7,
+      "file": "./assets/library/1.json"
+    },
+    {
+      "surah": 2,
+      "verses": 279,
+      "file": "./assets/library/2.json"
+    },
+    {
+      "surah": 3,
+      "verses": 186,
+      "file": "./assets/library/3.json"
+    },
+    {
+      "surah": 4,
+      "verses": 162,
+      "file": "./assets/library/4.json"
+    },
+    {
+      "surah": 5,
+      "verses": 111,
+      "file": "./assets/library/5.json"
+    },
+    {
+      "surah": 6,
+      "verses": 156,
+      "file": "./assets/library/6.json"
+    },
+    {
+      "surah": 7,
+      "verses": 184,
+      "file": "./assets/library/7.json"
+    },
+    {
+      "surah": 8,
+      "verses": 65,
+      "file": "./assets/library/8.json"
+    },
+    {
+      "surah": 9,
+      "verses": 110,
+      "file": "./assets/library/9.json"
+    },
+    {
+      "surah": 10,
+      "verses": 87,
+      "file": "./assets/library/10.json"
+    },
+    {
+      "surah": 11,
+      "verses": 109,
+      "file": "./assets/library/11.json"
+    },
+    {
+      "surah": 12,
+      "verses": 97,
+      "file": "./assets/library/12.json"
+    },
+    {
+      "surah": 13,
+      "verses": 39,
+      "file": "./assets/library/13.json"
+    },
+    {
+      "surah": 14,
+      "verses": 49,
+      "file": "./assets/library/14.json"
+    },
+    {
+      "surah": 15,
+      "verses": 63,
+      "file": "./assets/library/15.json"
+    },
+    {
+      "surah": 16,
+      "verses": 109,
+      "file": "./assets/library/16.json"
+    },
+    {
+      "surah": 17,
+      "verses": 98,
+      "file": "./assets/library/17.json"
+    },
+    {
+      "surah": 18,
+      "verses": 101,
+      "file": "./assets/library/18.json"
+    },
+    {
+      "surah": 19,
+      "verses": 80,
+      "file": "./assets/library/19.json"
+    },
+    {
+      "surah": 20,
+      "verses": 113,
+      "file": "./assets/library/20.json"
+    },
+    {
+      "surah": 21,
+      "verses": 95,
+      "file": "./assets/library/21.json"
+    },
+    {
+      "surah": 22,
+      "verses": 63,
+      "file": "./assets/library/22.json"
+    },
+    {
+      "surah": 23,
+      "verses": 78,
+      "file": "./assets/library/23.json"
+    },
+    {
+      "surah": 24,
+      "verses": 51,
+      "file": "./assets/library/24.json"
+    },
+    {
+      "surah": 25,
+      "verses": 65,
+      "file": "./assets/library/25.json"
+    },
+    {
+      "surah": 26,
+      "verses": 105,
+      "file": "./assets/library/26.json"
+    },
+    {
+      "surah": 27,
+      "verses": 78,
+      "file": "./assets/library/27.json"
+    },
+    {
+      "surah": 28,
+      "verses": 67,
+      "file": "./assets/library/28.json"
+    },
+    {
+      "surah": 29,
+      "verses": 45,
+      "file": "./assets/library/29.json"
+    },
+    {
+      "surah": 30,
+      "verses": 43,
+      "file": "./assets/library/30.json"
+    },
+    {
+      "surah": 31,
+      "verses": 25,
+      "file": "./assets/library/31.json"
+    },
+    {
+      "surah": 32,
+      "verses": 21,
+      "file": "./assets/library/32.json"
+    },
+    {
+      "surah": 33,
+      "verses": 61,
+      "file": "./assets/library/33.json"
+    },
+    {
+      "surah": 34,
+      "verses": 46,
+      "file": "./assets/library/34.json"
+    },
+    {
+      "surah": 35,
+      "verses": 35,
+      "file": "./assets/library/35.json"
+    },
+    {
+      "surah": 36,
+      "verses": 62,
+      "file": "./assets/library/36.json"
+    },
+    {
+      "surah": 37,
+      "verses": 90,
+      "file": "./assets/library/37.json"
+    },
+    {
+      "surah": 38,
+      "verses": 72,
+      "file": "./assets/library/38.json"
+    },
+    {
+      "surah": 39,
+      "verses": 50,
+      "file": "./assets/library/39.json"
+    },
+    {
+      "surah": 40,
+      "verses": 56,
+      "file": "./assets/library/40.json"
+    },
+    {
+      "surah": 41,
+      "verses": 39,
+      "file": "./assets/library/41.json"
+    },
+    {
+      "surah": 42,
+      "verses": 37,
+      "file": "./assets/library/42.json"
+    },
+    {
+      "surah": 43,
+      "verses": 62,
+      "file": "./assets/library/43.json"
+    },
+    {
+      "surah": 44,
+      "verses": 42,
+      "file": "./assets/library/44.json"
+    },
+    {
+      "surah": 45,
+      "verses": 26,
+      "file": "./assets/library/45.json"
+    },
+    {
+      "surah": 46,
+      "verses": 26,
+      "file": "./assets/library/46.json"
+    },
+    {
+      "surah": 47,
+      "verses": 31,
+      "file": "./assets/library/47.json"
+    },
+    {
+      "surah": 48,
+      "verses": 20,
+      "file": "./assets/library/48.json"
+    },
+    {
+      "surah": 49,
+      "verses": 17,
+      "file": "./assets/library/49.json"
+    },
+    {
+      "surah": 50,
+      "verses": 34,
+      "file": "./assets/library/50.json"
+    },
+    {
+      "surah": 51,
+      "verses": 40,
+      "file": "./assets/library/51.json"
+    },
+    {
+      "surah": 52,
+      "verses": 35,
+      "file": "./assets/library/52.json"
+    },
+    {
+      "surah": 53,
+      "verses": 50,
+      "file": "./assets/library/53.json"
+    },
+    {
+      "surah": 54,
+      "verses": 37,
+      "file": "./assets/library/54.json"
+    },
+    {
+      "surah": 55,
+      "verses": 43,
+      "file": "./assets/library/55.json"
+    },
+    {
+      "surah": 56,
+      "verses": 63,
+      "file": "./assets/library/56.json"
+    },
+    {
+      "surah": 57,
+      "verses": 24,
+      "file": "./assets/library/57.json"
+    },
+    {
+      "surah": 58,
+      "verses": 16,
+      "file": "./assets/library/58.json"
+    },
+    {
+      "surah": 59,
+      "verses": 22,
+      "file": "./assets/library/59.json"
+    },
+    {
+      "surah": 60,
+      "verses": 12,
+      "file": "./assets/library/60.json"
+    },
+    {
+      "surah": 61,
+      "verses": 11,
+      "file": "./assets/library/61.json"
+    },
+    {
+      "surah": 62,
+      "verses": 9,
+      "file": "./assets/library/62.json"
+    },
+    {
+      "surah": 63,
+      "verses": 9,
+      "file": "./assets/library/63.json"
+    },
+    {
+      "surah": 64,
+      "verses": 8,
+      "file": "./assets/library/64.json"
+    },
+    {
+      "surah": 65,
+      "verses": 11,
+      "file": "./assets/library/65.json"
+    },
+    {
+      "surah": 66,
+      "verses": 10,
+      "file": "./assets/library/66.json"
+    },
+    {
+      "surah": 67,
+      "verses": 23,
+      "file": "./assets/library/67.json"
+    },
+    {
+      "surah": 68,
+      "verses": 29,
+      "file": "./assets/library/68.json"
+    },
+    {
+      "surah": 69,
+      "verses": 40,
+      "file": "./assets/library/69.json"
+    },
+    {
+      "surah": 70,
+      "verses": 21,
+      "file": "./assets/library/70.json"
+    },
+    {
+      "surah": 71,
+      "verses": 20,
+      "file": "./assets/library/71.json"
+    },
+    {
+      "surah": 72,
+      "verses": 27,
+      "file": "./assets/library/72.json"
+    },
+    {
+      "surah": 73,
+      "verses": 16,
+      "file": "./assets/library/73.json"
+    },
+    {
+      "surah": 74,
+      "verses": 35,
+      "file": "./assets/library/74.json"
+    },
+    {
+      "surah": 75,
+      "verses": 28,
+      "file": "./assets/library/75.json"
+    },
+    {
+      "surah": 76,
+      "verses": 25,
+      "file": "./assets/library/76.json"
+    },
+    {
+      "surah": 77,
+      "verses": 28,
+      "file": "./assets/library/77.json"
+    },
+    {
+      "surah": 78,
+      "verses": 25,
+      "file": "./assets/library/78.json"
+    },
+    {
+      "surah": 79,
+      "verses": 31,
+      "file": "./assets/library/79.json"
+    },
+    {
+      "surah": 80,
+      "verses": 24,
+      "file": "./assets/library/80.json"
+    },
+    {
+      "surah": 81,
+      "verses": 18,
+      "file": "./assets/library/81.json"
+    },
+    {
+      "surah": 82,
+      "verses": 10,
+      "file": "./assets/library/82.json"
+    },
+    {
+      "surah": 83,
+      "verses": 28,
+      "file": "./assets/library/83.json"
+    },
+    {
+      "surah": 84,
+      "verses": 17,
+      "file": "./assets/library/84.json"
+    },
+    {
+      "surah": 85,
+      "verses": 10,
+      "file": "./assets/library/85.json"
+    },
+    {
+      "surah": 86,
+      "verses": 9,
+      "file": "./assets/library/86.json"
+    },
+    {
+      "surah": 87,
+      "verses": 13,
+      "file": "./assets/library/87.json"
+    },
+    {
+      "surah": 88,
+      "verses": 17,
+      "file": "./assets/library/88.json"
+    },
+    {
+      "surah": 89,
+      "verses": 26,
+      "file": "./assets/library/89.json"
+    },
+    {
+      "surah": 90,
+      "verses": 13,
+      "file": "./assets/library/90.json"
+    },
+    {
+      "surah": 91,
+      "verses": 14,
+      "file": "./assets/library/91.json"
+    },
+    {
+      "surah": 92,
+      "verses": 12,
+      "file": "./assets/library/92.json"
+    },
+    {
+      "surah": 93,
+      "verses": 7,
+      "file": "./assets/library/93.json"
+    },
+    {
+      "surah": 94,
+      "verses": 5,
+      "file": "./assets/library/94.json"
+    },
+    {
+      "surah": 95,
+      "verses": 6,
+      "file": "./assets/library/95.json"
+    },
+    {
+      "surah": 96,
+      "verses": 10,
+      "file": "./assets/library/96.json"
+    },
+    {
+      "surah": 97,
+      "verses": 3,
+      "file": "./assets/library/97.json"
+    },
+    {
+      "surah": 98,
+      "verses": 7,
+      "file": "./assets/library/98.json"
+    },
+    {
+      "surah": 99,
+      "verses": 7,
+      "file": "./assets/library/99.json"
+    },
+    {
+      "surah": 100,
+      "verses": 10,
+      "file": "./assets/library/100.json"
+    },
+    {
+      "surah": 101,
+      "verses": 6,
+      "file": "./assets/library/101.json"
+    },
+    {
+      "surah": 102,
+      "verses": 5,
+      "file": "./assets/library/102.json"
+    },
+    {
+      "surah": 103,
+      "verses": 2,
+      "file": "./assets/library/103.json"
+    },
+    {
+      "surah": 104,
+      "verses": 7,
+      "file": "./assets/library/104.json"
+    },
+    {
+      "surah": 105,
+      "verses": 4,
+      "file": "./assets/library/105.json"
+    },
+    {
+      "surah": 106,
+      "verses": 3,
+      "file": "./assets/library/106.json"
+    },
+    {
+      "surah": 107,
+      "verses": 6,
+      "file": "./assets/library/107.json"
+    },
+    {
+      "surah": 108,
+      "verses": 3,
+      "file": "./assets/library/108.json"
+    },
+    {
+      "surah": 109,
+      "verses": 2,
+      "file": "./assets/library/109.json"
+    },
+    {
+      "surah": 110,
+      "verses": 3,
+      "file": "./assets/library/110.json"
+    },
+    {
+      "surah": 111,
+      "verses": 5,
+      "file": "./assets/library/111.json"
+    },
+    {
+      "surah": 112,
+      "verses": 3,
+      "file": "./assets/library/112.json"
+    },
+    {
+      "surah": 113,
+      "verses": 4,
+      "file": "./assets/library/113.json"
+    },
+    {
+      "surah": 114,
+      "verses": 6,
+      "file": "./assets/library/114.json"
+    }
+  ]
+}
