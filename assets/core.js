@@ -34,6 +34,18 @@ function createEngine(data,quran,witnessBundle={records:[]}){
  const records=data.records,witnesses=witnessBundle.records||[];
  for(const r of records){for(const [s,a]of r.coveredRefs||[[r.surah,r.ayah]]){const k=`${s}:${a}`;if(!byRef.has(k))byRef.set(k,[]);byRef.get(k).push(r);}for(const id of r.wordIds||[]){if(!byWord.has(id))byWord.set(id,[]);byWord.get(id).push(r);}}
  const rIndex=new Map(records.map(r=>[r.id,normalize([r.word,...r.tags,r.category,...r.variants.flatMap(v=>[v.text,v.description,v.qualification]),...(r.wordIds||[]).map(id=>wordMap.get(id)?.text||''),...tawjihFor(r).flatMap(t=>[t.title,t.relationship,...t.tags,...t.cases.flatMap(c=>[c.form,c.linguistic,c.meaning])])].join(' '))]));
+ const rLexicalIndex=new Map(records.map(r=>[r.id,[...new Set([r.word,...r.variants.map(v=>v.text),...(r.wordIds||[]).map(id=>wordMap.get(id)?.text)].map(normalize).filter(Boolean))]]));
+ const recordOrder=new Map(records.map((r,i)=>[r.id,i]));
+ const matchRanks={exact:3,word:2,partial:1,context:0};
+ function lexicalMatch(r,query){
+  const forms=rLexicalIndex.get(r.id)||[];
+  if(forms.includes(query))return'exact';
+  if(forms.some(f=>(' '+f+' ').includes(' '+query+' ')))return'word';
+  // Attached conjunctions are retrieval variants, never reading attributions.
+  if(!query.includes(' ')&&forms.some(f=>f.split(' ').some(t=>t==='و'+query||t==='ف'+query)))return'word';
+  return forms.some(f=>matchText(f,query))?'partial':'context';
+ }
+ function matchQuality(r,query){const q=normalize(query);return q&&!parseReference(query,data.surahs)?lexicalMatch(r,q):null;}
  const vIndex=new Map(verses.map(v=>[v.id,normalize(v.text)])),wIndex=new Map(witnesses.map(w=>[w.id,normalize(w.text)])),wordIndex=new Map(words.map(w=>[w.id,normalize(w.text)]));
  const key=(s,a)=>s*1000+a,starts=data.pageStarts||[];
  function pageForRef(s,a){let found=null;for(const p of starts){if(key(p[1],p[2])<=key(s,a))found=p[0];else break;}return found;}
@@ -41,7 +53,8 @@ function createEngine(data,quran,witnessBundle={records:[]}){
  function search(mode,state){
   const query=normalize(state.q||''),ref=parseReference(state.q||'',data.surahs),sid=+state.surah||null;
   if(ref&&(ref.surah<1||ref.surah>114||(ref.ayah!==null&&!verseMap.has(`${ref.surah}:${ref.ayah}`))))return[];
-  if(mode==='comparisons')return records.filter(r=>{
+  if(mode==='comparisons'){
+   const result=records.filter(r=>{
    const refs=r.coveredRefs||[[r.surah,r.ayah]];
    if(sid&&!refs.some(x=>x[0]===sid))return false;
    if(ref&&!refs.some(x=>x[0]===ref.surah&&(ref.ayah===null||x[1]===ref.ayah)))return false;
@@ -59,7 +72,10 @@ function createEngine(data,quran,witnessBundle={records:[]}){
    if(state.hafsDiff&&chosen.length&&!chosen.some(n=>['different','overlap'].includes(compareFaces(r,n,'asim_hafs'))))return false;
    if(state.pairOnly&&!['different','overlap'].includes(compareFaces(r,state.pairA,state.pairB)))return false;
    return true;
-  });
+   });
+   if(query&&!ref){const ranks=new Map(result.map(r=>[r.id,matchRanks[lexicalMatch(r,query)]]));result.sort((a,b)=>ranks.get(b.id)-ranks.get(a.id)||recordOrder.get(a.id)-recordOrder.get(b.id));}
+   return result;
+  }
   if(mode==='verses'||mode==='words')return(mode==='words'?words:verses).filter(v=>{
    if(sid&&v.surah!==sid)return false;if(ref)return v.surah===ref.surah&&(ref.ayah===null||v.ayah===ref.ayah);
    return matchText((mode==='words'?wordIndex:vIndex).get(v.id),query);
@@ -67,7 +83,7 @@ function createEngine(data,quran,witnessBundle={records:[]}){
   if(mode==='witnesses'){const pages=ref?(ref.ayah===null?pagesForSurah(ref.surah):[pageForRef(ref.surah,ref.ayah)]):null,surahPages=sid?pagesForSurah(sid):null;return witnesses.filter(w=>(!pages||pages.includes(w.page))&&(!surahPages||surahPages.includes(w.page))&&(!state.page||w.page===+state.page)&&(ref||matchText(wIndex.get(w.id),query)));}return[];
  }
  function context(s,a,radius=1){return verses.filter(v=>v.surah===s&&Math.abs(v.ayah-a)<=radius);}
- return{search,verses,verseMap,words,wordMap,byWord,byRef,readers,narrators,pageForRef,pagesForSurah,context,records,witnesses,tawjihFor,reference:q=>parseReference(q,data.surahs)};
+ return{search,verses,verseMap,words,wordMap,byWord,byRef,readers,narrators,pageForRef,pagesForSurah,context,records,witnesses,tawjihFor,matchQuality,reference:q=>parseReference(q,data.surahs)};
 }
 return{normalize,digits,escapeHtml,parseReference,matchText,variantFor,variantsFor,compareFaces,audioURL,audioInfo,createEngine};
 });
