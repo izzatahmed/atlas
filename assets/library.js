@@ -43,8 +43,14 @@
  $('library-surah').innerHTML=meta.surahs.map(x=>`<option value="${x.surah}">${ar(x.surah)} · ${esc(D.surahs[x.surah-1])} (${ar(x.verses)} مدخلاً)</option>`).join('');
  $('library-coverage').textContent=ar(meta.verseCount)+' مدخلاً · '+ar(meta.surahCount)+' سورة · '+ar(meta.blockCount)+' مقطعاً مرجعياً';$('library-version').textContent=meta.version;
  $('library-surah').addEventListener('change',()=>{$('library-ayah').value='';$('library-ayah').max=String(A.engine.verses.filter(v=>v.surah===Number($('library-surah').value)).length);});
- $('library-form').addEventListener('submit',e=>{e.preventDefault();const params=new URLSearchParams({s:$('library-surah').value}),ayah=$('library-ayah').value,q=$('library-query').value.trim();if(ayah)params.set('ayah',ayah);if(q)params.set('q',q);const hash='#library?'+params; if(window.location.hash===hash)route();else window.location.hash=hash;});
+ $('library-form').addEventListener('submit',e=>{e.preventDefault();const params=new URLSearchParams({s:$('library-surah').value}),ayah=$('library-ayah').value,q=$('library-query').value.trim();if(ayah)params.set('ayah',ayah);if(q)params.set('q',q);const hash='#library?'+params; if(window.location.hash===hash)route();else A.navigate(hash);});
  $('library-more').addEventListener('click',()=>{limit+=8;render();});$('library-copy-link').addEventListener('click',()=>A.copy(window.location.href));
- document.addEventListener('click',e=>{const b=e.target.closest('button,a');if(!b)return;if(b.dataset.libraryOpen)open(b.dataset.libraryOpen);if(b.id==='library-retry')route();if(b.dataset.libraryRef){$('detail-dialog').close();window.location.hash=link(...b.dataset.libraryRef.split(':'));}});
- window.addEventListener('hashchange',route);window.AtlasLibrary={route,open,link};route();
+ document.addEventListener('click',e=>{const b=e.target.closest('button,a');if(!b)return;if(b.dataset.libraryOpen)open(b.dataset.libraryOpen);if(b.id==='library-retry')route();if(b.dataset.libraryRef)A.navigate(link(...b.dataset.libraryRef.split(':')));});
+ window.addEventListener('hashchange',route);function snapshot(){return {rows,limit,selected,params:routeState(),ready:$('library-results').getAttribute('aria-busy')!=='true'};}
+ async function restore(snapshot){
+  if(!snapshot||!snapshot.ready){await route();return;}request++;rows=snapshot.rows;limit=snapshot.limit;selected=snapshot.selected;
+  $('library-surah').value=String(snapshot.params.s);$('library-ayah').value=snapshot.params.ayah;$('library-query').value=snapshot.params.q;
+  $('library-ayah').max=String(A.engine.verses.filter(v=>v.surah===selected).length);$('library-results').setAttribute('aria-busy','false');render();
+ }
+ window.AtlasLibrary={route,open,link,snapshot,restore};route();
 })();

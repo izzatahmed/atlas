@@ -7,6 +7,7 @@
  let saved=[];try{saved=JSON.parse(localStorage.getItem(SAVED_KEY)||'[]');if(!Array.isArray(saved))saved=[];saved=[...new Set(saved)].filter(id=>D.records.some(r=>r.id===id));}catch{}
  const state={q:'',mode:'comparisons',surah:'',category:'',tag:'',reader:'',narrator:'',hafsDiff:false,pairA:'asim_hafs',pairB:'nafi_warsh',pairOnly:false,savedOnly:false,page:'',review:'',limit:6,saved};
  let activePage='search',found=[],lastFocus=null,toastTimer,inputTimer;
+ let dialogFrames=[],dialogOrigin=null,pageFrames=[],restoringPage=false,silentCloses=0,routeScrollTimer;
  const pairLabels={same:'الأوجه الموصوفة متفقة',different:'اختلاف في الأوصاف المدرجة',overlap:'أوصاف مشتركة وأخرى مختلفة',unknown:'نسبة ناقصة أو سياق غير منطبق',limited:'التوثيق جزئي؛ لا تجزم المقارنة'};
  function reviewLabel(r){return r.review==='source-import'?'منقول من المصدر':r.review==='primary-supplement'?'موضع مراجع في النشر':'خلاف موضعي مراجع';}
  function isPartial(r){return r.variants.some(v=>v.reviewedScope&&!['complete_description','local_typographical_correction_only'].includes(v.reviewedScope));}
@@ -48,6 +49,7 @@
  }
  function syncUrl(){if(activePage==='search')history.replaceState(null,'',toHash());}
  function parseHash(){
+  clearTimeout(routeScrollTimer);clearTimeout(inputTimer);
   const raw=location.hash.slice(1)||'search';const route=raw.split('?')[0],page=route.split('/')[0];
   activePage=['search','readers','learn','sources','library'].includes(page)?page:'search';
   document.querySelectorAll('[data-page]').forEach(el=>el.classList.toggle('hidden',el.dataset.page!==activePage));
@@ -61,10 +63,11 @@
    state.pairA=E.narrators.has(p.get('a'))?p.get('a'):'asim_hafs';state.pairB=E.narrators.has(p.get('b'))?p.get('b'):'nafi_warsh';
    if(!E.readers.has(state.reader))state.reader='';if(!E.narrators.has(state.narrator))state.narrator='';
    state.limit=6;controls();render(false);
-   const record=p.get('record'),word=p.get('word');if(record&&D.records.some(r=>r.id===record))showDetail(record,p.get('section')==='tawjih');else if(word&&E.wordMap.has(word))showWord(word);
+   const record=p.get('record'),word=p.get('word');if(!restoringPage&&record&&D.records.some(r=>r.id===record))showDetail(record,p.get('section')==='tawjih');else if(!restoringPage&&word&&E.wordMap.has(word))showWord(word);
   }
-  if(activePage!=='search'&&$('detail-dialog').open)$('detail-dialog').close();
-  const part=route.split('/')[1];if(activePage==='learn'&&part){setTimeout(()=>document.getElementById('learn-'+part)?.scrollIntoView({behavior:'smooth',block:'start'}),30);}
+  if(activePage!=='search'&&$('detail-dialog').open)endDialog(false);
+  updateBackButton();if(restoringPage)return;
+  const part=route.split('/')[1];if(activePage==='learn'&&part){routeScrollTimer=setTimeout(()=>document.getElementById('learn-'+part)?.scrollIntoView({behavior:'smooth',block:'start'}),30);}
   else window.scrollTo({top:0,behavior:'auto'});
  }
  function labelsFor(variant){
@@ -93,7 +96,7 @@
   const match=E.matchQuality(r,state.q),matchNote=match==='partial'?'مطابقة جزئية للفظ':match==='context'?'مطابقة في الشرح أو الوسوم':'';
   const preview=[...r.variants.filter(v=>v.narrators.includes(state.pairA)||v.narrators.includes(state.pairB)),...r.variants].filter((v,i,a)=>a.indexOf(v)===i).slice(0,2);
   const comparison=C.compareFaces(r,state.pairA,state.pairB),summary=n=>{const vs=C.variantsFor(r,n);return vs.length?vs.map(v=>v.text||'وصف أدائي').filter((x,i,a)=>a.indexOf(x)===i).join(' / '):'غير مثبت في هذا السجل';};
-  return `<article class="result-card" data-record="${r.id}"><div class="card-top"><div class="card-title"><span class="ayah-badge" aria-hidden="true">${ar(r.ayah)}</span><h3>${esc(refsLabel(r))}<small>${esc(r.word)}</small></h3><span class="category-label">${esc(r.category)}</span></div><button class="bookmark ${saved.includes(r.id)?'on':''}" data-save="${r.id}" type="button" aria-label="${saved.includes(r.id)?'إزالة الموضع من المحفوظات':'حفظ الموضع'}" aria-pressed="${saved.includes(r.id)}">${saved.includes(r.id)?'♥':'♡'}</button></div><p class="verse-context" aria-label="مقتطف من النص المرجعي برواية حفص">${excerpt(r)}</p><div class="record-status">${matchNote?`<span class="review-badge search-match">${matchNote}</span>`:''}<span class="review-badge">${reviewLabel(r)}</span>${isPartial(r)?'<span class="incomplete-badge">توثيق بعض القواعد فقط</span>':''}<span>${ar(r.variants.length)} أوجه موصوفة</span>${r.missingNarrators?.length?`<span class="incomplete-badge">نسبة ${ar(r.missingNarrators.length)} رواة غير مثبتة</span>`:''}</div><div class="variant-grid">${preview.map(v=>faceMarkup(v,r,r.variants.indexOf(v))).join('')}</div>${r.variants.length>2?`<button class="more-faces" data-detail="${r.id}" type="button">عرض جميع الأوجه (${ar(r.variants.length)}) وقيود الطرق ←</button>`:''}<div class="selected-pair"><span>${esc(E.narrators.get(state.pairA).label)}:</span><b>${esc(summary(state.pairA))}</b><span>·</span><span>${esc(E.narrators.get(state.pairB).label)}:</span><b>${esc(summary(state.pairB))}</b><span class="pair-result-label ${['different','overlap'].includes(comparison)?'different':''}">${pairLabels[comparison]}</span></div><div class="card-footer"><span class="source-name">${esc(r.source.title)}</span>${r.tawjihIds?.length?`<button class="tawjih-link" data-tawjih="${r.id}" type="button">توجيه القراءات ←</button>`:''}<button data-detail="${r.id}" type="button">التفاصيل والمقارنة <span aria-hidden="true">←</span></button></div></article>`;
+  return `<article class="result-card" data-record="${r.id}"><div class="card-top"><div class="card-title"><span class="ayah-badge" aria-hidden="true">${ar(r.ayah)}</span><h3>${esc(refsLabel(r))}<small>${esc(r.word)}</small></h3><span class="category-label">${esc(r.category)}</span></div><button class="bookmark ${saved.includes(r.id)?'on':''}" data-save="${r.id}" type="button" aria-label="${saved.includes(r.id)?'إزالة الموضع من المحفوظات':'حفظ الموضع'}" aria-pressed="${saved.includes(r.id)}">${saved.includes(r.id)?'♥':'♡'}</button></div><p class="verse-context" aria-label="مقتطف من النص المرجعي برواية حفص">${excerpt(r)}</p><div class="record-status">${matchNote?`<span class="review-badge search-match">${matchNote}</span>`:''}<span class="review-badge">${reviewLabel(r)}</span>${r.reviewWarnings?.length?'<span class="incomplete-badge">أوصاف تحتاج تحقيق إحالتها</span>':''}${isPartial(r)?'<span class="incomplete-badge">توثيق بعض القواعد فقط</span>':''}<span>${ar(r.variants.length)} أوجه موصوفة</span>${r.missingNarrators?.length?`<span class="incomplete-badge">نسبة ${ar(r.missingNarrators.length)} رواة غير مثبتة</span>`:''}</div><div class="variant-grid">${preview.map(v=>faceMarkup(v,r,r.variants.indexOf(v))).join('')}</div>${r.variants.length>2?`<button class="more-faces" data-detail="${r.id}" type="button">عرض جميع الأوجه (${ar(r.variants.length)}) وقيود الطرق ←</button>`:''}<div class="selected-pair"><span>${esc(E.narrators.get(state.pairA).label)}:</span><b>${esc(summary(state.pairA))}</b><span>·</span><span>${esc(E.narrators.get(state.pairB).label)}:</span><b>${esc(summary(state.pairB))}</b><span class="pair-result-label ${['different','overlap'].includes(comparison)?'different':''}">${pairLabels[comparison]}</span></div><div class="card-footer"><span class="source-name">${esc(r.source.title)}</span>${r.tawjihIds?.length?`<button class="tawjih-link" data-tawjih="${r.id}" type="button">توجيه القراءات ←</button>`:''}<button data-detail="${r.id}" type="button">التفاصيل والمقارنة <span aria-hidden="true">←</span></button></div></article>`;
  }
  function witnessCard(w){
   const long=w.text.length>300;const body=long?w.text.slice(0,410):w.text;
@@ -135,9 +138,51 @@
   return `<div class="empty-state">${emptyIcon}<h3>${title}</h3><p>${message}</p><div class="empty-actions">${state.mode!=='verses'?`<button data-switch="verses" type="button">${verseMatches.length?'عرض الآيات المطابقة ('+ar(verseMatches.length)+')':'البحث في الآيات'}</button>`:''}${state.mode!=='witnesses'?'<button data-switch="witnesses" type="button">شواهد المصحف</button>':''}<button data-reset="true" type="button">إزالة المرشحات</button></div></div>`;
  }
  function setMode(mode){state.mode=mode;state.limit=6;if(mode!=='comparisons')state.savedOnly=false;render();}
- function newSearch(q){state.q=q;state.limit=6;state.savedOnly=false;$('search-input').value=q;if(activePage!=='search'){activePage='search';location.hash=toHash();}else render();}
+ function newSearch(q){const previous=activePage!=='search'?rememberPage():null;state.q=q;state.limit=6;state.savedOnly=false;$('search-input').value=q;if(activePage!=='search')navigate(toHash(),previous);else render();}
  function reset(){Object.assign(state,{q:'',surah:'',category:'',tag:'',reader:'',narrator:'',hafsDiff:false,pairOnly:false,savedOnly:false,page:'',review:'',limit:6});controls();render();}
- function openDialog(html){if(!$('detail-dialog').open)lastFocus=document.activeElement;$('source-audio')?.pause();$('dialog-content').innerHTML=html;if(!$('detail-dialog').open)$('detail-dialog').showModal();$('close-dialog').focus();}
+ function scrollPosition(){return {top:window.scrollY||0,left:window.scrollX||0};}
+ function restorePosition(position,focus){focus?.isConnected&&focus.focus?.({preventScroll:true});window.scrollTo({...position,behavior:'instant'});}
+ function takeDialog(){
+  const dialog=$('detail-dialog'),content=$('dialog-content'),fragment=document.createDocumentFragment();
+  const snapshot={fragment,scrollTop:dialog.scrollTop,frames:dialogFrames.slice(),origin:dialogOrigin,focus:document.activeElement};
+  while(content.firstChild)fragment.appendChild(content.firstChild);return snapshot;
+ }
+ function endDialog(returnToOrigin=true){
+  const dialog=$('detail-dialog'),origin=dialogOrigin;$('source-audio')?.pause();dialogOrigin=null;dialogFrames=[];
+  if(dialog.open){silentCloses++;dialog.close();}
+  if(returnToOrigin&&origin)restorePosition(origin.position,origin.focus);
+ }
+ function restoreDialog(snapshot){
+  if(!snapshot)return;dialogFrames=snapshot.frames;dialogOrigin=snapshot.origin;lastFocus=dialogOrigin?.focus;
+  $('dialog-content').replaceChildren(snapshot.fragment);if(!$('detail-dialog').open)$('detail-dialog').showModal();
+  snapshot.focus?.isConnected&&snapshot.focus.focus?.({preventScroll:true});$('detail-dialog').scrollTop=snapshot.scrollTop;
+ }
+ function openDialog(html){
+  const dialog=$('detail-dialog');$('source-audio')?.pause();
+  if(dialog.open){const previous=takeDialog();dialogFrames.push(previous);if(dialogFrames.length>20)dialogFrames.shift();}
+  else{lastFocus=document.activeElement;dialogOrigin={position:scrollPosition(),focus:lastFocus};dialogFrames=[];}
+  $('dialog-content').innerHTML=html+'<div class="back-tools"><button class="back-button" data-back-dialog="true" type="button"><span aria-hidden="true">→</span> رجوع إلى الموضع السابق</button></div>';
+  if(!dialog.open)dialog.showModal();dialog.scrollTop=0;$('close-dialog').focus({preventScroll:true});
+ }
+ function backDialog(){
+  $('source-audio')?.pause();if(dialogFrames.length){const previous=dialogFrames.pop();previous.frames=dialogFrames.slice();restoreDialog(previous);}else endDialog();
+ }
+ function rememberPage(){
+  const frame={hash:location.hash||'#search',page:activePage,state:{...state},position:scrollPosition(),focus:document.activeElement,library:window.AtlasLibrary?.snapshot?.()};
+  if($('detail-dialog').open)frame.dialog=takeDialog();return frame;
+ }
+ function updateBackButton(){$('page-back-tools').classList.toggle('hidden',!pageFrames.length&&activePage==='search');}
+ function navigate(hash,frame){
+  if(hash===location.hash&&!frame&&!$('detail-dialog').open)return;const same=hash===location.hash;pageFrames.push(frame||rememberPage());if(pageFrames.length>20)pageFrames.shift();endDialog(false);if(same)parseHash();else location.hash=hash;updateBackButton();
+ }
+ async function backPage(){
+  const frame=pageFrames.pop();endDialog(false);
+  if(!frame){history.replaceState(null,'','#search');restoringPage=true;parseHash();restoringPage=false;updateBackButton();return;}
+  history.replaceState(null,'',frame.hash);restoringPage=true;parseHash();restoringPage=false;
+  if(frame.page==='search'){Object.assign(state,frame.state,{saved});controls();render(false);}
+  if(frame.page==='library')await window.AtlasLibrary?.restore?.(frame.library);
+  if(frame.dialog)restoreDialog(frame.dialog);restorePosition(frame.position,frame.focus);updateBackButton();
+ }
  function routeLabel(q){return typeof q==='string'?q:q?[q.rawi,q.branch,q.book_or_policy].filter(Boolean).join('؛ '):'';}
  function sourceNames(evidence){return evidence.map(e=>`${esc(e.sourceBook||({nashr:'النشر',sharh:'شرح طيبة النشر',ithaf:'إتحاف فضلاء البشر'}[e.book]||e.book)||'المصدر')} ${esc(e.volume_page||'')}`).join('؛ ');}
  function supplementaryMarkup(r){if(!r.supplementaryReview?.length)return'';return `<details class="supplementary-review"><summary>تحقيق تكميلي للطرق والقيود (${ar(r.supplementaryReview.length)})</summary><p class="reference-note">تفصيل موثق في القدر المذكور فقط. لا يختار الأطلس طريقاً تلقائياً ولا يركّب منه أداء الآية.</p>${r.supplementaryReview.map(v=>`<article><h4>${esc(v.newDescription)}</h4><p class="face-qualification">${esc(routeLabel(v.qualification))}</p><small>${esc(v.context||'')} · ${sourceNames(v.evidence||[])}</small>${v.remainingUnresolved?.length?`<p class="reference-note">ما يتطلب تعيين الطريق: ${esc(v.remainingUnresolved.join('؛ '))}</p>`:''}</article>`).join('')}</details>`;}
@@ -147,7 +192,7 @@
   const matrix=D.readers.map(reader=>reader.narrators.map((nid,j)=>{const n=E.narrators.get(nid),vs=C.variantsFor(r,nid);return `<tr class="${[state.pairA,state.pairB].includes(nid)?'selected-row':''}">${j===0?`<td rowspan="2">${esc(reader.name)}</td>`:''}<td>${esc(n.name)}</td><td colspan="2">${vs.length?vs.map(v=>`<div class="matrix-face">${v.text?`<b class="qword">${esc(v.text)}</b>`:''}<p>${esc(v.description)}</p>${v.qualification?`<p class="face-qualification">${esc(v.qualification)}</p>`:''}${v.narratorQualifications?.[nid]?`<p class="face-qualification">قيد الطريق: ${esc(v.narratorQualifications[nid])}</p>`:''}${v.reviewNote?`<small>${esc(v.reviewNote)}</small>`:''}${v.evidence?.length?`<small class="face-evidence">${v.evidence.map(e=>esc(({nashr:'النشر',sharh:'شرح طيبة النشر',ithaf:'إتحاف فضلاء البشر'}[e.book]||e.book)+' '+(e.volume_page||''))).join('؛ ')}</small>`:''}</div>`).join(''):r.notApplicable?.includes(nid)?'<span>غير منطبق في سياق الوصل بين السورتين بلا بسملة؛ لا حكم على الابتداء</span>':'<span class="incomplete-badge">لم تثبت النسبة في هذا السجل؛ لا يُستنتج اتفاق أو اختلاف</span>'}</td></tr>`;}).join('')).join('');
   const audios=D.narrators.filter(n=>C.audioURL(D,r,n.id));
   const audio=audios.length?`<section class="audio-section"><h3>استماع من المصدر</h3><p>تسجيل الآية المرتبطة بالمصدر، وليس مقطعاً معزولاً للكلمة. قد يختلف عد الآي، ولا يثبت التسجيل أداء كل وجه أو طريق معروض.</p><label class="field">الرواية<select id="audio-narrator"><option value="">اختر رواية للاستماع</option>${audios.map(n=>`<option value="${n.id}">${esc(n.label)}</option>`).join('')}</select></label><p id="recording-description" class="recording-description" aria-live="polite"></p><audio id="source-audio" controls preload="none" aria-label="تسجيل الآية من المصدر"></audio><a id="audio-link" class="hidden" target="_blank" rel="noopener">فتح التسجيل ↗</a></section>`:'';
-  openDialog(`<div class="dialog-kicker">${reviewLabel(r)} · ${esc(r.tags.join(' / '))}</div><h2 class="dialog-title" id="dialog-title">${esc(refsLabel(r))} — ${esc(r.word)}</h2><div class="dialog-verse">${(r.coveredRefs||[[r.surah,r.ayah]]).map(([s,a])=>esc(E.verseMap.get(`${s}:${a}`)?.text||'')).join(' ۞ ')}</div><p class="reference-note">النص المرجعي برواية حفص للسياق. تُعرض الأوجه البديلة منفصلة مع قيودها؛ لا تُركَّب بينها قراءة، ولا يثبت الجدول جواز الجمع بينها في طريق واحد.</p>${r.note?`<p class="note-text">${esc(r.note)}</p>`:''}<h3 class="dialog-section-title">القراء العشرة والروايات العشرون · ${ar(r.variants.length)} أوجه موصوفة</h3><div class="matrix-wrap"><table class="matrix"><thead><tr><th scope="col">القارئ</th><th scope="col">الراوي</th><th scope="col" colspan="2">الأوجه وبيان النطق والقيود</th></tr></thead><tbody>${matrix}</tbody></table></div>${tawjihMarkup(r)}${supplementaryMarkup(r)}${audio}<div class="source-detail"><p><b>المصدر:</b> <a href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(r.source.title)} ↗</a><br>${esc(r.source.location)}</p><p><b>نطاق النسبة:</b> ${esc(r.scope)}<br><b>حالة الأداء:</b> ${esc(r.state)}</p>${r.source.quotation?`<details><summary>نص الشاهد في المرجع</summary><p>${esc(r.source.quotation)}</p></details>`:''}${r.corrections?.length?`<details><summary>سجل التصحيحات (${ar(r.corrections.length)})</summary>${r.corrections.map(c=>`<p>${esc(c.reason||c.note||c.operation)} ${esc(c.source||'')}${c.evidence?.length?'<br>'+c.evidence.map(e=>esc(e.book+' '+e.volume_page+': '+e.quote)).join('<br>'):''}</p>`).join('')}</details>`:''}</div><div class="detail-buttons"><button data-print-dialog="true" type="button">طباعة المقارنة</button><button data-cite="${r.id}" type="button">نسخ الإحالة</button><button data-record-link="${r.id}" type="button">نسخ رابط الموضع</button><button data-context="${r.surah}:${r.ayah}" type="button">سياق الآية</button><button data-verse-words="${r.surah}:${r.ayah}" type="button">كلمات الآية</button><button data-verse-witness="${r.surah}:${r.ayah}" type="button">شواهد الصفحة</button></div>`);
+  openDialog(`<div class="dialog-kicker">${reviewLabel(r)} · ${esc(r.tags.join(' / '))}</div><h2 class="dialog-title" id="dialog-title">${esc(refsLabel(r))} — ${esc(r.word)}</h2><div class="dialog-verse">${(r.coveredRefs||[[r.surah,r.ayah]]).map(([s,a])=>esc(E.verseMap.get(`${s}:${a}`)?.text||'')).join(' ۞ ')}</div><p class="reference-note">النص المرجعي برواية حفص للسياق. تُعرض الأوجه البديلة منفصلة مع قيودها؛ لا تُركَّب بينها قراءة، ولا يثبت الجدول جواز الجمع بينها في طريق واحد.</p>${r.reviewWarnings?.length?`<p class="reference-note"><b>المقارنة معلقة:</b> ${esc(r.reviewWarnings.join('؛ '))}</p>`:''}${r.note&&!r.reviewWarnings?.includes(r.note)?`<p class="note-text">${esc(r.note)}</p>`:''}<h3 class="dialog-section-title">القراء العشرة والروايات العشرون · ${ar(r.variants.length)} أوجه موصوفة</h3><div class="matrix-wrap"><table class="matrix"><thead><tr><th scope="col">القارئ</th><th scope="col">الراوي</th><th scope="col" colspan="2">الأوجه وبيان النطق والقيود</th></tr></thead><tbody>${matrix}</tbody></table></div>${tawjihMarkup(r)}${supplementaryMarkup(r)}${audio}<div class="source-detail"><p><b>المصدر:</b> <a href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(r.source.title)} ↗</a><br>${esc(r.source.location)}</p><p><b>نطاق النسبة:</b> ${esc(r.scope)}<br><b>حالة الأداء:</b> ${esc(r.state)}</p>${r.source.quotation?`<details><summary>نص الشاهد في المرجع</summary><p>${esc(r.source.quotation)}</p></details>`:''}${r.corrections?.length?`<details><summary>سجل التصحيحات (${ar(r.corrections.length)})</summary>${r.corrections.map(c=>`<p>${esc(c.reason||c.note||c.operation)} ${esc(c.source||'')}${c.evidence?.length?'<br>'+c.evidence.map(e=>esc(e.book+' '+e.volume_page+': '+e.quote)).join('<br>'):''}</p>`).join('')}</details>`:''}</div><div class="detail-buttons"><button data-print-dialog="true" type="button">طباعة المقارنة</button><button data-cite="${r.id}" type="button">نسخ الإحالة</button><button data-record-link="${r.id}" type="button">نسخ رابط الموضع</button><button data-context="${r.surah}:${r.ayah}" type="button">سياق الآية</button><button data-verse-words="${r.surah}:${r.ayah}" type="button">كلمات الآية</button><button data-verse-witness="${r.surah}:${r.ayah}" type="button">شواهد الصفحة</button></div>`);
   if(focusTawjih)$('tawjih-section').scrollIntoView({behavior:'smooth',block:'start'});
   if(audios.length)$('audio-narrator').addEventListener('change',()=>{const info=C.audioInfo(D,r,$('audio-narrator').value),u=info?.url,el=$('source-audio');$('recording-description').textContent=info?(info.recording?.title||'تسجيل من المصدر')+' · رقم المقطع لدى المصدر: '+info.sourceCode:'';el.pause();if(u){el.src=u;$('audio-link').href=u;}else{el.removeAttribute('src');$('audio-link').removeAttribute('href');}$('audio-link').classList.toggle('hidden',!u);});
  }
@@ -156,7 +201,7 @@
  async function copy(text){try{await navigator.clipboard.writeText(text);toast('نُسخ إلى الحافظة');}catch{const t=document.createElement('textarea');t.value=text;t.style.position='fixed';t.style.opacity='0';document.body.append(t);t.select();const ok=document.execCommand('copy');t.remove();toast(ok?'نُسخ إلى الحافظة':'تعذر النسخ؛ يمكنك نسخ الرابط من شريط العنوان');}}
  function recordLink(id){const r=D.records.find(x=>x.id===id);return location.origin+location.pathname+'#search?'+new URLSearchParams({q:r.surah+':'+r.ayah,record:id}).toString();}
  function wordLink(id){const w=E.wordMap.get(id);return location.origin+location.pathname+'#search?'+new URLSearchParams({q:w.surah+':'+w.ayah,mode:'words',word:id}).toString();}
- function citation(r){return `أطلس القراءات العشر، الإصدار ${D.meta.version}، ${D.meta.date}. ${refsLabel(r)}، موضع «${r.word}». حالة السجل: ${reviewLabel(r)}. ${r.variants.map(v=>[v.text||'',v.description,labelsFor(v).join('، '),v.qualification?'قيد: '+v.qualification:'',v.narratorQualifications?Object.entries(v.narratorQualifications).map(([n,q])=>E.narrators.get(n).label+': '+q).join('؛ '):'',v.reviewNote?'حد التوثيق: '+v.reviewNote:''].filter(Boolean).join(' — ')).join('؛ ')}. نطاق النسبة: ${r.scope}. المرجع: ${r.source.title}، ${r.source.location}. ${r.source.url}. رابط الموضع: ${recordLink(r.id)}`;}
+ function citation(r){return `أطلس القراءات العشر، الإصدار ${D.meta.version}، ${D.meta.date}. ${refsLabel(r)}، موضع «${r.word}». حالة السجل: ${reviewLabel(r)}. ${r.variants.map(v=>[v.text||'',v.description,labelsFor(v).join('، '),v.qualification?'قيد: '+v.qualification:'',v.narratorQualifications?Object.entries(v.narratorQualifications).map(([n,q])=>E.narrators.get(n).label+': '+q).join('؛ '):'',v.reviewNote?'حد التوثيق: '+v.reviewNote:''].filter(Boolean).join(' — ')).join('؛ ')}. نطاق النسبة: ${r.scope}. مراجع التصحيح الموضعي: ${[...new Set([...(r.variants.flatMap(v=>v.evidence||[])),...(r.corrections||[]).flatMap(c=>c.evidence||[])].map(e=>[e.book,e.volume_page,e.url].filter(Boolean).join('، ')))].join('؛ ')||'لا مراجعة موضعية مضافة'}. المرجع: ${r.source.title}، ${r.source.location}. ${r.source.url}. رابط الموضع: ${recordLink(r.id)}`;}
 
  function exportResults(){
   const payload={atlas:'أطلس القراءات العشر',version:D.meta.version,date:D.meta.date,scope:state.mode,query:state.q,filters:{review:state.review,surah:state.surah,category:state.category,tag:state.tag,reader:state.reader,narrator:state.narrator,pairA:state.pairA,pairB:state.pairB,pairOnly:state.pairOnly,hafsDiff:state.hafsDiff},sourceAttribution:'الموسوعة القرآنية https://quranpedia.net — إصدار '+D.meta.sourceVersion,narrators:D.narrators,readers:D.readers,recordings:D.audio.recordings,tawjih:D.tawjih,notice:state.mode==='witnesses'?'شواهد من مشروع تيسير القراءات العشر، للاستخدام غير الربحي وفق شروط المصدر. لم يفك الترميز آلياً.':D.meta.coverage,results:state.mode==='comparisons'?found.map(r=>({...r,audioByNarrator:Object.fromEntries(D.narrators.map(n=>[n.id,C.audioURL(D,r,n.id)]).filter(x=>x[1]))})):found};
@@ -186,16 +231,19 @@
   $('source-grid').innerHTML=D.sources.map(s=>`<article class="source-card"><span class="source-tag">${esc(s.kind)}</span><h3>${esc(s.title)}</h3><span class="source-author">${esc(s.author)}</span><p>${esc(s.desc)}</p><a href="${esc(s.url)}" target="_blank" rel="noopener">افتح المصدر <span aria-hidden="true">↗</span></a></article>`).join('');
   $('similar-grid').innerHTML=D.similar.map(s=>`<a class="similar-card" href="${esc(s.url)}" target="_blank" rel="noopener"><span class="similar-icon" aria-hidden="true">↗</span><div><h3>${esc(s.title)}</h3><small>${esc(s.label)}</small><p>${esc(s.desc)}</p></div></a>`).join('');
  }
- function jumpToRef(ref,mode){$('detail-dialog').close();state.q=ref;state.mode=mode;state.surah='';state.category='';state.tag='';state.reader='';state.narrator='';state.hafsDiff=false;state.pairOnly=false;state.savedOnly=false;state.page='';state.review='';activePage='search';location.hash=toHash();controls();render();document.querySelectorAll('[data-page]').forEach(el=>el.classList.toggle('hidden',el.dataset.page!=='search'));$('results-title').scrollIntoView({behavior:'smooth',block:'start'});}
+ function jumpToRef(ref,mode){const previous=rememberPage();endDialog(false);state.q=ref;state.mode=mode;state.surah='';state.category='';state.tag='';state.reader='';state.narrator='';state.hafsDiff=false;state.pairOnly=false;state.savedOnly=false;state.page='';state.review='';navigate(toHash(),previous);activePage='search';controls();render();document.querySelectorAll('[data-page]').forEach(el=>el.classList.toggle('hidden',el.dataset.page!=='search'));$('results-title').scrollIntoView({behavior:'smooth',block:'start'});}
  document.addEventListener('click',e=>{
   const b=e.target.closest('button,a');if(!b)return;
+  if(b.dataset.backDialog){backDialog();return;}
+  if(b.dataset.backPage){backPage();return;}
+  if(b.tagName==='A'&&b.getAttribute('href')?.startsWith('#')&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&!e.altKey){e.preventDefault();navigate(b.getAttribute('href'));return;}
   if(b.dataset.printDialog){window.print();return;}
   if(b.dataset.query!==undefined){newSearch(b.dataset.query);return;}
   if(b.dataset.mode){setMode(b.dataset.mode);return;}
   if(b.dataset.switch){setMode(b.dataset.switch);return;}
   if(b.dataset.reset){reset();return;}
   if(b.dataset.tawjih){showDetail(b.dataset.tawjih,true);return;}
-  if(b.dataset.learnTawjih){$('detail-dialog').close();return;}
+  if(b.dataset.learnTawjih){endDialog();return;}
   if(b.dataset.citeTawjih){const t=D.tawjih.entries.find(t=>t.id===b.dataset.citeTawjih);if(t)copy(`أطلس القراءات العشر، الإصدار ${D.meta.version}. توجيه «${t.title}»: ${t.sources.map(s=>s.title+'، '+s.author+'، '+s.location+'، '+s.url).join('؛ ')}. خلاصة محررة، لا نقل حرفي ولا حصر لجميع الأقوال. ${recordLink(b.dataset.tawjihRecord)}&section=tawjih`);return;}
   if(b.dataset.word){showWord(b.dataset.word);return;}
   if(b.dataset.verseWords){jumpToRef(b.dataset.verseWords,'words');return;}
@@ -208,7 +256,7 @@
   if(b.dataset.recordLink){copy(recordLink(b.dataset.recordLink));return;}
   if(b.dataset.wordLink){copy(wordLink(b.dataset.wordLink));return;}
   if(b.dataset.cite){const r=D.records.find(x=>x.id===b.dataset.cite);if(r)copy(citation(r));return;}
-  if(b.dataset.reader){state.review='';state.reader=b.dataset.reader;state.narrator='';state.hafsDiff=true;state.mode='comparisons';state.q='';state.surah='';state.category='';state.tag='';state.savedOnly=false;state.pairOnly=false;location.hash=toHash();return;}
+  if(b.dataset.reader){const previous=rememberPage();state.review='';state.reader=b.dataset.reader;state.narrator='';state.hafsDiff=true;state.mode='comparisons';state.q='';state.surah='';state.category='';state.tag='';state.savedOnly=false;state.pairOnly=false;navigate(toHash(),previous);return;}
   if(b.dataset.removeFilter){const k=b.dataset.removeFilter;state[k]=k==='savedOnly'?false:'';if(k==='reader'){state.narrator='';state.hafsDiff=false;}if(k==='narrator'&&!state.reader)state.hafsDiff=false;state.limit=6;controls();render();}
  });
  $('search-form').addEventListener('submit',e=>{e.preventDefault();clearTimeout(inputTimer);state.q=$('search-input').value.trim();state.limit=6;state.savedOnly=false;render();$('results-title').scrollIntoView({behavior:'smooth',block:'start'});});
@@ -221,13 +269,13 @@
  $('pair-only').addEventListener('change',()=>{state.pairOnly=$('pair-only').checked;state.limit=6;render();});
  $('reset-filters').addEventListener('click',reset);$('load-more').addEventListener('click',()=>{state.limit+=6;render();});$('export-results').addEventListener('click',exportResults);
  $('copy-search').addEventListener('click',()=>copy(location.origin+location.pathname+toHash()));
- $('saved-nav').addEventListener('click',()=>{state.review='';state.mode='comparisons';state.savedOnly=!state.savedOnly;state.q='';state.surah='';state.category='';state.tag='';state.reader='';state.narrator='';state.hafsDiff=false;state.pairOnly=false;state.limit=6;if(activePage!=='search')location.hash=toHash();else{controls();render();$('results-title').scrollIntoView({behavior:'smooth',block:'start'});}});
- $('close-dialog').addEventListener('click',()=>$('detail-dialog').close());$('detail-dialog').addEventListener('click',e=>{if(e.target===$('detail-dialog')){const r=$('detail-dialog').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$('detail-dialog').close();}});
- $('detail-dialog').addEventListener('close',()=>{$('source-audio')?.pause();if(lastFocus?.isConnected)lastFocus.focus?.();});
+ $('saved-nav').addEventListener('click',()=>{const previous=activePage!=='search'?rememberPage():null;state.review='';state.mode='comparisons';state.savedOnly=!state.savedOnly;state.q='';state.surah='';state.category='';state.tag='';state.reader='';state.narrator='';state.hafsDiff=false;state.pairOnly=false;state.limit=6;if(activePage!=='search')navigate(toHash(),previous);else{controls();render();$('results-title').scrollIntoView({behavior:'smooth',block:'start'});}});
+ $('close-dialog').addEventListener('click',()=>endDialog());$('detail-dialog').addEventListener('click',e=>{if(e.target===$('detail-dialog')){const r=$('detail-dialog').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)endDialog();}});
+ $('detail-dialog').addEventListener('close',()=>{if(silentCloses){silentCloses--;return;}if(!$('detail-dialog').open)endDialog();});
  document.querySelectorAll('[role="tab"]').forEach(tab=>tab.addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();const tabs=[...document.querySelectorAll('[role="tab"]')];let i=tabs.indexOf(tab);i=e.key==='Home'?0:e.key==='End'?tabs.length-1:(i+(e.key==='ArrowLeft'?1:-1)+tabs.length)%tabs.length;setMode(tabs[i].dataset.mode);tabs[i].focus();}}));
  window.addEventListener('hashchange',parseHash);
  options();renderReaders();renderSources();parseHash();
  window.addEventListener('beforeprint',()=>document.body.classList.toggle('print-dialog',$('detail-dialog').open));
  window.addEventListener('afterprint',()=>document.body.classList.remove('print-dialog'));
- window.QiraatAtlas={engine:E,state,render,showDetail,showWord,openDialog,copy,toast};
+ window.QiraatAtlas={engine:E,state,render,showDetail,showWord,openDialog,copy,toast,navigate,backPage,backDialog};
 })();

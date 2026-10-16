@@ -1,0 +1,2243 @@
+{
+  "meta": {
+    "version": "0.5.0",
+    "date": "2026-10-16",
+    "title": "مراجعة الفاتحة وفرش البقرة: الدفعة الأولى",
+    "method": "جرد الفقرات الصريحة في النشر ومقابلة مواضعها وعزو الفرش، مع تحقيق قيود محلية مختارة. ليست مراجعة لجميع تطبيقات الأصول أو جميع التركيبات والطرق.",
+    "sourceSHA256": "d2856b9f29badc5f066dc8abd13b2d91fc81cf23b6c2898392746467f1ebbf52",
+    "sourceFile": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+    "pagePolicy": "علامة PageV تختم الصفحة السابقة؛ تعين الصفحة بأول علامة تالية للنص.",
+    "counts": {
+      "correctedExistingRecords": 38,
+      "addedPartialFaces": 35,
+      "addedRecords": 1,
+      "inventoryRows": 98
+    },
+    "limits": [
+      "لا يشمل الجرد جميع الإحالات التي صدرها النشر بتقدم؛ الأصول المتكررة وتطبيقاتها تحتاج مسار مراجعة مستقل.",
+      "لم تراجع جميع طرق كل راوٍ أو علاقات التحرير بينها، ولا التسجيلات مراجعة سمعية.",
+      "النص الرقمي مضطرب في تعيين بعض مسارات لا تضار ولا يضار؛ أثبت أصل الوجهين وأجل حسم تلك المسارات.",
+      "مجموع ٣٥ وجهاً هنا إضافات جزئية إلى سجلات، وليس ٣٥ قراءة مستقلة أو تصريحاً بجمعها في أداء واحد.",
+      "تكرار بعض البطاقات المستقلة والمستوردة موثق ولم يدمج حتى لا تتغير الروابط المحفوظة."
+    ]
+  },
+  "fatiha": {
+    "recordIds": [
+      "1-4-1",
+      "qp-1-3-1",
+      "qp-1-6-1",
+      "qp-1-7-1",
+      "qp-1-7-2"
+    ],
+    "result": "عزو مالك/ملك ممثل؛ استكملت أوجه محلية لقنبل وخلاد وقالون وروايتي أبي عمرو، مع بيان حكم الوصل والوقف وحدود الطرق.",
+    "operations": [
+      "fb-001",
+      "fb-002",
+      "fb-003",
+      "fb-004"
+    ]
+  },
+  "baqaraInventory": [
+    {
+      "paragraphLine": 17534,
+      "passageEndLine": 17538,
+      "pages": [
+        "2/207"
+      ],
+      "wordOrRule": "وما يخادعون",
+      "refs": [
+        [
+          2,
+          9
+        ]
+      ],
+      "recordIds": [
+        "2-9-2",
+        "qp-2-9-1"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "نافع وابن كثير وأبو عمرو: يخادعون؛ الباقون: يخدعون. العزو الأساسي ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17539,
+      "passageEndLine": 17542,
+      "pages": [
+        "2/207",
+        "2/208"
+      ],
+      "wordOrRule": "يكذبون",
+      "refs": [
+        [
+          2,
+          10
+        ]
+      ],
+      "recordIds": [
+        "2-10-3",
+        "qp-2-10-2"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "الكوفيون فتح الياء وتخفيف الذال؛ الباقون الضم والتشديد. العزو الأساسي ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17543,
+      "passageEndLine": 17560,
+      "pages": [
+        "2/208"
+      ],
+      "wordOrRule": "قيل ونظائره",
+      "refs": [
+        [
+          2,
+          11
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          2,
+          59
+        ],
+        [
+          2,
+          91
+        ]
+      ],
+      "recordIds": [
+        "qp-2-11-1",
+        "qp-2-13-2",
+        "qp-2-59-1",
+        "qp-2-91-2"
+      ],
+      "classification": "فرش صوتي متكرر",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "هشام والكسائي ورويس بإشمام كسر أوائل هذه الكلمات الضم. الممثل في السجلات موافق في وجه قيل، دون فحص بقية الأصول المصاحبة.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17561,
+      "passageEndLine": 17573,
+      "pages": [
+        "2/208",
+        "2/209"
+      ],
+      "wordOrRule": "ترجعون",
+      "refs": [
+        [
+          2,
+          28
+        ]
+      ],
+      "recordIds": [
+        "primary-2-28-13"
+      ],
+      "classification": "فرش متكرر",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "يعقوب بفتح حرف المضارعة وكسر الجيم؛ الباقون هنا بالضم والفتح. الموضع ممثل في الملحق الأصلي.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17574,
+      "passageEndLine": 17597,
+      "pages": [
+        "2/209",
+        "2/210"
+      ],
+      "wordOrRule": "هاء هو وهي بعد واو أو فاء أو لام",
+      "refs": [
+        [
+          2,
+          29
+        ],
+        [
+          2,
+          74
+        ]
+      ],
+      "recordIds": [
+        "2-29-4",
+        "primary-2-29-17",
+        "primary-2-74-21"
+      ],
+      "classification": "أصل متكرر مذكور بباب الفرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "أبو عمرو والكسائي وأبو جعفر وقالون بإسكان الهاء بعد الأحرف المذكورة. ممثل؛ يوجد تكرار دلالي لسجلي2:29.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17598,
+      "passageEndLine": 17622,
+      "pages": [
+        "2/210",
+        "2/211"
+      ],
+      "wordOrRule": "للملائكة اسجدوا",
+      "refs": [
+        [
+          2,
+          34
+        ]
+      ],
+      "recordIds": [
+        "qp-2-34-2"
+      ],
+      "classification": "فرش مع خلاف طريق",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "أبو جعفر ضم تاء الوصل، ولابن وردان إشمام كسرتها الضم من طريق هبة الله وغيره، ووجهان صحيحان. الوجه الثاني غير ممثل.",
+      "appliedCorrections": [
+        "fb-014"
+      ]
+    },
+    {
+      "paragraphLine": 17623,
+      "passageEndLine": 17624,
+      "pages": [
+        "2/211"
+      ],
+      "wordOrRule": "فأزلهما",
+      "refs": [
+        [
+          2,
+          36
+        ]
+      ],
+      "recordIds": [
+        "qp-2-36-1"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "حمزة بالألف وتخفيف اللام: فأزالهما؛ الباقون بالحذف والتشديد. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17625,
+      "passageEndLine": 17629,
+      "pages": [
+        "2/211"
+      ],
+      "wordOrRule": "فتلقى آدم...كلمات",
+      "refs": [
+        [
+          2,
+          37
+        ]
+      ],
+      "recordIds": [
+        "qp-2-37-2",
+        "qp-2-37-3"
+      ],
+      "classification": "فرش إعرابي مترابط",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "ابن كثير نصب آدم ورفع كلمات، والباقون رفع آدم ونصب كلمات بكسر التاء. الفروقان ممثلان في بطاقتين.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17630,
+      "passageEndLine": 17645,
+      "pages": [
+        "2/211",
+        "2/212"
+      ],
+      "wordOrRule": "لا خوف",
+      "refs": [
+        [
+          2,
+          38
+        ],
+        [
+          2,
+          62
+        ],
+        [
+          2,
+          112
+        ]
+      ],
+      "recordIds": [
+        "qp-2-38-1",
+        "qp-2-62-2",
+        "qp-2-112-2"
+      ],
+      "classification": "فرش متكرر",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "يعقوب فتح فاء خوف بلا تنوين؛ الباقون الرفع والتنوين. ممثل في المواضع الثلاثة داخل النطاق.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17646,
+      "passageEndLine": 17647,
+      "pages": [
+        "2/212"
+      ],
+      "wordOrRule": "ولا يقبل منها شفاعة",
+      "refs": [
+        [
+          2,
+          48
+        ]
+      ],
+      "recordIds": [
+        "qp-2-48-2"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "ابن كثير وأبو عمرو ويعقوب بالتأنيث؛ الباقون بالتذكير. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17648,
+      "passageEndLine": 17653,
+      "pages": [
+        "2/212"
+      ],
+      "wordOrRule": "واعدنا",
+      "refs": [
+        [
+          2,
+          51
+        ]
+      ],
+      "recordIds": [
+        "2-51-8",
+        "qp-2-51-3"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "أبو جعفر وأبو عمرو ويعقوب بقصر الألف؛ الباقون بإثباتها. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17654,
+      "passageEndLine": 17732,
+      "pages": [
+        "2/212",
+        "2/213",
+        "2/214",
+        "2/215"
+      ],
+      "wordOrRule": "بارئكم، يأمركم",
+      "refs": [
+        [
+          2,
+          54
+        ],
+        [
+          2,
+          67
+        ],
+        [
+          2,
+          93
+        ]
+      ],
+      "recordIds": [
+        "qp-2-54-2",
+        "qp-2-67-2",
+        "qp-2-93-2"
+      ],
+      "classification": "فرش متكرر مع خلاف طريق",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "الإسكان والاختلاس ثابتان لأبي عمرو من روايتيه؛ الإتمام مروي للدوري بطرق. البيانات تنقص اختلاس السوسي وإتمام الدوري في المواضع المدروسة.",
+      "appliedCorrections": [
+        "fb-015",
+        "fb-033",
+        "fb-034"
+      ]
+    },
+    {
+      "paragraphLine": 17733,
+      "passageEndLine": 17748,
+      "pages": [
+        "2/215"
+      ],
+      "wordOrRule": "نغفر لكم",
+      "refs": [
+        [
+          2,
+          58
+        ]
+      ],
+      "recordIds": [
+        "qp-2-58-3"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "ابن عامر بالتاء المضمومة وفتح الفاء؛ المدنيان بالياء المضمومة وفتح الفاء؛ الباقون بالنون المفتوحة وكسر الفاء. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17749,
+      "passageEndLine": 17751,
+      "pages": [
+        "2/215"
+      ],
+      "wordOrRule": "هزوا",
+      "refs": [
+        [
+          2,
+          67
+        ]
+      ],
+      "recordIds": [
+        "qp-2-67-1"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "حفص يبدل الهمزة واواً، والباقون بالهمزة. هذا الفرق ممثل، وحركة الزاي في الفقرة التالية.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17752,
+      "passageEndLine": 17810,
+      "pages": [
+        "2/215",
+        "2/216",
+        "2/217"
+      ],
+      "wordOrRule": "إسكان عين الأوزان: هزؤا/القدس",
+      "refs": [
+        [
+          2,
+          67
+        ],
+        [
+          2,
+          87
+        ]
+      ],
+      "recordIds": [
+        "qp-2-67-1",
+        "qp-2-87-1"
+      ],
+      "classification": "فرش صرفي متكرر",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "حمزة وخلف يسكنان زاي هزؤا، وابن كثير يسكن دال القدس. هذان الموضعان داخل النطاق ممثلان؛ بقية قائمة الأوزان خارج النطاق.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17811,
+      "passageEndLine": 17812,
+      "pages": [
+        "2/217"
+      ],
+      "wordOrRule": "عما تعملون أفتطمعون",
+      "refs": [
+        [
+          2,
+          74
+        ]
+      ],
+      "recordIds": [
+        "qp-2-74-2"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "ابن كثير بالغيب: يعملون؛ الباقون بالخطاب. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17813,
+      "passageEndLine": 17818,
+      "pages": [
+        "2/217",
+        "2/218"
+      ],
+      "wordOrRule": "أماني/أمانيهم",
+      "refs": [
+        [
+          2,
+          78
+        ],
+        [
+          2,
+          111
+        ]
+      ],
+      "recordIds": [
+        "qp-2-78-1",
+        "qp-2-111-1"
+      ],
+      "classification": "فرش متكرر",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "أبو جعفر بتخفيف الياء، مع إسكانها في المرفوع والمخفوض وكسر هاء أمانيهم؛ الباقون بالتشديد. ممثل في الموضعين.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17819,
+      "passageEndLine": 17820,
+      "pages": [
+        "2/218"
+      ],
+      "wordOrRule": "خطيئته",
+      "refs": [
+        [
+          2,
+          81
+        ]
+      ],
+      "recordIds": [
+        "qp-2-81-2"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "المدنيان بالجمع خطيئاته؛ الباقون بالإفراد. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17821,
+      "passageEndLine": 17824,
+      "pages": [
+        "2/218"
+      ],
+      "wordOrRule": "لا تعبدون",
+      "refs": [
+        [
+          2,
+          83
+        ]
+      ],
+      "recordIds": [
+        "qp-2-83-3"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "ابن كثير وحمزة والكسائي بالغيب؛ الباقون بالخطاب. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17825,
+      "passageEndLine": 17828,
+      "pages": [
+        "2/218"
+      ],
+      "wordOrRule": "حسنا",
+      "refs": [
+        [
+          2,
+          83
+        ]
+      ],
+      "recordIds": [
+        "qp-2-83-4"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "حمزة والكسائي ويعقوب وخلف بفتح الحاء والسين؛ الباقون ضم الحاء وإسكان السين. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17829,
+      "passageEndLine": 17830,
+      "pages": [
+        "2/218"
+      ],
+      "wordOrRule": "تظاهرون",
+      "refs": [
+        [
+          2,
+          85
+        ]
+      ],
+      "recordIds": [
+        "qp-2-85-2"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "الكوفيون بالتخفيف؛ الباقون بالتشديد. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17831,
+      "passageEndLine": 17833,
+      "pages": [
+        "2/218"
+      ],
+      "wordOrRule": "أسارى",
+      "refs": [
+        [
+          2,
+          85
+        ]
+      ],
+      "recordIds": [
+        "qp-2-85-1"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "حمزة أسرى بفتح الهمزة وإسكان السين دون ألف؛ الباقون أسارى. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17834,
+      "passageEndLine": 17836,
+      "pages": [
+        "2/218"
+      ],
+      "wordOrRule": "تفادوهم",
+      "refs": [
+        [
+          2,
+          85
+        ]
+      ],
+      "recordIds": [
+        "qp-2-85-4"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "المدنيان وعاصم والكسائي ويعقوب تفادوهم بضم التاء والألف؛ الباقون تفدوهم بفتح التاء وسكون الفاء. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17837,
+      "passageEndLine": 17839,
+      "pages": [
+        "2/218"
+      ],
+      "wordOrRule": "يعملون أولئك",
+      "refs": [
+        [
+          2,
+          85
+        ]
+      ],
+      "recordIds": [
+        "qp-2-85-3"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "نافع وابن كثير ويعقوب وخلف وشعبة بالغيب، والباقون بالخطاب. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17840,
+      "passageEndLine": 17851,
+      "pages": [
+        "2/218",
+        "2/219"
+      ],
+      "wordOrRule": "ينزل وبابه",
+      "refs": [
+        [
+          2,
+          90
+        ],
+        [
+          2,
+          105
+        ]
+      ],
+      "recordIds": [
+        "qp-2-90-1",
+        "qp-2-105-1"
+      ],
+      "classification": "فرش صرفي متكرر",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "ابن كثير وأبو عمرو ويعقوب بالتخفيف هنا؛ الباقون بالتشديد. ممثل في2:90 و105؛ استثناءات السور الأخرى خارج النطاق.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17852,
+      "passageEndLine": 17852,
+      "pages": [
+        "2/219"
+      ],
+      "wordOrRule": "والله بصير بما يعملون",
+      "refs": [
+        [
+          2,
+          96
+        ]
+      ],
+      "recordIds": [
+        "qp-2-96-2"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "يعقوب بالخطاب والباقون بالغيب. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17853,
+      "passageEndLine": 17859,
+      "pages": [
+        "2/219"
+      ],
+      "wordOrRule": "جبريل",
+      "refs": [
+        [
+          2,
+          97
+        ],
+        [
+          2,
+          98
+        ]
+      ],
+      "recordIds": [
+        "qp-2-97-1",
+        "qp-2-98-2"
+      ],
+      "classification": "فرش مع خلاف طريق",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "لشعبة جبرئيل من طريق العليمي، وجبرئل من طريق يحيى بن آدم مع تفصيل الصريفيني. البيانات تعرض جبرئل فقط؛ ينقص وجه إثبات الياء لشعبة في الموضعين.",
+      "appliedCorrections": [
+        "fb-016",
+        "fb-017"
+      ]
+    },
+    {
+      "paragraphLine": 17860,
+      "passageEndLine": 17864,
+      "pages": [
+        "2/219"
+      ],
+      "wordOrRule": "ميكائيل",
+      "refs": [
+        [
+          2,
+          98
+        ]
+      ],
+      "recordIds": [
+        "qp-2-98-3"
+      ],
+      "classification": "فرش مع خلاف طريق",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "البصريان وحفص ميكال؛ المدنيان ميكائل؛ لقنبل ميكائل من طريق ابن شنبوذ وميكائيل من طريق ابن مجاهد. البيانات تعرض الأخير فقط لقنبل.",
+      "appliedCorrections": [
+        "fb-018"
+      ]
+    },
+    {
+      "paragraphLine": 17865,
+      "passageEndLine": 17871,
+      "pages": [
+        "2/219"
+      ],
+      "wordOrRule": "ولكن الشياطين",
+      "refs": [
+        [
+          2,
+          102
+        ]
+      ],
+      "recordIds": [
+        "qp-2-102-1"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "ابن عامر وحمزة والكسائي وخلف بتخفيف نون ولكن ورفع الشياطين؛ الباقون بالتشديد والنصب. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17872,
+      "passageEndLine": 17874,
+      "pages": [
+        "2/219"
+      ],
+      "wordOrRule": "ننسخ",
+      "refs": [
+        [
+          2,
+          106
+        ]
+      ],
+      "recordIds": [
+        "qp-2-106-2"
+      ],
+      "classification": "فرش مع خلاف طريق",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "ابن عامر ننسخ بضم النون وكسر السين، إلا الداجوني عن هشام فبفتح النون والسين. البيانات تقصر هشام على الضم والكسر.",
+      "appliedCorrections": [
+        "fb-019"
+      ]
+    },
+    {
+      "paragraphLine": 17875,
+      "passageEndLine": 17878,
+      "pages": [
+        "2/220"
+      ],
+      "wordOrRule": "ننسأها",
+      "refs": [
+        [
+          2,
+          106
+        ]
+      ],
+      "recordIds": [
+        "qp-2-106-3"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "ابن كثير وأبو عمرو بفتح النون والسين وهمزة ساكنة؛ الباقون بضم النون وكسر السين دون همز. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17879,
+      "passageEndLine": 17886,
+      "pages": [
+        "2/220"
+      ],
+      "wordOrRule": "وقالوا اتخذ الله",
+      "refs": [
+        [
+          2,
+          116
+        ]
+      ],
+      "recordIds": [
+        "qp-2-116-1"
+      ],
+      "classification": "فرش رسم",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "ابن عامر يحذف الواو بعد عليم؛ الباقون يثبتونها. ممثل عبر بطاقة مرتبطة بآخر2:115 وأول2:116.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17887,
+      "passageEndLine": 17901,
+      "pages": [
+        "2/220",
+        "2/221"
+      ],
+      "wordOrRule": "كن فيكون",
+      "refs": [
+        [
+          2,
+          117
+        ]
+      ],
+      "recordIds": [
+        "qp-2-117-1"
+      ],
+      "classification": "فرش إعرابي",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "ابن عامر ينصب نون فيكون هنا؛ الباقون يرفعونها. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17902,
+      "passageEndLine": 17903,
+      "pages": [
+        "2/221"
+      ],
+      "wordOrRule": "ولا تسأل",
+      "refs": [
+        [
+          2,
+          119
+        ]
+      ],
+      "recordIds": [
+        "qp-2-119-1"
+      ],
+      "classification": "فرش إعرابي",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "نافع ويعقوب بفتح التاء وجزم اللام؛ الباقون بضم التاء ورفع اللام. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17904,
+      "passageEndLine": 17931,
+      "pages": [
+        "2/221",
+        "2/222"
+      ],
+      "wordOrRule": "إبراهيم",
+      "refs": [
+        [
+          2,
+          124
+        ],
+        [
+          2,
+          125
+        ],
+        [
+          2,
+          126
+        ],
+        [
+          2,
+          127
+        ],
+        [
+          2,
+          130
+        ],
+        [
+          2,
+          132
+        ],
+        [
+          2,
+          133
+        ],
+        [
+          2,
+          135
+        ],
+        [
+          2,
+          136
+        ],
+        [
+          2,
+          140
+        ]
+      ],
+      "recordIds": [
+        "qp-2-124-1",
+        "qp-2-125-1",
+        "qp-2-125-2",
+        "qp-2-126-1",
+        "qp-2-130-1",
+        "qp-2-132-1",
+        "qp-2-133-1",
+        "qp-2-135-1",
+        "qp-2-136-1",
+        "qp-2-140-1",
+        "primary-2-127-29"
+      ],
+      "classification": "فرش متكرر مع خلاف طريق",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "هشام إبراهام في جميع15موضعاً بالبقرة، ولابن ذكوان خلاف طرق. موضع2:127 غير ممثل، وما عداه من المواضع داخل النطاق ممثل في الجملة مع غياب تفصيل طرق ابن ذكوان.",
+      "appliedCorrections": [
+        "fb-021",
+        "fb-022",
+        "fb-023",
+        "fb-024",
+        "fb-025",
+        "fb-026",
+        "fb-027",
+        "fb-028",
+        "fb-029",
+        "fb-030"
+      ],
+      "addedRecord": "primary-2-127-29"
+    },
+    {
+      "paragraphLine": 17932,
+      "passageEndLine": 17933,
+      "pages": [
+        "2/222"
+      ],
+      "wordOrRule": "واتخذوا",
+      "refs": [
+        [
+          2,
+          125
+        ]
+      ],
+      "recordIds": [
+        "2-125-11",
+        "qp-2-125-5"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "نافع وابن عامر بفتح الخاء؛ الباقون بكسرها. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17934,
+      "passageEndLine": 17935,
+      "pages": [
+        "2/222"
+      ],
+      "wordOrRule": "فأمتعه",
+      "refs": [
+        [
+          2,
+          126
+        ]
+      ],
+      "recordIds": [
+        "2-126-12",
+        "qp-2-126-3"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "ابن عامر بتخفيف التاء؛ الباقون بالتشديد. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17936,
+      "passageEndLine": 17950,
+      "pages": [
+        "2/222"
+      ],
+      "wordOrRule": "وأرنا مناسكنا",
+      "refs": [
+        [
+          2,
+          128
+        ]
+      ],
+      "recordIds": [
+        "qp-2-128-1"
+      ],
+      "classification": "فرش مع خلاف طريق",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "ابن كثير ويعقوب بإسكان الراء، ولأبي عمرو الإسكان والاختلاس من كلتا روايتيه بطرق. البيانات تقصر الدوري على الاختلاس والسوسي على الإسكان.",
+      "appliedCorrections": [
+        "fb-020"
+      ]
+    },
+    {
+      "paragraphLine": 17951,
+      "passageEndLine": 17955,
+      "pages": [
+        "2/222",
+        "2/223"
+      ],
+      "wordOrRule": "ووصى",
+      "refs": [
+        [
+          2,
+          132
+        ]
+      ],
+      "recordIds": [
+        "2-132-13",
+        "qp-2-132-2"
+      ],
+      "classification": "فرش رسم",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "المدنيان وابن عامر وأوصى بهمزة وتخفيف الصاد؛ الباقون ووصى بلا همز وتشديد الصاد. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17956,
+      "passageEndLine": 17957,
+      "pages": [
+        "2/223"
+      ],
+      "wordOrRule": "أم يقولون",
+      "refs": [
+        [
+          2,
+          140
+        ]
+      ],
+      "recordIds": [
+        "2-140-14",
+        "qp-2-140-2"
+      ],
+      "classification": "فرش",
+      "allCompositeUsulReviewed": false,
+      "findingBefore": "ابن عامر وحمزة والكسائي وخلف وحفص ورويس بالخطاب؛ الباقون بالغيب. ممثل.",
+      "appliedCorrections": []
+    },
+    {
+      "paragraphLine": 17958,
+      "pages": [
+        "2/223"
+      ],
+      "wordOrRule": "رؤوف",
+      "refs": [
+        [
+          2,
+          143
+        ]
+      ],
+      "recordIds": [
+        "qp-2-143-3"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 17960,
+      "pages": [
+        "2/223"
+      ],
+      "wordOrRule": "عما يعملون ولئن",
+      "refs": [
+        [
+          2,
+          144
+        ]
+      ],
+      "recordIds": [
+        "qp-2-144-2"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 17965,
+      "pages": [
+        "2/223"
+      ],
+      "wordOrRule": "موليها",
+      "refs": [
+        [
+          2,
+          148
+        ]
+      ],
+      "recordIds": [
+        "qp-2-148-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 17967,
+      "pages": [
+        "2/223"
+      ],
+      "wordOrRule": "عما تعملون ومن حيث",
+      "refs": [
+        [
+          2,
+          149
+        ]
+      ],
+      "recordIds": [
+        "qp-2-149-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 17969,
+      "pages": [
+        "2/223"
+      ],
+      "wordOrRule": "تطوع",
+      "refs": [
+        [
+          2,
+          158
+        ],
+        [
+          2,
+          184
+        ]
+      ],
+      "recordIds": [
+        "qp-2-158-1",
+        "qp-2-184-2"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 17972,
+      "pages": [
+        "2/223"
+      ],
+      "wordOrRule": "الرياح",
+      "refs": [
+        [
+          2,
+          164
+        ]
+      ],
+      "recordIds": [
+        "qp-2-164-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 17987,
+      "pages": [
+        "2/224"
+      ],
+      "wordOrRule": "ولو يرى الذين",
+      "refs": [
+        [
+          2,
+          165
+        ]
+      ],
+      "recordIds": [
+        "qp-2-165-5"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [
+        "fb-005"
+      ],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 17990,
+      "pages": [
+        "2/224"
+      ],
+      "wordOrRule": "يرون العذاب",
+      "refs": [
+        [
+          2,
+          165
+        ]
+      ],
+      "recordIds": [
+        "qp-2-165-4"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 17991,
+      "pages": [
+        "2/224"
+      ],
+      "wordOrRule": "أن القوة وأن الله",
+      "refs": [
+        [
+          2,
+          165
+        ]
+      ],
+      "recordIds": [
+        "qp-2-165-1",
+        "qp-2-165-3"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 17998,
+      "pages": [
+        "2/224"
+      ],
+      "wordOrRule": "الميتة",
+      "refs": [
+        [
+          2,
+          173
+        ]
+      ],
+      "recordIds": [
+        "qp-2-173-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18012,
+      "pages": [
+        "2/225"
+      ],
+      "wordOrRule": "حركة الساكن قبل همزة الوصل",
+      "refs": [
+        [
+          2,
+          173
+        ]
+      ],
+      "recordIds": [
+        "qp-2-173-2"
+      ],
+      "classification": "أصل متكرر مذكور بباب الفرش",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18033,
+      "pages": [
+        "2/225"
+      ],
+      "wordOrRule": "اضطر",
+      "refs": [
+        [
+          2,
+          173
+        ]
+      ],
+      "recordIds": [
+        "qp-2-173-2"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18037,
+      "pages": [
+        "2/226"
+      ],
+      "wordOrRule": "ليس البر",
+      "refs": [
+        [
+          2,
+          177
+        ]
+      ],
+      "recordIds": [
+        "qp-2-177-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18045,
+      "pages": [
+        "2/226"
+      ],
+      "wordOrRule": "موص",
+      "refs": [
+        [
+          2,
+          182
+        ]
+      ],
+      "recordIds": [
+        "qp-2-182-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18047,
+      "pages": [
+        "2/226"
+      ],
+      "wordOrRule": "فدية طعام",
+      "refs": [
+        [
+          2,
+          184
+        ]
+      ],
+      "recordIds": [
+        "qp-2-184-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18049,
+      "pages": [
+        "2/226"
+      ],
+      "wordOrRule": "مساكين",
+      "refs": [
+        [
+          2,
+          184
+        ]
+      ],
+      "recordIds": [
+        "2-184-15",
+        "qp-2-184-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18053,
+      "pages": [
+        "2/226"
+      ],
+      "wordOrRule": "ولتكملوا",
+      "refs": [
+        [
+          2,
+          185
+        ]
+      ],
+      "recordIds": [
+        "2-185-16",
+        "qp-2-185-6"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18055,
+      "pages": [
+        "2/226"
+      ],
+      "wordOrRule": "البيوت",
+      "refs": [
+        [
+          2,
+          189
+        ]
+      ],
+      "recordIds": [
+        "qp-2-189-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18062,
+      "pages": [
+        "2/226"
+      ],
+      "wordOrRule": "تقاتلوهم يقاتلوكم قاتلوكم",
+      "refs": [
+        [
+          2,
+          191
+        ]
+      ],
+      "recordIds": [
+        "qp-2-191-3",
+        "qp-2-191-4",
+        "qp-2-191-5"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18069,
+      "pages": [
+        "2/227"
+      ],
+      "wordOrRule": "السلم",
+      "refs": [
+        [
+          2,
+          208
+        ]
+      ],
+      "recordIds": [
+        "qp-2-208-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18072,
+      "pages": [
+        "2/227"
+      ],
+      "wordOrRule": "والملائكة",
+      "refs": [
+        [
+          2,
+          210
+        ]
+      ],
+      "recordIds": [
+        "qp-2-210-2"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18075,
+      "pages": [
+        "2/227"
+      ],
+      "wordOrRule": "ليحكم",
+      "refs": [
+        [
+          2,
+          213
+        ]
+      ],
+      "recordIds": [
+        "qp-2-213-7"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18077,
+      "pages": [
+        "2/227"
+      ],
+      "wordOrRule": "حتى يقول",
+      "refs": [
+        [
+          2,
+          214
+        ]
+      ],
+      "recordIds": [
+        "qp-2-214-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18078,
+      "pages": [
+        "2/227"
+      ],
+      "wordOrRule": "إثم كبير",
+      "refs": [
+        [
+          2,
+          219
+        ]
+      ],
+      "recordIds": [
+        "qp-2-219-3"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18080,
+      "pages": [
+        "2/227"
+      ],
+      "wordOrRule": "العفو",
+      "refs": [
+        [
+          2,
+          219
+        ]
+      ],
+      "recordIds": [
+        "qp-2-219-2"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18082,
+      "pages": [
+        "2/227"
+      ],
+      "wordOrRule": "يطهرن",
+      "refs": [
+        [
+          2,
+          222
+        ]
+      ],
+      "recordIds": [
+        "2-222-17",
+        "qp-2-222-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18087,
+      "pages": [
+        "2/227"
+      ],
+      "wordOrRule": "يخافا",
+      "refs": [
+        [
+          2,
+          229
+        ]
+      ],
+      "recordIds": [
+        "2-229-18",
+        "qp-2-229-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18090,
+      "pages": [
+        "2/227"
+      ],
+      "wordOrRule": "لا تضار",
+      "refs": [
+        [
+          2,
+          233
+        ]
+      ],
+      "recordIds": [
+        "qp-2-233-4"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [
+        "fb-008"
+      ],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18098,
+      "pages": [
+        "2/228"
+      ],
+      "wordOrRule": "آتيتم",
+      "refs": [
+        [
+          2,
+          233
+        ]
+      ],
+      "recordIds": [
+        "qp-2-233-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18106,
+      "pages": [
+        "2/228"
+      ],
+      "wordOrRule": "تمسوهن",
+      "refs": [
+        [
+          2,
+          236
+        ],
+        [
+          2,
+          237
+        ]
+      ],
+      "recordIds": [
+        "qp-2-236-1",
+        "qp-2-237-2"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18109,
+      "pages": [
+        "2/228"
+      ],
+      "wordOrRule": "قدره",
+      "refs": [
+        [
+          2,
+          236
+        ]
+      ],
+      "recordIds": [
+        "qp-2-236-2"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18113,
+      "pages": [
+        "2/228"
+      ],
+      "wordOrRule": "وصية",
+      "refs": [
+        [
+          2,
+          240
+        ]
+      ],
+      "recordIds": [
+        "2-240-19",
+        "qp-2-240-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18115,
+      "pages": [
+        "2/228"
+      ],
+      "wordOrRule": "فيضاعفه",
+      "refs": [
+        [
+          2,
+          245
+        ]
+      ],
+      "recordIds": [
+        "qp-2-245-2"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18120,
+      "pages": [
+        "2/228"
+      ],
+      "wordOrRule": "يبصط",
+      "refs": [
+        [
+          2,
+          245
+        ]
+      ],
+      "recordIds": [
+        "qp-2-245-3"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [
+        "fb-010"
+      ],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18163,
+      "pages": [
+        "2/230"
+      ],
+      "wordOrRule": "عسيتم",
+      "refs": [
+        [
+          2,
+          246
+        ]
+      ],
+      "recordIds": [
+        "qp-2-246-3"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18165,
+      "pages": [
+        "2/230"
+      ],
+      "wordOrRule": "بسطة",
+      "refs": [
+        [
+          2,
+          247
+        ]
+      ],
+      "recordIds": [
+        "primary-2-247-2"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18171,
+      "pages": [
+        "2/230"
+      ],
+      "wordOrRule": "غرفة",
+      "refs": [
+        [
+          2,
+          249
+        ]
+      ],
+      "recordIds": [
+        "qp-2-249-3"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18173,
+      "pages": [
+        "2/230"
+      ],
+      "wordOrRule": "دفع الله",
+      "refs": [
+        [
+          2,
+          251
+        ]
+      ],
+      "recordIds": [
+        "qp-2-251-2"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18177,
+      "pages": [
+        "2/230"
+      ],
+      "wordOrRule": "أنا أحيي",
+      "refs": [
+        [
+          2,
+          258
+        ]
+      ],
+      "recordIds": [
+        "qp-2-258-1"
+      ],
+      "classification": "أصل متكرر مذكور بباب الفرش",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18202,
+      "pages": [
+        "2/231"
+      ],
+      "wordOrRule": "ننشزها",
+      "refs": [
+        [
+          2,
+          259
+        ]
+      ],
+      "recordIds": [
+        "2-259-20",
+        "qp-2-259-9"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18204,
+      "pages": [
+        "2/231"
+      ],
+      "wordOrRule": "قال أعلم",
+      "refs": [
+        [
+          2,
+          259
+        ]
+      ],
+      "recordIds": [
+        "2-259-21",
+        "qp-2-259-4"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18210,
+      "pages": [
+        "2/232"
+      ],
+      "wordOrRule": "فصرهن",
+      "refs": [
+        [
+          2,
+          260
+        ]
+      ],
+      "recordIds": [
+        "2-260-22",
+        "qp-2-260-4"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18216,
+      "pages": [
+        "2/232"
+      ],
+      "wordOrRule": "ربوة",
+      "refs": [
+        [
+          2,
+          265
+        ]
+      ],
+      "recordIds": [
+        "qp-2-265-2"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18219,
+      "pages": [
+        "2/232"
+      ],
+      "wordOrRule": "ولا تيمموا",
+      "refs": [
+        [
+          2,
+          267
+        ]
+      ],
+      "recordIds": [
+        "qp-2-267-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [
+        "fb-012"
+      ],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18305,
+      "pages": [
+        "2/235"
+      ],
+      "wordOrRule": "ومن يؤت الحكمة",
+      "refs": [
+        [
+          2,
+          269
+        ]
+      ],
+      "recordIds": [
+        "qp-2-269-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18310,
+      "pages": [
+        "2/235"
+      ],
+      "wordOrRule": "نعما",
+      "refs": [
+        [
+          2,
+          271
+        ]
+      ],
+      "recordIds": [
+        "qp-2-271-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18326,
+      "pages": [
+        "2/236"
+      ],
+      "wordOrRule": "ونكفر",
+      "refs": [
+        [
+          2,
+          271
+        ]
+      ],
+      "recordIds": [
+        "qp-2-271-3"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18329,
+      "pages": [
+        "2/236"
+      ],
+      "wordOrRule": "يحسبهم",
+      "refs": [
+        [
+          2,
+          273
+        ]
+      ],
+      "recordIds": [
+        "qp-2-273-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18331,
+      "pages": [
+        "2/236"
+      ],
+      "wordOrRule": "فأذنوا",
+      "refs": [
+        [
+          2,
+          279
+        ]
+      ],
+      "recordIds": [
+        "qp-2-278-2"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18333,
+      "pages": [
+        "2/236"
+      ],
+      "wordOrRule": "ميسرة",
+      "refs": [
+        [
+          2,
+          280
+        ]
+      ],
+      "recordIds": [
+        "qp-2-280-3"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18334,
+      "pages": [
+        "2/236"
+      ],
+      "wordOrRule": "وأن تصدقوا",
+      "refs": [
+        [
+          2,
+          280
+        ]
+      ],
+      "recordIds": [
+        "qp-2-280-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18337,
+      "pages": [
+        "2/236"
+      ],
+      "wordOrRule": "أن تضل",
+      "refs": [
+        [
+          2,
+          282
+        ]
+      ],
+      "recordIds": [
+        "qp-2-282-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18338,
+      "pages": [
+        "2/236"
+      ],
+      "wordOrRule": "فتذكر",
+      "refs": [
+        [
+          2,
+          282
+        ]
+      ],
+      "recordIds": [
+        "qp-2-282-4"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18342,
+      "pages": [
+        "2/237"
+      ],
+      "wordOrRule": "تجارة حاضرة",
+      "refs": [
+        [
+          2,
+          282
+        ]
+      ],
+      "recordIds": [
+        "qp-2-282-3"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18344,
+      "pages": [
+        "2/237"
+      ],
+      "wordOrRule": "فرهان",
+      "refs": [
+        [
+          2,
+          283
+        ]
+      ],
+      "recordIds": [
+        "qp-2-283-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18347,
+      "pages": [
+        "2/237"
+      ],
+      "wordOrRule": "فيغفر ويعذب",
+      "refs": [
+        [
+          2,
+          284
+        ]
+      ],
+      "recordIds": [
+        "qp-2-284-1",
+        "qp-2-284-2"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18351,
+      "pages": [
+        "2/237"
+      ],
+      "wordOrRule": "وكتبه",
+      "refs": [
+        [
+          2,
+          285
+        ]
+      ],
+      "recordIds": [
+        "qp-2-285-2"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    },
+    {
+      "paragraphLine": 18353,
+      "pages": [
+        "2/237"
+      ],
+      "wordOrRule": "لا نفرق",
+      "refs": [
+        [
+          2,
+          285
+        ]
+      ],
+      "recordIds": [
+        "qp-2-285-1"
+      ],
+      "classification": "فرش أو خلاف طريق موضعي",
+      "findingBefore": "أصل الفرق الموضعي ممثل؛ لا يلزم من ذلك اكتمال جميع طرق الوجه أو أصوله المركبة.",
+      "appliedCorrections": [],
+      "allCompositeUsulReviewed": false
+    }
+  ],
+  "deferred": [
+    {
+      "topic": "لا تضار 2:233 ولا يضار 2:282",
+      "reason": "اضطراب النص الرقمي في نفي أو إثبات غير طريق ابن مهران؛ يلزم تصوير الطبعة قبل حسم المسار التفصيلي."
+    },
+    {
+      "topic": "ياءات الإضافة والزوائد في خاتمة البقرة",
+      "reason": "أبقيت خارج دعوى اكتمال هذه الدفعة؛ يلزم تحقيق شروط الوصل والوقف والخلف من أبوابها."
+    },
+    {
+      "topic": "الأصول المتكررة ونظائر المواضع المصححة خارج السورتين",
+      "reason": "لم تعمم تصحيحات الطرق على باقي القرآن دون جرد مستقل."
+    }
+  ]
+}

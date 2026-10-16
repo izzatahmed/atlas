@@ -15,6 +15,7 @@ function variantFor(record,narrator){return variantsFor(record,narrator)[0];}
 function faceKey(v){return [v.text||'',v.description||''].join('|');}
 function compareFaces(record,a,b){
  const av=variantsFor(record,a),bv=variantsFor(record,b);if(!av.length||!bv.length)return'unknown';
+ if(record.reviewWarnings?.length)return'limited';
  // A partial rule and a composite description cannot establish full agreement.
  if([...av,...bv].some(v=>v.reviewedScope&&!['complete_description','local_typographical_correction_only'].includes(v.reviewedScope)))return'limited';
  const aa=new Set(av.map(faceKey)),bb=new Set(bv.map(faceKey));

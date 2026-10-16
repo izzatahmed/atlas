@@ -1,0 +1,1985 @@
+{
+  "meta": {
+    "version": "0.5.1",
+    "date": "2026-10-16",
+    "scope": "ياءات البقرة المحلية وفرش آل عمران الصريح، مع مقابلة صفحات مصورة من النشر. لا يشمل جميع الأصول أو طرق الأداء أو التحقق السمعي.",
+    "inputSHA256": "cc1500a65dde815c5e3c47e16729178a097927de504e10dab0f4a1d16c6ae91f",
+    "primaryTextSHA256": "d2856b9f29badc5f066dc8abd13b2d91fc81cf23b6c2898392746467f1ebbf52",
+    "printedPdfSHA256": "04d50dda1a9fcfd8509e8b3149f68c4135a96e2953dea768558afb3b21fcb635",
+    "printedPdfURL": "https://archive.org/download/35149waq/35099.pdf",
+    "counts": {
+      "changedRecords": 24,
+      "flaggedRecords": 2,
+      "addedPartialFaces": 8,
+      "baqaraAdditionLociReviewed": 8,
+      "baqaraExtraLociReviewed": 6,
+      "aliImranInventoryItems": 67
+    },
+    "unresolved": [
+      "يبقى تعيين طريق ابن مهران عن ابن وردان في لا تضار/ولا يضار غير محسوم؛ التعارض في صورة الطبعة نفسها.",
+      "سجلا 3:81 و3:187 يحتويان مرشحات انتقال أوصاف، فعلق حكم المقارنة المركبة فيهما إلى تحقيقها.",
+      "المقابلة المحلية لا تحرر جميع الأصول أو علاقات تركيب الطرق، ولا تصادق على مقادير المد أو التسجيلات."
+    ]
+  },
+  "baqaraAdditionInventory": [
+    {
+      "id": "I1",
+      "recordId": "qp-2-30-2",
+      "ref": [
+        2,
+        30
+      ],
+      "wordId": "2:30:24",
+      "word": "إني أعلم ما",
+      "openingFaces": [
+        4
+      ],
+      "openNarrators": [
+        "nafi_qalun",
+        "nafi_warsh",
+        "abujafar_wardan",
+        "abujafar_jammaz",
+        "ibnkathir_bazzi",
+        "ibnkathir_qunbul",
+        "abuamr_duri",
+        "abuamr_susi"
+      ],
+      "source": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16412,
+          16440
+        ],
+        "pages": [
+          "2/163",
+          "2/164"
+        ]
+      },
+      "closedFaces": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "closedNarrators": [
+        "asim_hafs",
+        "asim_shuba",
+        "hamza_khalaf",
+        "hamza_khallad",
+        "ibnamir_dhakwan",
+        "ibnamir_hisham",
+        "khalaf_idris",
+        "khalaf_ishaq",
+        "kisai_duri",
+        "kisai_harith",
+        "yaqub_ruways",
+        "yaqub_ruwh"
+      ],
+      "waslAttributionMatches": true,
+      "waqfAspect": "الياء ثابتة عند الوقف على الكلمة؛ يوقف عليها ساكنة. الفتح المذكور في هذه المراجعة هو وجه الوصل، ولا ينقل إلى الوقف.",
+      "qualification": "تثبت هذه المراجعة حركة ياء الإضافة فقط. لا تثبت مقدار المد المنفصل المصاحب ولا جميع أصول العبارة.",
+      "reviewedAspect": "فتح/إسكان ياء الإضافة في الوصل",
+      "countingNote": "إني أعلم موضعان مستقلان: 2:30 و2:33. يحسبان اثنتين من الياءات الثماني، مع تطابق العزو المحلي لحركة الياء."
+    },
+    {
+      "id": "I2",
+      "recordId": "qp-2-33-1",
+      "ref": [
+        2,
+        33
+      ],
+      "wordId": "2:33:13",
+      "word": "إني أعلم غيب",
+      "openingFaces": [
+        1
+      ],
+      "openNarrators": [
+        "nafi_qalun",
+        "nafi_warsh",
+        "abujafar_wardan",
+        "abujafar_jammaz",
+        "ibnkathir_bazzi",
+        "ibnkathir_qunbul",
+        "abuamr_duri",
+        "abuamr_susi"
+      ],
+      "source": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16412,
+          16440
+        ],
+        "pages": [
+          "2/163",
+          "2/164"
+        ]
+      },
+      "closedFaces": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "closedNarrators": [
+        "asim_hafs",
+        "asim_shuba",
+        "hamza_khalaf",
+        "hamza_khallad",
+        "ibnamir_dhakwan",
+        "ibnamir_hisham",
+        "khalaf_idris",
+        "khalaf_ishaq",
+        "kisai_duri",
+        "kisai_harith",
+        "yaqub_ruways",
+        "yaqub_ruwh"
+      ],
+      "waslAttributionMatches": true,
+      "waqfAspect": "الياء ثابتة عند الوقف على الكلمة؛ يوقف عليها ساكنة. الفتح المذكور في هذه المراجعة هو وجه الوصل، ولا ينقل إلى الوقف.",
+      "qualification": "تثبت هذه المراجعة حركة ياء الإضافة فقط. لا تثبت مقدار المد المنفصل المصاحب ولا جميع أصول العبارة.",
+      "reviewedAspect": "فتح/إسكان ياء الإضافة في الوصل",
+      "countingNote": "إني أعلم موضعان مستقلان: 2:30 و2:33. يحسبان اثنتين من الياءات الثماني، مع تطابق العزو المحلي لحركة الياء."
+    },
+    {
+      "id": "I3",
+      "recordId": "qp-2-124-2",
+      "ref": [
+        2,
+        124
+      ],
+      "wordId": "2:124:18",
+      "word": "عهدي الظالمين",
+      "openingFaces": [
+        1
+      ],
+      "openNarrators": [
+        "abuamr_duri",
+        "abuamr_susi",
+        "abujafar_jammaz",
+        "abujafar_wardan",
+        "asim_shuba",
+        "ibnamir_dhakwan",
+        "ibnamir_hisham",
+        "ibnkathir_bazzi",
+        "ibnkathir_qunbul",
+        "khalaf_idris",
+        "khalaf_ishaq",
+        "kisai_duri",
+        "kisai_harith",
+        "nafi_qalun",
+        "nafi_warsh",
+        "yaqub_ruways",
+        "yaqub_ruwh"
+      ],
+      "source": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16584,
+          16594
+        ],
+        "pages": [
+          "2/170"
+        ]
+      },
+      "closedFaces": [
+        0
+      ],
+      "closedNarrators": [
+        "asim_hafs",
+        "hamza_khalaf",
+        "hamza_khallad"
+      ],
+      "waslAttributionMatches": true,
+      "waqfAspect": "الياء ثابتة عند الوقف على الكلمة؛ يوقف عليها ساكنة. الفتح المذكور في هذه المراجعة هو وجه الوصل، ولا ينقل إلى الوقف.",
+      "qualification": "تثبت هذه المراجعة حركة ياء الإضافة فقط. لا تثبت مقدار المد المنفصل المصاحب ولا جميع أصول العبارة.",
+      "reviewedAspect": "فتح/إسكان ياء الإضافة في الوصل",
+      "waslElisionNote": "من أسكن الياء حذفها لفظاً في الوصل هنا لالتقاء الساكنين، ولا يعني ذلك حذفها عند الوقف على الكلمة."
+    },
+    {
+      "id": "I4",
+      "recordId": "qp-2-125-3",
+      "ref": [
+        2,
+        125
+      ],
+      "wordId": "2:125:18",
+      "word": "بيتي للطائفين",
+      "openingFaces": [
+        1
+      ],
+      "openNarrators": [
+        "nafi_qalun",
+        "nafi_warsh",
+        "abujafar_wardan",
+        "abujafar_jammaz",
+        "ibnamir_hisham",
+        "asim_hafs"
+      ],
+      "source": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16612,
+          16625
+        ],
+        "pages": [
+          "2/171",
+          "2/172"
+        ]
+      },
+      "closedFaces": [
+        0
+      ],
+      "closedNarrators": [
+        "abuamr_duri",
+        "abuamr_susi",
+        "asim_shuba",
+        "hamza_khalaf",
+        "hamza_khallad",
+        "ibnamir_dhakwan",
+        "ibnkathir_bazzi",
+        "ibnkathir_qunbul",
+        "khalaf_idris",
+        "khalaf_ishaq",
+        "kisai_duri",
+        "kisai_harith",
+        "yaqub_ruways",
+        "yaqub_ruwh"
+      ],
+      "waslAttributionMatches": true,
+      "waqfAspect": "الياء ثابتة عند الوقف على الكلمة؛ يوقف عليها ساكنة. الفتح المذكور في هذه المراجعة هو وجه الوصل، ولا ينقل إلى الوقف.",
+      "qualification": "تثبت هذه المراجعة حركة ياء الإضافة فقط. لا تثبت مقدار المد المنفصل المصاحب ولا جميع أصول العبارة.",
+      "reviewedAspect": "فتح/إسكان ياء الإضافة في الوصل"
+    },
+    {
+      "id": "I5",
+      "recordId": "qp-2-152-2",
+      "ref": [
+        2,
+        152
+      ],
+      "wordId": "2:152:1",
+      "word": "فاذكروني أذكركم",
+      "openingFaces": [
+        5
+      ],
+      "openNarrators": [
+        "ibnkathir_bazzi",
+        "ibnkathir_qunbul"
+      ],
+      "source": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16437,
+          16441
+        ],
+        "pages": [
+          "2/164"
+        ]
+      },
+      "closedFaces": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "closedNarrators": [
+        "abuamr_duri",
+        "abuamr_susi",
+        "abujafar_jammaz",
+        "abujafar_wardan",
+        "asim_hafs",
+        "asim_shuba",
+        "hamza_khalaf",
+        "hamza_khallad",
+        "ibnamir_dhakwan",
+        "ibnamir_hisham",
+        "khalaf_idris",
+        "khalaf_ishaq",
+        "kisai_duri",
+        "kisai_harith",
+        "nafi_qalun",
+        "nafi_warsh",
+        "yaqub_ruways",
+        "yaqub_ruwh"
+      ],
+      "waslAttributionMatches": true,
+      "waqfAspect": "الياء ثابتة عند الوقف على الكلمة؛ يوقف عليها ساكنة. الفتح المذكور في هذه المراجعة هو وجه الوصل، ولا ينقل إلى الوقف.",
+      "qualification": "تثبت هذه المراجعة حركة ياء الإضافة فقط. لا تثبت مقدار المد المنفصل المصاحب ولا جميع أصول العبارة.",
+      "reviewedAspect": "فتح/إسكان ياء الإضافة في الوصل"
+    },
+    {
+      "id": "I6",
+      "recordId": "qp-2-186-2",
+      "ref": [
+        2,
+        186
+      ],
+      "wordId": "2:186:15",
+      "word": "وليؤمنوا بي",
+      "openingFaces": [
+        1
+      ],
+      "openNarrators": [
+        "nafi_warsh"
+      ],
+      "source": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16612,
+          16625
+        ],
+        "pages": [
+          "2/171",
+          "2/172"
+        ]
+      },
+      "closedFaces": [
+        0
+      ],
+      "closedNarrators": [
+        "abuamr_duri",
+        "abuamr_susi",
+        "abujafar_jammaz",
+        "abujafar_wardan",
+        "asim_hafs",
+        "asim_shuba",
+        "hamza_khalaf",
+        "hamza_khallad",
+        "ibnamir_dhakwan",
+        "ibnamir_hisham",
+        "ibnkathir_bazzi",
+        "ibnkathir_qunbul",
+        "khalaf_idris",
+        "khalaf_ishaq",
+        "kisai_duri",
+        "kisai_harith",
+        "nafi_qalun",
+        "yaqub_ruways",
+        "yaqub_ruwh"
+      ],
+      "waslAttributionMatches": true,
+      "waqfAspect": "الياء ثابتة عند الوقف على الكلمة؛ يوقف عليها ساكنة. الفتح المذكور في هذه المراجعة هو وجه الوصل، ولا ينقل إلى الوقف.",
+      "qualification": "تثبت هذه المراجعة حركة ياء الإضافة فقط. لا تثبت مقدار المد المنفصل المصاحب ولا جميع أصول العبارة.",
+      "reviewedAspect": "فتح/إسكان ياء الإضافة في الوصل"
+    },
+    {
+      "id": "I7",
+      "recordId": "qp-2-249-5",
+      "ref": [
+        2,
+        249
+      ],
+      "wordId": "2:249:19",
+      "word": "مني إلا",
+      "openingFaces": [
+        4
+      ],
+      "openNarrators": [
+        "nafi_qalun",
+        "nafi_warsh",
+        "abujafar_wardan",
+        "abujafar_jammaz",
+        "abuamr_duri",
+        "abuamr_susi"
+      ],
+      "source": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16503,
+          16518
+        ],
+        "pages": [
+          "2/167"
+        ]
+      },
+      "closedFaces": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "closedNarrators": [
+        "asim_hafs",
+        "asim_shuba",
+        "hamza_khalaf",
+        "hamza_khallad",
+        "ibnamir_dhakwan",
+        "ibnamir_hisham",
+        "ibnkathir_bazzi",
+        "ibnkathir_qunbul",
+        "khalaf_idris",
+        "khalaf_ishaq",
+        "kisai_duri",
+        "kisai_harith",
+        "yaqub_ruways",
+        "yaqub_ruwh"
+      ],
+      "waslAttributionMatches": true,
+      "waqfAspect": "الياء ثابتة عند الوقف على الكلمة؛ يوقف عليها ساكنة. الفتح المذكور في هذه المراجعة هو وجه الوصل، ولا ينقل إلى الوقف.",
+      "qualification": "تثبت هذه المراجعة حركة ياء الإضافة فقط. لا تثبت مقدار المد المنفصل المصاحب ولا جميع أصول العبارة.",
+      "reviewedAspect": "فتح/إسكان ياء الإضافة في الوصل",
+      "occurrenceNote": "هذا موضع مني الثاني في الآية، الذي يليه إلا؛ لا تعمم فتح الياء على فليس مني في الآية نفسها."
+    },
+    {
+      "id": "I8",
+      "recordId": "qp-2-258-3",
+      "ref": [
+        2,
+        258
+      ],
+      "wordId": "2:258:16",
+      "word": "ربي الذي",
+      "openingFaces": [
+        1
+      ],
+      "openNarrators": [
+        "abuamr_duri",
+        "abuamr_susi",
+        "abujafar_jammaz",
+        "abujafar_wardan",
+        "asim_hafs",
+        "asim_shuba",
+        "ibnamir_dhakwan",
+        "ibnamir_hisham",
+        "ibnkathir_bazzi",
+        "ibnkathir_qunbul",
+        "khalaf_idris",
+        "khalaf_ishaq",
+        "kisai_duri",
+        "kisai_harith",
+        "nafi_qalun",
+        "nafi_warsh",
+        "yaqub_ruways",
+        "yaqub_ruwh"
+      ],
+      "source": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16584,
+          16594
+        ],
+        "pages": [
+          "2/170"
+        ]
+      },
+      "closedFaces": [
+        0
+      ],
+      "closedNarrators": [
+        "hamza_khalaf",
+        "hamza_khallad"
+      ],
+      "waslAttributionMatches": true,
+      "waqfAspect": "الياء ثابتة عند الوقف على الكلمة؛ يوقف عليها ساكنة. الفتح المذكور في هذه المراجعة هو وجه الوصل، ولا ينقل إلى الوقف.",
+      "qualification": "تثبت هذه المراجعة حركة ياء الإضافة فقط. لا تثبت مقدار المد المنفصل المصاحب ولا جميع أصول العبارة.",
+      "reviewedAspect": "فتح/إسكان ياء الإضافة في الوصل",
+      "waslElisionNote": "من أسكن الياء حذفها لفظاً في الوصل هنا لالتقاء الساكنين، ولا يعني ذلك حذفها عند الوقف على الكلمة."
+    }
+  ],
+  "baqaraExtraInventory": [
+    {
+      "id": "Z1",
+      "ref": [
+        2,
+        40
+      ],
+      "word": "فارهبون",
+      "recordId": "qp-2-40-2",
+      "wordId": "2:40:14",
+      "proofFaces": [
+        0,
+        1
+      ],
+      "wasl": "يعقوب يثبت الياء؛ الباقون يحذفونها.",
+      "waqf": "يعقوب يثبت الياء؛ الباقون يحذفونها.",
+      "finding": "العزو وقيد الحالين موجودان بالفعل؛ لا نقص وجه محلي ظاهر.",
+      "source": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          18359,
+          18360
+        ],
+        "pages": [
+          "2/237"
+        ]
+      },
+      "generalModeSource": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16878,
+          16881
+        ],
+        "pages": [
+          "2/182"
+        ]
+      },
+      "surahSummarySource": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          18358,
+          18363
+        ],
+        "pages": [
+          "2/237"
+        ]
+      }
+    },
+    {
+      "id": "Z2",
+      "ref": [
+        2,
+        41
+      ],
+      "word": "فاتقون",
+      "recordId": "qp-2-41-1",
+      "wordId": "2:41:18",
+      "proofFaces": [
+        0,
+        1
+      ],
+      "wasl": "يعقوب يثبت الياء؛ الباقون يحذفونها.",
+      "waqf": "يعقوب يثبت الياء؛ الباقون يحذفونها.",
+      "finding": "العزو وقيد الحالين موجودان بالفعل؛ لا نقص وجه محلي ظاهر.",
+      "source": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          18359,
+          18360
+        ],
+        "pages": [
+          "2/237"
+        ]
+      },
+      "generalModeSource": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16878,
+          16881
+        ],
+        "pages": [
+          "2/182"
+        ]
+      },
+      "surahSummarySource": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          18358,
+          18363
+        ],
+        "pages": [
+          "2/237"
+        ]
+      }
+    },
+    {
+      "id": "Z3",
+      "ref": [
+        2,
+        152
+      ],
+      "word": "تكفرون",
+      "recordId": "qp-2-152-1",
+      "wordId": "2:152:6",
+      "proofFaces": [
+        0,
+        1
+      ],
+      "wasl": "يعقوب يثبت الياء؛ الباقون يحذفونها.",
+      "waqf": "يعقوب يثبت الياء؛ الباقون يحذفونها.",
+      "finding": "العزو وقيد الحالين موجودان بالفعل؛ لا نقص وجه محلي ظاهر.",
+      "source": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          18359,
+          18360
+        ],
+        "pages": [
+          "2/237"
+        ]
+      },
+      "generalModeSource": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16878,
+          16881
+        ],
+        "pages": [
+          "2/182"
+        ]
+      },
+      "surahSummarySource": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          18358,
+          18363
+        ],
+        "pages": [
+          "2/237"
+        ]
+      }
+    },
+    {
+      "id": "Z4",
+      "ref": [
+        2,
+        186
+      ],
+      "word": "الداع إذا",
+      "recordId": "qp-2-186-1",
+      "wordId": "2:186:9",
+      "proofFaces": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "wasl": "أبو عمرو وأبو جعفر وورش ويعقوب يثبتون الياء. لقالون إثبات وحذف بحسب الطرق. الباقون يحذفونها.",
+      "waqf": "يعقوب يثبت الياء؛ جميع الباقين يحذفونها، بما فيهم قالون وورش وأبو عمرو وأبو جعفر.",
+      "finding": "إثبات قالون ممثل، وحذفه غير ممثل؛ كما أن قيد الوقف غير مفصل في البطاقة المركبة.",
+      "source": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16909,
+          16926
+        ],
+        "pages": [
+          "2/183",
+          "2/184"
+        ]
+      },
+      "generalModeSource": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16878,
+          16881
+        ],
+        "pages": [
+          "2/182"
+        ]
+      },
+      "surahSummarySource": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          18358,
+          18363
+        ],
+        "pages": [
+          "2/237"
+        ]
+      }
+    },
+    {
+      "id": "Z5",
+      "ref": [
+        2,
+        186
+      ],
+      "word": "إذا دعان",
+      "recordId": "qp-2-186-1",
+      "wordId": "2:186:11",
+      "proofFaces": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "wasl": "أبو عمرو وأبو جعفر وورش ويعقوب يثبتون الياء. لقالون إثبات وحذف بحسب الطرق. الباقون يحذفونها.",
+      "waqf": "يعقوب يثبت الياء؛ جميع الباقين يحذفونها، بما فيهم قالون وورش وأبو عمرو وأبو جعفر.",
+      "finding": "إثبات قالون ممثل، وحذفه غير ممثل؛ لا يجوز جعل إثبات الداع/دعان وحذفهما اختياراً حراً دون الطرق.",
+      "source": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16909,
+          16926
+        ],
+        "pages": [
+          "2/183",
+          "2/184"
+        ]
+      },
+      "generalModeSource": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16878,
+          16881
+        ],
+        "pages": [
+          "2/182"
+        ]
+      },
+      "surahSummarySource": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          18358,
+          18363
+        ],
+        "pages": [
+          "2/237"
+        ]
+      }
+    },
+    {
+      "id": "Z6",
+      "ref": [
+        2,
+        197
+      ],
+      "word": "واتقون يا أولي",
+      "recordId": "qp-2-197-2",
+      "wordId": "2:197:27",
+      "proofFaces": [
+        0,
+        1
+      ],
+      "wasl": "أبو عمرو وأبو جعفر ويعقوب يثبتون الياء؛ الباقون يحذفونها.",
+      "waqf": "يعقوب يثبتها؛ أبو عمرو وأبو جعفر وسائر الباقين يحذفونها.",
+      "finding": "عزو الوصل صحيح، لكن إثبات أبي عمرو وأبي جعفر مقيد بالوصل، بخلاف يعقوب؛ يلزم بيان الوقف صراحة.",
+      "source": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16932,
+          16936
+        ],
+        "pages": [
+          "2/184"
+        ]
+      },
+      "generalModeSource": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          16878,
+          16881
+        ],
+        "pages": [
+          "2/182"
+        ]
+      },
+      "surahSummarySource": {
+        "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+        "lines": [
+          18358,
+          18363
+        ],
+        "pages": [
+          "2/237"
+        ]
+      }
+    }
+  ],
+  "aliImranInventory": [
+    {
+      "inventoryId": "AI-01",
+      "topic": "فواتح آل عمران والتوراة",
+      "lines": [
+        18366,
+        18368
+      ],
+      "volume_page": "2:238",
+      "surah": 3,
+      "ayahs": [],
+      "recordIds": [],
+      "status": "excluded_general_usul",
+      "sourceText": "# تقدم مذهب أبي جعفر في السكت على حروف الفواتح من باب السكت، وتقدم أيضا\n~~الإشارة إلى جواز وجهي المد والقصر عنهم في م الله حالة الوصل آخر باب\n~~المد، وتقدم اختلافهم في إمالة التوراة وبين بين من باب الإمالة."
+    },
+    {
+      "inventoryId": "AI-02",
+      "topic": "تغلبون وتحشرون",
+      "lines": [
+        18369,
+        18371
+      ],
+      "volume_page": "2:238",
+      "surah": 3,
+      "ayahs": [
+        12
+      ],
+      "recordIds": [
+        "qp-3-12-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: تغلبون. وتحشرون فقرأ حمزة والكسائي، وخلف بالغيب فيهما،\n~~وقرأ الباقون بالخطاب، وتقدم بإبدال فئة، وفئتين، ويؤيد في باب الهمز\n~~المفرد."
+    },
+    {
+      "inventoryId": "AI-03",
+      "topic": "ترونهم",
+      "lines": [
+        18372,
+        18374
+      ],
+      "volume_page": "2:238",
+      "surah": 3,
+      "ayahs": [
+        13
+      ],
+      "recordIds": [
+        "qp-3-13-4"
+      ],
+      "status": "finding_ALI-01",
+      "sourceText": "# (واختلفوا) في: ترونهم فقرأ المدنيان ويعقوب بالخطاب، وقرأ الباقون\n~~بالغيب، وتقدم اختلافهم في أونبئكم من باب الهمزتين من كلمة، وكذلك، أوجه\n~~الوقف عليها لحمزة في بابه."
+    },
+    {
+      "inventoryId": "AI-04",
+      "topic": "رضوان وما استثني خارج السورة",
+      "lines": [
+        18375,
+        18385
+      ],
+      "volume_page": "2:238",
+      "surah": 3,
+      "ayahs": [
+        15,
+        162,
+        174
+      ],
+      "recordIds": [
+        "qp-3-15-2",
+        "qp-3-162-1",
+        "qp-3-174-1"
+      ],
+      "status": "matched_core_outside_exception_not_applied",
+      "sourceText": "# (واختلفوا) في: رضوان حيث رفع، فروى أبو بكر بضم الراء إلا الموضع الثاني\n~~من المائدة، وهو من اتبع رضوانه فكسر الراء فيه من طريق العليمي. واختلف\n~~فيه عن يحيى بن آدم عنه، فروى أبو عون الواسطي ضمه عن شعيب عنه كسائر\n~~نظائره، وكذلك روى الخبازي والخزاعي عن الشذائي عن نفطويه عن شعيب أيضا.\n# (قلت) : والروايتان صحيحتان عن يحيى، وعن أبي بكر أيضا، فروى الضم فيه\n~~كأخواته عن يحيى خلف ومحمد بن المنذر، وهي رواية الكسائي والأعشى وابن أبي\n~~حماد كلهم عن أبي بكر، وروى الكسر فيه خاصة عن يحيى: الوكيعي والرفاعي وأبو\n~~حمدون، وهي رواية العليمي والبرجي وابن أبي أمية وعبيد بن نعيم كلهم عن أبي\n~~بكر، وهي أيضا رواية المفضل وحماد عن عاصم - والله أعلم -.\n# وقد انفرد النهرواني عن أصحابه عن أبي حمدون بكسر كرهوا رضوانه في القتال\n~~فخالف سائر الناس، وقرأ الباقون بكسر الراء في جميع القرآن - والله أعلم -."
+    },
+    {
+      "inventoryId": "AI-05",
+      "topic": "إن الدين",
+      "lines": [
+        18386,
+        18386
+      ],
+      "volume_page": "2:238",
+      "surah": 3,
+      "ayahs": [
+        19
+      ],
+      "recordIds": [
+        "qp-3-19-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: إن الدين فقرأ الكسائي بفتح الهمزة، وقرأ الباقون بكسرها."
+    },
+    {
+      "inventoryId": "AI-06",
+      "topic": "ويقتلون الذين يأمرون",
+      "lines": [
+        18387,
+        18392
+      ],
+      "volume_page": "2:238–2:239",
+      "surah": 3,
+      "ayahs": [
+        21
+      ],
+      "recordIds": [
+        "qp-3-21-3"
+      ],
+      "status": "finding_ALI-06",
+      "sourceText": "# (واختلفوا) في: ويقتلون الذين يأمرون فقرأ حمزة ويقاتلون بضم الياء وألف\n~~بعد القاف وكسر التاء من القتال، وقرأ\n# PageV02P238\n# الباقون بفتح الياء، وإسكان القاف وحذف الألف وضم التاء من (القتل) تقدم\n~~وليحكم لأبي جعفر في البقرة، وتقدم اختلافهم في تشديد الياء من الميت فيهما\n~~عند إنما حرم عليكم الميتة من البقرة."
+    },
+    {
+      "inventoryId": "AI-07",
+      "topic": "تقاة",
+      "lines": [
+        18393,
+        18396
+      ],
+      "volume_page": "2:239",
+      "surah": 3,
+      "ayahs": [
+        28
+      ],
+      "recordIds": [
+        "qp-3-28-2"
+      ],
+      "status": "finding_ALI-02_source_typo_not_copied",
+      "sourceText": "# (واختلفوا) في ms691 تقاة فقرأ يعقوب تقية بفتح الياء وكسر القاف وتشديد الياء\n~~مفتوحة بعدها، وعلى هذه الصورة رسمت في جميع المصاحف. وقرأ الباقون بضم\n~~التاء وألف بعد القاف في اللفظ، وتقدم اختلافهم في الإمالة وبين بين في باب\n~~الإمالة، وكذلك في اختلافهم عن ابن ذكوان في إمالة عمران حيث وقع"
+    },
+    {
+      "inventoryId": "AI-08",
+      "topic": "وضعت",
+      "lines": [
+        18397,
+        18398
+      ],
+      "volume_page": "2:239",
+      "surah": 3,
+      "ayahs": [
+        36
+      ],
+      "recordIds": [
+        "qp-3-36-3"
+      ],
+      "status": "matched_core",
+      "sourceText": "~~(واختلفوا) في: وضعت فقرأ ابن عامر ويعقوب وأبو بكر بإسكان العين وضم\n~~التاء، وقرأ الباقون بفتح العين، وإسكان التاء."
+    },
+    {
+      "inventoryId": "AI-09",
+      "topic": "وكفلها",
+      "lines": [
+        18399,
+        18400
+      ],
+      "volume_page": "2:239",
+      "surah": 3,
+      "ayahs": [
+        37
+      ],
+      "recordIds": [
+        "qp-3-37-4"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: وكفلها فقرأ الكوفيون بتشديد الفاء، وقرأ الباقون\n~~بتخفيفها."
+    },
+    {
+      "inventoryId": "AI-10",
+      "topic": "زكريا في الموضعين",
+      "lines": [
+        18401,
+        18403
+      ],
+      "volume_page": "2:239",
+      "surah": 3,
+      "ayahs": [
+        37
+      ],
+      "recordIds": [
+        "qp-3-37-2",
+        "qp-3-37-3"
+      ],
+      "status": "matched_core_including_shuba_accusative_first_occurrence",
+      "sourceText": "# (واختلفوا) في: زكريا فقرأ حمزة والكسائي وخلف وحفص بالقصر من غير همزة\n~~في جميع القرآن، وقرأ الباقون بالمد والهمز إلا أن أبا بكر نصبه هنا بعد\n~~كفلها على أنه مفعول ثاني لكفلها ورفعه الباقون ممن خفف."
+    },
+    {
+      "inventoryId": "AI-11",
+      "topic": "فنادته",
+      "lines": [
+        18404,
+        18407
+      ],
+      "volume_page": "2:239",
+      "surah": 3,
+      "ayahs": [
+        39
+      ],
+      "recordIds": [
+        "qp-3-39-3"
+      ],
+      "status": "matched_core_usul_references_excluded",
+      "sourceText": "# (واختلفوا) في: فنادته الملائكة فقرأ حمزة والكسائي وخلف، فناداه بألف\n~~على الدال ممالة على أصلهم، وقرأ الباقون بتاء ساكنة بعدها، وتقدم مذهب\n~~الأزرق عن ورش في ترقيق المحراب في باب الراءات، وكذلك مذهب ابن ذكوان في\n~~إمالة المجرور منه، بلا خلاف والخلاف عنه في غيره في باب الإمالة."
+    },
+    {
+      "inventoryId": "AI-12",
+      "topic": "أن الله يبشرك بيحيى",
+      "lines": [
+        18408,
+        18409
+      ],
+      "volume_page": "2:239",
+      "surah": 3,
+      "ayahs": [
+        39
+      ],
+      "recordIds": [
+        "qp-3-39-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: أن الله يبشرك بيحيى فقرأ ابن عامر وحمزة بكسر الهمزة،\n~~وقرأ الباقون بفتحها."
+    },
+    {
+      "inventoryId": "AI-13",
+      "topic": "إن الله يبشرك بكلمة منه",
+      "lines": [
+        18410,
+        18410
+      ],
+      "volume_page": "2:239",
+      "surah": 3,
+      "ayahs": [
+        45
+      ],
+      "recordIds": [],
+      "status": "consensus_no_differential_record_required",
+      "sourceText": "# (واتفقوا) على كسر همزة إن الله يبشرك بكلمة منه لأنه بعد صريح القول."
+    },
+    {
+      "inventoryId": "AI-14",
+      "topic": "يبشرك في موضعي السورة والتفصيل في سور أخرى",
+      "lines": [
+        18411,
+        18421
+      ],
+      "volume_page": "2:239–2:240",
+      "surah": 3,
+      "ayahs": [
+        39,
+        45
+      ],
+      "recordIds": [
+        "qp-3-39-5",
+        "qp-3-45-1"
+      ],
+      "status": "matched_core_cross_sura_not_expanded_source_typo_noted",
+      "sourceText": "# (واختلفوا) في: (يبشرك ونبشرك) وما جاء من ذلك فقرأ حمزة والكسائي، يبشرك\n~~في الموضعين هنا ويبشر في سبحان والكهف بفتح الياء وفتح الشين وضمها من\n~~البشر، وهو البشرى والبشارة، زاد حمزة فخفف يبشرهم في التوبة وإنا نبشرك في\n~~الحجر (وإنا نبشرك، ولتبشر به المتقين) في مريم.\n# وأما الذي في الشورى، وهو ذلك الذي يبشر الله فخففه ابن كثير وأبو عمرو\n~~وحمزة والكسائي،\n# PageV02P239\n# ، وقرأ الباقون بضم الياء وتشديد الشين مكسورة من (بشر) المضعف على\n~~التكثير.\n# (واتفقوا) على تشديد فبم تبشروني في الحجر لمناسبته ما قبله وما بعده من\n~~الأفعال المجتمع على تشديدها والبشر والتبشير والإبشار ثلاث لغات فصيحات."
+    },
+    {
+      "inventoryId": "AI-15",
+      "topic": "ويعلمه",
+      "lines": [
+        18422,
+        18423
+      ],
+      "volume_page": "2:240",
+      "surah": 3,
+      "ayahs": [
+        48
+      ],
+      "recordIds": [
+        "qp-3-48-2"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: ونعلمه فقرأ المدنيان وعاصم ويعقوب بالياء، وقرأ الباقون\n~~بالنون."
+    },
+    {
+      "inventoryId": "AI-16",
+      "topic": "أني أخلق",
+      "lines": [
+        18424,
+        18426
+      ],
+      "volume_page": "2:240",
+      "surah": 3,
+      "ayahs": [
+        49
+      ],
+      "recordIds": [
+        "qp-3-49-1"
+      ],
+      "status": "matched_core_usul_kahayati_excluded",
+      "sourceText": "# (واختلفوا) أني أخلق ms692 فقرأ المدنيان بكسر الهمزة، وقرأ الباقون بفتحها\n~~وقول ابن مهران الكسر لنافع وحده غلط، وتقدم الخلاف عن أبي جعفر في كهيئة\n~~من باب الهمز المفرد، وكذلك مذهب الأزرق في مده."
+    },
+    {
+      "inventoryId": "AI-17",
+      "topic": "الطير وطيرا",
+      "lines": [
+        18427,
+        18433
+      ],
+      "volume_page": "2:240",
+      "surah": 3,
+      "ayahs": [
+        49
+      ],
+      "recordIds": [
+        "qp-3-49-3",
+        "qp-3-49-5"
+      ],
+      "status": "matched_core_rejected_individual_report_not_added",
+      "sourceText": "# واختلفوا في: (الطير فأنفخ فيه فيكون طيرا) فقرأ أبو جعفر (الطائر)\n~~(فيكون طائرا) في الموضعين هنا، وفي المائدة بألف بعدها همزة مكسورة على\n~~الإفراد وافقه نافع ويعقوب في طائرا في الموضعين. وتقدم أن الحنبلي انفرد\n~~عن هبة الله عن أبيه في رواية عيسى بن وردان بتسهيل الهمزة بين بين في\n~~الأربعة، وقرأ الباقون بإسكان الياء من غير ألف، ولا همز في أربعة الأحرف\n~~على الجمع، وتقدم إمالة أنصاري للدوري عن الكسائي وانفراد زيد عن ابن ذكوان\n~~من باب الإمالة."
+    },
+    {
+      "inventoryId": "AI-18",
+      "topic": "فيوفيهم",
+      "lines": [
+        18434,
+        18439
+      ],
+      "volume_page": "2:240",
+      "surah": 3,
+      "ayahs": [
+        57
+      ],
+      "recordIds": [
+        "qp-3-57-1"
+      ],
+      "status": "matched_core_rejected_ruwh_report_not_added",
+      "sourceText": "# (واختلفوا) في: فيوفيهم، فروى حفص ورويس بالياء، وانفرد بذلك البروجردي\n~~عن ابن أشتة عن المعدل عن روح فخالف سائر الطرق عن المعدل وجميع الرواة عن\n~~روح، وقرأ الباقون بالنون، وتقدم اختلافهم في ها أنتم من باب الهمز المفرد،\n~~وتقدمت قراءة ابن كثير في أن يؤتى بالاستفهام والتسهيل من باب الهمزتين من\n~~كلمة. وتقدم اختلافهم في الهاء من يؤده في الموضعين من باب هاء الكناية،\n~~وكذا مذهب من أبدل الهمز منه في باب الهمز المفرد."
+    },
+    {
+      "inventoryId": "AI-19",
+      "topic": "تعلمون الكتاب",
+      "lines": [
+        18440,
+        18442
+      ],
+      "volume_page": "2:240",
+      "surah": 3,
+      "ayahs": [
+        79
+      ],
+      "recordIds": [
+        "qp-3-79-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: تعلمون الكتاب فقرأ ابن عامر، والكوفيون بضم التاء وفتح\n~~العين وكسر اللام مشددة. وقرأ الباقون بفتح التاء واللام، وإسكان العين\n~~مخففا."
+    },
+    {
+      "inventoryId": "AI-20",
+      "topic": "ولا يأمركم",
+      "lines": [
+        18443,
+        18446
+      ],
+      "volume_page": "2:240–2:241",
+      "surah": 3,
+      "ayahs": [
+        80
+      ],
+      "recordIds": [
+        "qp-3-80-3"
+      ],
+      "status": "matched_core_local_rum_ikhtilas_not_fully_reviewed",
+      "sourceText": "# (واختلفوا) في: ولا يأمركم فقرأ ابن عامر وعاصم وحمزة وخلف ويعقوب بنصب\n~~الراء، وقرأ الباقون بالرفع، وتقدم مذهب\n# PageV02P240\n# أبي عمرو في إسكان الراء واختلاسها، وكذا أيأمركم من البقرة عند بارئكم."
+    },
+    {
+      "inventoryId": "AI-21",
+      "topic": "لما وآتيتكم",
+      "lines": [
+        18447,
+        18450
+      ],
+      "volume_page": "2:241",
+      "surah": 3,
+      "ayahs": [
+        81
+      ],
+      "recordIds": [
+        "qp-3-81-4"
+      ],
+      "status": "matched_core_structural_candidates_separately_flagged",
+      "sourceText": "# (واختلفوا) في: لما فقرأ حمزة بكسر اللام. وقرأ الباقون بفتحها، وقرأ\n~~الباقون بتاء مضمومة من غير ألف، (واختلفوا) في (آتيتكم من) فقرأ المدنيان\n~~(آتيناكم) بالنون والألف على التعظيم وقرأ الباقون بتاء مضمومة من غير ألف،\n~~وتقدم اختلافهم في أأقررتم من باب الهمزتين من كلمة."
+    },
+    {
+      "inventoryId": "AI-22",
+      "topic": "تبغون",
+      "lines": [
+        18451,
+        18451
+      ],
+      "volume_page": "2:241",
+      "surah": 3,
+      "ayahs": [
+        83
+      ],
+      "recordIds": [
+        "qp-3-83-2"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: تبغون فقرأ البصريان وحفص بالغيب، وقرأ الباقون بالخطاب."
+    },
+    {
+      "inventoryId": "AI-23",
+      "topic": "يرجعون",
+      "lines": [
+        18452,
+        18454
+      ],
+      "volume_page": "2:241",
+      "surah": 3,
+      "ayahs": [
+        83
+      ],
+      "recordIds": [
+        "qp-3-83-3"
+      ],
+      "status": "matched_core_including_yaqub_voice",
+      "sourceText": "# (واختلفوا) في: يرجعون فقرأ يعقوب وحفص بالغيب، وقرأ الباقون بالخطاب ms693 على\n~~أصله في فتح الياء وكسر الجيم كما تقدم، وتقدم اختلافهم في نقل ملء الأرض\n~~من باب نقل حركة الهمزة."
+    },
+    {
+      "inventoryId": "AI-24",
+      "topic": "حج البيت",
+      "lines": [
+        18455,
+        18459
+      ],
+      "volume_page": "2:241",
+      "surah": 3,
+      "ayahs": [
+        97
+      ],
+      "recordIds": [
+        "qp-3-97-2"
+      ],
+      "status": "matched_core_usul_refs_not_expanded",
+      "sourceText": "# (واختلفوا) في: حج البيت فقرأ أبو جعفر وحمزة والكسائي وخلف وحفص بكسر\n~~الحاء، وقرأ الباقون بفتحها، وتقدم مذهب الكسائي في إمالة تقاته ومذهب\n~~الأزرق في بين بين من باب الإمالة، وتقدم تشديد البزي لتاء (ولا تفرقوا)\n~~واختلافهم في ترجع الأمور من البقرة، وتقدم إمالة الدوري عن الكسائي\n~~يسارعون وسارعوا وما جاء منه في باب الإمالة."
+    },
+    {
+      "inventoryId": "AI-25",
+      "topic": "يفعلوا ويكفروه",
+      "lines": [
+        18460,
+        18470
+      ],
+      "volume_page": "2:241",
+      "surah": 3,
+      "ayahs": [
+        115
+      ],
+      "recordIds": [
+        "qp-3-115-1",
+        "qp-3-115-2"
+      ],
+      "status": "finding_ALI-03",
+      "sourceText": "# (واختلفوا) في: وما تفعلوا من خير فلن تكفروه فقرأ حمزة والكسائي وخلف\n~~وحفص بالغيب فيها، واختلف عن الدوري عن أبي عمرو فيهما، فروى النهرواني\n~~وبكر بن شاذان عن زيد بن فرح عن الدوري بالغيب كذلك، وهي رواية عبد الوارث\n~~والعباس عن أبي عمرو، وطريق النقاش عن أبي الحارث عن السوسي. وروى أبو\n~~العباس المهدوي من طريق ابن مجاهد عن أبي الزعراء عن الدوري التخيير بين\n~~الغيب والخطاب على ذلك أكثر أصحاب اليزيدي عنه، وكلهم نص عنه أبي عمرو أنه\n~~قال: ما أبالي أبالتاء أم بالياء قرأتهما، إلا أن أبا حمدون وأبا عبد\n~~الرحمن قالا عنه وكان أبو عمرو يختار التاء.\n# (قلت) : والوجهان صحيحان وردا من طريق المشارقة، والمغاربة قرأت بهما من\n~~الطريقين إلا أن الخطاب أكثر وأشهر، وعليه الجمهور من أهل الأداء، وبذلك\n~~قرأ الباقون."
+    },
+    {
+      "inventoryId": "AI-26",
+      "topic": "ها أنتم",
+      "lines": [
+        18471,
+        18473
+      ],
+      "volume_page": "2:241–2:242",
+      "surah": 3,
+      "ayahs": [],
+      "recordIds": [],
+      "status": "excluded_general_usul_reference",
+      "sourceText": "# وتقدم\n# PageV02P241\n# اختلافهم في ها أنتم من باب الهمز المفرد"
+    },
+    {
+      "inventoryId": "AI-27",
+      "topic": "يضركم",
+      "lines": [
+        18474,
+        18475
+      ],
+      "volume_page": "2:242",
+      "surah": 3,
+      "ayahs": [
+        120
+      ],
+      "recordIds": [
+        "qp-3-120-2"
+      ],
+      "status": "matched_core_mim_usul_excluded",
+      "sourceText": "# . (واختلفوا) في: يضركم فقرأ ابن عامر، والكوفيون، وأبو جعفر بضم الضاد\n~~ورفع الراء وتشديدها، وقرأ الباقون بكسر الضاد وجزم الراء مخففة"
+    },
+    {
+      "inventoryId": "AI-28",
+      "topic": "منزلين",
+      "lines": [
+        18476,
+        18477
+      ],
+      "volume_page": "2:242",
+      "surah": 3,
+      "ayahs": [
+        124
+      ],
+      "recordIds": [
+        "qp-3-124-2"
+      ],
+      "status": "matched_core",
+      "sourceText": "# . (واختلفوا) في: منزلين فقرأ ابن عامر بتشديد الزاي، وقرأ الباقون\n~~بتخفيفها."
+    },
+    {
+      "inventoryId": "AI-29",
+      "topic": "مسومين",
+      "lines": [
+        18478,
+        18480
+      ],
+      "volume_page": "2:242",
+      "surah": 3,
+      "ayahs": [
+        125
+      ],
+      "recordIds": [
+        "qp-3-125-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: مسومين فقرأ ابن كثير، والبصريان، وعاصم بكسر الواو، وقرأ\n~~الباقون بفتحها وتقدم (ولتطمئن) في باب الهمز المفرد، وتقدم مضعفة في\n~~البقرة"
+    },
+    {
+      "inventoryId": "AI-30",
+      "topic": "وسارعوا",
+      "lines": [
+        18481,
+        18483
+      ],
+      "volume_page": "2:242",
+      "surah": 3,
+      "ayahs": [
+        133
+      ],
+      "recordIds": [
+        "qp-3-133-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# . (واختلفوا) في: وسارعوا فقرأ المدنيان، وابن عامر سارعوا بغير واو قبل\n~~السين، وكذلك هي في مصحف المدينة والشام، وقرأ الباقون بالواو، وكذلك هي في\n~~مصاحفهم."
+    },
+    {
+      "inventoryId": "AI-31",
+      "topic": "قرح في الموضعين والقرح",
+      "lines": [
+        18484,
+        18485
+      ],
+      "volume_page": "2:242",
+      "surah": 3,
+      "ayahs": [
+        140,
+        172
+      ],
+      "recordIds": [
+        "qp-3-140-2",
+        "qp-3-172-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: قرح والقرح فقرأ حمزة والكسائي وخلف وأبو بكر بضم ms694 القاف\n~~من قرح في الموضعين و (أصابهم القرح) ، وقرأ الباقون بفتحها في الثلاثة."
+    },
+    {
+      "inventoryId": "AI-32",
+      "topic": "وكأين",
+      "lines": [
+        18486,
+        18491
+      ],
+      "volume_page": "2:242",
+      "surah": 3,
+      "ayahs": [
+        146
+      ],
+      "recordIds": [
+        "qp-3-146-3"
+      ],
+      "status": "matched_core_cross_sura_exception_excluded",
+      "sourceText": "# (واختلفوا) في: كأين حيث وقع فقرأ ابن كثير وأبو جعفر بألف ممدودة بعد\n~~الكاف، وبعدها همزة مكسورة، وقرأ الباقون بهمزة مفتوحة بعد الكاف، وبعدها\n~~ياء مكسورة مشددة. وانفرد أبو علي العطار عن النهرواني عن الأصبهاني في\n~~العنكبوت فقرأ كأبي جعفر من المد والتسهيل، وقد تقدم تسهيل همزتها لأبي\n~~جعفر في باب الهمز المفرد، وكذلك تقدم اختلافهم في الوقف على الياء من باب\n~~الوقف على المرسوم."
+    },
+    {
+      "inventoryId": "AI-33",
+      "topic": "قاتل معه",
+      "lines": [
+        18492,
+        18494
+      ],
+      "volume_page": "2:242",
+      "surah": 3,
+      "ayahs": [
+        146
+      ],
+      "recordIds": [
+        "qp-3-146-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: قاتل معه فقرأ نافع وابن كثير، والبصريان بضم القاف وكسر\n~~التاء من غير ألف، وقرأ الباقون بفتح القاف والتاء وألف بينهما، وتقدم\n~~اختلافهم في الرعب عند هزوا من البقرة."
+    },
+    {
+      "inventoryId": "AI-34",
+      "topic": "يغشى طائفة",
+      "lines": [
+        18495,
+        18496
+      ],
+      "volume_page": "2:242",
+      "surah": 3,
+      "ayahs": [
+        154
+      ],
+      "recordIds": [
+        "qp-3-154-4"
+      ],
+      "status": "matched_core_imala_not_reviewed",
+      "sourceText": "# (واختلفوا) في: يغشى طائفة فقرأ حمزة، والكسائي، وخلف بالتأنيث، وقرأ\n~~الباقون بالتذكير، وتقدم اختلافهم في الإمالة وبين بين من بابه."
+    },
+    {
+      "inventoryId": "AI-35",
+      "topic": "كله لله",
+      "lines": [
+        18497,
+        18498
+      ],
+      "volume_page": "2:242",
+      "surah": 3,
+      "ayahs": [
+        154
+      ],
+      "recordIds": [
+        "qp-3-154-3"
+      ],
+      "status": "finding_ALI-05",
+      "sourceText": "# (واختلفوا) في: كله لله فقرأ البصريان (كله) بالرفع، وقرأ الباقون\n~~بالنصب."
+    },
+    {
+      "inventoryId": "AI-36",
+      "topic": "والله بما تعملون بصير",
+      "lines": [
+        18499,
+        18500
+      ],
+      "volume_page": "2:242",
+      "surah": 3,
+      "ayahs": [
+        156
+      ],
+      "recordIds": [
+        "qp-3-156-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: والله بما تعملون بصير فقرأ ابن كثير وحمزة والكسائي وخلف\n~~بالغيب، وقرأ الباقون بالخطاب."
+    },
+    {
+      "inventoryId": "AI-37",
+      "topic": "متم في موضعي آل عمران",
+      "lines": [
+        18501,
+        18505
+      ],
+      "volume_page": "2:242–2:243",
+      "surah": 3,
+      "ayahs": [
+        157,
+        158
+      ],
+      "recordIds": [
+        "qp-3-157-1",
+        "qp-3-158-1"
+      ],
+      "status": "matched_core_including_hafs_damma_exception",
+      "sourceText": "# (واختلفوا) في: متم، ومتنا، ومت حيث\n# PageV02P242\n# وقع فقرأ نافع وحمزة والكسائي، وخلف بكسر الميم في ذلك كله، ووافقهم حفص\n~~على الكسر إلا في موضعي هذه السورة، وقرأ الباقون بضم الميم في الجميع،\n~~وكذلك حفص في موضعي هذه السورة."
+    },
+    {
+      "inventoryId": "AI-38",
+      "topic": "مما يجمعون",
+      "lines": [
+        18506,
+        18507
+      ],
+      "volume_page": "2:243",
+      "surah": 3,
+      "ayahs": [
+        157
+      ],
+      "recordIds": [
+        "qp-3-157-2"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: مما يجمعون، فروى حفص بالغيب، وقرأ الباقون بالخطاب،\n~~وتقدم مذهب أبي عمرو في اختلاس راء ينصركم، وإسكانها من البقرة."
+    },
+    {
+      "inventoryId": "AI-39",
+      "topic": "يغل",
+      "lines": [
+        18508,
+        18509
+      ],
+      "volume_page": "2:243",
+      "surah": 3,
+      "ayahs": [
+        161
+      ],
+      "recordIds": [
+        "3-161-37",
+        "qp-3-161-2"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: يغل فقرأ ابن كثير وأبو عمرو وعاصم بفتح الياء وضم الغين.\n~~وقرأ الباقون بضم الياء وفتح الغين، وتقدم راء رضوان لأبي بكر، أول السورة."
+    },
+    {
+      "inventoryId": "AI-40",
+      "topic": "ما قتلوا لو أطاعونا",
+      "lines": [
+        18510,
+        18515
+      ],
+      "volume_page": "2:243",
+      "surah": 3,
+      "ayahs": [
+        168
+      ],
+      "recordIds": [
+        "qp-3-168-1"
+      ],
+      "status": "finding_ALI-04_source_gap_corrob_ithaf",
+      "sourceText": "# (واختلفوا) في: لو أطاعونا ما قتلوا وبعده (قتلوا في سبيل الله) وآخر\n~~السورة (وقاتلوا وقتلوا) ، وفي الأنعام قتلوا أولادهم، وفي الحج ثم قتلوا\n~~أو ماتوا، واختلف عن الحلواني عنه، فروى عنه التشديد ابن عبدان، وهي طريق\n~~المغاربة قاطبة، وروى عنه سائر المشارقة التخفيف، وبه قرأنا من طريق ابن\n~~شنبوذ عن الأزرق الجمال عنه، وكذلك قرأنا من طريق أحمد بن ms695 سلمان وهبة الله\n~~بن جعفر، وغيرهم كلهم عن الحلواني عنه، وبذلك قرأ الباقون."
+    },
+    {
+      "inventoryId": "AI-41",
+      "topic": "قتلوا في سبيل الله",
+      "lines": [
+        18516,
+        18517
+      ],
+      "volume_page": "2:243",
+      "surah": 3,
+      "ayahs": [
+        169
+      ],
+      "recordIds": [
+        "qp-3-169-1"
+      ],
+      "status": "matched_core_cross_sura_hajj_excluded",
+      "sourceText": "# وأما الحرف الذي بعد هذا، وهو قتلوا في سبيل الله وحرف الحج ثم قتلوا\n~~فشدد التاء فيهما ابن عامر."
+    },
+    {
+      "inventoryId": "AI-42",
+      "topic": "قتلوا آخر السورة",
+      "lines": [
+        18518,
+        18519
+      ],
+      "volume_page": "2:243",
+      "surah": 3,
+      "ayahs": [
+        195
+      ],
+      "recordIds": [
+        "qp-3-195-3"
+      ],
+      "status": "matched_core_cross_sura_anam_excluded",
+      "sourceText": "# وأما حرف آخر السورة. وقاتلوا وقتلوا وحرف الأنعام قتلوا أولادهم فشدد\n~~التاء فيهما ابن كثير، وابن عامر، وقرأ الباقون بالتخفيف فيهن."
+    },
+    {
+      "inventoryId": "AI-43",
+      "topic": "ماتوا وما قتلوا والرد على نقل التشديد",
+      "lines": [
+        18520,
+        18529
+      ],
+      "volume_page": "2:243–2:244",
+      "surah": 3,
+      "ayahs": [
+        156
+      ],
+      "recordIds": [],
+      "status": "consensus_lightening_no_comparison_required_rejected_report_not_added",
+      "sourceText": "# (واتفقوا) على تخفيف الحرف الأول من هذه السورة، وهو: ماتوا وما قتلوا\n~~إما لمناسبة ماتوا، أو لأن القتل هنا ليس مختصا بسبيل الله بدليل إذا ضربوا\n~~في الأرض لأن المقصود به السفر في التجارة. وروينا عن ابن عامر أنه قال: ما\n~~كان من القتل في سبيل الله فهو بالتشديد. وانفرد فارس بن أحمد عن السامري\n~~عن أصحابه عن الحلواني بتشديده حكاية لا أداء فخالف فيه سائر الناس عن\n~~الحلواني، وعن هشام، وعن ابن عامر ذكر ذلك في جامع البيان، وقال: لم يرو\n~~ذلك عنه إلا من هذا الوجه. ووهم ابن مؤمن في الكنز فذكر الخلاف عن هشام\n# PageV02P243\n# في الحرف الأول وترك لو أطاعونا ما قتلوا، وهو سهو قلم رأيته في نسخة\n~~مصححة بخطه - والله أعلم -."
+    },
+    {
+      "inventoryId": "AI-44",
+      "topic": "ولا تحسبن الذين قتلوا",
+      "lines": [
+        18530,
+        18542
+      ],
+      "volume_page": "2:244",
+      "surah": 3,
+      "ayahs": [
+        169
+      ],
+      "recordIds": [
+        "qp-3-169-2"
+      ],
+      "status": "finding_ALI-07",
+      "sourceText": "# (واختلفوا) في: تحسبن الذين فرواه هشام من طريقيه من طريق العراقيين\n~~قاطبة بالغيب، واختلف عن الحلواني عنه من طرق المغاربة، والمصريين فرواه\n~~الأزرق الجمال عنه بالغيب كذلك، وهي قراءة الداني على أبي القاسم الفارسي\n~~من طريقه على أبي الفتح فارس عن قراءته على عبد الباقي بن الحسن عن قراءته\n~~على أبي الحسن علي بن محمد المقرئ عن قراءته على أبي القاسم مسلم بن عبد\n~~الله بن محمد عن قراءته على أبيه عن قراءته على الحلواني، وكذلك روى\n~~إبراهيم بن عباد عن هشام. ورواه ابن عبدان عن الحلواني بالتاء على الخطاب،\n~~وهي قراءة الداني على أبي الفتح عن قراءته على عبد الله بن الحسين عن ابن\n~~عبدان، وغيره عنه، وقرأته على أبي الحسن عن قراءته على أبيه عن أصحابه عن\n~~الحسن بن العباس عن الحلواني، وهي التي اقتصر عليها ابن سفيان، وصاحب\n~~العنوان، ms696 وصاحب الهداية، وصاحب الكافي أبو الطيب بن غلبون في إرشاده، وابنه\n~~طاهر في تذكرته، وغيرهم، وبذلك قرأ الباقون. وتقدم اختلافهم في كسر السين\n~~وفتحها منه، ومن أخواته في أواخر البقرة."
+    },
+    {
+      "inventoryId": "AI-45",
+      "topic": "وأن الله لا يضيع",
+      "lines": [
+        18543,
+        18544
+      ],
+      "volume_page": "2:244",
+      "surah": 3,
+      "ayahs": [
+        171
+      ],
+      "recordIds": [
+        "qp-3-171-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: وأن الله لا يضيع فقرأ الكسائي بكسر الهمزة، وقرأ الباقون\n~~بفتحها."
+    },
+    {
+      "inventoryId": "AI-46",
+      "topic": "يحزنك",
+      "lines": [
+        18545,
+        18548
+      ],
+      "volume_page": "2:244",
+      "surah": 3,
+      "ayahs": [
+        176
+      ],
+      "recordIds": [
+        "qp-3-176-2"
+      ],
+      "status": "matched_core_cross_sura_exception_excluded",
+      "sourceText": "# (واختلفوا) في: يحزنك، ويحزنهم، ويحزن الذين، ويحزنني حيث وقع فقرأ نافع\n~~بضم الياء وكسر الزاي من كله إلا حرف الأنبياء لا يحزنهم الفزع فقرأ أبو\n~~جعفر فيه وحده بضم الياء وكسر الزاي، وقرأ الباقون بفتح الياء وضم الزاي في\n~~الجميع، وكذلك أبو جعفر في غير الأنبياء ونافع في الأنبياء."
+    },
+    {
+      "inventoryId": "AI-47",
+      "topic": "لا يحسبن كفروا ولا يحسبن يبخلون",
+      "lines": [
+        18549,
+        18550
+      ],
+      "volume_page": "2:244",
+      "surah": 3,
+      "ayahs": [
+        178,
+        180
+      ],
+      "recordIds": [
+        "qp-3-178-1",
+        "qp-3-180-3"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: لا تحسبن الذين كفروا، ولا يحسبن الذين يبخلون فقرأ حمزة\n~~بالخطاب فيهما، وقرأ الباقون فيهما بالغيب."
+    },
+    {
+      "inventoryId": "AI-48",
+      "topic": "يميز",
+      "lines": [
+        18551,
+        18553
+      ],
+      "volume_page": "2:244",
+      "surah": 3,
+      "ayahs": [
+        179
+      ],
+      "recordIds": [
+        "qp-3-179-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: نميز هنا والأنفال ليميز الله فقرأ يعقوب وحمزة والكسائي،\n~~وخلف بضم الياء الأولى وتشديد الياء الأخرى فيهما، وقرأ الباقون بالفتح\n~~والتخفيف."
+    },
+    {
+      "inventoryId": "AI-49",
+      "topic": "والله بما تعملون خبير",
+      "lines": [
+        18554,
+        18557
+      ],
+      "volume_page": "2:244–2:245",
+      "surah": 3,
+      "ayahs": [
+        180
+      ],
+      "recordIds": [
+        "qp-3-180-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في:\n# PageV02P244\n# والله بما تعملون خبير فقرأ ابن كثير، والبصريان بالغيب، وقرأ الباقون\n~~بالخطاب"
+    },
+    {
+      "inventoryId": "AI-50",
+      "topic": "سنكتب وقتلهم ونقول",
+      "lines": [
+        18558,
+        18560
+      ],
+      "volume_page": "2:245",
+      "surah": 3,
+      "ayahs": [
+        181
+      ],
+      "recordIds": [
+        "qp-3-181-2",
+        "qp-3-181-3",
+        "qp-3-181-5"
+      ],
+      "status": "matched_core",
+      "sourceText": "# . (واختلفوا) في: سنكتب، وقتلهم، ونقول فقرأ حمزة سيكتب بالياء وضمها\n~~وفتح التاء وقتلهم برفع اللام (ويقول) بالياء، وقرأ الباقون سنكتب بالنون\n~~وفتحها وضم التاء وقتلهم بالنصب ونقول بالنون."
+    },
+    {
+      "inventoryId": "AI-51",
+      "topic": "والزبر",
+      "lines": [
+        18561,
+        18562
+      ],
+      "volume_page": "2:245",
+      "surah": 3,
+      "ayahs": [
+        184
+      ],
+      "recordIds": [
+        "qp-3-184-2"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: والزبر والكتاب فقرأ ابن عامر وبالزبر بزيادة باء بعد\n~~الواو في وبالزبر."
+    },
+    {
+      "inventoryId": "AI-52",
+      "topic": "والكتاب",
+      "lines": [
+        18563,
+        18590
+      ],
+      "volume_page": "2:245–2:246",
+      "surah": 3,
+      "ayahs": [
+        184
+      ],
+      "recordIds": [
+        "qp-3-184-3"
+      ],
+      "status": "finding_ALI-08",
+      "sourceText": "# (واختلف) عن هشام في وبالكتاب فرواه عنه الحلواني من جميع طرقه إلا من شذ\n~~منهم بزيادة الباء، وبذلك قرأ الداني على أبي الفتح عن قراءته على أبي أحمد\n~~عن أصحابه عن الحلواني، وبه قرأت على أبي الحسن أيضا عن قراءته من طريق\n~~الحلواني عنه قال: وعلى ذلك جميع أهل الأداء عن الحلواني عنه عن الفضل بن\n~~شاذان والحسن بن مهران وأحمد بن إبراهيم، وغيرهم، وقال لي فارس بن أحمد\n~~قال: قال لي عبد الباقي بن الحسن شك الحلواني في ذلك فكتب إلى هشام فيه\n~~فأجابه أن الباء ثابتة في الحرفين قال الداني: وهذا هو الصحيح عندي عن هشام\n~~لأنه قد أسند ذلك من طريق ثابت إلى ابن عامر ورفع مرسومه من ms697 وجه مشهور إلى\n~~أبي الدرداء صاحب رسول الله - صلى الله عليه وسلم -.\n# ثم أسند الداني ما أسنده الإمام أبو عبيد القاسم بن سلام مما رويناه عنه\n~~فقال: حدثنا هشام بن عمار عن أيوب بن تميم عن يحيى بن الحارث الذماري عن\n~~عبد الله بن عامر قال هشام: وحدثنا سويد بن عبد العزيز أيضا عن الحسن بن\n~~عمران عن عطية بن قيس عن أم الدرداء عن أبي الدرداء في مصاحف أهل الشام في\n~~سورة آل عمران جاءوا بالبينات والزبر والكتاب كلهن بالباء قال الداني: وكذا\n~~ذكر أبو حاتم سهل بن محمد السجستاني أن الباء مرسومة في وبالزبر وبالكتاب\n~~جميعا في مصحف أهل حمص الذي بعث به عثمان رضي الله عنه إلى أهل الشام.\n# (قلت) : وكذا رأيته أنا في المصحف الشامي في الجامع الأموي، وكذا رواه\n~~هبة الله بن سلامة بن نصر المفسر عن الداجوني عن أصحابه عنه ولولا رواية\n~~الثقات عن هشام\n# PageV02P245\n# حذف الباء أيضا لقطعت بما قطع به الداني عن هشام، فقد روى الداجوني من\n~~جميع طرقه إلا من شذ منهم عنه عن أصحابه عن هشام حذف الباء. وكذا روى\n~~النقاش عن أصحابه عن هشام، وكذا روى ابن عباد عن هشام وعبيد الله بن محمد\n~~عن الحلواني عنه، وقد رأيته في مصحف المدينة: الباء ثابتة في الأول محذوفة\n~~في الثاني، وبذلك قرأ الداني على شيخه أبي الفتح من هذين الطريقين، وقطع\n~~الحافظ أبو العلاء عن هشام من طريقي الداجوني والحلواني جميعا بالباء\n~~فيهما، وهو الأصح عندي عن هشام ولولا ثبوت الحذف عندي عنه من طرق كتابي هذا\n~~لم أذكره، وقرأ الباقون بالحذف فيهما، وكذا هو في مصاحفهم."
+    },
+    {
+      "inventoryId": "AI-53",
+      "topic": "لتبيننه ولا تكتمونه",
+      "lines": [
+        18591,
+        18592
+      ],
+      "volume_page": "2:246",
+      "surah": 3,
+      "ayahs": [
+        187
+      ],
+      "recordIds": [
+        "qp-3-187-1",
+        "qp-3-187-2"
+      ],
+      "status": "matched_core_structural_candidates_separately_flagged",
+      "sourceText": "# (واختلفوا) في: لتبيننه، ولا تكتمونه فقرأ ابن كثير وأبو عمرو وأبو بكر\n~~بالغيب فيهما، وقرأ الباقون بالخطاب."
+    },
+    {
+      "inventoryId": "AI-54",
+      "topic": "لا تحسبن الذين يفرحون",
+      "lines": [
+        18593,
+        18594
+      ],
+      "volume_page": "2:246",
+      "surah": 3,
+      "ayahs": [
+        188
+      ],
+      "recordIds": [
+        "qp-3-188-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: لا تحسبن الذين يفرحون فقرأ الكوفيون ويعقوب بالخطاب،\n~~وقرأ الباقون بالغيب."
+    },
+    {
+      "inventoryId": "AI-55",
+      "topic": "فلا تحسبنهم",
+      "lines": [
+        18595,
+        18597
+      ],
+      "volume_page": "2:246",
+      "surah": 3,
+      "ayahs": [
+        188
+      ],
+      "recordIds": [
+        "qp-3-188-2"
+      ],
+      "status": "matched_core_including_ba_damma",
+      "sourceText": "# (واختلفوا) في: فلا تحسبنهم فقرأ ابن كثير وأبو عمرو بالغيب وضم الباء،\n~~وقرأ الباقون بالخطاب وفتح الباء، وتقدم اختلافهم في الفتح والإمالة وبين ms698\n~~بين من قبلك في بابها."
+    },
+    {
+      "inventoryId": "AI-56",
+      "topic": "ترتيب وقاتلوا وقتلوا",
+      "lines": [
+        18598,
+        18601
+      ],
+      "volume_page": "2:246",
+      "surah": 3,
+      "ayahs": [
+        195
+      ],
+      "recordIds": [
+        "qp-3-195-3"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: (وقاتلوا وقتلوا) ، وفي التوبة فيقتلون ويقتلون فقرأ حمزة\n~~والكسائي، وخلف بتقديم (قتلوا) وتقديم (يقتلون) الفعل المجهول فيهما. وقرأ\n~~الباقون بتقديم الفعل المسمى الفاعل فيهما، وتقدم تشديد ابن كثير وابن عامر\n~~للتاء من (قتلوا) ."
+    },
+    {
+      "inventoryId": "AI-57",
+      "topic": "لا يغرنك والمواضع الخارجة عن السورة",
+      "lines": [
+        18602,
+        18616
+      ],
+      "volume_page": "2:246–2:247",
+      "surah": 3,
+      "ayahs": [
+        196
+      ],
+      "recordIds": [
+        "qp-3-196-1"
+      ],
+      "status": "matched_core_other_suras_and_rejected_unrestricted_yaghurranna_excluded",
+      "sourceText": "# (واختلفوا) في: لا يغرنك، ويحطمنكم، ويستخفنك، فإما نذهبن بك، أو نرينك،\n~~فروى رويس تخفيف النون من هذه الأفعال الخمسة في الكلمات الخمس. وانفرد أبو\n~~العلاء الهمداني عنه بتخفيف يجرمنكم لا أعلم أحدا حكاه عنه غيره، ولعله سبق\n~~قلم إلى رويس من الوليد عن يعقوب فإنه رواه عنه كذلك وتبعه على ذلك الجعبري\n~~فوهم فيه كما وهم في إطلاق (يغرن) والصواب تقييده لا يغرنك فقط - والله\n~~أعلم -.\n# (واتفق) أئمتنا في الوقف له على نذهبن أنه بالألف فنص الأستاذ أبو طاهر\n~~بن سوار والشيخ أبو العز، وغير واحد على الوقف عليه\n# PageV02P246\n# بالألف، ولم يتعرض إلى ذلك الحافظان أبو عمرو وأبو العلاء، ولا الشيخ أبو\n~~محمد سبط الخياط، ولا أبو الحسن طاهر بن غلبون، ولا أبو القاسم الهذلي\n~~وكأنهم تركوه على الأصل المقرر في نون التوكيد الخفيفة، وهو الوقف عليها\n~~بلا ألف، بلا نظر، أو أنهم لم يكن عندهم في ذلك نص، وقد ثبت النص بالألف -\n~~والله أعلم -.\n# وقرأ الباقون بالتشديد من الكلم الخمس."
+    },
+    {
+      "inventoryId": "AI-58",
+      "topic": "لكن الذين اتقوا",
+      "lines": [
+        18617,
+        18618
+      ],
+      "volume_page": "2:247",
+      "surah": 3,
+      "ayahs": [
+        198
+      ],
+      "recordIds": [
+        "qp-3-198-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (واختلفوا) في: لكن الذين اتقوا هنا، وفي الزمر فقرأ أبو جعفر بتشديد\n~~النون فيهما، وقرأ الباقون بالتخفيف فيهما."
+    },
+    {
+      "inventoryId": "AI-59",
+      "topic": "ياء وجهي لله",
+      "lines": [
+        18619,
+        18621
+      ],
+      "volume_page": "2:247",
+      "surah": 3,
+      "ayahs": [
+        20
+      ],
+      "recordIds": [
+        "qp-3-20-2"
+      ],
+      "status": "matched_core_state_wasl_not_fully_expanded",
+      "sourceText": "# (وفيها من ياءات الإضافة) ست (وجهي لله) فتحها المدنيان، وابن عامر وحفص\n~~(مني إنك) و (لي آية) فتحها المدنيان وأبو عمرو (إني أعيذها) (أنصاري إلى\n~~الله) فتحها المدنيان (إني أخلق) فتحها المدنيان وابن كثير وأبو عمرو."
+    },
+    {
+      "inventoryId": "AI-60",
+      "topic": "ياء مني إنك",
+      "lines": [
+        18619,
+        18621
+      ],
+      "volume_page": "2:247",
+      "surah": 3,
+      "ayahs": [
+        35
+      ],
+      "recordIds": [
+        "qp-3-35-2"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (وفيها من ياءات الإضافة) ست (وجهي لله) فتحها المدنيان، وابن عامر وحفص\n~~(مني إنك) و (لي آية) فتحها المدنيان وأبو عمرو (إني أعيذها) (أنصاري إلى\n~~الله) فتحها المدنيان (إني أخلق) فتحها المدنيان وابن كثير وأبو عمرو."
+    },
+    {
+      "inventoryId": "AI-61",
+      "topic": "ياء لي آية",
+      "lines": [
+        18619,
+        18621
+      ],
+      "volume_page": "2:247",
+      "surah": 3,
+      "ayahs": [
+        41
+      ],
+      "recordIds": [
+        "qp-3-41-3"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (وفيها من ياءات الإضافة) ست (وجهي لله) فتحها المدنيان، وابن عامر وحفص\n~~(مني إنك) و (لي آية) فتحها المدنيان وأبو عمرو (إني أعيذها) (أنصاري إلى\n~~الله) فتحها المدنيان (إني أخلق) فتحها المدنيان وابن كثير وأبو عمرو."
+    },
+    {
+      "inventoryId": "AI-62",
+      "topic": "ياء إني أعيذها",
+      "lines": [
+        18619,
+        18621
+      ],
+      "volume_page": "2:247",
+      "surah": 3,
+      "ayahs": [
+        36
+      ],
+      "recordIds": [
+        "qp-3-36-2"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (وفيها من ياءات الإضافة) ست (وجهي لله) فتحها المدنيان، وابن عامر وحفص\n~~(مني إنك) و (لي آية) فتحها المدنيان وأبو عمرو (إني أعيذها) (أنصاري إلى\n~~الله) فتحها المدنيان (إني أخلق) فتحها المدنيان وابن كثير وأبو عمرو."
+    },
+    {
+      "inventoryId": "AI-63",
+      "topic": "ياء أنصاري إلى الله",
+      "lines": [
+        18619,
+        18621
+      ],
+      "volume_page": "2:247",
+      "surah": 3,
+      "ayahs": [
+        52
+      ],
+      "recordIds": [
+        "qp-3-52-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (وفيها من ياءات الإضافة) ست (وجهي لله) فتحها المدنيان، وابن عامر وحفص\n~~(مني إنك) و (لي آية) فتحها المدنيان وأبو عمرو (إني أعيذها) (أنصاري إلى\n~~الله) فتحها المدنيان (إني أخلق) فتحها المدنيان وابن كثير وأبو عمرو."
+    },
+    {
+      "inventoryId": "AI-64",
+      "topic": "ياء أني أخلق",
+      "lines": [
+        18619,
+        18621
+      ],
+      "volume_page": "2:247",
+      "surah": 3,
+      "ayahs": [
+        49
+      ],
+      "recordIds": [
+        "qp-3-49-1"
+      ],
+      "status": "matched_core",
+      "sourceText": "# (وفيها من ياءات الإضافة) ست (وجهي لله) فتحها المدنيان، وابن عامر وحفص\n~~(مني إنك) و (لي آية) فتحها المدنيان وأبو عمرو (إني أعيذها) (أنصاري إلى\n~~الله) فتحها المدنيان (إني أخلق) فتحها المدنيان وابن كثير وأبو عمرو."
+    },
+    {
+      "inventoryId": "AI-65",
+      "topic": "زائدة ومن اتبعن",
+      "lines": [
+        18622,
+        18625
+      ],
+      "volume_page": "2:247",
+      "surah": 3,
+      "ayahs": [
+        20
+      ],
+      "recordIds": [
+        "qp-3-20-3"
+      ],
+      "status": "finding_ALI-09",
+      "sourceText": "# (وفيها من ياءات الزوائد) ثلاث ومن اتبعن أثبتها في الوصل المدنيان، وأبو\n~~عمرو وأثبتها في الحالتين يعقوب ورويت لابن شنبوذ عن قنبل (وأطيعون) أثبتها\n~~في الحالين يعقوب وخافون أثبتها في الوصل أبو جعفر وأبو عمرو وإسماعيل\n~~ورويت أيضا لابن شنبوذ عن قنبل كما قدمنا والله تعالى الموفق."
+    },
+    {
+      "inventoryId": "AI-66",
+      "topic": "زائدة وأطيعون",
+      "lines": [
+        18622,
+        18625
+      ],
+      "volume_page": "2:247",
+      "surah": 3,
+      "ayahs": [
+        50
+      ],
+      "recordIds": [
+        "qp-3-50-2"
+      ],
+      "status": "finding_ALI-09",
+      "sourceText": "# (وفيها من ياءات الزوائد) ثلاث ومن اتبعن أثبتها في الوصل المدنيان، وأبو\n~~عمرو وأثبتها في الحالتين يعقوب ورويت لابن شنبوذ عن قنبل (وأطيعون) أثبتها\n~~في الحالين يعقوب وخافون أثبتها في الوصل أبو جعفر وأبو عمرو وإسماعيل\n~~ورويت أيضا لابن شنبوذ عن قنبل كما قدمنا والله تعالى الموفق."
+    },
+    {
+      "inventoryId": "AI-67",
+      "topic": "زائدة وخافون",
+      "lines": [
+        18622,
+        18625
+      ],
+      "volume_page": "2:247",
+      "surah": 3,
+      "ayahs": [
+        175
+      ],
+      "recordIds": [
+        "qp-3-175-1"
+      ],
+      "status": "finding_ALI-09",
+      "sourceText": "# (وفيها من ياءات الزوائد) ثلاث ومن اتبعن أثبتها في الوصل المدنيان، وأبو\n~~عمرو وأثبتها في الحالتين يعقوب ورويت لابن شنبوذ عن قنبل (وأطيعون) أثبتها\n~~في الحالين يعقوب وخافون أثبتها في الوصل أبو جعفر وأبو عمرو وإسماعيل\n~~ورويت أيضا لابن شنبوذ عن قنبل كما قدمنا والله تعالى الموفق."
+    }
+  ]
+}
