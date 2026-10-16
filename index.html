@@ -7,17 +7,18 @@
   <meta name="description" content="أطلس تفاعلي للبحث في وجوه القراءات العشر ومقارنتها، والتعريف بالقراء والرواة والأحرف السبعة ومصادر علم القراءات.">
   <title>أطلس القراءات العشر | بحث ومقارنة وتوثيق</title>
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
-  <script src="./assets/font-size.js?v=0.4.1"></script>
+  <script src="./assets/font-size.js?v=0.4.2"></script>
   <link rel="stylesheet" href="./assets/fonts.css">
-  <link rel="stylesheet" href="./assets/style.css?v=0.4.1">
-  <link rel="stylesheet" href="./assets/readability.css?v=0.4.1">
-  <script defer src="./assets/data.js?v=0.4.1"></script>
+  <link rel="stylesheet" href="./assets/style.css?v=0.4.2">
+  <link rel="stylesheet" href="./assets/readability.css?v=0.4.2">
+  <script defer src="./assets/navigation.js?v=0.4.2"></script>
+  <script defer src="./assets/data.js?v=0.4.2"></script>
   <script defer src="./assets/quran-data.js"></script>
   <script defer src="./assets/witnesses.js"></script>
-  <script defer src="./assets/core.js?v=0.4.1"></script>
-  <script defer src="./assets/research-tools.js?v=0.4.1"></script>
-  <script defer src="./assets/app.js?v=0.4.1"></script>
-  <script defer src="./assets/library.js?v=0.4.1"></script>
+  <script defer src="./assets/core.js?v=0.4.2"></script>
+  <script defer src="./assets/research-tools.js?v=0.4.2"></script>
+  <script defer src="./assets/app.js?v=0.4.2"></script>
+  <script defer src="./assets/library.js?v=0.4.2"></script>
 </head>
 <body>
 <a class="skip" href="#main">انتقل إلى المحتوى</a>
@@ -27,18 +28,20 @@
       <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 9C14 5 7 6 4 8v24c5-3 11-3 16 0 5-3 11-3 16 0V8c-3-2-10-3-16 1Z" stroke="currentColor" stroke-width="1.7"/><path d="M20 9v23M9 13c3-1 5-1 7 0M9 18c3-1 5-1 7 0m-7 5c3-1 5-1 7 0m9-10c2-1 4-1 7 0m-7 5c2-1 4-1 7 0m-7 5c2-1 4-1 7 0" stroke="currentColor" stroke-width="1.4"/></svg>
       <span>أطلس القراءات <b>العشر</b><small>بحثٌ ومقارنةٌ وتوثيق</small></span>
     </a>
-    <nav class="nav" aria-label="التنقل الرئيسي">
+    <button id="menu-toggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span aria-hidden="true">☰</span><span class="menu-label">القائمة</span></button>
+    <nav id="primary-navigation" class="nav" aria-label="التنقل الرئيسي">
       <a href="#search" class="active" data-nav="search">البحث والمقارنة</a>
       <a href="#readers" data-nav="readers">القراء والرواة</a>
       <a href="#learn" data-nav="learn">مدخل إلى العلم</a>
       <a href="#library" data-nav="library">مكتبة التوجيه</a>
       <a href="#sources" data-nav="sources">المصادر</a>
-    </nav>
     <button class="saved-button" id="saved-nav" type="button" aria-label="عرض المواضع المحفوظة"><span aria-hidden="true">♡</span> المحفوظات <b id="saved-count">0</b></button>
+    </nav>
+
   </div>
 </header>
-<section class="font-toolbar" aria-labelledby="font-toolbar-title">
-  <h2 id="font-toolbar-title">حجم الخط</h2>
+<details id="font-tools" class="font-toolbar" aria-labelledby="font-toolbar-title">
+  <summary><span id="font-toolbar-title">حجم الخط</span><span id="font-summary-value">١٠٠٪</span><span aria-hidden="true">⌄</span></summary>
   <div class="font-controls" role="group" aria-label="التحكم بحجم الخط">
     <button id="font-size-larger" type="button" aria-label="تكبير الخط">تكبير +</button>
     <output id="font-size-value" aria-live="polite" aria-atomic="true" aria-label="حجم الخط الحالي">١٠٠٪</output>
@@ -46,21 +49,22 @@
     <button id="font-size-reset" type="button" aria-label="استعادة الحجم الافتراضي" disabled>الحجم الافتراضي</button>
   </div>
   <p>اختر الحجم الأنسب لك؛ يتذكره هذا المتصفح عند زيارتك التالية.</p>
-</section>
+</details>
 <main id="main">
 <section id="search-page" data-page="search">
   <div class="hero">
     <div class="hero-pattern" aria-hidden="true"></div>
     <div class="hero-inner">
+      <form id="search-form" class="search-box" role="search">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.8" cy="10.8" r="7.2" stroke="currentColor" stroke-width="1.7"/><path d="m16.2 16.2 4.5 4.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <label class="search-label" for="search-input">ابحث في القرآن والقراءات</label>
+        <input id="search-input" type="search" placeholder="كلمة أو آية… مثل: يغل، ٣:١٦١" autocomplete="off">
+        <button type="submit">بحث <span aria-hidden="true">←</span></button>
+      </form>
       <div class="hero-top"><span class="eyebrow"><i></i> موسوعة تفاعلية في علم القراءات</span><span class="edition">الإصدار البحثي الموسّع · ١٤٤٨ هـ</span></div>
       <h1>القرآن الكريم،<br><em>بوجوه قراءاته العشر.</em></h1>
       <p class="hero-desc">استكشف أوجه الأداء، وقارن بين الروايات، وتتبّع الشاهد إلى مصدره.</p>
-      <form id="search-form" class="search-box" role="search">
-        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.8" cy="10.8" r="7.2" stroke="currentColor" stroke-width="1.7"/><path d="m16.2 16.2 4.5 4.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
-        <label class="sr-only" for="search-input">ابحث بلفظ أو سورة أو رقم آية</label>
-        <input id="search-input" type="search" placeholder="ابحث بكلمة، آية أو مرجع… مثل: مالك، البقرة ٢٥٩" autocomplete="off">
-        <button type="submit">بحث <span aria-hidden="true">←</span></button>
-      </form>
+
       <div class="quick-search"><span>جرّب البحث عن</span><button data-query="مالك" type="button">مالك / ملك</button><button data-query="ننشزها" type="button">ننشزها / ننشرها</button><button data-query="البقرة 222" type="button">حتى يطهرن</button><button data-query="حمئة" type="button">حمئة / حامية</button></div>
       <div class="hero-bottom"><span>١٠ <small>قراء</small></span><span>٢٠ <small>رواية مشهورة</small></span><span id="comparison-stat">— <small>مقارنة مفصّلة</small></span><span id="witness-stat">— <small>شاهد وتعليق</small></span><a href="#learn">كيف أستخدم الأطلس؟ <span aria-hidden="true">↙</span></a></div>
     </div>
@@ -136,7 +140,7 @@
   <div class="sources-bottom"><div><h3>كيف أوثّق نتيجة؟</h3><p>افتح تفاصيل الموضع، ثم انسخ الإحالة. تشتمل على السورة والآية، والوجه، والرواية، والمرجع وإصدار الأطلس. التصدير يسهّل مراجعة النتائج، ولا يستبدل الرجوع إلى المصدر.</p></div><div><h3>ملاحظة للباحث</h3><p>قارن ضمن رواية وطريق معلومين. وتحقق من سياق الوصل أو الوقف، ومن نظام عد الآي عند المطابقة بين المصاحف المختلفة.</p></div></div>
 </section>
 </main>
-<footer class="footer"><div class="wrap footer-inner"><a class="footer-brand" href="#search">أطلس القراءات العشر</a><p>تيسير البحث، ووضوح المقارنة، وأمانة النسبة.</p><a href="#learn/method">المنهج وحدود البيانات</a><span>الإصدار 0.4.1 · أكتوبر 2026</span></div><div class="wrap attribution">بيانات القراءات من <a href="https://quranpedia.net/" target="_blank" rel="noopener">الموسوعة القرآنية</a>، إصدار 2026-10-10. مكتبة الدر المصون من المصدر نفسه، إصدار 2026-08-10. نص القرآن من <a href="https://tanzil.net/" target="_blank" rel="noopener">تنزيل</a>، والشواهد من <a href="https://quraat.info/" target="_blank" rel="noopener">تيسير القراءات العشر</a>. الخطوط: Amiri وNoto Sans Arabic بترخيص OFL.</div></footer>
+<footer class="footer"><div class="wrap footer-inner"><a class="footer-brand" href="#search">أطلس القراءات العشر</a><p>تيسير البحث، ووضوح المقارنة، وأمانة النسبة.</p><a href="#learn/method">المنهج وحدود البيانات</a><span>الإصدار 0.4.2 · أكتوبر 2026</span></div><div class="wrap attribution">بيانات القراءات من <a href="https://quranpedia.net/" target="_blank" rel="noopener">الموسوعة القرآنية</a>، إصدار 2026-10-10. مكتبة الدر المصون من المصدر نفسه، إصدار 2026-08-10. نص القرآن من <a href="https://tanzil.net/" target="_blank" rel="noopener">تنزيل</a>، والشواهد من <a href="https://quraat.info/" target="_blank" rel="noopener">تيسير القراءات العشر</a>. الخطوط: Amiri وNoto Sans Arabic بترخيص OFL.</div></footer>
 <dialog id="detail-dialog" aria-labelledby="dialog-title"><button id="close-dialog" class="dialog-close" type="button" aria-label="إغلاق التفاصيل">×</button><div id="dialog-content"></div></dialog>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 <noscript><p class="noscript">يحتاج البحث والمقارنة إلى تفعيل JavaScript. يمكنك زيارة <a href="https://www.nquran.net/ar/">نون للقرآن وعلومه</a> أو <a href="https://quraat.info/">تيسير القراءات العشر</a> للاطلاع على المصادر.</p></noscript>
