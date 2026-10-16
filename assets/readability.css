@@ -1,0 +1,50 @@
+/* Respect the browser's default text size and the visitor's reading preference. */
+:root{--muted:#52614f}
+body{font-size:1.125rem;line-height:2}
+.font-toolbar{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:10px 14px;padding:14px 20px;background:#eef3e7;border-bottom:1px solid #cedac5;color:#244c3b;font-size:1rem}
+.font-toolbar h2{font-size:1rem;margin:0;font-weight:600}
+.font-controls{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px}
+.font-controls button{font-size:1rem;line-height:1.6;min-height:44px;padding:8px 14px;border:1px solid #aebfa5;background:#fff;border-radius:6px;color:#244c3b}
+.font-controls button:hover:enabled{background:#dde9d7}
+.font-controls output{font-size:1rem;font-weight:600;min-width:4em;text-align:center}
+.font-toolbar p{font-size:1rem;margin:0;color:#465846}
+.variant-desc,.matrix,.matrix-face p,.learn-body p,.source-card p,.reference-note,.note-text,.method-list,.tawjih-cases p,.tawjih-relationship{font-size:1.0625rem;line-height:2.1}
+.variant-desc,.card-title small,.source-author,.narrator-row>span,.reader-meta,.source-detail,.learn-body p,.source-card p,.scope-line,.results-heading p,.field,.text-button,.nav a,.card-footer,.reference-note,.filter-note p,.side-link,.results-tabs button,.results-tabs b,.narrator-row small{color:#465846}
+.search-box input::placeholder,.library-form input::placeholder{color:#5c705f;opacity:1}
+.header{position:static}
+.header-inner{height:auto;min-height:90px;flex-wrap:wrap;gap:16px 24px;padding-top:15px;padding-bottom:10px}
+.brand{flex:1;min-width:0;white-space:normal;overflow-wrap:anywhere}.brand small{line-height:1.8}.brand-mark{flex-shrink:0}.brand>span{min-width:0}
+.nav{order:3;flex-basis:100%;height:auto;flex-wrap:wrap;gap:6px 24px;overflow:visible;justify-content:flex-start}
+.nav a{height:auto;min-height:44px;line-height:1.7;padding:8px 0;white-space:normal}
+.search-box input,.search-box button,.field select,.field>input,.library-form input,.library-form button{height:auto;min-height:46px;line-height:1.6}
+.search-box input{padding-top:8px;padding-bottom:8px}
+.search-box button{padding-top:10px;padding-bottom:10px}
+.checkbox small{display:block}.checkbox,.pair-check{line-height:1.9}
+.filters{top:20px}.learn-nav{top:20px}
+.card-top,.card-title,.results-heading,.card-footer,.narrator-row,.reader-meta,.hero-top,.footer-inner{flex-wrap:wrap}
+.narrator-row small{white-space:normal}
+.card-title h3,.card-title small,.source-name,.narrator-row>span,.source-card h3,.reader-card-heading h2{overflow-wrap:anywhere}
+.variant-grid,.tawjih-cases{grid-template-columns:repeat(2,minmax(0,1fr))}
+.pair-toolbar{flex-wrap:wrap}.pair-toolbar select{max-width:100%;flex:1 1 200px;min-width:0}
+.matrix-wrap{max-width:100%;overflow-x:auto}.matrix{min-width:650px}
+.matrix td,.matrix th{white-space:normal;overflow-wrap:anywhere}
+.icon-button,.bookmark,.dialog-close{width:2.75rem;height:2.75rem;min-width:44px;min-height:44px;line-height:1;flex-shrink:0}
+.dialog-close{font-size:1.5rem}.dialog-title{padding-inline-end:3rem}
+.ayah-badge,.reader-order{width:auto;height:auto;min-width:2.5rem;min-height:2.5rem;padding:4px;flex-shrink:0}
+.variant-word,.qword,.word-heading,.word-records b{overflow-wrap:anywhere}
+.reader-card-heading{flex-wrap:wrap}
+.results-tabs button{white-space:normal;text-align:center;line-height:1.8;min-height:48px}
+.results-tabs b{white-space:nowrap}.results-tabs{gap:12px}
+.hero-bottom>span{white-space:normal}.hero-bottom{flex-wrap:wrap}
+.context-row,.dialog-verse,.verse-context,.reference-block p{line-height:2.2}
+html{scroll-padding-top:20px}
+html[data-large-text=true] .workspace,html[data-large-text=true] .learn-layout{grid-template-columns:minmax(0,1fr)}
+html[data-large-text=true] .filters,html[data-large-text=true] .learn-nav{position:static}
+html[data-large-text=true] .filters{display:block}
+html[data-large-text=true] .variant-grid,html[data-large-text=true] .tawjih-cases,html[data-large-text=true] .reader-grid,html[data-large-text=true] .source-grid,html[data-large-text=true] .similar-grid,html[data-large-text=true] .sources-bottom,html[data-large-text=true] .two-defs,html[data-large-text=true] .library-form{grid-template-columns:minmax(0,1fr)}
+html[data-large-text=true] .learn-nav{flex-direction:row;flex-wrap:wrap;overflow:visible}
+html[data-large-text=true] .term-flow{flex-wrap:wrap}
+html[data-large-text=true] .library-form .field:nth-child(3){grid-column:auto}
+@media(max-width:850px){.variant-grid,.tawjih-cases{grid-template-columns:minmax(0,1fr)}.library-form{grid-template-columns:minmax(0,1fr)}.library-form .field:nth-child(3){grid-column:auto}.hero-top{gap:10px}.hero-bottom small{font-size:1rem}}
+@media(max-width:560px){.font-toolbar{align-items:flex-start;justify-content:flex-start;padding:14px 18px}.font-toolbar p{flex-basis:100%}.font-controls{justify-content:flex-start}.header-inner{padding-bottom:12px}.nav{width:100%;gap:4px 18px}.search-box{flex-wrap:wrap}.search-box input{width:calc(100% - 45px);flex-basis:calc(100% - 45px)}.search-box button{flex-basis:100%;justify-content:center}.filters{display:block}.pair-toolbar select{max-width:100%;flex-basis:100%}.hero-bottom{display:flex}.hero-bottom>span{flex:1 1 40%}.card-footer .source-name{max-width:100%;flex-basis:100%}.category-label{margin-right:0}.record-status{line-height:1.9}.learn-nav{flex-wrap:wrap;overflow:visible}.term-flow{flex-wrap:wrap}.results-heading h2{line-height:1.8}}
+@media print{.font-toolbar{display:none!important}body.print-dialog .matrix td,body.print-dialog .matrix th{font-size:11pt}.matrix{min-width:0}}

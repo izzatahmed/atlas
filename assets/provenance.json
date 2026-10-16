@@ -1,0 +1,710 @@
+{
+  "title": "أطلس القراءات العشر",
+  "version": "0.4.1",
+  "date": "2026-10-16",
+  "comparisons": {
+    "count": 5788,
+    "sourceRecords": 5723,
+    "tawjihTopics": 11,
+    "recordsWithTawjih": 20,
+    "primaryChecked": 65,
+    "supplementRecords": 28,
+    "scope": "البحث في جميع آيات وكلمات النص المرجعي، وفي كامل مواضع قاعدة المصدر المستوردة بعد عزل الخلل المرجعي المعلوم. لا يدل غياب موضع أو راوٍ على اتفاق، ولا يُدّعى استيعاب جميع طرق الأداء أو مراجعة كل وصف مراجعة مستقلة.",
+    "upstream": {
+      "title": "الموسوعة القرآنية quranpedia.net",
+      "url": "https://quranpedia.net",
+      "version": "2026-10-10",
+      "download": "https://quranpedia.net/dumps/qiraat.json.gz",
+      "sha256": "af77bd9fedd792d2e45191bf9a5d3ec040f941f7cd6f4525bae429d7bfca2806",
+      "license": "./LICENSE_QURANPEDIA.md"
+    },
+    "audit": "./coverage-audit.json",
+    "reviewPatches": 53,
+    "limitedReviewRecords": 26,
+    "reviewNotice": "اكتمال أسماء الرواة في السجلات لا يثبت اكتمال أو صحة الأوصاف المركبة. السجلات ذات التوثيق الجزئي لا تحقق جميع قيود الأداء المركب. الربط بالكلمات للاسترجاع، وليس تحقيقاً مستقلاً للنسبة."
+  },
+  "witnesses": {
+    "permission": {
+      "url": "https://quraat.info/",
+      "section": "دعوة لمشاركة الأجر",
+      "sourceName": "مشروع تيسير القراءات العشر",
+      "permissionText": "يدعو القائمون على مشروع تيسير القراءات العشر كل الأفراد و الجهات المهتمين بعلوم القرءان و القراءات و مراكز التحفيظ و تدريس القرءان و الجامعات والكليات و دور التلاوة و ما شابه ذلك الي استخدام مواد الموقع من مصادر كود و ملفات و معلومات و صوتيات و خدمات و غير ذلك من المتاح مجانا و تطويرها و المساعدة في نشرها لوجه الله تعالى، و دون الحاجة لذكر اسم الشروع مادام بدون أغراض ربحية",
+      "contactPublished": "quraat@quraat.info",
+      "rawSnapshot": "quraat_home.html",
+      "sourceAttribution": "مشروع تيسير القراءات العشر، تعليقات وشواهد مصحف المدينة، استرجاع 2026-10-15.",
+      "restrictions": "الاستخدام وتطوير المواد ونشرها بلا أغراض ربحية. الإذن ليس ترخيصاً قياسياً مفتوحاً للتجارة، ولا نوسع نطاقه.",
+      "aboutUrl": "https://quraat.info/عن-المشروع/",
+      "individualAuthor": "غير محدد في صفحة المشروع؛ تنسب المادة للمشروع دون اختلاق اسم مؤلف.",
+      "notes": "تذكر صفحة عن المشروع أن مواد المصحف خُصصت للاستخدام دون أجر، وتذكر مساهمات صوتية لفضيلة الشيخ طه الفهد. هذا لا يثبت أن جميع الشواهد من تأليف الشيخ."
+    },
+    "quality": {
+      "downloadedPages": 604,
+      "failedPages": [],
+      "records": 6466,
+      "rawContentsFields": 6466,
+      "meaningfulContents": 6466,
+      "uniqueIds": 6466,
+      "uniqueSourceAnnotationIds": 5938,
+      "pagesWithRecords": 604,
+      "rawBytes": 18566533,
+      "jsonBytes": 3801824,
+      "textCharacters": 935216,
+      "parserErrors": [],
+      "sha256Json": "b79c6283baaac6c3ca6e6a29db75be98ba44ae201f7a3892a2e3faba30fb9217"
+    },
+    "scope": "شواهد وتعليقات المصحف دون فك آلي لرموز المتون؛ الربط بالآية على مستوى صفحة المصحف",
+    "rawSource": "https://json.quraat.info/data_m/{page}.json",
+    "viewer": "https://4review.quraat.info/madina.html",
+    "editionNote": "المستورد مرآة JSON؛ قد تختلف تفاصيل نسخة العارض"
+  },
+  "quran": {
+    "source": "Tanzil Project",
+    "type": "Simple",
+    "verses": 6236,
+    "surahs": 114,
+    "numbering": "العد الكوفي، نص حفص المرجعي",
+    "license": "https://tanzil.net/docs/text_license",
+    "rawFile": "./quran-simple.txt",
+    "metadataSource": "https://tanzil.net/res/text/metadata/quran-data.xml",
+    "metadataCopyright": "(C) 2008-2009 Tanzil.info; CC-BY"
+  },
+  "biographies": {
+    "title": "تاريخ القراء العشرة ورواتهم ومنهج كل في القراءة، لعبد الفتاح القاضي",
+    "url": "https://quranpedia.net/book/19989"
+  },
+  "changes": [
+    {
+      "version": "0.1.1",
+      "added": "آل عمران 161، يغل، النشر 2/243",
+      "search": "بيان الفرق بين الآية الموجودة والمقارنة غير المدرجة، وبين غياب البيانات وحجب المرشحات"
+    },
+    {
+      "version": "0.2.0",
+      "changes": "استيراد 5723 موضع أداء، وإضافة 28 خلافاً موضعياً مراجعاً، وتطبيق 53 تصحيحاً موثقاً، وفهرسة جميع كلمات القرآن مع كشف حدود الربط."
+    },
+    {
+      "version": "0.3.0",
+      "changes": "إضافة 11 موضوعاً موثقاً في توجيه القراءات، و57 عملية تصحيح وتقييد جديدة، و28 تصحيح إحالة، و30 بياناً تكميلياً للطرق، وإصلاح البحث بالرسم المرجعي."
+    },
+    {
+      "version": "0.4.0",
+      "changes": "إضافة مكتبة الدر المصون المفهرسة: 4820 مدخلاً في 114 سورة، مع بحث داخل السورة وإحالات الصفحات، وتصدير CSV ونسخ المحفوظات وطباعتها."
+    },
+    {
+      "version": "0.4.1",
+      "changes": "تحسين وضوح النصوص وأحجامها الأساسية، وإضافة تكبير الخط إلى 200% مع حفظ الاختيار محلياً وإعادة تدفق التخطيط عند التكبير."
+    }
+  ],
+  "wordIndex": {
+    "words": 77808,
+    "wordsWithLinkedRecords": 8811,
+    "method": "فصل كلمات نص تنزيل بالمسافات واستبعاد البسملات غير المرقمة من العد فقط؛ النص الأصلي محفوظ دون تعديل."
+  },
+  "tawjih": {
+    "version": "0.3.0",
+    "date": "2026-10-16",
+    "entryCount": 11,
+    "editorialMethod": "خلاصات عربية محررة بعد مراجعة الموضع المحدد في مصادره الأولية؛ ليست اقتباساً حرفياً ولا توجيهاً مولداً عند البحث.",
+    "scope": "بداية موثقة لمواضع محددة، لا تغطي جميع سجلات الأطلس. التوجيه يشرح صحة الوجه لغةً ومعناه؛ إثبات نقله ونسبته مستقل ويرجع فيه إلى مصادر القراءات. لا تستنبط نسبة القراء العشرة من كتب اقتصرت على السبعة.",
+    "status": "source_checked_summaries",
+    "claim": "لم يخضع هذا القسم لتحكيم تخصصي مستقل، ولا يدعي حصر أقوال الموجهين.",
+    "dataFile": "./tawjih.json",
+    "sourcePolicy": "خلاصات محررة مع المراجع؛ لا نقل لتعليقات معاصرة، ولا استدلال بالتوجيه على ثبوت النسبة."
+  },
+  "audioMetadata": {
+    "recordings": 20,
+    "narrationMatches": "all retained record/narrator links match the source recitation catalogue",
+    "version": "2026-10-16",
+    "limit": "Metadata verification only; not an auditory review, availability check, word segmentation, or path certification."
+  },
+  "referenceLibrary": {
+    "id": "dar-masun",
+    "title": "الدر المصون في علوم الكتاب المكنون",
+    "author": "السمين الحلبي",
+    "publisher": "دار القلم",
+    "editionEditor": "أحمد بن محمد الخراط",
+    "version": "2026-08-10",
+    "source": "الموسوعة القرآنية quranpedia.net",
+    "url": "https://quranpedia.net/book/162",
+    "download": "https://quranpedia.net/dumps/tafsir-book-162.json.gz",
+    "sha256": "398b6013ee54309463eb40d3cfeb1e1f0ceb1f8fb685ac4f5faf964fa2ddf37f",
+    "license": "./assets/library/LICENSE.json",
+    "scope": "نص مرجعي تراثي في الإعراب والتفسير وتوجيه القراءات، وفق فهرسة آيات المصدر. قد يمتد الكلام إلى آيات مجاورة، وترد فيه قراءات خارج العشر. لا تستخرج منه نسب القراء آلياً، ولا يمثل توجيهاً محرراً لكل سجل أداء.",
+    "transformation": "تحويل وسوم التنسيق إلى نص فقط مع إبقاء ترتيب المقاطع وبيانات الجزء والصفحة حيث أتاحها المصدر. لا اختصار للمضمون ولا توليد للقراءات.",
+    "verseCount": 4820,
+    "surahCount": 114,
+    "blockCount": 11202,
+    "surahs": [
+      {
+        "surah": 1,
+        "verses": 7,
+        "file": "./assets/library/1.json"
+      },
+      {
+        "surah": 2,
+        "verses": 279,
+        "file": "./assets/library/2.json"
+      },
+      {
+        "surah": 3,
+        "verses": 186,
+        "file": "./assets/library/3.json"
+      },
+      {
+        "surah": 4,
+        "verses": 162,
+        "file": "./assets/library/4.json"
+      },
+      {
+        "surah": 5,
+        "verses": 111,
+        "file": "./assets/library/5.json"
+      },
+      {
+        "surah": 6,
+        "verses": 156,
+        "file": "./assets/library/6.json"
+      },
+      {
+        "surah": 7,
+        "verses": 184,
+        "file": "./assets/library/7.json"
+      },
+      {
+        "surah": 8,
+        "verses": 65,
+        "file": "./assets/library/8.json"
+      },
+      {
+        "surah": 9,
+        "verses": 110,
+        "file": "./assets/library/9.json"
+      },
+      {
+        "surah": 10,
+        "verses": 87,
+        "file": "./assets/library/10.json"
+      },
+      {
+        "surah": 11,
+        "verses": 109,
+        "file": "./assets/library/11.json"
+      },
+      {
+        "surah": 12,
+        "verses": 97,
+        "file": "./assets/library/12.json"
+      },
+      {
+        "surah": 13,
+        "verses": 39,
+        "file": "./assets/library/13.json"
+      },
+      {
+        "surah": 14,
+        "verses": 49,
+        "file": "./assets/library/14.json"
+      },
+      {
+        "surah": 15,
+        "verses": 63,
+        "file": "./assets/library/15.json"
+      },
+      {
+        "surah": 16,
+        "verses": 109,
+        "file": "./assets/library/16.json"
+      },
+      {
+        "surah": 17,
+        "verses": 98,
+        "file": "./assets/library/17.json"
+      },
+      {
+        "surah": 18,
+        "verses": 101,
+        "file": "./assets/library/18.json"
+      },
+      {
+        "surah": 19,
+        "verses": 80,
+        "file": "./assets/library/19.json"
+      },
+      {
+        "surah": 20,
+        "verses": 113,
+        "file": "./assets/library/20.json"
+      },
+      {
+        "surah": 21,
+        "verses": 95,
+        "file": "./assets/library/21.json"
+      },
+      {
+        "surah": 22,
+        "verses": 63,
+        "file": "./assets/library/22.json"
+      },
+      {
+        "surah": 23,
+        "verses": 78,
+        "file": "./assets/library/23.json"
+      },
+      {
+        "surah": 24,
+        "verses": 51,
+        "file": "./assets/library/24.json"
+      },
+      {
+        "surah": 25,
+        "verses": 65,
+        "file": "./assets/library/25.json"
+      },
+      {
+        "surah": 26,
+        "verses": 105,
+        "file": "./assets/library/26.json"
+      },
+      {
+        "surah": 27,
+        "verses": 78,
+        "file": "./assets/library/27.json"
+      },
+      {
+        "surah": 28,
+        "verses": 67,
+        "file": "./assets/library/28.json"
+      },
+      {
+        "surah": 29,
+        "verses": 45,
+        "file": "./assets/library/29.json"
+      },
+      {
+        "surah": 30,
+        "verses": 43,
+        "file": "./assets/library/30.json"
+      },
+      {
+        "surah": 31,
+        "verses": 25,
+        "file": "./assets/library/31.json"
+      },
+      {
+        "surah": 32,
+        "verses": 21,
+        "file": "./assets/library/32.json"
+      },
+      {
+        "surah": 33,
+        "verses": 61,
+        "file": "./assets/library/33.json"
+      },
+      {
+        "surah": 34,
+        "verses": 46,
+        "file": "./assets/library/34.json"
+      },
+      {
+        "surah": 35,
+        "verses": 35,
+        "file": "./assets/library/35.json"
+      },
+      {
+        "surah": 36,
+        "verses": 62,
+        "file": "./assets/library/36.json"
+      },
+      {
+        "surah": 37,
+        "verses": 90,
+        "file": "./assets/library/37.json"
+      },
+      {
+        "surah": 38,
+        "verses": 72,
+        "file": "./assets/library/38.json"
+      },
+      {
+        "surah": 39,
+        "verses": 50,
+        "file": "./assets/library/39.json"
+      },
+      {
+        "surah": 40,
+        "verses": 56,
+        "file": "./assets/library/40.json"
+      },
+      {
+        "surah": 41,
+        "verses": 39,
+        "file": "./assets/library/41.json"
+      },
+      {
+        "surah": 42,
+        "verses": 37,
+        "file": "./assets/library/42.json"
+      },
+      {
+        "surah": 43,
+        "verses": 62,
+        "file": "./assets/library/43.json"
+      },
+      {
+        "surah": 44,
+        "verses": 42,
+        "file": "./assets/library/44.json"
+      },
+      {
+        "surah": 45,
+        "verses": 26,
+        "file": "./assets/library/45.json"
+      },
+      {
+        "surah": 46,
+        "verses": 26,
+        "file": "./assets/library/46.json"
+      },
+      {
+        "surah": 47,
+        "verses": 31,
+        "file": "./assets/library/47.json"
+      },
+      {
+        "surah": 48,
+        "verses": 20,
+        "file": "./assets/library/48.json"
+      },
+      {
+        "surah": 49,
+        "verses": 17,
+        "file": "./assets/library/49.json"
+      },
+      {
+        "surah": 50,
+        "verses": 34,
+        "file": "./assets/library/50.json"
+      },
+      {
+        "surah": 51,
+        "verses": 40,
+        "file": "./assets/library/51.json"
+      },
+      {
+        "surah": 52,
+        "verses": 35,
+        "file": "./assets/library/52.json"
+      },
+      {
+        "surah": 53,
+        "verses": 50,
+        "file": "./assets/library/53.json"
+      },
+      {
+        "surah": 54,
+        "verses": 37,
+        "file": "./assets/library/54.json"
+      },
+      {
+        "surah": 55,
+        "verses": 43,
+        "file": "./assets/library/55.json"
+      },
+      {
+        "surah": 56,
+        "verses": 63,
+        "file": "./assets/library/56.json"
+      },
+      {
+        "surah": 57,
+        "verses": 24,
+        "file": "./assets/library/57.json"
+      },
+      {
+        "surah": 58,
+        "verses": 16,
+        "file": "./assets/library/58.json"
+      },
+      {
+        "surah": 59,
+        "verses": 22,
+        "file": "./assets/library/59.json"
+      },
+      {
+        "surah": 60,
+        "verses": 12,
+        "file": "./assets/library/60.json"
+      },
+      {
+        "surah": 61,
+        "verses": 11,
+        "file": "./assets/library/61.json"
+      },
+      {
+        "surah": 62,
+        "verses": 9,
+        "file": "./assets/library/62.json"
+      },
+      {
+        "surah": 63,
+        "verses": 9,
+        "file": "./assets/library/63.json"
+      },
+      {
+        "surah": 64,
+        "verses": 8,
+        "file": "./assets/library/64.json"
+      },
+      {
+        "surah": 65,
+        "verses": 11,
+        "file": "./assets/library/65.json"
+      },
+      {
+        "surah": 66,
+        "verses": 10,
+        "file": "./assets/library/66.json"
+      },
+      {
+        "surah": 67,
+        "verses": 23,
+        "file": "./assets/library/67.json"
+      },
+      {
+        "surah": 68,
+        "verses": 29,
+        "file": "./assets/library/68.json"
+      },
+      {
+        "surah": 69,
+        "verses": 40,
+        "file": "./assets/library/69.json"
+      },
+      {
+        "surah": 70,
+        "verses": 21,
+        "file": "./assets/library/70.json"
+      },
+      {
+        "surah": 71,
+        "verses": 20,
+        "file": "./assets/library/71.json"
+      },
+      {
+        "surah": 72,
+        "verses": 27,
+        "file": "./assets/library/72.json"
+      },
+      {
+        "surah": 73,
+        "verses": 16,
+        "file": "./assets/library/73.json"
+      },
+      {
+        "surah": 74,
+        "verses": 35,
+        "file": "./assets/library/74.json"
+      },
+      {
+        "surah": 75,
+        "verses": 28,
+        "file": "./assets/library/75.json"
+      },
+      {
+        "surah": 76,
+        "verses": 25,
+        "file": "./assets/library/76.json"
+      },
+      {
+        "surah": 77,
+        "verses": 28,
+        "file": "./assets/library/77.json"
+      },
+      {
+        "surah": 78,
+        "verses": 25,
+        "file": "./assets/library/78.json"
+      },
+      {
+        "surah": 79,
+        "verses": 31,
+        "file": "./assets/library/79.json"
+      },
+      {
+        "surah": 80,
+        "verses": 24,
+        "file": "./assets/library/80.json"
+      },
+      {
+        "surah": 81,
+        "verses": 18,
+        "file": "./assets/library/81.json"
+      },
+      {
+        "surah": 82,
+        "verses": 10,
+        "file": "./assets/library/82.json"
+      },
+      {
+        "surah": 83,
+        "verses": 28,
+        "file": "./assets/library/83.json"
+      },
+      {
+        "surah": 84,
+        "verses": 17,
+        "file": "./assets/library/84.json"
+      },
+      {
+        "surah": 85,
+        "verses": 10,
+        "file": "./assets/library/85.json"
+      },
+      {
+        "surah": 86,
+        "verses": 9,
+        "file": "./assets/library/86.json"
+      },
+      {
+        "surah": 87,
+        "verses": 13,
+        "file": "./assets/library/87.json"
+      },
+      {
+        "surah": 88,
+        "verses": 17,
+        "file": "./assets/library/88.json"
+      },
+      {
+        "surah": 89,
+        "verses": 26,
+        "file": "./assets/library/89.json"
+      },
+      {
+        "surah": 90,
+        "verses": 13,
+        "file": "./assets/library/90.json"
+      },
+      {
+        "surah": 91,
+        "verses": 14,
+        "file": "./assets/library/91.json"
+      },
+      {
+        "surah": 92,
+        "verses": 12,
+        "file": "./assets/library/92.json"
+      },
+      {
+        "surah": 93,
+        "verses": 7,
+        "file": "./assets/library/93.json"
+      },
+      {
+        "surah": 94,
+        "verses": 5,
+        "file": "./assets/library/94.json"
+      },
+      {
+        "surah": 95,
+        "verses": 6,
+        "file": "./assets/library/95.json"
+      },
+      {
+        "surah": 96,
+        "verses": 10,
+        "file": "./assets/library/96.json"
+      },
+      {
+        "surah": 97,
+        "verses": 3,
+        "file": "./assets/library/97.json"
+      },
+      {
+        "surah": 98,
+        "verses": 7,
+        "file": "./assets/library/98.json"
+      },
+      {
+        "surah": 99,
+        "verses": 7,
+        "file": "./assets/library/99.json"
+      },
+      {
+        "surah": 100,
+        "verses": 10,
+        "file": "./assets/library/100.json"
+      },
+      {
+        "surah": 101,
+        "verses": 6,
+        "file": "./assets/library/101.json"
+      },
+      {
+        "surah": 102,
+        "verses": 5,
+        "file": "./assets/library/102.json"
+      },
+      {
+        "surah": 103,
+        "verses": 2,
+        "file": "./assets/library/103.json"
+      },
+      {
+        "surah": 104,
+        "verses": 7,
+        "file": "./assets/library/104.json"
+      },
+      {
+        "surah": 105,
+        "verses": 4,
+        "file": "./assets/library/105.json"
+      },
+      {
+        "surah": 106,
+        "verses": 3,
+        "file": "./assets/library/106.json"
+      },
+      {
+        "surah": 107,
+        "verses": 6,
+        "file": "./assets/library/107.json"
+      },
+      {
+        "surah": 108,
+        "verses": 3,
+        "file": "./assets/library/108.json"
+      },
+      {
+        "surah": 109,
+        "verses": 2,
+        "file": "./assets/library/109.json"
+      },
+      {
+        "surah": 110,
+        "verses": 3,
+        "file": "./assets/library/110.json"
+      },
+      {
+        "surah": 111,
+        "verses": 5,
+        "file": "./assets/library/111.json"
+      },
+      {
+        "surah": 112,
+        "verses": 3,
+        "file": "./assets/library/112.json"
+      },
+      {
+        "surah": 113,
+        "verses": 4,
+        "file": "./assets/library/113.json"
+      },
+      {
+        "surah": 114,
+        "verses": 6,
+        "file": "./assets/library/114.json"
+      }
+    ]
+  }
+}
