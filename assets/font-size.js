@@ -6,6 +6,7 @@
  function apply(value,persist=false){
   scale=valid(value);root.style.fontSize=scale+'%';root.dataset.fontScale=String(scale);root.dataset.largeText=String(scale>=150);
   if(persist)try{localStorage.setItem(key,String(scale));}catch{}
+  const summary=document.getElementById('font-summary-value');if(summary)summary.textContent=scale.toLocaleString('ar-EG')+'٪';
   const output=document.getElementById('font-size-value');if(!output)return;
   output.textContent=scale.toLocaleString('ar-EG')+'٪';
   document.getElementById('font-size-smaller').disabled=scale===levels[0];
