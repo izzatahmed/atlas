@@ -1,0 +1,1144 @@
+{
+  "meta": {
+    "scope": "أوصاف ثبت تعلقها بغير ألفاظها؛ محفوظة للتدقيق وخارج المقارنات وربط الكلمات.",
+    "count": 4
+  },
+  "records": [
+    {
+      "id": "qp-5-48-4",
+      "surah": 5,
+      "ayah": 48,
+      "sourceAnchor": [
+        5,
+        48
+      ],
+      "word": "وَمِنْهَاجًا وَلَوْ",
+      "category": "أداء",
+      "tags": [
+        "مد وقصر",
+        "إمالة وتقليل",
+        "حركات"
+      ],
+      "variants": [
+        {
+          "text": null,
+          "description": "بالإمالة ومد المتصل 4 حركات",
+          "narrators": [
+            "ibnamir_dhakwan",
+            "khalaf_idris",
+            "khalaf_ishaq"
+          ],
+          "sourceFace": 0
+        },
+        {
+          "text": null,
+          "description": "بالإمالة ومد المتصل 6 حركات",
+          "narrators": [
+            "hamza_khalaf",
+            "hamza_khallad"
+          ],
+          "sourceFace": 1
+        },
+        {
+          "text": null,
+          "description": "بالفتح ومد المتصل 3 حركات",
+          "narrators": [
+            "abuamr_duri",
+            "abuamr_susi",
+            "abujafar_jammaz",
+            "abujafar_wardan",
+            "ibnkathir_bazzi",
+            "ibnkathir_qunbul",
+            "nafi_qalun",
+            "yaqub_ruways",
+            "yaqub_ruwh"
+          ],
+          "sourceFace": 2
+        },
+        {
+          "text": null,
+          "description": "بالفتح ومد المتصل 4 أو 5 حركات",
+          "narrators": [
+            "asim_hafs",
+            "asim_shuba"
+          ],
+          "sourceFace": 3
+        },
+        {
+          "text": null,
+          "description": "بالفتح ومد المتصل 4 حركات",
+          "narrators": [
+            "ibnamir_hisham",
+            "kisai_duri",
+            "kisai_harith"
+          ],
+          "sourceFace": 4
+        },
+        {
+          "text": null,
+          "description": "بالفتح ومد المتصل 6 حركات",
+          "narrators": [
+            "nafi_warsh"
+          ],
+          "sourceFace": 5
+        }
+      ],
+      "audioByNarrator": {
+        "khalaf_ishaq": 49114,
+        "khalaf_idris": 49117,
+        "ibnamir_dhakwan": 49118,
+        "hamza_khalaf": 49101,
+        "hamza_khallad": 49106,
+        "ibnkathir_bazzi": 49112,
+        "nafi_qalun": 49119,
+        "abuamr_susi": 49100,
+        "abuamr_duri": 49105,
+        "yaqub_ruwh": 49111,
+        "yaqub_ruways": 49110,
+        "ibnkathir_qunbul": 49109,
+        "abujafar_wardan": 49104,
+        "abujafar_jammaz": 49107,
+        "asim_hafs": 49113,
+        "asim_shuba": 49115,
+        "kisai_harith": 49102,
+        "kisai_duri": 49103,
+        "ibnamir_hisham": 49108,
+        "nafi_warsh": 49116
+      },
+      "source": {
+        "title": "الموسوعة القرآنية — بيانات القراءات",
+        "url": "https://quranpedia.net/embed?surah=5&ayah=48&type=qiraat",
+        "apiUrl": "https://quranpedia.net/api/v1/ayah/5/48/qiraat",
+        "location": "إصدار 2026-10-10، السجل qp-5-48-4",
+        "version": "2026-10-10"
+      },
+      "scope": "نقل أوصاف المصدر ونِسبها؛ لم يحدد المصدر طريق كل وجه تفصيلاً. تعدد الأوجه داخل الرواية محفوظ، ولا يُستكمل الراوي الناقص بالافتراض.",
+      "state": "الوصل والوقف بحسب الوصف الخاص بكل وجه؛ لا يمثل الرسم المكتوب جميع دقائق الأداء.",
+      "review": "source-import",
+      "missingNarrators": [],
+      "coveredRefs": [
+        [
+          5,
+          48
+        ]
+      ],
+      "wordIds": [
+        "5:48:29",
+        "5:48:30"
+      ],
+      "alignment": {
+        "refs": [
+          [
+            5,
+            48
+          ]
+        ],
+        "wordIds": [
+          "5:48:29",
+          "5:48:30"
+        ],
+        "method": "exact",
+        "ambiguous": false
+      },
+      "corrections": [
+        {
+          "recordId": "qp-5-48-4",
+          "changes": [
+            {
+              "op": "record",
+              "fields": {
+                "recordQuarantined": true,
+                "quarantineReason": "الأوصاف الستة ونسبها مطابقة تماماً لـ«جاءك» و«شاء» المجاورتين. «ومنهاجاً ولو» لا همزة فيها لتفسير المد المتصل، ولا يصح نقل إمالة جاء/شاء إليها.",
+                "quarantineEvidence": [
+                  {
+                    "book": "القرآن الكريم — نص حفص المرجعي",
+                    "volume_page": "5:48",
+                    "lines": null,
+                    "quote": "وَأَنزَلْنَا إِلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ الْكِتَابِ وَمُهَيْمِنًا عَلَيْهِ ۖ فَاحْكُم بَيْنَهُم بِمَا أَنزَلَ اللَّهُ ۖ وَلَا تَتَّبِعْ أَهْوَاءَهُمْ عَمَّا جَاءَكَ مِنَ الْحَقِّ ۚ لِكُلٍّ جَعَلْنَا مِنكُمْ شِرْعَةً وَمِنْهَاجًا ۚ وَلَوْ شَاءَ اللَّهُ لَجَعَلَكُمْ أُمَّةً وَاحِدَةً وَلَـٰكِن لِّيَبْلُوَكُمْ فِي مَا آتَاكُمْ ۖ فَاسْتَبِقُوا الْخَيْرَاتِ ۚ إِلَى اللَّهِ مَرْجِعُكُمْ جَمِيعًا فَيُنَبِّئُكُم بِمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
+                    "url": "https://quran.com/5/48"
+                  },
+                  {
+                    "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+                    "volume_page": "qp-5-48-4",
+                    "lines": null,
+                    "quote": "{\"word\": \"وَمِنْهَاجًا وَلَوْ\", \"coveredRefs\": [[5, 48]], \"faces\": [{\"text\": null, \"description\": \"بالإمالة ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"بالإمالة ومد المتصل 6 حركات\", \"narrators\": [\"hamza_khalaf\", \"hamza_khallad\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 3 حركات\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 أو 5 حركات\", \"narrators\": [\"asim_hafs\", \"asim_shuba\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_hisham\", \"kisai_duri\", \"kisai_harith\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 6 حركات\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 5}]}",
+                    "url": "https://quranpedia.net/embed?surah=5&ayah=48&type=qiraat"
+                  },
+                  {
+                    "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+                    "volume_page": "qp-5-48-2",
+                    "lines": null,
+                    "quote": "{\"word\": \"جَآءَكَ\", \"coveredRefs\": [[5, 48]], \"faces\": [{\"text\": null, \"description\": \"بالإمالة ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"بالإمالة ومد المتصل 6 حركات\", \"narrators\": [\"hamza_khalaf\", \"hamza_khallad\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 3 حركات\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 أو 5 حركات\", \"narrators\": [\"asim_hafs\", \"asim_shuba\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_hisham\", \"kisai_duri\", \"kisai_harith\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 6 حركات\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 5}]}",
+                    "url": "https://quranpedia.net/embed?surah=5&ayah=48&type=qiraat"
+                  },
+                  {
+                    "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+                    "volume_page": "qp-5-48-3",
+                    "lines": null,
+                    "quote": "{\"word\": \"شَآءَ\", \"coveredRefs\": [[5, 48]], \"faces\": [{\"text\": null, \"description\": \"بالإمالة ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"بالإمالة ومد المتصل 6 حركات\", \"narrators\": [\"hamza_khalaf\", \"hamza_khallad\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 3 حركات\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 أو 5 حركات\", \"narrators\": [\"asim_hafs\", \"asim_shuba\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_hisham\", \"kisai_duri\", \"kisai_harith\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 6 حركات\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 5}]}",
+                    "url": "https://quranpedia.net/embed?surah=5&ayah=48&type=qiraat"
+                  },
+                  {
+                    "book": "النشر في القراءات العشر",
+                    "volume_page": "1:313",
+                    "lines": [
+                      7872,
+                      7883
+                    ],
+                    "quote": "(والسبب) إما لفظي، وإما معنوي (فاللفظي) إما همزة وإما ساكن (أما الهمزة) ، فإما أن تكون قبل نحو آدم، ورأى، و (إيمان) ، وخاطئين، وأوتي، والموءودة وإما أن تكون بعد، وهي في ذلك على قسمين: (أحدهما) أن يكون معها في كلمة واحدة ويسمى متصلا (والثاني) أن يكون آخر كلمة، والهمزة أول كلمة أخرى، ويسمى منفصلا. فما كان الهمز فيه متقدما سيفرد بالكلام بعد. المتصل نحو أولئك، أولياء، يشاء الله، و \" السوأى \"، ومن سوء، ولم يمسسهم سوء، ويضيء، وسيئت ونحو بيوت النبيء في قراءة من همز، والمنفصل نحو بما أنزل، ياأيها، قالوا آمنا، وأمره إلى الله ونحو عليهم أأنذرتهم أم، لمن خشي ربه، إذا زلزلت عند من وصل الميم، أو بين السورتين في أنفسكم، وبه إلا الفاسقين، ونحو اتبعون أهدكم عند من أثبت الياء، وسواء كان حرف المد ثابتا رسما، أم ساقطا منه ثابتا لفظا كما مثلنا به، ووجه المد لأجل الهمزة أن",
+                    "url": "https://najafdesertlibrary.com/book/النشر-في-القراءات-العشر/v/1/p/313"
+                  },
+                  {
+                    "book": "النشر في القراءات العشر",
+                    "volume_page": "2:59، 2:60",
+                    "lines": [
+                      13818,
+                      13837
+                    ],
+                    "quote": "| [فصل في إمالة الألف التي هي عين من الفعل الثلاثي الماضي] أمالها حمزة من عشر أفعال، وهي زاد، شاء، جاء، خاب، ران، خاف، زاغ، طاب، ضاق، حاق حيث وقعت وكيف جاءت نحو: فزادهم، زادهم، جاءتهم رسلهم، جاءوا أباهم، جاءت سيارة إلا زاغت فقط، وهي في الأحزاب وصاد فإنه لا خلاف عنه في استثنائه وإن كانت عبارة التجريد تقتضي إطلاقه فهو مما اجتمعت عليه الطرق من هذه الروايات، وانفرد ابن مهران بإمالته عن خلاد نصا، وهي رواية العبسي والعجلي عن حمزة، وقد خالف ابن مهران في ذلك سائر الرواة - والله أعلم -. . ووافقه خلف وابن ذكوان في جاء، شاء كيف وقعا، ووافقه ابن ذكوان وحده في فزادهم الله مرضا، أول البقرة. واختلف عنه في باقي القرآن، فروى فيه الفتح وجها واحدا صاحب العنوان، وابن شريح وابن سفيان والمهدوي وابن بليمة ومكي، وصاحب التذكرة والمغاربة قاطبة، وهي طريق ابن الأخرم عن الأخفش عنه، وبه قرأ الداني على أبي الحسن بن غلبون، ولم يذكر ابن مهران غيره، وروى الإمالة أبو العز في كتابيه، وصاحب التجريد، والمستنير، والمبهج، وجمهور العراقيين، وهي طريق الصوري والنقاش عن الأخفش، وطريق التيسير فإن الداني قرأ بها على عبد العزيز بن جعفر ms523 وعلى أبي الفتح أيضا، وكلاهما صحيح. واختلف عن ابن ذكوان أيضا في خاب، وهو في أربعة مواضع في إبراهيم وموضعي طه، وفي والشمس فأماله عنه الصوري وفتحه الأخفش. واختلف عن هشام في شاء، جاء، زاد فأمالها الداجوني وفتحها الحلواني.",
+                    "url": "https://najafdesertlibrary.com/book/النشر-في-القراءات-العشر/v/2/p/59"
+                  }
+                ],
+                "reviewWarnings": [
+                  "عُزل كامل سجل الوصف لعدم تعلقه باللفظ المحدد؛ حُفظت جميع الأوجه الأصلية للتدقيق، ولا تعد أوجهاً ثابتة لهذا الموضع."
+                ]
+              }
+            }
+          ],
+          "reason": "الأوصاف الستة ونسبها مطابقة تماماً لـ«جاءك» و«شاء» المجاورتين. «ومنهاجاً ولو» لا همزة فيها لتفسير المد المتصل، ولا يصح نقل إمالة جاء/شاء إليها.",
+          "evidence": [
+            {
+              "book": "القرآن الكريم — نص حفص المرجعي",
+              "volume_page": "5:48",
+              "lines": null,
+              "quote": "وَأَنزَلْنَا إِلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ الْكِتَابِ وَمُهَيْمِنًا عَلَيْهِ ۖ فَاحْكُم بَيْنَهُم بِمَا أَنزَلَ اللَّهُ ۖ وَلَا تَتَّبِعْ أَهْوَاءَهُمْ عَمَّا جَاءَكَ مِنَ الْحَقِّ ۚ لِكُلٍّ جَعَلْنَا مِنكُمْ شِرْعَةً وَمِنْهَاجًا ۚ وَلَوْ شَاءَ اللَّهُ لَجَعَلَكُمْ أُمَّةً وَاحِدَةً وَلَـٰكِن لِّيَبْلُوَكُمْ فِي مَا آتَاكُمْ ۖ فَاسْتَبِقُوا الْخَيْرَاتِ ۚ إِلَى اللَّهِ مَرْجِعُكُمْ جَمِيعًا فَيُنَبِّئُكُم بِمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
+              "url": "https://quran.com/5/48"
+            },
+            {
+              "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+              "volume_page": "qp-5-48-4",
+              "lines": null,
+              "quote": "{\"word\": \"وَمِنْهَاجًا وَلَوْ\", \"coveredRefs\": [[5, 48]], \"faces\": [{\"text\": null, \"description\": \"بالإمالة ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"بالإمالة ومد المتصل 6 حركات\", \"narrators\": [\"hamza_khalaf\", \"hamza_khallad\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 3 حركات\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 أو 5 حركات\", \"narrators\": [\"asim_hafs\", \"asim_shuba\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_hisham\", \"kisai_duri\", \"kisai_harith\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 6 حركات\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 5}]}",
+              "url": "https://quranpedia.net/embed?surah=5&ayah=48&type=qiraat"
+            },
+            {
+              "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+              "volume_page": "qp-5-48-2",
+              "lines": null,
+              "quote": "{\"word\": \"جَآءَكَ\", \"coveredRefs\": [[5, 48]], \"faces\": [{\"text\": null, \"description\": \"بالإمالة ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"بالإمالة ومد المتصل 6 حركات\", \"narrators\": [\"hamza_khalaf\", \"hamza_khallad\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 3 حركات\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 أو 5 حركات\", \"narrators\": [\"asim_hafs\", \"asim_shuba\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_hisham\", \"kisai_duri\", \"kisai_harith\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 6 حركات\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 5}]}",
+              "url": "https://quranpedia.net/embed?surah=5&ayah=48&type=qiraat"
+            },
+            {
+              "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+              "volume_page": "qp-5-48-3",
+              "lines": null,
+              "quote": "{\"word\": \"شَآءَ\", \"coveredRefs\": [[5, 48]], \"faces\": [{\"text\": null, \"description\": \"بالإمالة ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"بالإمالة ومد المتصل 6 حركات\", \"narrators\": [\"hamza_khalaf\", \"hamza_khallad\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 3 حركات\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 أو 5 حركات\", \"narrators\": [\"asim_hafs\", \"asim_shuba\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_hisham\", \"kisai_duri\", \"kisai_harith\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 6 حركات\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 5}]}",
+              "url": "https://quranpedia.net/embed?surah=5&ayah=48&type=qiraat"
+            },
+            {
+              "book": "النشر في القراءات العشر",
+              "volume_page": "1:313",
+              "lines": [
+                7872,
+                7883
+              ],
+              "quote": "(والسبب) إما لفظي، وإما معنوي (فاللفظي) إما همزة وإما ساكن (أما الهمزة) ، فإما أن تكون قبل نحو آدم، ورأى، و (إيمان) ، وخاطئين، وأوتي، والموءودة وإما أن تكون بعد، وهي في ذلك على قسمين: (أحدهما) أن يكون معها في كلمة واحدة ويسمى متصلا (والثاني) أن يكون آخر كلمة، والهمزة أول كلمة أخرى، ويسمى منفصلا. فما كان الهمز فيه متقدما سيفرد بالكلام بعد. المتصل نحو أولئك، أولياء، يشاء الله، و \" السوأى \"، ومن سوء، ولم يمسسهم سوء، ويضيء، وسيئت ونحو بيوت النبيء في قراءة من همز، والمنفصل نحو بما أنزل، ياأيها، قالوا آمنا، وأمره إلى الله ونحو عليهم أأنذرتهم أم، لمن خشي ربه، إذا زلزلت عند من وصل الميم، أو بين السورتين في أنفسكم، وبه إلا الفاسقين، ونحو اتبعون أهدكم عند من أثبت الياء، وسواء كان حرف المد ثابتا رسما، أم ساقطا منه ثابتا لفظا كما مثلنا به، ووجه المد لأجل الهمزة أن",
+              "url": "https://najafdesertlibrary.com/book/النشر-في-القراءات-العشر/v/1/p/313"
+            },
+            {
+              "book": "النشر في القراءات العشر",
+              "volume_page": "2:59، 2:60",
+              "lines": [
+                13818,
+                13837
+              ],
+              "quote": "| [فصل في إمالة الألف التي هي عين من الفعل الثلاثي الماضي] أمالها حمزة من عشر أفعال، وهي زاد، شاء، جاء، خاب، ران، خاف، زاغ، طاب، ضاق، حاق حيث وقعت وكيف جاءت نحو: فزادهم، زادهم، جاءتهم رسلهم، جاءوا أباهم، جاءت سيارة إلا زاغت فقط، وهي في الأحزاب وصاد فإنه لا خلاف عنه في استثنائه وإن كانت عبارة التجريد تقتضي إطلاقه فهو مما اجتمعت عليه الطرق من هذه الروايات، وانفرد ابن مهران بإمالته عن خلاد نصا، وهي رواية العبسي والعجلي عن حمزة، وقد خالف ابن مهران في ذلك سائر الرواة - والله أعلم -. . ووافقه خلف وابن ذكوان في جاء، شاء كيف وقعا، ووافقه ابن ذكوان وحده في فزادهم الله مرضا، أول البقرة. واختلف عنه في باقي القرآن، فروى فيه الفتح وجها واحدا صاحب العنوان، وابن شريح وابن سفيان والمهدوي وابن بليمة ومكي، وصاحب التذكرة والمغاربة قاطبة، وهي طريق ابن الأخرم عن الأخفش عنه، وبه قرأ الداني على أبي الحسن بن غلبون، ولم يذكر ابن مهران غيره، وروى الإمالة أبو العز في كتابيه، وصاحب التجريد، والمستنير، والمبهج، وجمهور العراقيين، وهي طريق الصوري والنقاش عن الأخفش، وطريق التيسير فإن الداني قرأ بها على عبد العزيز بن جعفر ms523 وعلى أبي الفتح أيضا، وكلاهما صحيح. واختلف عن ابن ذكوان أيضا في خاب، وهو في أربعة مواضع في إبراهيم وموضعي طه، وفي والشمس فأماله عنه الصوري وفتحه الأخفش. واختلف عن هشام في شاء، جاء، زاد فأمالها الداجوني وفتحها الحلواني.",
+              "url": "https://najafdesertlibrary.com/book/النشر-في-القراءات-العشر/v/2/p/59"
+            }
+          ],
+          "kind": "record_quarantine",
+          "beforeRecordFields": {
+            "recordQuarantined": null,
+            "quarantineReason": null,
+            "quarantineEvidence": null,
+            "reviewWarnings": null
+          },
+          "id": "full060-002"
+        }
+      ],
+      "recordQuarantined": true,
+      "quarantineReason": "الأوصاف الستة ونسبها مطابقة تماماً لـ«جاءك» و«شاء» المجاورتين. «ومنهاجاً ولو» لا همزة فيها لتفسير المد المتصل، ولا يصح نقل إمالة جاء/شاء إليها.",
+      "quarantineEvidence": [
+        {
+          "book": "القرآن الكريم — نص حفص المرجعي",
+          "volume_page": "5:48",
+          "lines": null,
+          "quote": "وَأَنزَلْنَا إِلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ الْكِتَابِ وَمُهَيْمِنًا عَلَيْهِ ۖ فَاحْكُم بَيْنَهُم بِمَا أَنزَلَ اللَّهُ ۖ وَلَا تَتَّبِعْ أَهْوَاءَهُمْ عَمَّا جَاءَكَ مِنَ الْحَقِّ ۚ لِكُلٍّ جَعَلْنَا مِنكُمْ شِرْعَةً وَمِنْهَاجًا ۚ وَلَوْ شَاءَ اللَّهُ لَجَعَلَكُمْ أُمَّةً وَاحِدَةً وَلَـٰكِن لِّيَبْلُوَكُمْ فِي مَا آتَاكُمْ ۖ فَاسْتَبِقُوا الْخَيْرَاتِ ۚ إِلَى اللَّهِ مَرْجِعُكُمْ جَمِيعًا فَيُنَبِّئُكُم بِمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
+          "url": "https://quran.com/5/48"
+        },
+        {
+          "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+          "volume_page": "qp-5-48-4",
+          "lines": null,
+          "quote": "{\"word\": \"وَمِنْهَاجًا وَلَوْ\", \"coveredRefs\": [[5, 48]], \"faces\": [{\"text\": null, \"description\": \"بالإمالة ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"بالإمالة ومد المتصل 6 حركات\", \"narrators\": [\"hamza_khalaf\", \"hamza_khallad\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 3 حركات\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 أو 5 حركات\", \"narrators\": [\"asim_hafs\", \"asim_shuba\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_hisham\", \"kisai_duri\", \"kisai_harith\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 6 حركات\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 5}]}",
+          "url": "https://quranpedia.net/embed?surah=5&ayah=48&type=qiraat"
+        },
+        {
+          "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+          "volume_page": "qp-5-48-2",
+          "lines": null,
+          "quote": "{\"word\": \"جَآءَكَ\", \"coveredRefs\": [[5, 48]], \"faces\": [{\"text\": null, \"description\": \"بالإمالة ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"بالإمالة ومد المتصل 6 حركات\", \"narrators\": [\"hamza_khalaf\", \"hamza_khallad\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 3 حركات\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 أو 5 حركات\", \"narrators\": [\"asim_hafs\", \"asim_shuba\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_hisham\", \"kisai_duri\", \"kisai_harith\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 6 حركات\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 5}]}",
+          "url": "https://quranpedia.net/embed?surah=5&ayah=48&type=qiraat"
+        },
+        {
+          "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+          "volume_page": "qp-5-48-3",
+          "lines": null,
+          "quote": "{\"word\": \"شَآءَ\", \"coveredRefs\": [[5, 48]], \"faces\": [{\"text\": null, \"description\": \"بالإمالة ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"بالإمالة ومد المتصل 6 حركات\", \"narrators\": [\"hamza_khalaf\", \"hamza_khallad\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 3 حركات\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 أو 5 حركات\", \"narrators\": [\"asim_hafs\", \"asim_shuba\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 4 حركات\", \"narrators\": [\"ibnamir_hisham\", \"kisai_duri\", \"kisai_harith\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"بالفتح ومد المتصل 6 حركات\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 5}]}",
+          "url": "https://quranpedia.net/embed?surah=5&ayah=48&type=qiraat"
+        },
+        {
+          "book": "النشر في القراءات العشر",
+          "volume_page": "1:313",
+          "lines": [
+            7872,
+            7883
+          ],
+          "quote": "(والسبب) إما لفظي، وإما معنوي (فاللفظي) إما همزة وإما ساكن (أما الهمزة) ، فإما أن تكون قبل نحو آدم، ورأى، و (إيمان) ، وخاطئين، وأوتي، والموءودة وإما أن تكون بعد، وهي في ذلك على قسمين: (أحدهما) أن يكون معها في كلمة واحدة ويسمى متصلا (والثاني) أن يكون آخر كلمة، والهمزة أول كلمة أخرى، ويسمى منفصلا. فما كان الهمز فيه متقدما سيفرد بالكلام بعد. المتصل نحو أولئك، أولياء، يشاء الله، و \" السوأى \"، ومن سوء، ولم يمسسهم سوء، ويضيء، وسيئت ونحو بيوت النبيء في قراءة من همز، والمنفصل نحو بما أنزل، ياأيها، قالوا آمنا، وأمره إلى الله ونحو عليهم أأنذرتهم أم، لمن خشي ربه، إذا زلزلت عند من وصل الميم، أو بين السورتين في أنفسكم، وبه إلا الفاسقين، ونحو اتبعون أهدكم عند من أثبت الياء، وسواء كان حرف المد ثابتا رسما، أم ساقطا منه ثابتا لفظا كما مثلنا به، ووجه المد لأجل الهمزة أن",
+          "url": "https://najafdesertlibrary.com/book/النشر-في-القراءات-العشر/v/1/p/313"
+        },
+        {
+          "book": "النشر في القراءات العشر",
+          "volume_page": "2:59، 2:60",
+          "lines": [
+            13818,
+            13837
+          ],
+          "quote": "| [فصل في إمالة الألف التي هي عين من الفعل الثلاثي الماضي] أمالها حمزة من عشر أفعال، وهي زاد، شاء، جاء، خاب، ران، خاف، زاغ، طاب، ضاق، حاق حيث وقعت وكيف جاءت نحو: فزادهم، زادهم، جاءتهم رسلهم، جاءوا أباهم، جاءت سيارة إلا زاغت فقط، وهي في الأحزاب وصاد فإنه لا خلاف عنه في استثنائه وإن كانت عبارة التجريد تقتضي إطلاقه فهو مما اجتمعت عليه الطرق من هذه الروايات، وانفرد ابن مهران بإمالته عن خلاد نصا، وهي رواية العبسي والعجلي عن حمزة، وقد خالف ابن مهران في ذلك سائر الرواة - والله أعلم -. . ووافقه خلف وابن ذكوان في جاء، شاء كيف وقعا، ووافقه ابن ذكوان وحده في فزادهم الله مرضا، أول البقرة. واختلف عنه في باقي القرآن، فروى فيه الفتح وجها واحدا صاحب العنوان، وابن شريح وابن سفيان والمهدوي وابن بليمة ومكي، وصاحب التذكرة والمغاربة قاطبة، وهي طريق ابن الأخرم عن الأخفش عنه، وبه قرأ الداني على أبي الحسن بن غلبون، ولم يذكر ابن مهران غيره، وروى الإمالة أبو العز في كتابيه، وصاحب التجريد، والمستنير، والمبهج، وجمهور العراقيين، وهي طريق الصوري والنقاش عن الأخفش، وطريق التيسير فإن الداني قرأ بها على عبد العزيز بن جعفر ms523 وعلى أبي الفتح أيضا، وكلاهما صحيح. واختلف عن ابن ذكوان أيضا في خاب، وهو في أربعة مواضع في إبراهيم وموضعي طه، وفي والشمس فأماله عنه الصوري وفتحه الأخفش. واختلف عن هشام في شاء، جاء، زاد فأمالها الداجوني وفتحها الحلواني.",
+          "url": "https://najafdesertlibrary.com/book/النشر-في-القراءات-العشر/v/2/p/59"
+        }
+      ],
+      "reviewWarnings": [
+        "عُزل كامل سجل الوصف لعدم تعلقه باللفظ المحدد؛ حُفظت جميع الأوجه الأصلية للتدقيق، ولا تعد أوجهاً ثابتة لهذا الموضع."
+      ]
+    },
+    {
+      "id": "qp-23-69-1",
+      "surah": 23,
+      "ayah": 69,
+      "sourceAnchor": [
+        23,
+        69
+      ],
+      "word": "مُنكِرُونَ",
+      "category": "أداء",
+      "tags": [
+        "مد وقصر",
+        "إمالة وتقليل",
+        "ميم الجمع",
+        "حركات"
+      ],
+      "variants": [
+        {
+          "text": null,
+          "description": "إمالة الألف ومدها 4 حركات وإسكان الميم",
+          "narrators": [
+            "ibnamir_dhakwan",
+            "khalaf_idris",
+            "khalaf_ishaq"
+          ],
+          "sourceFace": 0
+        },
+        {
+          "text": null,
+          "description": "بإمالة الألف ومدها 6 حركات وإسكان الميم",
+          "narrators": [
+            "hamza_khalaf",
+            "hamza_khallad"
+          ],
+          "sourceFace": 1
+        },
+        {
+          "text": null,
+          "description": "بفتح الألف ومدها 3 حركات وإسكان الميم",
+          "narrators": [
+            "abuamr_duri",
+            "abuamr_susi",
+            "nafi_qalun",
+            "yaqub_ruways",
+            "yaqub_ruwh"
+          ],
+          "sourceFace": 2
+        },
+        {
+          "text": null,
+          "description": "بفتح الألف ومدها 3 حركات وصلة الميم",
+          "narrators": [
+            "abujafar_jammaz",
+            "abujafar_wardan",
+            "ibnkathir_bazzi",
+            "ibnkathir_qunbul",
+            "nafi_qalun"
+          ],
+          "sourceFace": 3
+        },
+        {
+          "text": null,
+          "description": "بفتح الألف ومدها 4 أو 5 حركات وإسكان الميم",
+          "narrators": [
+            "asim_hafs",
+            "asim_shuba"
+          ],
+          "sourceFace": 4
+        },
+        {
+          "text": null,
+          "description": "بفتح الألف ومدها 4 حركات وإسكان الميم",
+          "narrators": [
+            "ibnamir_hisham",
+            "kisai_duri",
+            "kisai_harith"
+          ],
+          "sourceFace": 5
+        },
+        {
+          "text": null,
+          "description": "بفتح الألف ومدها 6 حركات وإسكان الميم",
+          "narrators": [
+            "nafi_warsh"
+          ],
+          "sourceFace": 6
+        }
+      ],
+      "audioByNarrator": {
+        "khalaf_idris": 21982,
+        "khalaf_ishaq": 21983,
+        "ibnamir_dhakwan": 21984,
+        "hamza_khallad": 21985,
+        "hamza_khalaf": 21986,
+        "nafi_qalun": 21987,
+        "yaqub_ruwh": 21988,
+        "yaqub_ruways": 21989,
+        "abuamr_susi": 21990,
+        "abuamr_duri": 21991,
+        "abujafar_wardan": 21992,
+        "abujafar_jammaz": 21993,
+        "ibnkathir_qunbul": 21994,
+        "ibnkathir_bazzi": 21995,
+        "asim_shuba": 21996,
+        "asim_hafs": 21997,
+        "ibnamir_hisham": 21998,
+        "kisai_harith": 21999,
+        "kisai_duri": 22000,
+        "nafi_warsh": 22001
+      },
+      "source": {
+        "title": "الموسوعة القرآنية — بيانات القراءات",
+        "url": "https://quranpedia.net/embed?surah=23&ayah=69&type=qiraat",
+        "apiUrl": "https://quranpedia.net/api/v1/ayah/23/69/qiraat",
+        "location": "إصدار 2026-10-10، السجل qp-23-69-1",
+        "version": "2026-10-10"
+      },
+      "scope": "نقل أوصاف المصدر ونِسبها؛ لم يحدد المصدر طريق كل وجه تفصيلاً. تعدد الأوجه داخل الرواية محفوظ، ولا يُستكمل الراوي الناقص بالافتراض.",
+      "state": "الوصل والوقف بحسب الوصف الخاص بكل وجه؛ لا يمثل الرسم المكتوب جميع دقائق الأداء.",
+      "review": "source-import",
+      "missingNarrators": [],
+      "coveredRefs": [
+        [
+          23,
+          69
+        ]
+      ],
+      "wordIds": [
+        "23:69:7"
+      ],
+      "alignment": {
+        "refs": [
+          [
+            23,
+            69
+          ]
+        ],
+        "wordIds": [
+          "23:69:7"
+        ],
+        "method": "exact",
+        "ambiguous": false
+      },
+      "corrections": [
+        {
+          "recordId": "qp-23-69-1",
+          "changes": [
+            {
+              "op": "record",
+              "fields": {
+                "recordQuarantined": true,
+                "quarantineReason": "الأوصاف السبعة للمد والإمالة وصلة الميم تخص «جاءهم» المجاورة في23:68؛ «منكرون» لا ألف فيها، والنسب والوصف محفوظة في السجل المقابل مع فرق الباء الافتتاحية في الوجه0.",
+                "quarantineEvidence": [
+                  {
+                    "book": "القرآن الكريم — نص حفص المرجعي",
+                    "volume_page": "23:69",
+                    "lines": null,
+                    "quote": "أَمْ لَمْ يَعْرِفُوا رَسُولَهُمْ فَهُمْ لَهُ مُنكِرُونَ",
+                    "url": "https://quran.com/23/69"
+                  },
+                  {
+                    "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+                    "volume_page": "qp-23-69-1",
+                    "lines": null,
+                    "quote": "{\"word\": \"مُنكِرُونَ\", \"coveredRefs\": [[23, 69]], \"faces\": [{\"text\": null, \"description\": \"إمالة الألف ومدها 4 حركات وإسكان الميم\", \"narrators\": [\"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"بإمالة الألف ومدها 6 حركات وإسكان الميم\", \"narrators\": [\"hamza_khalaf\", \"hamza_khallad\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"بفتح الألف ومدها 3 حركات وإسكان الميم\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"بفتح الألف ومدها 3 حركات وصلة الميم\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"بفتح الألف ومدها 4 أو 5 حركات وإسكان الميم\", \"narrators\": [\"asim_hafs\", \"asim_shuba\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"بفتح الألف ومدها 4 حركات وإسكان الميم\", \"narrators\": [\"ibnamir_hisham\", \"kisai_duri\", \"kisai_harith\"], \"sourceFace\": 5}, {\"text\": null, \"description\": \"بفتح الألف ومدها 6 حركات وإسكان الميم\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 6}]}",
+                    "url": "https://quranpedia.net/embed?surah=23&ayah=69&type=qiraat"
+                  },
+                  {
+                    "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+                    "volume_page": "qp-23-68-1",
+                    "lines": null,
+                    "quote": "{\"word\": \"جَآءَهُم\", \"coveredRefs\": [[23, 68]], \"faces\": [{\"text\": null, \"description\": \"بإمالة الألف ومدها 4 حركات وإسكان الميم\", \"narrators\": [\"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"بإمالة الألف ومدها 6 حركات وإسكان الميم\", \"narrators\": [\"hamza_khalaf\", \"hamza_khallad\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"بفتح الألف ومدها 3 حركات وإسكان الميم\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"بفتح الألف ومدها 3 حركات وصلة الميم\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"بفتح الألف ومدها 4 أو 5 حركات وإسكان الميم\", \"narrators\": [\"asim_hafs\", \"asim_shuba\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"بفتح الألف ومدها 4 حركات وإسكان الميم\", \"narrators\": [\"ibnamir_hisham\", \"kisai_duri\", \"kisai_harith\"], \"sourceFace\": 5}, {\"text\": null, \"description\": \"بفتح الألف ومدها 6 حركات وإسكان الميم\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 6}]}",
+                    "url": "https://quranpedia.net/embed?surah=23&ayah=68&type=qiraat"
+                  },
+                  {
+                    "book": "النشر في القراءات العشر",
+                    "volume_page": "2:59، 2:60",
+                    "lines": [
+                      13818,
+                      13837
+                    ],
+                    "quote": "| [فصل في إمالة الألف التي هي عين من الفعل الثلاثي الماضي] أمالها حمزة من عشر أفعال، وهي زاد، شاء، جاء، خاب، ران، خاف، زاغ، طاب، ضاق، حاق حيث وقعت وكيف جاءت نحو: فزادهم، زادهم، جاءتهم رسلهم، جاءوا أباهم، جاءت سيارة إلا زاغت فقط، وهي في الأحزاب وصاد فإنه لا خلاف عنه في استثنائه وإن كانت عبارة التجريد تقتضي إطلاقه فهو مما اجتمعت عليه الطرق من هذه الروايات، وانفرد ابن مهران بإمالته عن خلاد نصا، وهي رواية العبسي والعجلي عن حمزة، وقد خالف ابن مهران في ذلك سائر الرواة - والله أعلم -. . ووافقه خلف وابن ذكوان في جاء، شاء كيف وقعا، ووافقه ابن ذكوان وحده في فزادهم الله مرضا، أول البقرة. واختلف عنه في باقي القرآن، فروى فيه الفتح وجها واحدا صاحب العنوان، وابن شريح وابن سفيان والمهدوي وابن بليمة ومكي، وصاحب التذكرة والمغاربة قاطبة، وهي طريق ابن الأخرم عن الأخفش عنه، وبه قرأ الداني على أبي الحسن بن غلبون، ولم يذكر ابن مهران غيره، وروى الإمالة أبو العز في كتابيه، وصاحب التجريد، والمستنير، والمبهج، وجمهور العراقيين، وهي طريق الصوري والنقاش عن الأخفش، وطريق التيسير فإن الداني قرأ بها على عبد العزيز بن جعفر ms523 وعلى أبي الفتح أيضا، وكلاهما صحيح. واختلف عن ابن ذكوان أيضا في خاب، وهو في أربعة مواضع في إبراهيم وموضعي طه، وفي والشمس فأماله عنه الصوري وفتحه الأخفش. واختلف عن هشام في شاء، جاء، زاد فأمالها الداجوني وفتحها الحلواني.",
+                    "url": "https://najafdesertlibrary.com/book/النشر-في-القراءات-العشر/v/2/p/59"
+                  }
+                ],
+                "reviewWarnings": [
+                  "عُزل كامل سجل الوصف لعدم تعلقه باللفظ المحدد؛ حُفظت جميع الأوجه الأصلية للتدقيق، ولا تعد أوجهاً ثابتة لهذا الموضع."
+                ]
+              }
+            }
+          ],
+          "reason": "الأوصاف السبعة للمد والإمالة وصلة الميم تخص «جاءهم» المجاورة في23:68؛ «منكرون» لا ألف فيها، والنسب والوصف محفوظة في السجل المقابل مع فرق الباء الافتتاحية في الوجه0.",
+          "evidence": [
+            {
+              "book": "القرآن الكريم — نص حفص المرجعي",
+              "volume_page": "23:69",
+              "lines": null,
+              "quote": "أَمْ لَمْ يَعْرِفُوا رَسُولَهُمْ فَهُمْ لَهُ مُنكِرُونَ",
+              "url": "https://quran.com/23/69"
+            },
+            {
+              "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+              "volume_page": "qp-23-69-1",
+              "lines": null,
+              "quote": "{\"word\": \"مُنكِرُونَ\", \"coveredRefs\": [[23, 69]], \"faces\": [{\"text\": null, \"description\": \"إمالة الألف ومدها 4 حركات وإسكان الميم\", \"narrators\": [\"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"بإمالة الألف ومدها 6 حركات وإسكان الميم\", \"narrators\": [\"hamza_khalaf\", \"hamza_khallad\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"بفتح الألف ومدها 3 حركات وإسكان الميم\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"بفتح الألف ومدها 3 حركات وصلة الميم\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"بفتح الألف ومدها 4 أو 5 حركات وإسكان الميم\", \"narrators\": [\"asim_hafs\", \"asim_shuba\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"بفتح الألف ومدها 4 حركات وإسكان الميم\", \"narrators\": [\"ibnamir_hisham\", \"kisai_duri\", \"kisai_harith\"], \"sourceFace\": 5}, {\"text\": null, \"description\": \"بفتح الألف ومدها 6 حركات وإسكان الميم\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 6}]}",
+              "url": "https://quranpedia.net/embed?surah=23&ayah=69&type=qiraat"
+            },
+            {
+              "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+              "volume_page": "qp-23-68-1",
+              "lines": null,
+              "quote": "{\"word\": \"جَآءَهُم\", \"coveredRefs\": [[23, 68]], \"faces\": [{\"text\": null, \"description\": \"بإمالة الألف ومدها 4 حركات وإسكان الميم\", \"narrators\": [\"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"بإمالة الألف ومدها 6 حركات وإسكان الميم\", \"narrators\": [\"hamza_khalaf\", \"hamza_khallad\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"بفتح الألف ومدها 3 حركات وإسكان الميم\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"بفتح الألف ومدها 3 حركات وصلة الميم\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"بفتح الألف ومدها 4 أو 5 حركات وإسكان الميم\", \"narrators\": [\"asim_hafs\", \"asim_shuba\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"بفتح الألف ومدها 4 حركات وإسكان الميم\", \"narrators\": [\"ibnamir_hisham\", \"kisai_duri\", \"kisai_harith\"], \"sourceFace\": 5}, {\"text\": null, \"description\": \"بفتح الألف ومدها 6 حركات وإسكان الميم\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 6}]}",
+              "url": "https://quranpedia.net/embed?surah=23&ayah=68&type=qiraat"
+            },
+            {
+              "book": "النشر في القراءات العشر",
+              "volume_page": "2:59، 2:60",
+              "lines": [
+                13818,
+                13837
+              ],
+              "quote": "| [فصل في إمالة الألف التي هي عين من الفعل الثلاثي الماضي] أمالها حمزة من عشر أفعال، وهي زاد، شاء، جاء، خاب، ران، خاف، زاغ، طاب، ضاق، حاق حيث وقعت وكيف جاءت نحو: فزادهم، زادهم، جاءتهم رسلهم، جاءوا أباهم، جاءت سيارة إلا زاغت فقط، وهي في الأحزاب وصاد فإنه لا خلاف عنه في استثنائه وإن كانت عبارة التجريد تقتضي إطلاقه فهو مما اجتمعت عليه الطرق من هذه الروايات، وانفرد ابن مهران بإمالته عن خلاد نصا، وهي رواية العبسي والعجلي عن حمزة، وقد خالف ابن مهران في ذلك سائر الرواة - والله أعلم -. . ووافقه خلف وابن ذكوان في جاء، شاء كيف وقعا، ووافقه ابن ذكوان وحده في فزادهم الله مرضا، أول البقرة. واختلف عنه في باقي القرآن، فروى فيه الفتح وجها واحدا صاحب العنوان، وابن شريح وابن سفيان والمهدوي وابن بليمة ومكي، وصاحب التذكرة والمغاربة قاطبة، وهي طريق ابن الأخرم عن الأخفش عنه، وبه قرأ الداني على أبي الحسن بن غلبون، ولم يذكر ابن مهران غيره، وروى الإمالة أبو العز في كتابيه، وصاحب التجريد، والمستنير، والمبهج، وجمهور العراقيين، وهي طريق الصوري والنقاش عن الأخفش، وطريق التيسير فإن الداني قرأ بها على عبد العزيز بن جعفر ms523 وعلى أبي الفتح أيضا، وكلاهما صحيح. واختلف عن ابن ذكوان أيضا في خاب، وهو في أربعة مواضع في إبراهيم وموضعي طه، وفي والشمس فأماله عنه الصوري وفتحه الأخفش. واختلف عن هشام في شاء، جاء، زاد فأمالها الداجوني وفتحها الحلواني.",
+              "url": "https://najafdesertlibrary.com/book/النشر-في-القراءات-العشر/v/2/p/59"
+            }
+          ],
+          "kind": "record_quarantine",
+          "beforeRecordFields": {
+            "recordQuarantined": null,
+            "quarantineReason": null,
+            "quarantineEvidence": null,
+            "reviewWarnings": null
+          },
+          "id": "full060-177"
+        }
+      ],
+      "recordQuarantined": true,
+      "quarantineReason": "الأوصاف السبعة للمد والإمالة وصلة الميم تخص «جاءهم» المجاورة في23:68؛ «منكرون» لا ألف فيها، والنسب والوصف محفوظة في السجل المقابل مع فرق الباء الافتتاحية في الوجه0.",
+      "quarantineEvidence": [
+        {
+          "book": "القرآن الكريم — نص حفص المرجعي",
+          "volume_page": "23:69",
+          "lines": null,
+          "quote": "أَمْ لَمْ يَعْرِفُوا رَسُولَهُمْ فَهُمْ لَهُ مُنكِرُونَ",
+          "url": "https://quran.com/23/69"
+        },
+        {
+          "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+          "volume_page": "qp-23-69-1",
+          "lines": null,
+          "quote": "{\"word\": \"مُنكِرُونَ\", \"coveredRefs\": [[23, 69]], \"faces\": [{\"text\": null, \"description\": \"إمالة الألف ومدها 4 حركات وإسكان الميم\", \"narrators\": [\"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"بإمالة الألف ومدها 6 حركات وإسكان الميم\", \"narrators\": [\"hamza_khalaf\", \"hamza_khallad\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"بفتح الألف ومدها 3 حركات وإسكان الميم\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"بفتح الألف ومدها 3 حركات وصلة الميم\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"بفتح الألف ومدها 4 أو 5 حركات وإسكان الميم\", \"narrators\": [\"asim_hafs\", \"asim_shuba\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"بفتح الألف ومدها 4 حركات وإسكان الميم\", \"narrators\": [\"ibnamir_hisham\", \"kisai_duri\", \"kisai_harith\"], \"sourceFace\": 5}, {\"text\": null, \"description\": \"بفتح الألف ومدها 6 حركات وإسكان الميم\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 6}]}",
+          "url": "https://quranpedia.net/embed?surah=23&ayah=69&type=qiraat"
+        },
+        {
+          "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+          "volume_page": "qp-23-68-1",
+          "lines": null,
+          "quote": "{\"word\": \"جَآءَهُم\", \"coveredRefs\": [[23, 68]], \"faces\": [{\"text\": null, \"description\": \"بإمالة الألف ومدها 4 حركات وإسكان الميم\", \"narrators\": [\"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"بإمالة الألف ومدها 6 حركات وإسكان الميم\", \"narrators\": [\"hamza_khalaf\", \"hamza_khallad\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"بفتح الألف ومدها 3 حركات وإسكان الميم\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"بفتح الألف ومدها 3 حركات وصلة الميم\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"بفتح الألف ومدها 4 أو 5 حركات وإسكان الميم\", \"narrators\": [\"asim_hafs\", \"asim_shuba\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"بفتح الألف ومدها 4 حركات وإسكان الميم\", \"narrators\": [\"ibnamir_hisham\", \"kisai_duri\", \"kisai_harith\"], \"sourceFace\": 5}, {\"text\": null, \"description\": \"بفتح الألف ومدها 6 حركات وإسكان الميم\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 6}]}",
+          "url": "https://quranpedia.net/embed?surah=23&ayah=68&type=qiraat"
+        },
+        {
+          "book": "النشر في القراءات العشر",
+          "volume_page": "2:59، 2:60",
+          "lines": [
+            13818,
+            13837
+          ],
+          "quote": "| [فصل في إمالة الألف التي هي عين من الفعل الثلاثي الماضي] أمالها حمزة من عشر أفعال، وهي زاد، شاء، جاء، خاب، ران، خاف، زاغ، طاب، ضاق، حاق حيث وقعت وكيف جاءت نحو: فزادهم، زادهم، جاءتهم رسلهم، جاءوا أباهم، جاءت سيارة إلا زاغت فقط، وهي في الأحزاب وصاد فإنه لا خلاف عنه في استثنائه وإن كانت عبارة التجريد تقتضي إطلاقه فهو مما اجتمعت عليه الطرق من هذه الروايات، وانفرد ابن مهران بإمالته عن خلاد نصا، وهي رواية العبسي والعجلي عن حمزة، وقد خالف ابن مهران في ذلك سائر الرواة - والله أعلم -. . ووافقه خلف وابن ذكوان في جاء، شاء كيف وقعا، ووافقه ابن ذكوان وحده في فزادهم الله مرضا، أول البقرة. واختلف عنه في باقي القرآن، فروى فيه الفتح وجها واحدا صاحب العنوان، وابن شريح وابن سفيان والمهدوي وابن بليمة ومكي، وصاحب التذكرة والمغاربة قاطبة، وهي طريق ابن الأخرم عن الأخفش عنه، وبه قرأ الداني على أبي الحسن بن غلبون، ولم يذكر ابن مهران غيره، وروى الإمالة أبو العز في كتابيه، وصاحب التجريد، والمستنير، والمبهج، وجمهور العراقيين، وهي طريق الصوري والنقاش عن الأخفش، وطريق التيسير فإن الداني قرأ بها على عبد العزيز بن جعفر ms523 وعلى أبي الفتح أيضا، وكلاهما صحيح. واختلف عن ابن ذكوان أيضا في خاب، وهو في أربعة مواضع في إبراهيم وموضعي طه، وفي والشمس فأماله عنه الصوري وفتحه الأخفش. واختلف عن هشام في شاء، جاء، زاد فأمالها الداجوني وفتحها الحلواني.",
+          "url": "https://najafdesertlibrary.com/book/النشر-في-القراءات-العشر/v/2/p/59"
+        }
+      ],
+      "reviewWarnings": [
+        "عُزل كامل سجل الوصف لعدم تعلقه باللفظ المحدد؛ حُفظت جميع الأوجه الأصلية للتدقيق، ولا تعد أوجهاً ثابتة لهذا الموضع."
+      ]
+    },
+    {
+      "id": "qp-56-68-2",
+      "surah": 56,
+      "ayah": 68,
+      "sourceAnchor": [
+        56,
+        68
+      ],
+      "word": "الْمَآءَ",
+      "category": "أداء",
+      "tags": [
+        "همز",
+        "مد وقصر",
+        "ميم الجمع",
+        "حركات"
+      ],
+      "variants": [
+        {
+          "text": null,
+          "description": "تحقيق الهمزة الثانية دون ادخال وبإسكان الميم دون سكت عليها",
+          "narrators": [
+            "asim_hafs",
+            "asim_shuba",
+            "hamza_khalaf",
+            "hamza_khallad",
+            "ibnamir_dhakwan",
+            "ibnamir_hisham",
+            "khalaf_idris",
+            "khalaf_ishaq",
+            "kisai_duri",
+            "kisai_harith",
+            "yaqub_ruwh"
+          ],
+          "sourceFace": 0
+        },
+        {
+          "text": null,
+          "description": "تحقيق الهمزة الثانية دون ادخال وبإسكان الميم مع السكت عليها",
+          "narrators": [
+            "hamza_khalaf"
+          ],
+          "sourceFace": 1
+        },
+        {
+          "text": null,
+          "description": "تحقيق الهمزة الثانية وادخال ألف قبلها وبإسكان الميم دون سكت",
+          "narrators": [
+            "ibnamir_hisham"
+          ],
+          "sourceFace": 2
+        },
+        {
+          "text": null,
+          "description": "تسهيل الهمزة الثانية دون إدخال أو إبدالها ألف تمد 6 حركات وبصلة الميم ومدها 6 حركات",
+          "narrators": [
+            "nafi_warsh"
+          ],
+          "sourceFace": 3
+        },
+        {
+          "text": null,
+          "description": "تسهيل الهمزة الثانية دون ادخال وبإسكان الميم دون سكت عليها",
+          "narrators": [
+            "yaqub_ruways"
+          ],
+          "sourceFace": 4
+        },
+        {
+          "text": null,
+          "description": "تسهيل الهمزة الثانية دون ادخال وبصلة الميم ومدها حركتين",
+          "narrators": [
+            "ibnkathir_bazzi",
+            "ibnkathir_qunbul"
+          ],
+          "sourceFace": 5
+        },
+        {
+          "text": null,
+          "description": "تسهيل الهمزة الثانية وادخال ألف قبلها وبإسكان الميم دون سكت عليها",
+          "narrators": [
+            "abuamr_duri",
+            "abuamr_susi",
+            "ibnamir_hisham",
+            "nafi_qalun"
+          ],
+          "sourceFace": 6
+        },
+        {
+          "text": null,
+          "description": "تسهيل الهمزة الثانية وادخال ألف قبلها وبصلة الميم ومدها 3 حركات",
+          "narrators": [
+            "nafi_qalun"
+          ],
+          "sourceFace": 7
+        },
+        {
+          "text": null,
+          "description": "تسهيل الهمزة الثانية وادخال ألف قبلها وبصلة الميم ومدها حركتين",
+          "narrators": [
+            "abujafar_jammaz",
+            "abujafar_wardan",
+            "nafi_qalun"
+          ],
+          "sourceFace": 8
+        }
+      ],
+      "audioByNarrator": {
+        "kisai_duri": 53148,
+        "khalaf_idris": 53131,
+        "kisai_harith": 53149,
+        "yaqub_ruwh": 53138,
+        "hamza_khallad": 53130,
+        "khalaf_ishaq": 53134,
+        "asim_hafs": 53133,
+        "asim_shuba": 53136,
+        "ibnamir_dhakwan": 53142,
+        "ibnamir_hisham": 53143,
+        "hamza_khalaf": 53132,
+        "nafi_warsh": 53147,
+        "yaqub_ruways": 53140,
+        "ibnkathir_bazzi": 53135,
+        "ibnkathir_qunbul": 53137,
+        "abuamr_susi": 53141,
+        "nafi_qalun": 53146,
+        "abuamr_duri": 53139,
+        "abujafar_jammaz": 53144,
+        "abujafar_wardan": 53145
+      },
+      "source": {
+        "title": "الموسوعة القرآنية — بيانات القراءات",
+        "url": "https://quranpedia.net/embed?surah=56&ayah=68&type=qiraat",
+        "apiUrl": "https://quranpedia.net/api/v1/ayah/56/68/qiraat",
+        "location": "إصدار 2026-10-10، السجل qp-56-68-2",
+        "version": "2026-10-10"
+      },
+      "scope": "نقل أوصاف المصدر ونِسبها؛ لم يحدد المصدر طريق كل وجه تفصيلاً. تعدد الأوجه داخل الرواية محفوظ، ولا يُستكمل الراوي الناقص بالافتراض.",
+      "state": "الوصل والوقف بحسب الوصف الخاص بكل وجه؛ لا يمثل الرسم المكتوب جميع دقائق الأداء.",
+      "review": "source-import",
+      "missingNarrators": [],
+      "coveredRefs": [
+        [
+          56,
+          68
+        ]
+      ],
+      "wordIds": [
+        "56:68:2"
+      ],
+      "alignment": {
+        "refs": [
+          [
+            56,
+            68
+          ]
+        ],
+        "wordIds": [
+          "56:68:2"
+        ],
+        "method": "exact",
+        "ambiguous": false
+      },
+      "corrections": [
+        {
+          "recordId": "qp-56-68-2",
+          "changes": [
+            {
+              "op": "record",
+              "fields": {
+                "recordQuarantined": true,
+                "quarantineReason": "الأوصاف التسعة تصف الهمزتين وميم الجمع في «أأنتم» بأول الآية التالية، لا «الماء». توجد فروق تحريرية ونسبة هشام في الوجه0 بين النسختين، فلا يُدمجان ولا تُصحح النسب تخميناً.",
+                "quarantineEvidence": [
+                  {
+                    "book": "القرآن الكريم — نص حفص المرجعي",
+                    "volume_page": "56:68",
+                    "lines": null,
+                    "quote": "أَفَرَأَيْتُمُ الْمَاءَ الَّذِي تَشْرَبُونَ",
+                    "url": "https://quran.com/56/68"
+                  },
+                  {
+                    "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+                    "volume_page": "qp-56-68-2",
+                    "lines": null,
+                    "quote": "{\"word\": \"الْمَآءَ\", \"coveredRefs\": [[56, 68]], \"faces\": [{\"text\": null, \"description\": \"تحقيق الهمزة الثانية دون ادخال وبإسكان الميم دون سكت عليها\", \"narrators\": [\"asim_hafs\", \"asim_shuba\", \"hamza_khalaf\", \"hamza_khallad\", \"ibnamir_dhakwan\", \"ibnamir_hisham\", \"khalaf_idris\", \"khalaf_ishaq\", \"kisai_duri\", \"kisai_harith\", \"yaqub_ruwh\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"تحقيق الهمزة الثانية دون ادخال وبإسكان الميم مع السكت عليها\", \"narrators\": [\"hamza_khalaf\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"تحقيق الهمزة الثانية وادخال ألف قبلها وبإسكان الميم دون سكت\", \"narrators\": [\"ibnamir_hisham\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون إدخال أو إبدالها ألف تمد 6 حركات وبصلة الميم ومدها 6 حركات\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون ادخال وبإسكان الميم دون سكت عليها\", \"narrators\": [\"yaqub_ruways\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون ادخال وبصلة الميم ومدها حركتين\", \"narrators\": [\"ibnkathir_bazzi\", \"ibnkathir_qunbul\"], \"sourceFace\": 5}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبإسكان الميم دون سكت عليها\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"ibnamir_hisham\", \"nafi_qalun\"], \"sourceFace\": 6}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبصلة الميم ومدها 3 حركات\", \"narrators\": [\"nafi_qalun\"], \"sourceFace\": 7}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبصلة الميم ومدها حركتين\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"nafi_qalun\"], \"sourceFace\": 8}]}",
+                    "url": "https://quranpedia.net/embed?surah=56&ayah=68&type=qiraat"
+                  },
+                  {
+                    "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+                    "volume_page": "qp-56-69-1",
+                    "lines": null,
+                    "quote": "{\"word\": \"ءَأَنتُمْ\", \"coveredRefs\": [[56, 69]], \"faces\": [{\"text\": null, \"description\": \"تحقيق الهمزة الثانية دون إدخال وبإسكان الميم دون سكت عليها\", \"narrators\": [\"asim_hafs\", \"asim_shuba\", \"hamza_khalaf\", \"hamza_khallad\", \"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\", \"kisai_duri\", \"kisai_harith\", \"yaqub_ruwh\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"تحقيق الهمزة الثانية دون إدخال وبإسكان الميم مع السكت عليها\", \"narrators\": [\"hamza_khalaf\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"تحقيق الهمزة الثانية وادخال ألف قبلها وبإسكان الميم دون سكت\", \"narrators\": [\"ibnamir_hisham\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون إدخال وإبدالها ألفاً تمد 6 حركات وبصلة الميم ومدها 6 حركات\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون إدخال وبإسكان الميم دون سكت عليها\", \"narrators\": [\"yaqub_ruways\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون ادخال وبصلة الميم ومدها حركتين\", \"narrators\": [\"ibnkathir_bazzi\", \"ibnkathir_qunbul\"], \"sourceFace\": 5}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبإسكان الميم دون سكت عليها\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"ibnamir_hisham\", \"nafi_qalun\"], \"sourceFace\": 6}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبصلة الميم ومدها 3 حركات\", \"narrators\": [\"nafi_qalun\"], \"sourceFace\": 7}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبصلة الميم ومدها حركتين\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"nafi_qalun\"], \"sourceFace\": 8}]}",
+                    "url": "https://quranpedia.net/embed?surah=56&ayah=69&type=qiraat"
+                  },
+                  {
+                    "book": "النشر في القراءات العشر",
+                    "volume_page": "1:363",
+                    "lines": [
+                      9126,
+                      9134
+                    ],
+                    "quote": "أما الذي بعد ساكن صحيح من المتفق عليه فهو عشر كلم في ثمانية عشر موضعا، وهي (أأنذرتهم) في البقرة ويس (وأأنتم) في البقرة والفرقان، وأربعة مواضع في الواقعة، وموضع في النازعات و (أأسلمتم) في آل عمران و (أأقررتم) فيها أيضا، و (أأنت) في المائدة والأنبياء، و (أأرباب) في يوسف، و (أأسجد) في الإسراء، و (أأشكر) في النمل، و (أأتخذ) في يس، و (أأشفقتم) في المجادلة. فاختلفوا في تخفيف الثانية منهما وتحقيقها، وإدخال ألف بينهما. فسهلها بين الهمزة والألف ابن كثير وأبو عمرو وأبو جعفر، وقالون، ورويس، والأصبهاني، عن ورش، واختلف عن الأزرق عنه، وعن هشام. أما الأزرق فأبدلها عنه ألفا خالصة صاحب \" التيسير \"، وابن سفيان والمهدوي ومكي وابن الفحام وابن",
+                    "url": "https://najafdesertlibrary.com/book/النشر-في-القراءات-العشر/v/1/p/363"
+                  }
+                ],
+                "reviewWarnings": [
+                  "عُزل كامل سجل الوصف لعدم تعلقه باللفظ المحدد؛ حُفظت جميع الأوجه الأصلية للتدقيق، ولا تعد أوجهاً ثابتة لهذا الموضع."
+                ]
+              }
+            }
+          ],
+          "reason": "الأوصاف التسعة تصف الهمزتين وميم الجمع في «أأنتم» بأول الآية التالية، لا «الماء». توجد فروق تحريرية ونسبة هشام في الوجه0 بين النسختين، فلا يُدمجان ولا تُصحح النسب تخميناً.",
+          "evidence": [
+            {
+              "book": "القرآن الكريم — نص حفص المرجعي",
+              "volume_page": "56:68",
+              "lines": null,
+              "quote": "أَفَرَأَيْتُمُ الْمَاءَ الَّذِي تَشْرَبُونَ",
+              "url": "https://quran.com/56/68"
+            },
+            {
+              "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+              "volume_page": "qp-56-68-2",
+              "lines": null,
+              "quote": "{\"word\": \"الْمَآءَ\", \"coveredRefs\": [[56, 68]], \"faces\": [{\"text\": null, \"description\": \"تحقيق الهمزة الثانية دون ادخال وبإسكان الميم دون سكت عليها\", \"narrators\": [\"asim_hafs\", \"asim_shuba\", \"hamza_khalaf\", \"hamza_khallad\", \"ibnamir_dhakwan\", \"ibnamir_hisham\", \"khalaf_idris\", \"khalaf_ishaq\", \"kisai_duri\", \"kisai_harith\", \"yaqub_ruwh\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"تحقيق الهمزة الثانية دون ادخال وبإسكان الميم مع السكت عليها\", \"narrators\": [\"hamza_khalaf\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"تحقيق الهمزة الثانية وادخال ألف قبلها وبإسكان الميم دون سكت\", \"narrators\": [\"ibnamir_hisham\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون إدخال أو إبدالها ألف تمد 6 حركات وبصلة الميم ومدها 6 حركات\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون ادخال وبإسكان الميم دون سكت عليها\", \"narrators\": [\"yaqub_ruways\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون ادخال وبصلة الميم ومدها حركتين\", \"narrators\": [\"ibnkathir_bazzi\", \"ibnkathir_qunbul\"], \"sourceFace\": 5}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبإسكان الميم دون سكت عليها\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"ibnamir_hisham\", \"nafi_qalun\"], \"sourceFace\": 6}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبصلة الميم ومدها 3 حركات\", \"narrators\": [\"nafi_qalun\"], \"sourceFace\": 7}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبصلة الميم ومدها حركتين\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"nafi_qalun\"], \"sourceFace\": 8}]}",
+              "url": "https://quranpedia.net/embed?surah=56&ayah=68&type=qiraat"
+            },
+            {
+              "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+              "volume_page": "qp-56-69-1",
+              "lines": null,
+              "quote": "{\"word\": \"ءَأَنتُمْ\", \"coveredRefs\": [[56, 69]], \"faces\": [{\"text\": null, \"description\": \"تحقيق الهمزة الثانية دون إدخال وبإسكان الميم دون سكت عليها\", \"narrators\": [\"asim_hafs\", \"asim_shuba\", \"hamza_khalaf\", \"hamza_khallad\", \"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\", \"kisai_duri\", \"kisai_harith\", \"yaqub_ruwh\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"تحقيق الهمزة الثانية دون إدخال وبإسكان الميم مع السكت عليها\", \"narrators\": [\"hamza_khalaf\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"تحقيق الهمزة الثانية وادخال ألف قبلها وبإسكان الميم دون سكت\", \"narrators\": [\"ibnamir_hisham\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون إدخال وإبدالها ألفاً تمد 6 حركات وبصلة الميم ومدها 6 حركات\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون إدخال وبإسكان الميم دون سكت عليها\", \"narrators\": [\"yaqub_ruways\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون ادخال وبصلة الميم ومدها حركتين\", \"narrators\": [\"ibnkathir_bazzi\", \"ibnkathir_qunbul\"], \"sourceFace\": 5}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبإسكان الميم دون سكت عليها\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"ibnamir_hisham\", \"nafi_qalun\"], \"sourceFace\": 6}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبصلة الميم ومدها 3 حركات\", \"narrators\": [\"nafi_qalun\"], \"sourceFace\": 7}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبصلة الميم ومدها حركتين\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"nafi_qalun\"], \"sourceFace\": 8}]}",
+              "url": "https://quranpedia.net/embed?surah=56&ayah=69&type=qiraat"
+            },
+            {
+              "book": "النشر في القراءات العشر",
+              "volume_page": "1:363",
+              "lines": [
+                9126,
+                9134
+              ],
+              "quote": "أما الذي بعد ساكن صحيح من المتفق عليه فهو عشر كلم في ثمانية عشر موضعا، وهي (أأنذرتهم) في البقرة ويس (وأأنتم) في البقرة والفرقان، وأربعة مواضع في الواقعة، وموضع في النازعات و (أأسلمتم) في آل عمران و (أأقررتم) فيها أيضا، و (أأنت) في المائدة والأنبياء، و (أأرباب) في يوسف، و (أأسجد) في الإسراء، و (أأشكر) في النمل، و (أأتخذ) في يس، و (أأشفقتم) في المجادلة. فاختلفوا في تخفيف الثانية منهما وتحقيقها، وإدخال ألف بينهما. فسهلها بين الهمزة والألف ابن كثير وأبو عمرو وأبو جعفر، وقالون، ورويس، والأصبهاني، عن ورش، واختلف عن الأزرق عنه، وعن هشام. أما الأزرق فأبدلها عنه ألفا خالصة صاحب \" التيسير \"، وابن سفيان والمهدوي ومكي وابن الفحام وابن",
+              "url": "https://najafdesertlibrary.com/book/النشر-في-القراءات-العشر/v/1/p/363"
+            }
+          ],
+          "kind": "record_quarantine",
+          "beforeRecordFields": {
+            "recordQuarantined": null,
+            "quarantineReason": null,
+            "quarantineEvidence": null,
+            "reviewWarnings": null
+          },
+          "id": "full060-304"
+        }
+      ],
+      "recordQuarantined": true,
+      "quarantineReason": "الأوصاف التسعة تصف الهمزتين وميم الجمع في «أأنتم» بأول الآية التالية، لا «الماء». توجد فروق تحريرية ونسبة هشام في الوجه0 بين النسختين، فلا يُدمجان ولا تُصحح النسب تخميناً.",
+      "quarantineEvidence": [
+        {
+          "book": "القرآن الكريم — نص حفص المرجعي",
+          "volume_page": "56:68",
+          "lines": null,
+          "quote": "أَفَرَأَيْتُمُ الْمَاءَ الَّذِي تَشْرَبُونَ",
+          "url": "https://quran.com/56/68"
+        },
+        {
+          "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+          "volume_page": "qp-56-68-2",
+          "lines": null,
+          "quote": "{\"word\": \"الْمَآءَ\", \"coveredRefs\": [[56, 68]], \"faces\": [{\"text\": null, \"description\": \"تحقيق الهمزة الثانية دون ادخال وبإسكان الميم دون سكت عليها\", \"narrators\": [\"asim_hafs\", \"asim_shuba\", \"hamza_khalaf\", \"hamza_khallad\", \"ibnamir_dhakwan\", \"ibnamir_hisham\", \"khalaf_idris\", \"khalaf_ishaq\", \"kisai_duri\", \"kisai_harith\", \"yaqub_ruwh\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"تحقيق الهمزة الثانية دون ادخال وبإسكان الميم مع السكت عليها\", \"narrators\": [\"hamza_khalaf\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"تحقيق الهمزة الثانية وادخال ألف قبلها وبإسكان الميم دون سكت\", \"narrators\": [\"ibnamir_hisham\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون إدخال أو إبدالها ألف تمد 6 حركات وبصلة الميم ومدها 6 حركات\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون ادخال وبإسكان الميم دون سكت عليها\", \"narrators\": [\"yaqub_ruways\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون ادخال وبصلة الميم ومدها حركتين\", \"narrators\": [\"ibnkathir_bazzi\", \"ibnkathir_qunbul\"], \"sourceFace\": 5}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبإسكان الميم دون سكت عليها\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"ibnamir_hisham\", \"nafi_qalun\"], \"sourceFace\": 6}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبصلة الميم ومدها 3 حركات\", \"narrators\": [\"nafi_qalun\"], \"sourceFace\": 7}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبصلة الميم ومدها حركتين\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"nafi_qalun\"], \"sourceFace\": 8}]}",
+          "url": "https://quranpedia.net/embed?surah=56&ayah=68&type=qiraat"
+        },
+        {
+          "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+          "volume_page": "qp-56-69-1",
+          "lines": null,
+          "quote": "{\"word\": \"ءَأَنتُمْ\", \"coveredRefs\": [[56, 69]], \"faces\": [{\"text\": null, \"description\": \"تحقيق الهمزة الثانية دون إدخال وبإسكان الميم دون سكت عليها\", \"narrators\": [\"asim_hafs\", \"asim_shuba\", \"hamza_khalaf\", \"hamza_khallad\", \"ibnamir_dhakwan\", \"khalaf_idris\", \"khalaf_ishaq\", \"kisai_duri\", \"kisai_harith\", \"yaqub_ruwh\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"تحقيق الهمزة الثانية دون إدخال وبإسكان الميم مع السكت عليها\", \"narrators\": [\"hamza_khalaf\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"تحقيق الهمزة الثانية وادخال ألف قبلها وبإسكان الميم دون سكت\", \"narrators\": [\"ibnamir_hisham\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون إدخال وإبدالها ألفاً تمد 6 حركات وبصلة الميم ومدها 6 حركات\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 3}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون إدخال وبإسكان الميم دون سكت عليها\", \"narrators\": [\"yaqub_ruways\"], \"sourceFace\": 4}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية دون ادخال وبصلة الميم ومدها حركتين\", \"narrators\": [\"ibnkathir_bazzi\", \"ibnkathir_qunbul\"], \"sourceFace\": 5}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبإسكان الميم دون سكت عليها\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"ibnamir_hisham\", \"nafi_qalun\"], \"sourceFace\": 6}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبصلة الميم ومدها 3 حركات\", \"narrators\": [\"nafi_qalun\"], \"sourceFace\": 7}, {\"text\": null, \"description\": \"تسهيل الهمزة الثانية وادخال ألف قبلها وبصلة الميم ومدها حركتين\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"nafi_qalun\"], \"sourceFace\": 8}]}",
+          "url": "https://quranpedia.net/embed?surah=56&ayah=69&type=qiraat"
+        },
+        {
+          "book": "النشر في القراءات العشر",
+          "volume_page": "1:363",
+          "lines": [
+            9126,
+            9134
+          ],
+          "quote": "أما الذي بعد ساكن صحيح من المتفق عليه فهو عشر كلم في ثمانية عشر موضعا، وهي (أأنذرتهم) في البقرة ويس (وأأنتم) في البقرة والفرقان، وأربعة مواضع في الواقعة، وموضع في النازعات و (أأسلمتم) في آل عمران و (أأقررتم) فيها أيضا، و (أأنت) في المائدة والأنبياء، و (أأرباب) في يوسف، و (أأسجد) في الإسراء، و (أأشكر) في النمل، و (أأتخذ) في يس، و (أأشفقتم) في المجادلة. فاختلفوا في تخفيف الثانية منهما وتحقيقها، وإدخال ألف بينهما. فسهلها بين الهمزة والألف ابن كثير وأبو عمرو وأبو جعفر، وقالون، ورويس، والأصبهاني، عن ورش، واختلف عن الأزرق عنه، وعن هشام. أما الأزرق فأبدلها عنه ألفا خالصة صاحب \" التيسير \"، وابن سفيان والمهدوي ومكي وابن الفحام وابن",
+          "url": "https://najafdesertlibrary.com/book/النشر-في-القراءات-العشر/v/1/p/363"
+        }
+      ],
+      "reviewWarnings": [
+        "عُزل كامل سجل الوصف لعدم تعلقه باللفظ المحدد؛ حُفظت جميع الأوجه الأصلية للتدقيق، ولا تعد أوجهاً ثابتة لهذا الموضع."
+      ]
+    },
+    {
+      "id": "qp-59-8-2",
+      "surah": 59,
+      "ayah": 8,
+      "sourceAnchor": [
+        59,
+        8
+      ],
+      "word": "لِلْفُقَرَآءِ",
+      "category": "أداء",
+      "tags": [
+        "إمالة وتقليل",
+        "ميم الجمع",
+        "حركات"
+      ],
+      "variants": [
+        {
+          "text": null,
+          "description": "إمالة الألف واسكان الميم",
+          "narrators": [
+            "abuamr_duri",
+            "abuamr_susi",
+            "kisai_duri"
+          ],
+          "sourceFace": 0
+        },
+        {
+          "text": null,
+          "description": "تقليل الألف واسكان الميم",
+          "narrators": [
+            "nafi_warsh"
+          ],
+          "sourceFace": 1
+        },
+        {
+          "text": null,
+          "description": "فتح الألف واسكان الراء",
+          "narrators": [
+            "asim_hafs",
+            "asim_shuba",
+            "hamza_khalaf",
+            "hamza_khallad",
+            "ibnamir_dhakwan",
+            "ibnamir_hisham",
+            "khalaf_idris",
+            "khalaf_ishaq",
+            "kisai_harith",
+            "nafi_qalun",
+            "yaqub_ruways",
+            "yaqub_ruwh"
+          ],
+          "sourceFace": 2
+        },
+        {
+          "text": null,
+          "description": "فتح الألف وصلة الميم",
+          "narrators": [
+            "abujafar_jammaz",
+            "abujafar_wardan",
+            "ibnkathir_bazzi",
+            "ibnkathir_qunbul",
+            "nafi_qalun"
+          ],
+          "sourceFace": 3
+        }
+      ],
+      "audioByNarrator": {
+        "abuamr_susi": 54138,
+        "abuamr_duri": 54140,
+        "kisai_duri": 54139,
+        "nafi_warsh": 54141,
+        "khalaf_ishaq": 54143,
+        "nafi_qalun": 54153,
+        "kisai_harith": 54151,
+        "yaqub_ruways": 54152,
+        "hamza_khallad": 54150,
+        "khalaf_idris": 54148,
+        "hamza_khalaf": 54149,
+        "asim_hafs": 54147,
+        "asim_shuba": 54146,
+        "yaqub_ruwh": 54142,
+        "ibnamir_dhakwan": 54145,
+        "ibnamir_hisham": 54144,
+        "ibnkathir_bazzi": 54157,
+        "ibnkathir_qunbul": 54156,
+        "abujafar_wardan": 54155,
+        "abujafar_jammaz": 54154
+      },
+      "source": {
+        "title": "الموسوعة القرآنية — بيانات القراءات",
+        "url": "https://quranpedia.net/embed?surah=59&ayah=8&type=qiraat",
+        "apiUrl": "https://quranpedia.net/api/v1/ayah/59/8/qiraat",
+        "location": "إصدار 2026-10-10، السجل qp-59-8-2",
+        "version": "2026-10-10"
+      },
+      "scope": "نقل أوصاف المصدر ونِسبها؛ لم يحدد المصدر طريق كل وجه تفصيلاً. تعدد الأوجه داخل الرواية محفوظ، ولا يُستكمل الراوي الناقص بالافتراض.",
+      "state": "الوصل والوقف بحسب الوصف الخاص بكل وجه؛ لا يمثل الرسم المكتوب جميع دقائق الأداء.",
+      "review": "source-import",
+      "missingNarrators": [],
+      "coveredRefs": [
+        [
+          59,
+          8
+        ]
+      ],
+      "wordIds": [
+        "59:8:1"
+      ],
+      "alignment": {
+        "refs": [
+          [
+            59,
+            8
+          ]
+        ],
+        "wordIds": [
+          "59:8:1"
+        ],
+        "method": "exact",
+        "ambiguous": false
+      },
+      "corrections": [
+        {
+          "recordId": "qp-59-8-2",
+          "changes": [
+            {
+              "op": "record",
+              "fields": {
+                "recordQuarantined": true,
+                "quarantineReason": "الأوصاف الأربعة للإمالة والتقليل وميم الجمع منقولة من «ديارهم» في الآية نفسها؛ «للفقراء» لا ميم فيها، والوجه2 أفسد «إسكان الميم» إلى «اسكان الراء».",
+                "quarantineEvidence": [
+                  {
+                    "book": "القرآن الكريم — نص حفص المرجعي",
+                    "volume_page": "59:8",
+                    "lines": null,
+                    "quote": "لِلْفُقَرَاءِ الْمُهَاجِرِينَ الَّذِينَ أُخْرِجُوا مِن دِيَارِهِمْ وَأَمْوَالِهِمْ يَبْتَغُونَ فَضْلًا مِّنَ اللَّهِ وَرِضْوَانًا وَيَنصُرُونَ اللَّهَ وَرَسُولَهُ ۚ أُولَـٰئِكَ هُمُ الصَّادِقُونَ",
+                    "url": "https://quran.com/59/8"
+                  },
+                  {
+                    "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+                    "volume_page": "qp-59-8-2",
+                    "lines": null,
+                    "quote": "{\"word\": \"لِلْفُقَرَآءِ\", \"coveredRefs\": [[59, 8]], \"faces\": [{\"text\": null, \"description\": \"إمالة الألف واسكان الميم\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"kisai_duri\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"تقليل الألف واسكان الميم\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"فتح الألف واسكان الراء\", \"narrators\": [\"asim_hafs\", \"asim_shuba\", \"hamza_khalaf\", \"hamza_khallad\", \"ibnamir_dhakwan\", \"ibnamir_hisham\", \"khalaf_idris\", \"khalaf_ishaq\", \"kisai_harith\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"فتح الألف وصلة الميم\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\"], \"sourceFace\": 3}]}",
+                    "url": "https://quranpedia.net/embed?surah=59&ayah=8&type=qiraat"
+                  },
+                  {
+                    "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+                    "volume_page": "qp-59-8-1",
+                    "lines": null,
+                    "quote": "{\"word\": \"دِيَارِهِمْ\", \"coveredRefs\": [[59, 8]], \"faces\": [{\"text\": null, \"description\": \"إمالة الألف واسكان الميم\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"kisai_duri\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"تقليل الألف واسكان الميم\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"فتح الألف وإسكان الميم\", \"narrators\": [\"asim_hafs\", \"asim_shuba\", \"hamza_khalaf\", \"hamza_khallad\", \"ibnamir_dhakwan\", \"ibnamir_hisham\", \"khalaf_idris\", \"khalaf_ishaq\", \"kisai_harith\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"فتح الألف وصلة الميم\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\"], \"sourceFace\": 3}]}",
+                    "url": "https://quranpedia.net/embed?surah=59&ayah=8&type=qiraat"
+                  },
+                  {
+                    "book": "النشر في القراءات العشر",
+                    "volume_page": "2:54، 2:55",
+                    "lines": [
+                      13695,
+                      13710
+                    ],
+                    "quote": "| فصل [في إمالة الألف التي بعدها راء متطرفة مكسورة] اتفق أبو عمرو من روايتيه والكسائي، من رواية الدوري على إمالة كل ألف بعدها راء متطرفة مجرورة سواء كانت الألف أصلية أم زائدة عنه نحو الدار، الغار، القهار، الغفار، النهار، الديار، الكفار، الفجار، الإبكار، بدينار، بقنطار، بمقدار، أنصار، أوبارها، أشعارها، آثارهما، آثارهم، أبصارهم، ديارهم، واختلف عن ابن ذكوان، فروى ms518 الصوري عنه إمالة ذلك كله، وانفرد عنه أبو الفتح فارس بن أحمد فيما ذكره الداني في جامع البيان بفتح الأبصار فقط نحو لأولي الأبصار، يذهب بالأبصار حيث وقع من لفظه فخالف فيه سائر الناس عنه، وروى الأخفش عنه الفتح، وهو الذي لم تعرف المغاربة سواه، وروى الأزرق عن ورش، جميع الباب بين بين، وانفرد بذلك صاحب العنوان عن حمزة، وكذلك رواه عن أبي الحارث إلا أن روايته عن أبي الحارث ليست من طرقنا، ولا على شرطنا - والله أعلم -. وقرأ الباقون الباب كله بالفتح وخرج من الباب تسعة أحرف، وهي الجار في موضعي النساء وحمارك في البقرة والحمار في الجمعة، والغار في التوبة، وهار فيها أيضا والبوار في إبرهيم، والقهار حيث وقع، وجبارين في المائدة",
+                    "url": "https://najafdesertlibrary.com/book/النشر-في-القراءات-العشر/v/2/p/54"
+                  }
+                ],
+                "reviewWarnings": [
+                  "عُزل كامل سجل الوصف لعدم تعلقه باللفظ المحدد؛ حُفظت جميع الأوجه الأصلية للتدقيق، ولا تعد أوجهاً ثابتة لهذا الموضع."
+                ]
+              }
+            }
+          ],
+          "reason": "الأوصاف الأربعة للإمالة والتقليل وميم الجمع منقولة من «ديارهم» في الآية نفسها؛ «للفقراء» لا ميم فيها، والوجه2 أفسد «إسكان الميم» إلى «اسكان الراء».",
+          "evidence": [
+            {
+              "book": "القرآن الكريم — نص حفص المرجعي",
+              "volume_page": "59:8",
+              "lines": null,
+              "quote": "لِلْفُقَرَاءِ الْمُهَاجِرِينَ الَّذِينَ أُخْرِجُوا مِن دِيَارِهِمْ وَأَمْوَالِهِمْ يَبْتَغُونَ فَضْلًا مِّنَ اللَّهِ وَرِضْوَانًا وَيَنصُرُونَ اللَّهَ وَرَسُولَهُ ۚ أُولَـٰئِكَ هُمُ الصَّادِقُونَ",
+              "url": "https://quran.com/59/8"
+            },
+            {
+              "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+              "volume_page": "qp-59-8-2",
+              "lines": null,
+              "quote": "{\"word\": \"لِلْفُقَرَآءِ\", \"coveredRefs\": [[59, 8]], \"faces\": [{\"text\": null, \"description\": \"إمالة الألف واسكان الميم\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"kisai_duri\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"تقليل الألف واسكان الميم\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"فتح الألف واسكان الراء\", \"narrators\": [\"asim_hafs\", \"asim_shuba\", \"hamza_khalaf\", \"hamza_khallad\", \"ibnamir_dhakwan\", \"ibnamir_hisham\", \"khalaf_idris\", \"khalaf_ishaq\", \"kisai_harith\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"فتح الألف وصلة الميم\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\"], \"sourceFace\": 3}]}",
+              "url": "https://quranpedia.net/embed?surah=59&ayah=8&type=qiraat"
+            },
+            {
+              "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+              "volume_page": "qp-59-8-1",
+              "lines": null,
+              "quote": "{\"word\": \"دِيَارِهِمْ\", \"coveredRefs\": [[59, 8]], \"faces\": [{\"text\": null, \"description\": \"إمالة الألف واسكان الميم\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"kisai_duri\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"تقليل الألف واسكان الميم\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"فتح الألف وإسكان الميم\", \"narrators\": [\"asim_hafs\", \"asim_shuba\", \"hamza_khalaf\", \"hamza_khallad\", \"ibnamir_dhakwan\", \"ibnamir_hisham\", \"khalaf_idris\", \"khalaf_ishaq\", \"kisai_harith\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"فتح الألف وصلة الميم\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\"], \"sourceFace\": 3}]}",
+              "url": "https://quranpedia.net/embed?surah=59&ayah=8&type=qiraat"
+            },
+            {
+              "book": "النشر في القراءات العشر",
+              "volume_page": "2:54، 2:55",
+              "lines": [
+                13695,
+                13710
+              ],
+              "quote": "| فصل [في إمالة الألف التي بعدها راء متطرفة مكسورة] اتفق أبو عمرو من روايتيه والكسائي، من رواية الدوري على إمالة كل ألف بعدها راء متطرفة مجرورة سواء كانت الألف أصلية أم زائدة عنه نحو الدار، الغار، القهار، الغفار، النهار، الديار، الكفار، الفجار، الإبكار، بدينار، بقنطار، بمقدار، أنصار، أوبارها، أشعارها، آثارهما، آثارهم، أبصارهم، ديارهم، واختلف عن ابن ذكوان، فروى ms518 الصوري عنه إمالة ذلك كله، وانفرد عنه أبو الفتح فارس بن أحمد فيما ذكره الداني في جامع البيان بفتح الأبصار فقط نحو لأولي الأبصار، يذهب بالأبصار حيث وقع من لفظه فخالف فيه سائر الناس عنه، وروى الأخفش عنه الفتح، وهو الذي لم تعرف المغاربة سواه، وروى الأزرق عن ورش، جميع الباب بين بين، وانفرد بذلك صاحب العنوان عن حمزة، وكذلك رواه عن أبي الحارث إلا أن روايته عن أبي الحارث ليست من طرقنا، ولا على شرطنا - والله أعلم -. وقرأ الباقون الباب كله بالفتح وخرج من الباب تسعة أحرف، وهي الجار في موضعي النساء وحمارك في البقرة والحمار في الجمعة، والغار في التوبة، وهار فيها أيضا والبوار في إبرهيم، والقهار حيث وقع، وجبارين في المائدة",
+              "url": "https://najafdesertlibrary.com/book/النشر-في-القراءات-العشر/v/2/p/54"
+            }
+          ],
+          "kind": "record_quarantine",
+          "beforeRecordFields": {
+            "recordQuarantined": null,
+            "quarantineReason": null,
+            "quarantineEvidence": null,
+            "reviewWarnings": null
+          },
+          "id": "full060-310"
+        }
+      ],
+      "recordQuarantined": true,
+      "quarantineReason": "الأوصاف الأربعة للإمالة والتقليل وميم الجمع منقولة من «ديارهم» في الآية نفسها؛ «للفقراء» لا ميم فيها، والوجه2 أفسد «إسكان الميم» إلى «اسكان الراء».",
+      "quarantineEvidence": [
+        {
+          "book": "القرآن الكريم — نص حفص المرجعي",
+          "volume_page": "59:8",
+          "lines": null,
+          "quote": "لِلْفُقَرَاءِ الْمُهَاجِرِينَ الَّذِينَ أُخْرِجُوا مِن دِيَارِهِمْ وَأَمْوَالِهِمْ يَبْتَغُونَ فَضْلًا مِّنَ اللَّهِ وَرِضْوَانًا وَيَنصُرُونَ اللَّهَ وَرَسُولَهُ ۚ أُولَـٰئِكَ هُمُ الصَّادِقُونَ",
+          "url": "https://quran.com/59/8"
+        },
+        {
+          "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+          "volume_page": "qp-59-8-2",
+          "lines": null,
+          "quote": "{\"word\": \"لِلْفُقَرَآءِ\", \"coveredRefs\": [[59, 8]], \"faces\": [{\"text\": null, \"description\": \"إمالة الألف واسكان الميم\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"kisai_duri\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"تقليل الألف واسكان الميم\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"فتح الألف واسكان الراء\", \"narrators\": [\"asim_hafs\", \"asim_shuba\", \"hamza_khalaf\", \"hamza_khallad\", \"ibnamir_dhakwan\", \"ibnamir_hisham\", \"khalaf_idris\", \"khalaf_ishaq\", \"kisai_harith\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"فتح الألف وصلة الميم\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\"], \"sourceFace\": 3}]}",
+          "url": "https://quranpedia.net/embed?surah=59&ayah=8&type=qiraat"
+        },
+        {
+          "book": "بيانات القراءات المستوردة — baseline 0.5.3",
+          "volume_page": "qp-59-8-1",
+          "lines": null,
+          "quote": "{\"word\": \"دِيَارِهِمْ\", \"coveredRefs\": [[59, 8]], \"faces\": [{\"text\": null, \"description\": \"إمالة الألف واسكان الميم\", \"narrators\": [\"abuamr_duri\", \"abuamr_susi\", \"kisai_duri\"], \"sourceFace\": 0}, {\"text\": null, \"description\": \"تقليل الألف واسكان الميم\", \"narrators\": [\"nafi_warsh\"], \"sourceFace\": 1}, {\"text\": null, \"description\": \"فتح الألف وإسكان الميم\", \"narrators\": [\"asim_hafs\", \"asim_shuba\", \"hamza_khalaf\", \"hamza_khallad\", \"ibnamir_dhakwan\", \"ibnamir_hisham\", \"khalaf_idris\", \"khalaf_ishaq\", \"kisai_harith\", \"nafi_qalun\", \"yaqub_ruways\", \"yaqub_ruwh\"], \"sourceFace\": 2}, {\"text\": null, \"description\": \"فتح الألف وصلة الميم\", \"narrators\": [\"abujafar_jammaz\", \"abujafar_wardan\", \"ibnkathir_bazzi\", \"ibnkathir_qunbul\", \"nafi_qalun\"], \"sourceFace\": 3}]}",
+          "url": "https://quranpedia.net/embed?surah=59&ayah=8&type=qiraat"
+        },
+        {
+          "book": "النشر في القراءات العشر",
+          "volume_page": "2:54، 2:55",
+          "lines": [
+            13695,
+            13710
+          ],
+          "quote": "| فصل [في إمالة الألف التي بعدها راء متطرفة مكسورة] اتفق أبو عمرو من روايتيه والكسائي، من رواية الدوري على إمالة كل ألف بعدها راء متطرفة مجرورة سواء كانت الألف أصلية أم زائدة عنه نحو الدار، الغار، القهار، الغفار، النهار، الديار، الكفار، الفجار، الإبكار، بدينار، بقنطار، بمقدار، أنصار، أوبارها، أشعارها، آثارهما، آثارهم، أبصارهم، ديارهم، واختلف عن ابن ذكوان، فروى ms518 الصوري عنه إمالة ذلك كله، وانفرد عنه أبو الفتح فارس بن أحمد فيما ذكره الداني في جامع البيان بفتح الأبصار فقط نحو لأولي الأبصار، يذهب بالأبصار حيث وقع من لفظه فخالف فيه سائر الناس عنه، وروى الأخفش عنه الفتح، وهو الذي لم تعرف المغاربة سواه، وروى الأزرق عن ورش، جميع الباب بين بين، وانفرد بذلك صاحب العنوان عن حمزة، وكذلك رواه عن أبي الحارث إلا أن روايته عن أبي الحارث ليست من طرقنا، ولا على شرطنا - والله أعلم -. وقرأ الباقون الباب كله بالفتح وخرج من الباب تسعة أحرف، وهي الجار في موضعي النساء وحمارك في البقرة والحمار في الجمعة، والغار في التوبة، وهار فيها أيضا والبوار في إبرهيم، والقهار حيث وقع، وجبارين في المائدة",
+          "url": "https://najafdesertlibrary.com/book/النشر-في-القراءات-العشر/v/2/p/54"
+        }
+      ],
+      "reviewWarnings": [
+        "عُزل كامل سجل الوصف لعدم تعلقه باللفظ المحدد؛ حُفظت جميع الأوجه الأصلية للتدقيق، ولا تعد أوجهاً ثابتة لهذا الموضع."
+      ]
+    }
+  ]
+}
