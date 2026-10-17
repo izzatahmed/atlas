@@ -92,5 +92,3 @@ html[data-large-text=true] .search-box input,html[data-large-text=true] .search-
 html[data-large-text=true] .search-box button{grid-row:3}
 html[data-large-text=true] .search-box>svg{display:none}
 @media print{.menu-toggle{display:none!important}}
-
-.back-tools{margin-block:1.5rem;padding-block:1rem;border-top:1px solid #c8d4ca}.back-button{display:inline-flex;align-items:center;justify-content:center;gap:.7rem;min-height:3rem;max-width:100%;padding:.7rem 1.2rem;border:1px solid #789480;border-radius:.6rem;background:#e8f1e8;color:#174f3f;font-size:1.125rem;line-height:1.7;cursor:pointer;white-space:normal;text-align:center}.back-button:hover{background:#dcebdc}.back-button:focus-visible{outline:3px solid #967432;outline-offset:3px}.back-button span{font-size:1.5rem}@media(max-width:560px){.back-tools .back-button{width:100%}}@media print{.back-tools{display:none!important}}

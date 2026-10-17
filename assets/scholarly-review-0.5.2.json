@@ -1,0 +1,4524 @@
+{
+  "meta": {
+    "version": "0.5.2",
+    "date": "2026-10-16",
+    "scope": "مراجعة فقرات الفرش الصريحة في باب النساء من النشر، مع عزل تسعة أوصاف ثبت تعلقها بألفاظ مجاورة في بطاقتين من آل عمران. التوثيق محلي، ولا يثبت جميع الأصول أو الطرق أو مقادير المد أو التسجيلات.",
+    "inputVersion": "0.5.1",
+    "inputSHA256": "72603f3c543f8aa67a2a4a112aa10ee2d13e6c6a12b13b1452ff26ddcce22b77",
+    "primaryTextSHA256": "d2856b9f29badc5f066dc8abd13b2d91fc81cf23b6c2898392746467f1ebbf52",
+    "counts": {
+      "changedRecords": 10,
+      "nisaRecords": 8,
+      "nisaParagraphs": 42,
+      "localAttributionSetChecks": 46,
+      "addedPartialFaces": 6,
+      "quarantinedDescriptions": 9,
+      "quarantineRecords": 2
+    },
+    "limits": [
+      "الوجوه الجزئية الستة تثبت القاعدة المسماة فقط؛ لا تركب مع بقية الأصول في طريق دون تحرير.",
+      "عزل الأوصاف في آل عمران81و187 لا يحكم على أصلها بالشذوذ؛ المعالجة لإحالتها إلى كلمة أخرى. يبقى المصدر الخام محفوظاً دون تعديل.",
+      "بقيت مقارنة الأداء المركب في آل عمران81 معلقة حتى تحقيق تفاصيل المد وميم الجمع وقيود الطرق؛ وفي187 تحقق أصل التاء/الياء فقط.",
+      "ما زال تعيين طريق ابن مهران عن ابن وردان في لا تضار/لا يضار معلقاً لتعارض الطبعة المصورة؛ لا تحسمه هذه الدفعة.",
+      "الجرد42 فقرة صريحة مع تطبيقاتها في النساء؛ لا يمثل استيعاب جميع أصول السورة أو الإحالات إلى أبواب الأداء، ولا مراجعة سمعية."
+    ]
+  },
+  "inventory": {
+    "meta": {
+      "siteVersion": "0.5.2",
+      "siteSha256": "8c9d9f703599cbe8257148c3d5657319c84d11ba5e98362c0c09d5cfa6b91c0e",
+      "sourceSha256": "d2856b9f29badc5f066dc8abd13b2d91fc81cf23b6c2898392746467f1ebbf52",
+      "createdAt": "2026-10-16T19:19:32.945441+00:00",
+      "scope": "فقرات (واختلفوا) الاثنتان والأربعون في باب النساء من النشر، مع التطبيقات المحلية في سورة النساء فقط. استوعب الحصر هذه الفقرات، ولا يدعي استيعاب أصول القراءات أو كل طرقها أو الإحالات إلى الأبواب السابقة.",
+      "sourceLines": [
+        18626,
+        18799
+      ],
+      "sourcePages": [
+        "2/247",
+        "2/248",
+        "2/249",
+        "2/250",
+        "2/251",
+        "2/252",
+        "2/253"
+      ],
+      "paragraphCount": 42,
+      "findingGroups": 7,
+      "findingRecordIds": [
+        "qp-4-122-2",
+        "qp-4-124-1",
+        "qp-4-154-1",
+        "qp-4-77-4",
+        "qp-4-87-1",
+        "qp-4-90-2",
+        "qp-4-94-2",
+        "qp-4-94-5"
+      ],
+      "missingWholeFarshPositionsConfirmed": 0,
+      "faceIndexConvention": "صفرية: faceIndex هو ترتيب العنصر في variants.",
+      "pageConvention": "PageV يختم الصفحة السابقة؛ ينسب النص إلى أول marker بعده.",
+      "projectModified": false,
+      "audioReviewed": false,
+      "notReviewed": "لم تراجع جميع مقادير المد أو الإمالة والسكت والنقل والإدغام أو كل التركيبات والطرق. لا تصنّف الأوصاف المركبة صحيحة بالكامل بسبب مطابقة جانب محلي منها.",
+      "localAttributionSetChecks": 46,
+      "currentBaselineVersion": "0.5.2",
+      "baselineNote": "بدأت المهمة على 0.5.1، ثم أصبحت النسخة الحالية 0.5.2 أثناء البحث. الحراس وبصمة البيانات مأخوذة من 0.5.2 فعلياً."
+    },
+    "findings": [
+      {
+        "id": "N1",
+        "type": "wrong-attribution-and-description",
+        "certainty": "confirmed",
+        "recordIds": [
+          "qp-4-124-1"
+        ],
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18753,
+            18765
+          ],
+          "pages": [
+            "2/252"
+          ],
+          "witness": "(واختلفوا) في: يدخلون هنا، وفي مريم وفاطر وموضعي المؤمن فقرأ ابن كثير وأبو جعفر وأبو بكر وروح بضم الياء وفتح الخاء في هذه السورة ومريم والأول من المؤمن، وافقهم رويس في مريم وأول المؤمن، وقرأ ابن كثير وأبو جعفر ورويس الحرف الثاني من المؤمن، وهو قوله سيدخلون جهنم كذلك. (واختلف) عن أبي بكر فيه، فروى العليمي عنه من طريق العراقيين قاطبة فتح الياء وضم الخاء، وهو المأخوذ به من جميع طرقه، واختلف عن يحيى بن آدم عنه، فروى سبط الخياط عن الصريفيني عنه كذلك وجعل من طريق الشنبوذي عن أبي عون عنه الوجهين فإنه قال: روى الشنبوذي بإسناده عن يحيى فتح الياء وضم الخاء، قال: الكارزيني والذي قرأته بضم الياء فيكون عن الشنبوذي وجهان. (قلت) : وعلى ضم الياء وفتح الخاء سائر الرواة عن يحيى، وقد انفرد النهرواني عن أبي حمدون عن يحيى عنه بفتح الياء وضم الخاء في الأول من المؤمن خاصة، وقرأ أبو عمرو يدخلونها في فاطر بضم الياء وفتح الخاء، وقرأ الباقون بفتح الياء وضم الخاء في المواضع الخمسة."
+        },
+        "problem": "face0 يضيف أبا عمرو إلى المبني للمجهول في النساء، مع أن موافقته الواردة في النص تخص فاطر. وفي وصف الوجه نفسه الحاء بدل الخاء.",
+        "correction": "نقل دوري أبي عمرو والسوسي من face0 إلى face1، وتبديل الحاء بالخاء في وصف face0.",
+        "qualification": "هذا تصحيح للنساء 4:124 فقط. لا ينقل إلى مواضع مريم أو فاطر أو غافر.",
+        "preconditions": [
+          {
+            "recordId": "qp-4-124-1",
+            "beforeWord": "يَدْخُلُونَ",
+            "beforeVariants": [
+              {
+                "text": "يُدخَلون",
+                "description": "(يُدخَلون) بضم الياء وفتح الحاء",
+                "narrators": [
+                  "abuamr_duri",
+                  "abuamr_susi",
+                  "abujafar_jammaz",
+                  "abujafar_wardan",
+                  "asim_shuba",
+                  "ibnkathir_bazzi",
+                  "ibnkathir_qunbul",
+                  "yaqub_ruwh"
+                ],
+                "sourceFace": 0
+              },
+              {
+                "text": "يَدخُلون",
+                "description": "(يَدخُلون) بفتح الياء وضم الخاء",
+                "narrators": [
+                  "asim_hafs",
+                  "hamza_khalaf",
+                  "hamza_khallad",
+                  "ibnamir_dhakwan",
+                  "ibnamir_hisham",
+                  "khalaf_idris",
+                  "khalaf_ishaq",
+                  "kisai_duri",
+                  "kisai_harith",
+                  "nafi_qalun",
+                  "nafi_warsh",
+                  "yaqub_ruways"
+                ],
+                "sourceFace": 1
+              }
+            ],
+            "beforeState": "الوصل والوقف بحسب الوصف الخاص بكل وجه؛ لا يمثل الرسم المكتوب جميع دقائق الأداء.",
+            "beforeReview": "source-import",
+            "beforeWordIds": [
+              "4:124:12"
+            ]
+          }
+        ],
+        "suggestedGuardedOperations": [
+          {
+            "operation": "move-narrators-between-existing-faces",
+            "recordId": "qp-4-124-1",
+            "fromFaceIndex": 0,
+            "toFaceIndex": 1,
+            "narrators": [
+              "abuamr_duri",
+              "abuamr_susi"
+            ],
+            "guard": "طابق beforeVariants كاملة؛ وجودهما في fromFace وعدم وجودهما في toFace."
+          },
+          {
+            "operation": "replace-description",
+            "recordId": "qp-4-124-1",
+            "faceIndex": 0,
+            "before": "(يُدخَلون) بضم الياء وفتح الحاء",
+            "after": "(يُدخَلون) بضم الياء وفتح الخاء"
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "type": "missing-path-faces",
+        "certainty": "confirmed",
+        "recordIds": [
+          "qp-4-77-4"
+        ],
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18707,
+            18711
+          ],
+          "pages": [
+            "2/250"
+          ],
+          "witness": "(واختلفوا) في: ولا تظلمون فتيلا أينما فقرأ ابن كثير وأبو جعفر وحمزة والكسائي، وخلف بالغيب. (واختلف) عن روح، فروى عنه أبو الطيب كذلك بالغيب، وروى عنه سائر الرواة بالخطاب كالباقين. وقد روى الغيب أيضا العراقيون عن الحلواني عن هشام لكنه من غير طريق التغلبي."
+        },
+        "problem": "روح في face2 الغيب فقط، مع ثبوت الخطاب عن سائر الرواة عنه. هشام في face0 الخطاب فقط، مع ورود الغيب عن العراقيين عن الحلواني من غير طريق التغلبي.",
+        "correction": "إضافة خطاب روح وغيب هشام مع قيود الطرق، وتقييد وجهي روح: أبو الطيب غيب وسائر الرواة خطاب.",
+        "qualification": "لا تنشئ وجهاً مطلقاً لهشام، ولا تسقط وجه الغيب عن روح. لا يفحص هذا التقرير أداء اللام أو الصوت.",
+        "preconditions": [
+          {
+            "recordId": "qp-4-77-4",
+            "beforeWord": "وَلاَ تُظْلَمُونَ",
+            "beforeVariants": [
+              {
+                "text": "تظلمون",
+                "description": "(تظلمون) بالتاء وترقيق اللام",
+                "narrators": [
+                  "abuamr_duri",
+                  "abuamr_susi",
+                  "asim_hafs",
+                  "asim_shuba",
+                  "ibnamir_dhakwan",
+                  "ibnamir_hisham",
+                  "nafi_qalun",
+                  "yaqub_ruways"
+                ],
+                "sourceFace": 0
+              },
+              {
+                "text": "تظلمون",
+                "description": "(تظلمون) بالتاء وتغليظ اللام",
+                "narrators": [
+                  "nafi_warsh"
+                ],
+                "sourceFace": 1
+              },
+              {
+                "text": "يظلمون",
+                "description": "(يظلمون) بالياء وترقيق اللام",
+                "narrators": [
+                  "abujafar_jammaz",
+                  "abujafar_wardan",
+                  "hamza_khalaf",
+                  "hamza_khallad",
+                  "ibnkathir_bazzi",
+                  "ibnkathir_qunbul",
+                  "khalaf_idris",
+                  "khalaf_ishaq",
+                  "kisai_duri",
+                  "kisai_harith",
+                  "yaqub_ruwh"
+                ],
+                "sourceFace": 2
+              }
+            ],
+            "beforeState": "الوصل والوقف بحسب الوصف الخاص بكل وجه؛ لا يمثل الرسم المكتوب جميع دقائق الأداء.",
+            "beforeReview": "source-import",
+            "beforeWordIds": [
+              "4:77:46",
+              "4:77:47"
+            ]
+          }
+        ],
+        "suggestedGuardedOperations": [
+          {
+            "operation": "add-narrators-to-existing-local-face",
+            "recordId": "qp-4-77-4",
+            "faceIndex": 0,
+            "narrators": [
+              "yaqub_ruwh"
+            ],
+            "qualification": "الخطاب من سائر الرواة عن روح غير أبي الطيب.",
+            "guard": "طابق beforeVariants كاملة قبل التطبيق؛ لا تستبدل النسخة المخالفة تلقائياً."
+          },
+          {
+            "operation": "qualify-local-face-for-narrators",
+            "recordId": "qp-4-77-4",
+            "faceIndex": 2,
+            "narrators": [
+              "yaqub_ruwh"
+            ],
+            "qualification": "الغيب من طريق أبي الطيب عن روح.",
+            "guard": "طابق beforeVariants كاملة؛ لا تغير بقية الرواة أو الأصول المصاحبة."
+          },
+          {
+            "operation": "add-narrators-to-existing-local-face",
+            "recordId": "qp-4-77-4",
+            "faceIndex": 2,
+            "narrators": [
+              "ibnamir_hisham"
+            ],
+            "qualification": "الغيب رواية العراقيين عن الحلواني عن هشام، من غير طريق التغلبي.",
+            "guard": "طابق beforeVariants كاملة قبل التطبيق؛ لا تستبدل النسخة المخالفة تلقائياً."
+          },
+          {
+            "operation": "qualify-local-face-for-narrators",
+            "recordId": "qp-4-77-4",
+            "faceIndex": 0,
+            "narrators": [
+              "ibnamir_hisham"
+            ],
+            "qualification": "الخطاب هو الباقي عن هشام؛ لا يعمم على طرق الغيب المعينة.",
+            "guard": "طابق beforeVariants كاملة؛ لا تغير بقية الرواة أو الأصول المصاحبة."
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "type": "missing-path-faces",
+        "certainty": "confirmed",
+        "recordIds": [
+          "qp-4-94-5"
+        ],
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18736,
+            18741
+          ],
+          "pages": [
+            "2/251"
+          ],
+          "witness": "(واختلفوا) في: ألقى إليكم السلام لست فقرأ المدنيان، وابن عامر حمزة وخلف بحذف ألف السلام، وقرأ الباقون بإثباتها في لست مؤمنا، فروى النهرواني عن أصحابه عن ابن شبيب وابن هارون كلاهما عن الفضل والحنبلي عن هبة الله كلاهما عن عيسى بن وردان فتح الميم التي بعد الواو كذلك روى الجوهري والمغازلي عن الهاشمي في رواية ابن جماز وكسرها سائر أصحاب أبي جعفر، وكذلك قرأ الباقون."
+        },
+        "problem": "فتح الميم في face2 مقصور على ابن وردان بلا قيد، والكسر في face1 مقصور من أبي جعفر على ابن جماز بلا وجه الفتح عنه.",
+        "correction": "إثبات الوجهين عن راويي أبي جعفر مع بيان طرق الفتح وكون الكسر لسائر أصحاب أبي جعفر.",
+        "qualification": "المراجعة تخص الميم التي بعد الواو في مؤمنا فقط؛ لا تدعي مراجعة باب إبدال الهمزة المصاحب.",
+        "preconditions": [
+          {
+            "recordId": "qp-4-94-5",
+            "beforeWord": "مُؤْمِنًا",
+            "beforeVariants": [
+              {
+                "text": "مُؤمِنًا",
+                "description": "(مُؤمِنًا) تحقيق الهمزة الساكنة وكسر الميم",
+                "narrators": [
+                  "abuamr_duri",
+                  "asim_hafs",
+                  "asim_shuba",
+                  "hamza_khalaf",
+                  "hamza_khallad",
+                  "ibnamir_dhakwan",
+                  "ibnamir_hisham",
+                  "ibnkathir_bazzi",
+                  "ibnkathir_qunbul",
+                  "khalaf_idris",
+                  "khalaf_ishaq",
+                  "kisai_duri",
+                  "kisai_harith",
+                  "nafi_qalun",
+                  "yaqub_ruways",
+                  "yaqub_ruwh"
+                ],
+                "sourceFace": 0
+              },
+              {
+                "text": "مُومِنًا",
+                "description": "(مُومِنًا) إبدال  الهمزة وكسر الميم",
+                "narrators": [
+                  "abuamr_susi",
+                  "abujafar_jammaz",
+                  "nafi_warsh"
+                ],
+                "sourceFace": 1
+              },
+              {
+                "text": "مُومَنًا",
+                "description": "(مُومَنًا) إبدال الهمزة وفتح الميم",
+                "narrators": [
+                  "abujafar_wardan"
+                ],
+                "sourceFace": 2
+              }
+            ],
+            "beforeState": "الوصل والوقف بحسب الوصف الخاص بكل وجه؛ لا يمثل الرسم المكتوب جميع دقائق الأداء.",
+            "beforeReview": "source-import",
+            "beforeWordIds": [
+              "4:94:18"
+            ]
+          }
+        ],
+        "suggestedGuardedOperations": [
+          {
+            "operation": "add-narrators-to-existing-local-face",
+            "recordId": "qp-4-94-5",
+            "faceIndex": 1,
+            "narrators": [
+              "abujafar_wardan"
+            ],
+            "qualification": "كسر الميم لسائر أصحاب أبي جعفر، خارج طرق الفتح المحددة.",
+            "guard": "طابق beforeVariants كاملة قبل التطبيق؛ لا تستبدل النسخة المخالفة تلقائياً."
+          },
+          {
+            "operation": "qualify-local-face-for-narrators",
+            "recordId": "qp-4-94-5",
+            "faceIndex": 1,
+            "narrators": [
+              "abujafar_jammaz"
+            ],
+            "qualification": "كسر الميم لسائر أصحاب أبي جعفر، خارج طريقي الجوهري والمغازلي عن الهاشمي عن ابن جماز.",
+            "guard": "طابق beforeVariants كاملة؛ لا تغير بقية الرواة أو الأصول المصاحبة."
+          },
+          {
+            "operation": "add-narrators-to-existing-local-face",
+            "recordId": "qp-4-94-5",
+            "faceIndex": 2,
+            "narrators": [
+              "abujafar_jammaz"
+            ],
+            "qualification": "فتح الميم: الجوهري والمغازلي عن الهاشمي في رواية ابن جماز.",
+            "guard": "طابق beforeVariants كاملة قبل التطبيق؛ لا تستبدل النسخة المخالفة تلقائياً."
+          },
+          {
+            "operation": "qualify-local-face-for-narrators",
+            "recordId": "qp-4-94-5",
+            "faceIndex": 2,
+            "narrators": [
+              "abujafar_wardan"
+            ],
+            "qualification": "فتح الميم: النهرواني عن أصحابه عن ابن شبيب وابن هارون كلاهما عن الفضل، والحنبلي عن هبة الله، كلاهما عن عيسى بن وردان.",
+            "guard": "طابق beforeVariants كاملة؛ لا تغير بقية الرواة أو الأصول المصاحبة."
+          }
+        ]
+      },
+      {
+        "id": "N4",
+        "type": "missing-path-faces-and-description-typo",
+        "certainty": "confirmed",
+        "recordIds": [
+          "qp-4-87-1",
+          "qp-4-122-2"
+        ],
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18719,
+            18725
+          ],
+          "pages": [
+            "2/250",
+            "2/251"
+          ],
+          "witness": ". (واختلفوا) في: ms702 مصدق (وتصديق) و (يصدفون) و (فاصدع) و (قصد) و (يصدر) وما أشبهه إذا سكنت الصاد وأتى بعدها دال فقرأ حمزة والكسائي وخلف، بإشمام الصاد الزاي، وافقهم رويس في (يصدر) ، وهو في القصص والزلزلة. واختلف عنه في غيره، فروى عنه النخاس والجوهري كذلك بالإشمام جميع ذلك، وبه قطع ابن مهران به، وروى عنه أبو الطيب وابن مقسم بالصاد الخالصة، وبه قطع الهذلي وبذلك قرأ الباقون."
+        },
+        "problem": "رويس ممثل بالإشمام وحده في الموضعين، مع نص النشر على الصاد الخالصة عنه من أبي الطيب وابن مقسم. كما كتب في 4:122 «إشكام» بدل «إشمام».",
+        "correction": "أضف الصاد الخالصة لرويس في الموضعين مع فصل طرقها عن الإشمام، وصحح الخطأ الطباعي.",
+        "qualification": "هذا أصل نص عليه باب الفرش صراحة؛ حصر التطبيق هنا في أصدق 4:87 و4:122. لفظ «مصدق» المحلي لا يبرر إنشاء وجه في مُصَدِّقاً 4:47: صاده غير ساكنة. لا تراجع هذه النتيجة سكت حمزة أو النقل المصاحب.",
+        "preconditions": [
+          {
+            "recordId": "qp-4-87-1",
+            "beforeWord": "وَمَنْ أَصْدَقُ",
+            "beforeVariants": [
+              {
+                "text": null,
+                "description": "التحقيق وبالصاد الخالصة",
+                "narrators": [
+                  "abuamr_duri",
+                  "abuamr_susi",
+                  "abujafar_jammaz",
+                  "abujafar_wardan",
+                  "asim_hafs",
+                  "asim_shuba",
+                  "ibnamir_dhakwan",
+                  "ibnamir_hisham",
+                  "ibnkathir_bazzi",
+                  "ibnkathir_qunbul",
+                  "nafi_qalun",
+                  "yaqub_ruwh"
+                ],
+                "sourceFace": 0
+              },
+              {
+                "text": null,
+                "description": "بالتحقيق وإشمام الصاد زايا",
+                "narrators": [
+                  "hamza_khalaf",
+                  "hamza_khallad",
+                  "khalaf_idris",
+                  "khalaf_ishaq",
+                  "kisai_duri",
+                  "kisai_harith",
+                  "yaqub_ruways"
+                ],
+                "sourceFace": 1
+              },
+              {
+                "text": null,
+                "description": "بالسكت وإشمام الصاد زايا",
+                "narrators": [
+                  "hamza_khalaf"
+                ],
+                "sourceFace": 2
+              },
+              {
+                "text": null,
+                "description": "بالنقل وبالصاد الخالصة",
+                "narrators": [
+                  "nafi_warsh"
+                ],
+                "sourceFace": 3
+              }
+            ],
+            "beforeState": "الوصل والوقف بحسب الوصف الخاص بكل وجه؛ لا يمثل الرسم المكتوب جميع دقائق الأداء.",
+            "beforeReview": "source-import",
+            "beforeWordIds": [
+              "4:87:13",
+              "4:87:14"
+            ]
+          },
+          {
+            "recordId": "qp-4-122-2",
+            "beforeWord": "وَمَنْ أَصْدَقُ",
+            "beforeVariants": [
+              {
+                "text": null,
+                "description": "بالتحقيق وإشكام الصاد زايا",
+                "narrators": [
+                  "hamza_khalaf",
+                  "hamza_khallad",
+                  "khalaf_idris",
+                  "khalaf_ishaq",
+                  "kisai_duri",
+                  "kisai_harith",
+                  "yaqub_ruways"
+                ],
+                "sourceFace": 0
+              },
+              {
+                "text": null,
+                "description": "بالتحقيق وبالصاد الخالصة",
+                "narrators": [
+                  "abuamr_duri",
+                  "abuamr_susi",
+                  "abujafar_jammaz",
+                  "abujafar_wardan",
+                  "asim_hafs",
+                  "asim_shuba",
+                  "ibnamir_dhakwan",
+                  "ibnamir_hisham",
+                  "ibnkathir_bazzi",
+                  "ibnkathir_qunbul",
+                  "nafi_qalun",
+                  "yaqub_ruwh"
+                ],
+                "sourceFace": 1
+              },
+              {
+                "text": null,
+                "description": "بالسكت الساكن قبل الهمزة وإشمام الصاد زايا",
+                "narrators": [
+                  "hamza_khalaf"
+                ],
+                "sourceFace": 2
+              },
+              {
+                "text": null,
+                "description": "بالنقل وبصاد خالصة",
+                "narrators": [
+                  "nafi_warsh"
+                ],
+                "sourceFace": 3
+              }
+            ],
+            "beforeState": "الوصل والوقف بحسب الوصف الخاص بكل وجه؛ لا يمثل الرسم المكتوب جميع دقائق الأداء.",
+            "beforeReview": "source-import",
+            "beforeWordIds": [
+              "4:122:17",
+              "4:122:18"
+            ]
+          }
+        ],
+        "suggestedGuardedOperations": [
+          {
+            "operation": "add-narrators-to-existing-local-face",
+            "recordId": "qp-4-87-1",
+            "faceIndex": 0,
+            "narrators": [
+              "yaqub_ruways"
+            ],
+            "qualification": "الصاد الخالصة: أبو الطيب وابن مقسم عن رويس؛ وبه قطع الهذلي.",
+            "guard": "طابق beforeVariants كاملة قبل التطبيق؛ لا تستبدل النسخة المخالفة تلقائياً."
+          },
+          {
+            "operation": "qualify-local-face-for-narrators",
+            "recordId": "qp-4-87-1",
+            "faceIndex": 1,
+            "narrators": [
+              "yaqub_ruways"
+            ],
+            "qualification": "إشمام الصاد الزاي: النخاس والجوهري عن رويس؛ وبه قطع ابن مهران.",
+            "guard": "طابق beforeVariants كاملة؛ لا تغير بقية الرواة أو الأصول المصاحبة."
+          },
+          {
+            "operation": "add-narrators-to-existing-local-face",
+            "recordId": "qp-4-122-2",
+            "faceIndex": 1,
+            "narrators": [
+              "yaqub_ruways"
+            ],
+            "qualification": "الصاد الخالصة: أبو الطيب وابن مقسم عن رويس؛ وبه قطع الهذلي.",
+            "guard": "طابق beforeVariants كاملة قبل التطبيق؛ لا تستبدل النسخة المخالفة تلقائياً."
+          },
+          {
+            "operation": "qualify-local-face-for-narrators",
+            "recordId": "qp-4-122-2",
+            "faceIndex": 0,
+            "narrators": [
+              "yaqub_ruways"
+            ],
+            "qualification": "إشمام الصاد الزاي: النخاس والجوهري عن رويس؛ وبه قطع ابن مهران.",
+            "guard": "طابق beforeVariants كاملة؛ لا تغير بقية الرواة أو الأصول المصاحبة."
+          },
+          {
+            "operation": "replace-description",
+            "recordId": "qp-4-122-2",
+            "faceIndex": 0,
+            "before": "بالتحقيق وإشكام الصاد زايا",
+            "after": "بالتحقيق وإشمام الصاد زايا"
+          }
+        ]
+      },
+      {
+        "id": "N5",
+        "type": "missing-explicit-waqf-constraint",
+        "certainty": "confirmed",
+        "recordIds": [
+          "qp-4-90-2"
+        ],
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18726,
+            18733
+          ],
+          "pages": [
+            "2/251"
+          ],
+          "witness": "(واختلفوا) في: حصرت صدورهم فقرأ يعقوب بنصب التاء منونة، وهو على أصله في الوقف عليه بالهاء كما تقدم في باب الوقف على المرسوم، كذا نص عليه الأستاذ أبو العز وغيره، وهو الصحيح في مذهبه والذي يقتضيه أصله، وقد ذكر بعض الأئمة الوقف عليها بالتاء لجميع القراء كابن سوار وغيره فأدخل يعقوب في جملتهم إجمالا، والصواب تخصيصه بالهاء على أصله في كل ما كتب من المؤنث بالتاء ويوقف عليه هو وغيره بالهاء على أصولهم المعروفة من غير أن يسكنوا شيئا، والباقون بإسكان التاء وصلا ووقفا. وتقدم اختلافهم في إدغام تائها من فصل تاء التأنيث. وكذا مذهب الأزرق في الراء من بابها."
+        },
+        "problem": "face0 يذكر نصب التاء منونة ليعقوب ولا يذكر نص النشر على الوقف بالهاء.",
+        "correction": "بيان أن تنوين التاء بالفتح وجه الوصل ليعقوب، ووقفه على الكلمة بالهاء «حَصِرَهْ».",
+        "qualification": "قف على كلمة حصرت وحدها. لا تحول العبارة المركبة كلها إلى صيغة الوقف، ولا تعمم هذا الحكم على جميع التاءات هنا.",
+        "preconditions": [
+          {
+            "recordId": "qp-4-90-2",
+            "beforeWord": "حَصِرَتْ صُدُورُهُمْ أَن",
+            "beforeVariants": [
+              {
+                "text": "حصرةً صدورهمْ",
+                "description": "(حصرةً صدورهمْ) بتنوين التاء بالفتح وتفخيم الراء الأولى وإسكان الميم دون سكت",
+                "narrators": [
+                  "yaqub_ruways",
+                  "yaqub_ruwh"
+                ],
+                "sourceFace": 0
+              },
+              {
+                "text": "حصرت صُّدورهمْ",
+                "description": "(حصرت صُّدورهمْ) إدغام التاء في الصاد وتفخيم الراء الأولى وإسكان الميم دون سكت",
+                "narrators": [
+                  "abuamr_duri",
+                  "abuamr_susi",
+                  "hamza_khalaf",
+                  "hamza_khallad",
+                  "ibnamir_dhakwan",
+                  "ibnamir_hisham",
+                  "khalaf_idris",
+                  "khalaf_ishaq",
+                  "kisai_duri",
+                  "kisai_harith"
+                ],
+                "sourceFace": 1
+              },
+              {
+                "text": "حصرت صُّدورهمْ",
+                "description": "(حصرت صُّدورهمْ) إدغام التاء في الصاد وتفخيم الراء الأولى وإسكان الميم مع السكت عليها",
+                "narrators": [
+                  "hamza_khalaf"
+                ],
+                "sourceFace": 2
+              },
+              {
+                "text": "حصرتْ صدورهمُ",
+                "description": "(حصرتْ صدورهمُ) إظهار التاء وترقيق الراء الأولى وصلة الميم ومدها 6 حركات",
+                "narrators": [
+                  "nafi_warsh"
+                ],
+                "sourceFace": 3
+              },
+              {
+                "text": "حصرتْ صدورهمْ",
+                "description": "(حصرتْ صدورهمْ) إظهار التاء وتفخيم الراء الأولى وإسكان الميم دون سكت عليها",
+                "narrators": [
+                  "asim_hafs",
+                  "asim_shuba",
+                  "nafi_qalun"
+                ],
+                "sourceFace": 4
+              },
+              {
+                "text": "حصرتْ صدورهمْ",
+                "description": "(حصرتْ صدورهمْ) إظهار التاء وتفخيم الراء الأولى وصلة الميم ومدها 3 حركات",
+                "narrators": [
+                  "nafi_qalun"
+                ],
+                "sourceFace": 5
+              },
+              {
+                "text": "حصرتْ صدورهمُ",
+                "description": "(حصرتْ صدورهمُ) إظهار التاء وتفخيم الراء الأولى وصلة الميم ومدها حركتين",
+                "narrators": [
+                  "abujafar_jammaz",
+                  "abujafar_wardan",
+                  "ibnkathir_bazzi",
+                  "ibnkathir_qunbul",
+                  "nafi_qalun"
+                ],
+                "sourceFace": 6
+              }
+            ],
+            "beforeState": "الوصل والوقف بحسب الوصف الخاص بكل وجه؛ لا يمثل الرسم المكتوب جميع دقائق الأداء.",
+            "beforeReview": "source-import",
+            "beforeWordIds": [
+              "4:90:11",
+              "4:90:12",
+              "4:90:13"
+            ]
+          }
+        ],
+        "suggestedGuardedOperations": [
+          {
+            "operation": "qualify-local-face-for-narrators",
+            "recordId": "qp-4-90-2",
+            "faceIndex": 0,
+            "narrators": [
+              "yaqub_ruways",
+              "yaqub_ruwh"
+            ],
+            "qualification": "الوصل بنصب التاء منونة «حَصِرَةً»، والوقف على الكلمة بالهاء «حَصِرَهْ».",
+            "guard": "طابق beforeVariants كاملة؛ لا تغير بقية الرواة أو الأصول المصاحبة."
+          }
+        ]
+      },
+      {
+        "id": "N6",
+        "type": "missing-explicit-path-qualification",
+        "certainty": "confirmed",
+        "recordIds": [
+          "qp-4-154-1"
+        ],
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18787,
+            18794
+          ],
+          "pages": [
+            "2/253"
+          ],
+          "witness": "(واختلفوا) في: تعدوا فقرأ أبو جعفر بتشديد الدال مع إسكان العين، وكذلك روى ورش إلا أنه فتح العين، وكذلك قالون إلا أنه اختلف عنه في إسكان العين واختلاسها، فروى عنه العراقيون من طريقيه إسكان العين مع التشديد كأبي جعفر سواء وهكذا ورد النصوص عنه، وروى المغاربة عنه الاختلاس لحركة العين ويعبر بعضهن عنه بالإخفاء فرارا من الجمع بين الساكنين وهذه طريق ابن سفيان والمهدوي وابن شريح وابن غلبون، وغيرهم لم يذكروا سواه. وروى الوجهين عنه جميعا الحافظ أبو عمرو الداني، وقال: إن الإخفاء أقيس والإسكان آثر، وقرأ الباقون بإسكان العين والتخفيف."
+        },
+        "problem": "وجها قالون موجودان بالفعل، لكن لا يذكر قيد الطرق الوارد صراحة في النشر.",
+        "correction": "تقييد إسكان العين المشددة للعراقيين من طريقي قالون، والاختلاس للمغاربة والطرق المذكورة؛ الداني روى الوجهين.",
+        "qualification": "لا يوجد وجه محلي مفقود لقالون في هذه البطاقة؛ النقص هو العزو المقيد. لا تعمم على رواة بقية السورة.",
+        "preconditions": [
+          {
+            "recordId": "qp-4-154-1",
+            "beforeWord": "تَعْدُواْ",
+            "beforeVariants": [
+              {
+                "text": "تَعدّوا",
+                "description": "(تَعدّوا)  اختلاس فتحة العين وتشديد الدال",
+                "narrators": [
+                  "nafi_qalun"
+                ],
+                "sourceFace": 0
+              },
+              {
+                "text": "تَعْدُوا",
+                "description": "(تَعْدُوا) إسكان العين وتخفيف الدال",
+                "narrators": [
+                  "abuamr_duri",
+                  "abuamr_susi",
+                  "asim_hafs",
+                  "asim_shuba",
+                  "hamza_khalaf",
+                  "hamza_khallad",
+                  "ibnamir_dhakwan",
+                  "ibnamir_hisham",
+                  "ibnkathir_bazzi",
+                  "ibnkathir_qunbul",
+                  "khalaf_idris",
+                  "khalaf_ishaq",
+                  "kisai_duri",
+                  "kisai_harith",
+                  "yaqub_ruways",
+                  "yaqub_ruwh"
+                ],
+                "sourceFace": 1
+              },
+              {
+                "text": "تَعْدُّوا",
+                "description": "(تَعْدُّوا) بإسكان العين وتشديد الدال",
+                "narrators": [
+                  "abujafar_jammaz",
+                  "abujafar_wardan",
+                  "nafi_qalun"
+                ],
+                "sourceFace": 2
+              },
+              {
+                "text": "تَعَدُّوا",
+                "description": "(تَعَدُّوا) بفتح العين وتشديد الدال",
+                "narrators": [
+                  "nafi_warsh"
+                ],
+                "sourceFace": 3
+              }
+            ],
+            "beforeState": "الوصل والوقف بحسب الوصف الخاص بكل وجه؛ لا يمثل الرسم المكتوب جميع دقائق الأداء.",
+            "beforeReview": "source-import",
+            "beforeWordIds": [
+              "4:154:13"
+            ]
+          }
+        ],
+        "suggestedGuardedOperations": [
+          {
+            "operation": "qualify-local-face-for-narrators",
+            "recordId": "qp-4-154-1",
+            "faceIndex": 0,
+            "narrators": [
+              "nafi_qalun"
+            ],
+            "qualification": "اختلاس حركة العين مع تشديد الدال: المغاربة، ومنهم طريق ابن سفيان والمهدوي وابن شريح وابن غلبون؛ وروى الداني الوجهين.",
+            "guard": "طابق beforeVariants كاملة؛ لا تغير بقية الرواة أو الأصول المصاحبة."
+          },
+          {
+            "operation": "qualify-local-face-for-narrators",
+            "recordId": "qp-4-154-1",
+            "faceIndex": 2,
+            "narrators": [
+              "nafi_qalun"
+            ],
+            "qualification": "إسكان العين مع تشديد الدال: العراقيون من طريقي قالون؛ وروى الداني الوجهين.",
+            "guard": "طابق beforeVariants كاملة؛ لا تغير بقية الرواة أو الأصول المصاحبة."
+          }
+        ]
+      },
+      {
+        "id": "N7",
+        "type": "wrong-letter-description",
+        "certainty": "confirmed",
+        "recordIds": [
+          "qp-4-94-2"
+        ],
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18734,
+            18735
+          ],
+          "pages": [
+            "2/251"
+          ],
+          "witness": "(واختلفوا) في: فتبينوا الموضعين هنا، وفي الحجرات فقرأ حمزة والكسائي وخلف في الثلاثة فتثبتوا من التثبت، وقرأ الباقون في الثلاثة من التبين."
+        },
+        "problem": "نصا الوجهين المكتوبان صحيحان، لكن الوصفين يخلطان الباء والياء: face0 يقول بياء بعد التاء بدل بباء، وface1 يقول ياء مشددة بدل باء.",
+        "correction": "تصحيح الوصف الحرفي للوجهين دون تغيير النصوص أو النسب.",
+        "qualification": "هذه البطاقة ترتبط بموضعي 4:94:10 و4:94:34؛ يحفظ هذا التكرار. لا تغير مقادير المد في البطاقة المركبة qp-4-94-3.",
+        "preconditions": [
+          {
+            "recordId": "qp-4-94-2",
+            "beforeWord": "فَتَبَيَّنُواْ",
+            "beforeVariants": [
+              {
+                "text": "فَتَبَيَّنُوا",
+                "description": "(فَتَبَيَّنُوا) بياء بعد التاء وبعدها ياء مشددة وبعدها نون مضمومة",
+                "narrators": [
+                  "abuamr_duri",
+                  "abuamr_susi",
+                  "abujafar_jammaz",
+                  "abujafar_wardan",
+                  "asim_hafs",
+                  "asim_shuba",
+                  "ibnamir_dhakwan",
+                  "ibnamir_hisham",
+                  "ibnkathir_bazzi",
+                  "ibnkathir_qunbul",
+                  "nafi_qalun",
+                  "nafi_warsh",
+                  "yaqub_ruways",
+                  "yaqub_ruwh"
+                ],
+                "sourceFace": 0
+              },
+              {
+                "text": "فَتَثَبَّتُوا",
+                "description": "(فَتَثَبَّتُوا) بثاء بعد التاء وبعدها ياء مشددة وبعدها تاء مضمومة",
+                "narrators": [
+                  "hamza_khalaf",
+                  "hamza_khallad",
+                  "khalaf_idris",
+                  "khalaf_ishaq",
+                  "kisai_duri",
+                  "kisai_harith"
+                ],
+                "sourceFace": 1
+              }
+            ],
+            "beforeState": "الوصل والوقف بحسب الوصف الخاص بكل وجه؛ لا يمثل الرسم المكتوب جميع دقائق الأداء.",
+            "beforeReview": "source-import",
+            "beforeWordIds": [
+              "4:94:10",
+              "4:94:34"
+            ]
+          }
+        ],
+        "suggestedGuardedOperations": [
+          {
+            "operation": "replace-description",
+            "recordId": "qp-4-94-2",
+            "faceIndex": 0,
+            "before": "(فَتَبَيَّنُوا) بياء بعد التاء وبعدها ياء مشددة وبعدها نون مضمومة",
+            "after": "(فَتَبَيَّنُوا) بباء مفتوحة بعد التاء، وبعدها ياء مشددة مفتوحة، ثم نون مضمومة."
+          },
+          {
+            "operation": "replace-description",
+            "recordId": "qp-4-94-2",
+            "faceIndex": 1,
+            "before": "(فَتَثَبَّتُوا) بثاء بعد التاء وبعدها ياء مشددة وبعدها تاء مضمومة",
+            "after": "(فَتَثَبَّتُوا) بثاء مفتوحة بعد التاء، وبعدها باء مشددة مفتوحة، ثم تاء مضمومة."
+          }
+        ]
+      }
+    ],
+    "internalTextIssues": [
+      {
+        "sourceLines": [
+          18719,
+          18720
+        ],
+        "issue": "ورد «مصدق» في النص المحلي، بينما شرط الفقرة أن تكون الصاد ساكنة قبل الدال؛ تطبيق النساء هو أصدق في 4:87 و4:122، ولا ينطبق على مُصَدِّقاً 4:47.",
+        "handling": "إبقاء الشاهد الخام كما هو وعدم إنشاء موضع في 4:47."
+      }
+    ],
+    "inventory": [
+      {
+        "inventoryId": "NISA-01",
+        "word": "تساءلون",
+        "refs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "recordIds": [
+          "qp-4-1-1"
+        ],
+        "recordWordIds": {
+          "qp-4-1-1": [
+            "4:1:22"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "تخفيف/تشديد السين",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18627,
+            18628
+          ],
+          "pages": [
+            "2/247"
+          ],
+          "witness": "(واختلفوا) في: تساءلون فقرأ الكوفيون بتخفيف ms699 السين، وقرأ الباقون بتشديدها."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-02",
+        "word": "والأرحام",
+        "refs": [
+          [
+            4,
+            1
+          ]
+        ],
+        "recordIds": [
+          "qp-4-1-3"
+        ],
+        "recordWordIds": {
+          "qp-4-1-3": [
+            "4:1:24"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "جر/نصب الميم",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18629,
+            18630
+          ],
+          "pages": [
+            "2/247"
+          ],
+          "witness": "(واختلفوا) في: والأرحام فقرأ حمزة بخفض الميم، وقرأ الباقون بنصبها، وتقدمت إمالة طاب لحمزة في بابها."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-03",
+        "word": "فواحدة",
+        "refs": [
+          [
+            4,
+            3
+          ]
+        ],
+        "recordIds": [
+          "qp-4-3-2"
+        ],
+        "recordWordIds": {
+          "qp-4-3-2": [
+            "4:3:20",
+            "4:3:21"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "رفع/نصب التاء",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18631,
+            18631
+          ],
+          "pages": [
+            "2/247"
+          ],
+          "witness": "(واختلفوا) في: فواحدة فقرأ أبو جعفر بالرفع، وقرأ الباقون بالنصب."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-04",
+        "word": "قياما",
+        "refs": [
+          [
+            4,
+            5
+          ]
+        ],
+        "recordIds": [
+          "qp-4-5-2"
+        ],
+        "recordWordIds": {
+          "qp-4-5-2": [
+            "4:5:10",
+            "4:5:9"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "إثبات/حذف ألف قياما",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18632,
+            18633
+          ],
+          "pages": [
+            "2/247"
+          ],
+          "witness": "(واختلفوا) في: لكم قياما، وفي المائدة قياما للناس فقرأ ابن عامر بغير ألف فيهما، ووافقه نافع هنا، وقرأ الباقون بالألف في الحرفين."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-05",
+        "word": "سيصلون",
+        "refs": [
+          [
+            4,
+            10
+          ]
+        ],
+        "recordIds": [
+          "qp-4-10-1"
+        ],
+        "recordWordIds": {
+          "qp-4-10-1": [
+            "4:10:11",
+            "4:10:12"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "فتح/ضم الياء",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18635,
+            18636
+          ],
+          "pages": [
+            "2/247"
+          ],
+          "witness": "(واختلفوا) في: سيصلون فقرأ ابن عامر وأبو بكر بضم الياء، وقرأ الباقون بفتحها."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-06",
+        "word": "وإن كانت واحدة",
+        "refs": [
+          [
+            4,
+            11
+          ]
+        ],
+        "recordIds": [
+          "qp-4-11-2"
+        ],
+        "recordWordIds": {
+          "qp-4-11-2": [
+            "4:11:20"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "رفع/نصب التاء",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18637,
+            18639
+          ],
+          "pages": [
+            "2/247",
+            "2/248"
+          ],
+          "witness": "(واختلفوا) في: وإن كانت واحدة فقرأ المدنيان بالرفع، وقرأ الباقون بالنصب."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-07",
+        "word": "فلأمه السدس؛ فلأمه الثلث",
+        "refs": [
+          [
+            4,
+            11
+          ]
+        ],
+        "recordIds": [
+          "qp-4-11-1"
+        ],
+        "recordWordIds": {
+          "qp-4-11-1": [
+            "4:11:41",
+            "4:11:47"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "كسر/ضم همزة أم؛ موضعان في الآية، لا الأربعة المذكورة عبر السور",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18640,
+            18646
+          ],
+          "pages": [
+            "2/248"
+          ],
+          "witness": "(واختلفوا) في أم من فلأمه السدس، فلأمه الثلث في أمها رسولا (في القصص) في أم الكتاب في الزخرف فقرأ حمزة والكسائي بكسر الهمزة في الأربعة اتباعا ولذلك لا يكسرانها في الأخيرين إلا وصلا فلو ابتدأ ضماها، وكذلك قرأ الباقون في الحالين، وأما إن أضيف إلى جمع، وذلك في أربعة مواضع في النحل والزمر والنجم بطون أمهاتكم، وفي النور أو بيوت أمهاتكم فكسر الهمزة والميم حمزة وكسر الكسائي الهمزة وحدها، وذلك في الوصل أيضا. وقرأ الباقون بضم الهمزة وفتح الميم فيهن (واتفقوا) على الابتداء فيهن كذلك."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-08",
+        "word": "يوصى بها",
+        "refs": [
+          [
+            4,
+            11
+          ],
+          [
+            4,
+            12
+          ]
+        ],
+        "recordIds": [
+          "qp-4-11-3",
+          "qp-4-12-1"
+        ],
+        "recordWordIds": {
+          "qp-4-11-3": [
+            "4:11:51",
+            "4:11:52"
+          ],
+          "qp-4-12-1": [
+            "4:12:76",
+            "4:12:77"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "فتح/كسر الصاد؛ يختص حفص بالفتح في الثاني",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18647,
+            18649
+          ],
+          "pages": [
+            "2/248"
+          ],
+          "witness": "(واختلفوا) في: يوصى بها في الموضعين فقرأ ابن كثير وابن عامر وأبو بكر بفتح الصاد فيهما وافقهم حفص في الأخير منهما، وقرأ الباقون بكسر الصاد فيهما."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-09",
+        "word": "يدخله جنات؛ يدخله نارا",
+        "refs": [
+          [
+            4,
+            13
+          ],
+          [
+            4,
+            14
+          ]
+        ],
+        "recordIds": [
+          "qp-4-13-1",
+          "qp-4-14-1"
+        ],
+        "recordWordIds": {
+          "qp-4-13-1": [
+            "4:13:8"
+          ],
+          "qp-4-14-1": [
+            "4:14:7"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "نون/ياء المضارعة",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18650,
+            18652
+          ],
+          "pages": [
+            "2/248"
+          ],
+          "witness": "(واختلفوا) في: يدخله جنات ; ويدخله نارا هنا، وفي الفتح يدخله ويعذبه، وفي التغابن يكفر عنه ويدخله، وفي الطلاق يدخله فقرأ المدنيان، وابن عامر بالنون في السبعة، وقرأ الباقون بالياء فيهن."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-10",
+        "word": "واللذان",
+        "refs": [
+          [
+            4,
+            16
+          ]
+        ],
+        "recordIds": [
+          "qp-4-16-1"
+        ],
+        "recordWordIds": {
+          "qp-4-16-1": [
+            "4:16:1"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "تشديد/تخفيف النون؛ لم يراجع مقدار المد",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18653,
+            18656
+          ],
+          "pages": [
+            "2/248"
+          ],
+          "witness": "(واختلفوا) في: اللذان، وهذان، وهاتين، فذانك، واللذين في حم السجدة فقرأ ابن كثير بتشديد النون في الخمسة، وهو على أصله في مد الألف وتمكين الياء من التقاء الساكنين وافقه أبو عمرو ورويس في فذانك، وقرأ الباقون بالتخفيف فيهن. وتقدم ذكر آلآن في باب نقل حركة الهمزة."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-11",
+        "word": "كرها",
+        "refs": [
+          [
+            4,
+            19
+          ]
+        ],
+        "recordIds": [
+          "qp-4-19-2"
+        ],
+        "recordWordIds": {
+          "qp-4-19-2": [
+            "4:19:11",
+            "4:19:12"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "فتح/ضم الكاف؛ خلاف هشام هنا في الأحقاف وحدها، فلا يطبق على النساء",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18657,
+            18662
+          ],
+          "pages": [
+            "2/248"
+          ],
+          "witness": "(واختلفوا) في: كرها هنا والتوبة والأحقاف فقرأ حمزة والكسائي، وخلف بضم الكاف فيهن وافقهم في الأحقاف عاصم ويعقوب وابن ذكوان (واختلف) فيه عن هشام، فروى عنه ms700 الداجوني من جميع طرقه إلا هبة الله المفسر ضم الكاف. وروى الحلواني من جميع طرقه عنه والمفسر عن الداجوني عن أصحابه فتحها. وانفرد سبط الخياط عن الشريف أبي الفضل عن الكارزيني عن أصحابه عن الأخفش بفتحها، ولم أجد ذلك في مفردة الشريف، وبذلك قرأ الباقون في الثلاثة."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-12",
+        "word": "مبينة",
+        "refs": [
+          [
+            4,
+            19
+          ]
+        ],
+        "recordIds": [
+          "qp-4-19-3"
+        ],
+        "recordWordIds": {
+          "qp-4-19-3": [
+            "4:19:22",
+            "4:19:23"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "فتح/كسر الياء؛ لا يوجد لفظ مبينات في النساء",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18663,
+            18666
+          ],
+          "pages": [
+            "2/248",
+            "2/249"
+          ],
+          "witness": "(واختلفوا) في: مبينة ومبينات فقرأ ابن كثير وأبو بكر بفتح الياء من الحرفين حيث وقعا وافقهما في مبينات المدنيان، والبصريان ، وقرأ الباقون بكسرها منهما."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-13",
+        "word": "المحصنات؛ محصنات",
+        "refs": [
+          [
+            4,
+            24
+          ],
+          [
+            4,
+            25
+          ]
+        ],
+        "recordIds": [
+          "qp-4-25-3",
+          "qp-4-25-5"
+        ],
+        "recordWordIds": {
+          "qp-4-25-3": [
+            "4:25:44",
+            "4:25:8"
+          ],
+          "qp-4-25-5": [
+            "4:25:29",
+            "4:25:30"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "كسر الصاد للكسائي في ثلاثة مواضع 4:25، واتفاق الفتح في أول السورة 4:24:1",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18667,
+            18669
+          ],
+          "pages": [
+            "2/249"
+          ],
+          "witness": "(واختلفوا) في: المحصنات ومحصنات فقرأ الكسائي بكسر الصاد حيث وقع معرفا، ومنكرا إلا الحرف الأول من هذه السورة، وهو والمحصنات من النساء فإنه قرأه بفتح الصاد كالجماعة لأن معناه ذوات الأزواج، وكذلك قرأ الباقون في الجميع."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-14",
+        "word": "وأحل لكم",
+        "refs": [
+          [
+            4,
+            24
+          ]
+        ],
+        "recordIds": [
+          "qp-4-24-2"
+        ],
+        "recordWordIds": {
+          "qp-4-24-2": [
+            "4:24:11"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "حركة الهمزة والحاء",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18670,
+            18671
+          ],
+          "pages": [
+            "2/249"
+          ],
+          "witness": "(واختلفوا) في: وأحل لكم فقرأ أبو جعفر وحمزة والكسائي وخلف وحفص بضم الهمزة وكسر الحاء، وقرأ الباقون بفتحهما."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-15",
+        "word": "أحصن",
+        "refs": [
+          [
+            4,
+            25
+          ]
+        ],
+        "recordIds": [
+          "qp-4-25-1"
+        ],
+        "recordWordIds": {
+          "qp-4-25-1": [
+            "4:25:36"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "حركة الهمزة والصاد",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18672,
+            18673
+          ],
+          "pages": [
+            "2/249"
+          ],
+          "witness": "(واختلفوا) في: أحصن فقرأ حمزة والكسائي وخلف وأبو بكر بفتح الهمزة والصاد، وقرأ الباقون بضم الهمزة وكسر الصاد."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-16",
+        "word": "تجارة عن تراض",
+        "refs": [
+          [
+            4,
+            29
+          ]
+        ],
+        "recordIds": [
+          "qp-4-29-2"
+        ],
+        "recordWordIds": {
+          "qp-4-29-2": [
+            "4:29:13"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "رفع/نصب تجارة",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18674,
+            18675
+          ],
+          "pages": [
+            "2/249"
+          ],
+          "witness": "(واختلفوا) في: تجارة عن تراض فقرأ الكوفيون بنصب تجارة، وقرأ الباقون برفعها، وتقدم إدغام أبي الحارس (يفعل ذلك) في بابه."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-17",
+        "word": "مدخلا",
+        "refs": [
+          [
+            4,
+            31
+          ]
+        ],
+        "recordIds": [
+          "qp-4-31-1"
+        ],
+        "recordWordIds": {
+          "qp-4-31-1": [
+            "4:31:11"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "فتح/ضم الميم",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18676,
+            18678
+          ],
+          "pages": [
+            "2/249"
+          ],
+          "witness": "(واختلفوا) في: مدخلا هنا والحج فقرأ المدنيان بفتح الميم فيهما، وقرأ الباقون بالضم، وتقدم النقل في وسلوا لابن كثير والكسائي وخلف في باب النقل."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-18",
+        "word": "عاقدت",
+        "refs": [
+          [
+            4,
+            33
+          ]
+        ],
+        "recordIds": [
+          "qp-4-33-1"
+        ],
+        "recordWordIds": {
+          "qp-4-33-1": [
+            "4:33:10",
+            "4:33:9"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "إثبات/حذف الألف",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18679,
+            18679
+          ],
+          "pages": [
+            "2/249"
+          ],
+          "witness": "(واختلفوا) في: (عاقدت) فقرأ الكوفيون بغير ألف، وقرأ الباقون بالألف."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-19",
+        "word": "بما حفظ الله",
+        "refs": [
+          [
+            4,
+            34
+          ]
+        ],
+        "recordIds": [
+          "qp-4-34-2"
+        ],
+        "recordWordIds": {
+          "qp-4-34-2": [
+            "4:34:20",
+            "4:34:21"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "رفع/نصب هاء اسم الجلالة؛ لم يراجع التوجيه النحوي",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18680,
+            18685
+          ],
+          "pages": [
+            "2/249"
+          ],
+          "witness": "(واختلفوا) في: بما حفظ الله فقرأ أبو جعفر بنصب الهاء، وقرأ الباقون برفعها ف (ما) على قراءة أبي جعفر موصولة، وفي حفظ ضمير يعود عليه مرفوع أي بالبر الذي حفظ حق الله من التعفف، وغيره وقيل بما حفظ دين الله وتقدير المضاف متعين لأن الذات المقدسة لا ينسب حفظها إلى أحد. وتقدم اختلافهم في الجار في إمالته وبين بين من بابه، وتقدم مذهب يعقوب في إدغام والصاحب بالجنب كأبي عمرو من باب الإدغام الكبير."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-20",
+        "word": "البخل",
+        "refs": [
+          [
+            4,
+            37
+          ]
+        ],
+        "recordIds": [
+          "qp-4-37-1"
+        ],
+        "recordWordIds": {
+          "qp-4-37-1": [
+            "4:37:5"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "حركة الباء والخاء",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18686,
+            18687
+          ],
+          "pages": [
+            "2/249"
+          ],
+          "witness": "(واختلفوا) في: البخل هنا والحديد فقرأ حمزة والكسائي، وخلف بفتح الباء والخاء، وقرأ الباقون بضم الباء وسكون الخاء."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-21",
+        "word": "حسنة",
+        "refs": [
+          [
+            4,
+            40
+          ]
+        ],
+        "recordIds": [
+          "qp-4-40-1"
+        ],
+        "recordWordIds": {
+          "qp-4-40-1": [
+            "4:40:10",
+            "4:40:9"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "رفع/نصب التاء فقط؛ يضعفها إحالة إلى باب سابق",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18688,
+            18690
+          ],
+          "pages": [
+            "2/249"
+          ],
+          "witness": "(واختلفوا) في: حسنة فقرأ المدنيان، وابن كثير برفعها، وقرأ الباقون بنصبها. ms701 وتقدم اختلافهم في تشديد يضعفها في البقرة، وتقدم إبدال رئاء الناس في الهمز المفرد."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-22",
+        "word": "تسوى",
+        "refs": [
+          [
+            4,
+            42
+          ]
+        ],
+        "recordIds": [
+          "qp-4-42-3"
+        ],
+        "recordWordIds": {
+          "qp-4-42-3": [
+            "4:42:8"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "حركة التاء وتشديد/تخفيف السين؛ لم يراجع الفتح والإمالة المصاحب",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18691,
+            18695
+          ],
+          "pages": [
+            "2/249",
+            "2/250"
+          ],
+          "witness": "(واختلفوا) في: تسوى فقرأ حمزة والكسائي، وخلف بفتح التاء وتخفيف السين. وقرأ المدنيان وابن عامر بفتح التاء وتشديد السين، وقرأ الباقون بضم التاء وتخفيف السين، وهم على أصولهم في الفتح والإمالة وبين بين، وتقدم إمالة سكارى والناس في بابها."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-23",
+        "word": "لامستم",
+        "refs": [
+          [
+            4,
+            43
+          ]
+        ],
+        "recordIds": [
+          "qp-4-43-2"
+        ],
+        "recordWordIds": {
+          "qp-4-43-2": [
+            "4:43:34"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "إثبات/حذف الألف",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18696,
+            18700
+          ],
+          "pages": [
+            "2/250"
+          ],
+          "witness": "(واختلفوا) في: لامستم هنا والمائدة فقرأ حمزة والكسائي وخلف بغير ألف فيهما، وقرأ الباقون فيهما بالألف، وتقدم اختلافهم في ضم التنوين وكسره من فتيلا انظر في البقرة عند فمن اضطر. وكذلك تقدم أن اقتلوا، أو اخرجوا عندها، وتقدم نضجت جلودهم في فصل تاء التأنيث. وتقدم اختلافهم في نعما في آخرة البقرة، وتقدم إشمام قيل لهم أوائل البقرة."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-24",
+        "word": "إلا قليلا منهم",
+        "refs": [
+          [
+            4,
+            66
+          ]
+        ],
+        "recordIds": [
+          "qp-4-66-2"
+        ],
+        "recordWordIds": {
+          "qp-4-66-2": [
+            "4:66:14",
+            "4:66:15"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "رفع/نصب قليل",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18701,
+            18703
+          ],
+          "pages": [
+            "2/250"
+          ],
+          "witness": "(واختلفوا) في: إلا قليلا منهم فقرأ ابن عامر بالنصب، وكذا هو في مصحف الشام، وقرأ الباقون بالرفع، وكذا هو في مصاحفهم، وتقدم إبدال أبي جعفر (بتطمئن) في باب الهمز المفرد."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-25",
+        "word": "كأن لم تكن",
+        "refs": [
+          [
+            4,
+            73
+          ]
+        ],
+        "recordIds": [
+          "qp-4-73-1"
+        ],
+        "recordWordIds": {
+          "qp-4-73-1": [
+            "4:73:8",
+            "4:73:9"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "التذكير/التأنيث",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18704,
+            18706
+          ],
+          "pages": [
+            "2/250"
+          ],
+          "witness": "(واختلفوا) في: كأن لم تكن فقرأ ابن كثير وحفص ورويس بالتاء على التأنيث، وقرأ الباقون بالياء على التذكير، وتقدم اختلافهم في إدغام أو يغلب فسوف من باب \" حروف قربت مخارجها \"."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-26",
+        "word": "ولا تظلمون فتيلا",
+        "refs": [
+          [
+            4,
+            77
+          ]
+        ],
+        "recordIds": [
+          "qp-4-77-4"
+        ],
+        "recordWordIds": {
+          "qp-4-77-4": [
+            "4:77:46",
+            "4:77:47"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "الخطاب/الغيب وخلاف طريق روح وهشام؛ ومقابلة اتفاق 4:49 دون ادعاء بطاقة خلاف فيه",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18707,
+            18718
+          ],
+          "pages": [
+            "2/250"
+          ],
+          "witness": "(واختلفوا) في: ولا تظلمون فتيلا أينما فقرأ ابن كثير وأبو جعفر وحمزة والكسائي، وخلف بالغيب. (واختلف) عن روح، فروى عنه أبو الطيب كذلك بالغيب، وروى عنه سائر الرواة بالخطاب كالباقين. وقد روى الغيب أيضا العراقيون عن الحلواني عن هشام لكنه من غير طريق التغلبي. (واتفقوا) على الغيب في قوله تعالى: من هذه السورة بل الله يزكي من يشاء ولا يظلمون فتيلا فليس فيها خلاف من طريق من الطرق، ولا رواية من الروايات لأجل أن قوله من يشاء للغيب فرد عليه. والعجب من الإمام الكبير أبي جعفر الطبري مع جلالته أنه ذكر في كتابه الجامع الخلاف فيه دون الثاني فجعل المجمع عليه مختلفا فيه والمختلف فيه مجمعا عليه، وتقدم اختلافهم في الوقف على مال من بابه، وتقدم ذكر إدغام بيت طائفة لأبي عمرو وحمزة في آخر باب الإدغام الكبير"
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": [
+          "N2"
+        ]
+      },
+      {
+        "inventoryId": "NISA-27",
+        "word": "باب الصاد الساكنة قبل الدال: أصدق",
+        "refs": [
+          [
+            4,
+            87
+          ],
+          [
+            4,
+            122
+          ]
+        ],
+        "recordIds": [
+          "qp-4-87-1",
+          "qp-4-122-2"
+        ],
+        "recordWordIds": {
+          "qp-4-87-1": [
+            "4:87:13",
+            "4:87:14"
+          ],
+          "qp-4-122-2": [
+            "4:122:17",
+            "4:122:18"
+          ]
+        },
+        "type": "أصل ذو تطبيق موضعي صريح",
+        "reviewedAspect": "إشمام الصاد الزاي/الصاد الخالصة؛ أصل صريح هنا بتطبيقين فقط",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18719,
+            18725
+          ],
+          "pages": [
+            "2/250",
+            "2/251"
+          ],
+          "witness": ". (واختلفوا) في: ms702 مصدق (وتصديق) و (يصدفون) و (فاصدع) و (قصد) و (يصدر) وما أشبهه إذا سكنت الصاد وأتى بعدها دال فقرأ حمزة والكسائي وخلف، بإشمام الصاد الزاي، وافقهم رويس في (يصدر) ، وهو في القصص والزلزلة. واختلف عنه في غيره، فروى عنه النخاس والجوهري كذلك بالإشمام جميع ذلك، وبه قطع ابن مهران به، وروى عنه أبو الطيب وابن مقسم بالصاد الخالصة، وبه قطع الهذلي وبذلك قرأ الباقون."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": [
+          "N4"
+        ]
+      },
+      {
+        "inventoryId": "NISA-28",
+        "word": "حصرت صدورهم",
+        "refs": [
+          [
+            4,
+            90
+          ]
+        ],
+        "recordIds": [
+          "qp-4-90-2"
+        ],
+        "recordWordIds": {
+          "qp-4-90-2": [
+            "4:90:11",
+            "4:90:12",
+            "4:90:13"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "نصب التاء منونة ليعقوب والوقف بالهاء؛ إسكان التاء للباقين مع ترك تفصيل إدغامها للباب السابق",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18726,
+            18733
+          ],
+          "pages": [
+            "2/251"
+          ],
+          "witness": "(واختلفوا) في: حصرت صدورهم فقرأ يعقوب بنصب التاء منونة، وهو على أصله في الوقف عليه بالهاء كما تقدم في باب الوقف على المرسوم، كذا نص عليه الأستاذ أبو العز وغيره، وهو الصحيح في مذهبه والذي يقتضيه أصله، وقد ذكر بعض الأئمة الوقف عليها بالتاء لجميع القراء كابن سوار وغيره فأدخل يعقوب في جملتهم إجمالا، والصواب تخصيصه بالهاء على أصله في كل ما كتب من المؤنث بالتاء ويوقف عليه هو وغيره بالهاء على أصولهم المعروفة من غير أن يسكنوا شيئا، والباقون بإسكان التاء وصلا ووقفا. وتقدم اختلافهم في إدغام تائها من فصل تاء التأنيث. وكذا مذهب الأزرق في الراء من بابها."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": [
+          "N5"
+        ]
+      },
+      {
+        "inventoryId": "NISA-29",
+        "word": "فتبينوا",
+        "refs": [
+          [
+            4,
+            94
+          ]
+        ],
+        "recordIds": [
+          "qp-4-94-2",
+          "qp-4-94-3"
+        ],
+        "recordWordIds": {
+          "qp-4-94-2": [
+            "4:94:10",
+            "4:94:34"
+          ],
+          "qp-4-94-3": [
+            "4:94:34",
+            "4:94:35"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "فتثبتوا/فتبينوا؛ موضعان في 4:94",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18734,
+            18735
+          ],
+          "pages": [
+            "2/251"
+          ],
+          "witness": "(واختلفوا) في: فتبينوا الموضعين هنا، وفي الحجرات فقرأ حمزة والكسائي وخلف في الثلاثة فتثبتوا من التثبت، وقرأ الباقون في الثلاثة من التبين."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": [
+          "N7"
+        ]
+      },
+      {
+        "inventoryId": "NISA-30",
+        "word": "السلام؛ لست مؤمنا",
+        "refs": [
+          [
+            4,
+            94
+          ]
+        ],
+        "recordIds": [
+          "qp-4-94-1",
+          "qp-4-94-5"
+        ],
+        "recordWordIds": {
+          "qp-4-94-1": [
+            "4:94:16"
+          ],
+          "qp-4-94-5": [
+            "4:94:18"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "ألف السلام، وفتح/كسر الميم بعد الواو في مؤمنا مع قيود طرق أبي جعفر",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18736,
+            18741
+          ],
+          "pages": [
+            "2/251"
+          ],
+          "witness": "(واختلفوا) في: ألقى إليكم السلام لست فقرأ المدنيان، وابن عامر حمزة وخلف بحذف ألف السلام، وقرأ الباقون بإثباتها في لست مؤمنا، فروى النهرواني عن أصحابه عن ابن شبيب وابن هارون كلاهما عن الفضل والحنبلي عن هبة الله كلاهما عن عيسى بن وردان فتح الميم التي بعد الواو كذلك روى الجوهري والمغازلي عن الهاشمي في رواية ابن جماز وكسرها سائر أصحاب أبي جعفر، وكذلك قرأ الباقون."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": [
+          "N3"
+        ]
+      },
+      {
+        "inventoryId": "NISA-31",
+        "word": "غير أولي",
+        "refs": [
+          [
+            4,
+            95
+          ]
+        ],
+        "recordIds": [
+          "qp-4-95-1"
+        ],
+        "recordWordIds": {
+          "qp-4-95-1": [
+            "4:95:6"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "رفع/نصب الراء",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18742,
+            18744
+          ],
+          "pages": [
+            "2/251"
+          ],
+          "witness": "(واختلفوا) في \" غير أولي \" فقرأ المدنيان وابن عامر والكسائي وخلف بنصب الراء، وقرأ الباقون برفعها. وتقدم (الذين توفاهم) البزي في البقرة، وتقدم اختلافهم في ها أنتم في باب الهمز المفرد."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-32",
+        "word": "فسوف نؤتيه أجرا عظيما",
+        "refs": [
+          [
+            4,
+            114
+          ]
+        ],
+        "recordIds": [
+          "qp-4-114-3"
+        ],
+        "recordWordIds": {
+          "qp-4-114-3": [
+            "4:114:24"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "نون/ياء المضارعة؛ اتفاق النون في 4:74 لا خلاف فرش مفقود",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18745,
+            18751
+          ],
+          "pages": [
+            "2/251",
+            "2/252"
+          ],
+          "witness": "(واختلفوا) في: فسوف نؤتيه أجرا عظيما ومن فقرأ أبو عمرو وحمزة وخلف (يؤتيه) بالياء، وقرأ الباقون بالنون. (واتفقوا) على ms703 الحرف الأول، وهو فيقتل أو يغلب فسوف نؤتيه أنه بالنون لبعد الاسم العظيم عن \" فسوف يؤتيه \" فلم يحسن فيه الغيبة كحسنه في الثاني لقربه - والله أعلم -."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-33",
+        "word": "يدخلون",
+        "refs": [
+          [
+            4,
+            124
+          ]
+        ],
+        "recordIds": [
+          "qp-4-124-1"
+        ],
+        "recordWordIds": {
+          "qp-4-124-1": [
+            "4:124:12"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "ضم الياء وفتح الخاء/فتح الياء وضم الخاء؛ فروع مريم وفاطر وغافر خارج هذه المراجعة",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18753,
+            18767
+          ],
+          "pages": [
+            "2/252"
+          ],
+          "witness": "(واختلفوا) في: يدخلون هنا، وفي مريم وفاطر وموضعي المؤمن فقرأ ابن كثير وأبو جعفر وأبو بكر وروح بضم الياء وفتح الخاء في هذه السورة ومريم والأول من المؤمن، وافقهم رويس في مريم وأول المؤمن، وقرأ ابن كثير وأبو جعفر ورويس الحرف الثاني من المؤمن، وهو قوله سيدخلون جهنم كذلك. (واختلف) عن أبي بكر فيه، فروى العليمي عنه من طريق العراقيين قاطبة فتح الياء وضم الخاء، وهو المأخوذ به من جميع طرقه، واختلف عن يحيى بن آدم عنه، فروى سبط الخياط عن الصريفيني عنه كذلك وجعل من طريق الشنبوذي عن أبي عون عنه الوجهين فإنه قال: روى الشنبوذي بإسناده عن يحيى فتح الياء وضم الخاء، قال: الكارزيني والذي قرأته بضم الياء فيكون عن الشنبوذي وجهان. (قلت) : وعلى ضم الياء وفتح الخاء سائر الرواة عن يحيى، وقد انفرد النهرواني عن أبي حمدون عن يحيى عنه بفتح الياء وضم الخاء في الأول من المؤمن خاصة، وقرأ أبو عمرو يدخلونها في فاطر بضم الياء وفتح الخاء، وقرأ الباقون بفتح الياء وضم الخاء في المواضع الخمسة. وتقدم (أمانيكم وأماني) لأبي جعفر وكذا \" إبراهام \" في المواضع الثلاثة الأخيرة من هذه السورة في البقرة."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": [
+          "N1"
+        ]
+      },
+      {
+        "inventoryId": "NISA-34",
+        "word": "أن يصالحا",
+        "refs": [
+          [
+            4,
+            128
+          ]
+        ],
+        "recordIds": [
+          "qp-4-128-1"
+        ],
+        "recordWordIds": {
+          "qp-4-128-1": [
+            "4:128:12",
+            "4:128:13"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "يصلحا/يصالحا؛ دون مراجعة تغليظ اللام المصاحب",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18768,
+            18770
+          ],
+          "pages": [
+            "2/252"
+          ],
+          "witness": "(واختلفوا) في: (أن يصالحا) فقرأ الكوفيون يصلحا بضم الياء، وإسكان الصاد وكسر اللام من غير ألف، وقرأ الباقون بفتح الياء والصاد واللام وتشديد الصاد وألف بعدها."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-35",
+        "word": "وإن تلووا",
+        "refs": [
+          [
+            4,
+            135
+          ]
+        ],
+        "recordIds": [
+          "qp-4-135-1"
+        ],
+        "recordWordIds": {
+          "qp-4-135-1": [
+            "4:135:30",
+            "4:135:31"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "حركة اللام وعدد الواوات؛ دون مقدار المد",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18771,
+            18773
+          ],
+          "pages": [
+            "2/252"
+          ],
+          "witness": "(واختلفوا) في: وإن تلووا فقرأ ابن عامر وحمزة (تلوا) بضم اللام وواو ساكنة بعدها، وقرأ الباقون بإسكان اللام، وبعدها واوان، أولاهما مضمومة والأخرى ساكنة."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-36",
+        "word": "نزل؛ أنزل",
+        "refs": [
+          [
+            4,
+            136
+          ]
+        ],
+        "recordIds": [
+          "qp-4-136-3",
+          "qp-4-136-1"
+        ],
+        "recordWordIds": {
+          "qp-4-136-3": [
+            "4:136:10"
+          ],
+          "qp-4-136-1": [
+            "4:136:15"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "مبني للمعلوم/للمجهول في الكلمتين",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18774,
+            18778
+          ],
+          "pages": [
+            "2/252",
+            "2/253"
+          ],
+          "witness": "(واختلفوا) في: والكتاب الذي نزل على رسوله والكتاب الذي أنزل من قبل فقرأ ابن كثير وأبو عمرو وابن عامر بضم النون والهمزة وكسر الزاي فيهما، وقرأ الباقون بفتح النون والهمزة والزاي فيهما."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-37",
+        "word": "وقد نزل عليكم",
+        "refs": [
+          [
+            4,
+            140
+          ]
+        ],
+        "recordIds": [
+          "qp-4-140-1"
+        ],
+        "recordWordIds": {
+          "qp-4-140-1": [
+            "4:140:2"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "حركة النون والزاي",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18779,
+            18782
+          ],
+          "pages": [
+            "2/253"
+          ],
+          "witness": "(واختلفوا) في: وقد نزل ms704 عليكم فقرأ عاصم ويعقوب بفتح النون والزاي، وقرأ الباقون بضم النون وكسر الزاي. وتقدم اختلافهم في إمالة كسالى ومذهب أبي عثمان عن الدوري عن الكسائي في إمالة السين من باب الإمالة."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-38",
+        "word": "الدرك",
+        "refs": [
+          [
+            4,
+            145
+          ]
+        ],
+        "recordIds": [
+          "qp-4-145-1"
+        ],
+        "recordWordIds": {
+          "qp-4-145-1": [
+            "4:145:4"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "فتح/إسكان الراء",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18783,
+            18785
+          ],
+          "pages": [
+            "2/253"
+          ],
+          "witness": "(واختلفوا) في: الدرك فقرأ الكوفيون بإسكان الراء، وقرأ الباقون بفتحها. وتقدم مذهب يعقوب في الوقف على وسوف يؤت بالياء من باب الوقف على المرسوم."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-39",
+        "word": "سوف يؤتيهم",
+        "refs": [
+          [
+            4,
+            152
+          ]
+        ],
+        "recordIds": [
+          "qp-4-152-1"
+        ],
+        "recordWordIds": {
+          "qp-4-152-1": [
+            "4:152:12"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "نون/ياء المضارعة",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18786,
+            18786
+          ],
+          "pages": [
+            "2/253"
+          ],
+          "witness": "(واختلفوا) في: سوف يؤتيهم، فروى حفص بالياء، وقرأ الباقون بالنون."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-40",
+        "word": "تعدوا",
+        "refs": [
+          [
+            4,
+            154
+          ]
+        ],
+        "recordIds": [
+          "qp-4-154-1"
+        ],
+        "recordWordIds": {
+          "qp-4-154-1": [
+            "4:154:13"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "التشديد والتخفيف وحركة العين وخلاف طرق قالون",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18787,
+            18795
+          ],
+          "pages": [
+            "2/253"
+          ],
+          "witness": "(واختلفوا) في: تعدوا فقرأ أبو جعفر بتشديد الدال مع إسكان العين، وكذلك روى ورش إلا أنه فتح العين، وكذلك قالون إلا أنه اختلف عنه في إسكان العين واختلاسها، فروى عنه العراقيون من طريقيه إسكان العين مع التشديد كأبي جعفر سواء وهكذا ورد النصوص عنه، وروى المغاربة عنه الاختلاس لحركة العين ويعبر بعضهن عنه بالإخفاء فرارا من الجمع بين الساكنين وهذه طريق ابن سفيان والمهدوي وابن شريح وابن غلبون، وغيرهم لم يذكروا سواه. وروى الوجهين عنه جميعا الحافظ أبو عمرو الداني، وقال: إن الإخفاء أقيس والإسكان آثر، وقرأ الباقون بإسكان العين والتخفيف. وتقدم اختلافهم في إدغام بل طبع الله في بابه."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": [
+          "N6"
+        ]
+      },
+      {
+        "inventoryId": "NISA-41",
+        "word": "سنؤتيهم أجرا",
+        "refs": [
+          [
+            4,
+            162
+          ]
+        ],
+        "recordIds": [
+          "qp-4-162-2"
+        ],
+        "recordWordIds": {
+          "qp-4-162-2": [
+            "4:162:24",
+            "4:162:25"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "نون/ياء المضارعة",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18796,
+            18797
+          ],
+          "pages": [
+            "2/253"
+          ],
+          "witness": "(واختلفوا) في: سنؤتيهم أجرا فقرأ حمزة وخلف بالياء، وقرأ الباقون بالنون."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      },
+      {
+        "inventoryId": "NISA-42",
+        "word": "زبورا",
+        "refs": [
+          [
+            4,
+            163
+          ]
+        ],
+        "recordIds": [
+          "qp-4-164-1"
+        ],
+        "recordWordIds": {
+          "qp-4-164-1": [
+            "4:163:25",
+            "4:164:1"
+          ]
+        },
+        "type": "فرش",
+        "reviewedAspect": "فتح/ضم الزاي؛ السجل معرفه 164 لكن موضعه المصحح 163",
+        "source": {
+          "file": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18798,
+            18799
+          ],
+          "pages": [
+            "2/253"
+          ],
+          "witness": "(واختلفوا) في: زبورا هنا، وفي سبحان والزبور في الأنبياء فقرأ حمزة وخلف بضم الزاي، وقرأ الباقون بفتحها والله المستعان."
+        },
+        "status": "الموضع ممثل؛ توافق العزو المحلي الظاهر ما لم تذكر مخالفة في findings. لا يعد هذا تصحيحاً مستقلاً لكل وصف مركب أو للأصول المصاحبة.",
+        "findingIds": []
+      }
+    ],
+    "localAttributionSetChecks": [
+      {
+        "recordId": "qp-4-1-1",
+        "faceIndices": [
+          0,
+          1,
+          2
+        ],
+        "expectedNarrators": [
+          "asim_hafs",
+          "asim_shuba",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "asim_hafs",
+          "asim_shuba",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-1-3",
+        "faceIndices": [
+          0,
+          2
+        ],
+        "expectedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad"
+        ],
+        "observedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-3-2",
+        "faceIndices": [
+          0
+        ],
+        "expectedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan"
+        ],
+        "observedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-5-2",
+        "faceIndices": [
+          2
+        ],
+        "expectedNarrators": [
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "observedNarrators": [
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-10-1",
+        "faceIndices": [
+          0
+        ],
+        "expectedNarrators": [
+          "asim_shuba",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham"
+        ],
+        "observedNarrators": [
+          "asim_shuba",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-11-2",
+        "faceIndices": [
+          0
+        ],
+        "expectedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "observedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-11-1",
+        "faceIndices": [
+          1
+        ],
+        "expectedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-11-3",
+        "faceIndices": [
+          2
+        ],
+        "expectedNarrators": [
+          "asim_shuba",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul"
+        ],
+        "observedNarrators": [
+          "asim_shuba",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-12-1",
+        "faceIndices": [
+          0
+        ],
+        "expectedNarrators": [
+          "asim_hafs",
+          "asim_shuba",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul"
+        ],
+        "observedNarrators": [
+          "asim_hafs",
+          "asim_shuba",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-13-1",
+        "faceIndices": [
+          0
+        ],
+        "expectedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "observedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-14-1",
+        "faceIndices": [
+          0
+        ],
+        "expectedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "observedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-16-1",
+        "faceIndices": [
+          0
+        ],
+        "expectedNarrators": [
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul"
+        ],
+        "observedNarrators": [
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-19-2",
+        "faceIndices": [
+          0,
+          1
+        ],
+        "expectedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-19-3",
+        "faceIndices": [
+          0
+        ],
+        "expectedNarrators": [
+          "asim_shuba",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul"
+        ],
+        "observedNarrators": [
+          "asim_shuba",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-25-3",
+        "faceIndices": [
+          1
+        ],
+        "expectedNarrators": [
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-25-5",
+        "faceIndices": [
+          3
+        ],
+        "expectedNarrators": [
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-24-2",
+        "faceIndices": [
+          0
+        ],
+        "expectedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "asim_hafs",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "asim_hafs",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-25-1",
+        "faceIndices": [
+          1
+        ],
+        "expectedNarrators": [
+          "asim_shuba",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "asim_shuba",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-29-2",
+        "faceIndices": [
+          1
+        ],
+        "expectedNarrators": [
+          "asim_hafs",
+          "asim_shuba",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "asim_hafs",
+          "asim_shuba",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-31-1",
+        "faceIndices": [
+          1
+        ],
+        "expectedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "observedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-33-1",
+        "faceIndices": [
+          3,
+          4
+        ],
+        "expectedNarrators": [
+          "asim_hafs",
+          "asim_shuba",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "asim_hafs",
+          "asim_shuba",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-34-2",
+        "faceIndices": [
+          1
+        ],
+        "expectedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan"
+        ],
+        "observedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-37-1",
+        "faceIndices": [
+          1
+        ],
+        "expectedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-40-1",
+        "faceIndices": [
+          0,
+          3
+        ],
+        "expectedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "observedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-42-3",
+        "faceIndices": [
+          1
+        ],
+        "expectedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-42-3",
+        "faceIndices": [
+          2,
+          3
+        ],
+        "expectedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "observedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-43-2",
+        "faceIndices": [
+          1
+        ],
+        "expectedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-66-2",
+        "faceIndices": [
+          1
+        ],
+        "expectedNarrators": [
+          "ibnamir_dhakwan",
+          "ibnamir_hisham"
+        ],
+        "observedNarrators": [
+          "ibnamir_dhakwan",
+          "ibnamir_hisham"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-73-1",
+        "faceIndices": [
+          0
+        ],
+        "expectedNarrators": [
+          "asim_hafs",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul",
+          "yaqub_ruways"
+        ],
+        "observedNarrators": [
+          "asim_hafs",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul",
+          "yaqub_ruways"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-90-2",
+        "faceIndices": [
+          0
+        ],
+        "expectedNarrators": [
+          "yaqub_ruways",
+          "yaqub_ruwh"
+        ],
+        "observedNarrators": [
+          "yaqub_ruways",
+          "yaqub_ruwh"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-94-2",
+        "faceIndices": [
+          1
+        ],
+        "expectedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-94-3",
+        "faceIndices": [
+          5,
+          6
+        ],
+        "expectedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-94-1",
+        "faceIndices": [
+          1
+        ],
+        "expectedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "observedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-95-1",
+        "faceIndices": [
+          1,
+          2
+        ],
+        "expectedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "observedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith",
+          "nafi_qalun",
+          "nafi_warsh"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-114-3",
+        "faceIndices": [
+          3,
+          4
+        ],
+        "expectedNarrators": [
+          "abuamr_duri",
+          "abuamr_susi",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq"
+        ],
+        "observedNarrators": [
+          "abuamr_duri",
+          "abuamr_susi",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-124-1",
+        "faceIndices": [
+          0
+        ],
+        "expectedNarrators": [
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "asim_shuba",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul",
+          "yaqub_ruwh"
+        ],
+        "observedNarrators": [
+          "abuamr_duri",
+          "abuamr_susi",
+          "abujafar_jammaz",
+          "abujafar_wardan",
+          "asim_shuba",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul",
+          "yaqub_ruwh"
+        ],
+        "unexpectedNarrators": [
+          "abuamr_duri",
+          "abuamr_susi"
+        ],
+        "missingNarrators": [],
+        "selectedSetMatches": false,
+        "oppositeSetMatches": false,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-128-1",
+        "faceIndices": [
+          2,
+          3
+        ],
+        "expectedNarrators": [
+          "asim_hafs",
+          "asim_shuba",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "asim_hafs",
+          "asim_shuba",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-135-1",
+        "faceIndices": [
+          0,
+          1
+        ],
+        "expectedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham"
+        ],
+        "observedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-136-1",
+        "faceIndices": [
+          0
+        ],
+        "expectedNarrators": [
+          "abuamr_duri",
+          "abuamr_susi",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul"
+        ],
+        "observedNarrators": [
+          "abuamr_duri",
+          "abuamr_susi",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-136-3",
+        "faceIndices": [
+          0
+        ],
+        "expectedNarrators": [
+          "abuamr_duri",
+          "abuamr_susi",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul"
+        ],
+        "observedNarrators": [
+          "abuamr_duri",
+          "abuamr_susi",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-140-1",
+        "faceIndices": [
+          1
+        ],
+        "expectedNarrators": [
+          "asim_hafs",
+          "asim_shuba",
+          "yaqub_ruways",
+          "yaqub_ruwh"
+        ],
+        "observedNarrators": [
+          "asim_hafs",
+          "asim_shuba",
+          "yaqub_ruways",
+          "yaqub_ruwh"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-145-1",
+        "faceIndices": [
+          0
+        ],
+        "expectedNarrators": [
+          "asim_hafs",
+          "asim_shuba",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "observedNarrators": [
+          "asim_hafs",
+          "asim_shuba",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-152-1",
+        "faceIndices": [
+          8
+        ],
+        "expectedNarrators": [
+          "asim_hafs"
+        ],
+        "observedNarrators": [
+          "asim_hafs"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-154-1",
+        "faceIndices": [
+          1
+        ],
+        "expectedNarrators": [
+          "abuamr_duri",
+          "abuamr_susi",
+          "asim_hafs",
+          "asim_shuba",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith",
+          "yaqub_ruways",
+          "yaqub_ruwh"
+        ],
+        "observedNarrators": [
+          "abuamr_duri",
+          "abuamr_susi",
+          "asim_hafs",
+          "asim_shuba",
+          "hamza_khalaf",
+          "hamza_khallad",
+          "ibnamir_dhakwan",
+          "ibnamir_hisham",
+          "ibnkathir_bazzi",
+          "ibnkathir_qunbul",
+          "khalaf_idris",
+          "khalaf_ishaq",
+          "kisai_duri",
+          "kisai_harith",
+          "yaqub_ruways",
+          "yaqub_ruwh"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-162-2",
+        "faceIndices": [
+          7,
+          8
+        ],
+        "expectedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq"
+        ],
+        "observedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      },
+      {
+        "recordId": "qp-4-164-1",
+        "faceIndices": [
+          0,
+          1
+        ],
+        "expectedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq"
+        ],
+        "observedNarrators": [
+          "hamza_khalaf",
+          "hamza_khallad",
+          "khalaf_idris",
+          "khalaf_ishaq"
+        ],
+        "unexpectedNarrators": [],
+        "missingNarrators": [],
+        "selectedSetMatches": true,
+        "oppositeSetMatches": true,
+        "scope": "مطابقة مجموعتي العزو لجانب الفرش المحدد فقط؛ لا تصحح جميع تفاصيل الوصف المركب."
+      }
+    ]
+  },
+  "operations": [
+    {
+      "id": "review052-001",
+      "recordId": "qp-4-124-1",
+      "kind": "bounded_correction",
+      "reason": "نقل دوري أبي عمرو والسوسي من face0 إلى face1، وتبديل الحاء بالخاء في وصف face0. هذا تصحيح للنساء 4:124 فقط. لا ينقل إلى مواضع مريم أو فاطر أو غافر.",
+      "evidence": [
+        {
+          "book": "النشر في القراءات العشر",
+          "volume_page": "2:252",
+          "quote": "(واختلفوا) في: يدخلون هنا، وفي مريم وفاطر وموضعي المؤمن فقرأ ابن كثير وأبو جعفر وأبو بكر وروح بضم الياء وفتح الخاء في هذه السورة ومريم والأول من المؤمن، وافقهم رويس في مريم وأول المؤمن، وقرأ ابن كثير وأبو جعفر ورويس الحرف الثاني من المؤمن، وهو قوله سيدخلون جهنم كذلك. (واختلف) عن أبي بكر فيه، فروى العليمي عنه من طريق العراقيين قاطبة فتح الياء وضم الخاء، وهو المأخوذ به من جميع طرقه، واختلف عن يحيى بن آدم عنه، فروى سبط الخياط عن الصريفيني عنه كذلك وجعل من طريق الشنبوذي عن أبي عون عنه الوجهين فإنه قال: روى الشنبوذي بإسناده عن يحيى فتح الياء وضم الخاء، قال: الكارزيني والذي قرأته بضم الياء فيكون عن الشنبوذي وجهان. (قلت) : وعلى ضم الياء وفتح الخاء سائر الرواة عن يحيى، وقد انفرد النهرواني عن أبي حمدون عن يحيى عنه بفتح الياء وضم الخاء في الأول من المؤمن خاصة، وقرأ أبو عمرو يدخلونها في فاطر بضم الياء وفتح الخاء، وقرأ الباقون بفتح الياء وضم الخاء في المواضع الخمسة.",
+          "lines": [
+            18753,
+            18765
+          ],
+          "url": "https://www.islamweb.net/ar/library/content/70/233/سورة-النساء"
+        }
+      ],
+      "changes": [
+        {
+          "op": "update",
+          "face": 0,
+          "fields": {
+            "narrators": [
+              "abujafar_jammaz",
+              "abujafar_wardan",
+              "asim_shuba",
+              "ibnkathir_bazzi",
+              "ibnkathir_qunbul",
+              "yaqub_ruwh"
+            ],
+            "reviewedScope": "lexical_only"
+          }
+        },
+        {
+          "op": "update",
+          "face": 1,
+          "fields": {
+            "narrators": [
+              "asim_hafs",
+              "hamza_khalaf",
+              "hamza_khallad",
+              "ibnamir_dhakwan",
+              "ibnamir_hisham",
+              "khalaf_idris",
+              "khalaf_ishaq",
+              "kisai_duri",
+              "kisai_harith",
+              "nafi_qalun",
+              "nafi_warsh",
+              "yaqub_ruways",
+              "abuamr_duri",
+              "abuamr_susi"
+            ],
+            "reviewedScope": "lexical_only"
+          }
+        },
+        {
+          "op": "update",
+          "face": 0,
+          "fields": {
+            "description": "(يُدخَلون) بضم الياء وفتح الخاء"
+          }
+        }
+      ]
+    },
+    {
+      "id": "review052-002",
+      "recordId": "qp-4-77-4",
+      "kind": "bounded_correction",
+      "reason": "إضافة خطاب روح وغيب هشام مع قيود الطرق، وتقييد وجهي روح: أبو الطيب غيب وسائر الرواة خطاب. لا تنشئ وجهاً مطلقاً لهشام، ولا تسقط وجه الغيب عن روح. لا يفحص هذا التقرير أداء اللام أو الصوت.",
+      "evidence": [
+        {
+          "book": "النشر في القراءات العشر",
+          "volume_page": "2:250",
+          "quote": "(واختلفوا) في: ولا تظلمون فتيلا أينما فقرأ ابن كثير وأبو جعفر وحمزة والكسائي، وخلف بالغيب. (واختلف) عن روح، فروى عنه أبو الطيب كذلك بالغيب، وروى عنه سائر الرواة بالخطاب كالباقين. وقد روى الغيب أيضا العراقيون عن الحلواني عن هشام لكنه من غير طريق التغلبي.",
+          "lines": [
+            18707,
+            18711
+          ],
+          "url": "https://www.islamweb.net/ar/library/content/70/233/سورة-النساء"
+        }
+      ],
+      "changes": [
+        {
+          "op": "add",
+          "variant": {
+            "text": null,
+            "description": "الخطاب بالتاء في «ولا تظلمون».",
+            "narrators": [
+              "yaqub_ruwh"
+            ],
+            "qualification": "الخطاب من سائر الرواة عن روح غير أبي الطيب.",
+            "reviewedScope": "lexical_only",
+            "reviewNote": "إثبات القاعدة المحددة فقط، دون استكمال الهمز والمد وسائر الأصول أو جواز تركيب الطرق."
+          }
+        },
+        {
+          "op": "qualify",
+          "face": 2,
+          "narrator": "yaqub_ruwh",
+          "value": "الغيب من طريق أبي الطيب عن روح. هذا توثيق للقاعدة المذكورة فقط؛ لا يصادق على سائر الوصف المركب."
+        },
+        {
+          "op": "add",
+          "variant": {
+            "text": null,
+            "description": "الغيب بالياء في «ولا يظلمون».",
+            "narrators": [
+              "ibnamir_hisham"
+            ],
+            "qualification": "الغيب رواية العراقيين عن الحلواني عن هشام، من غير طريق التغلبي.",
+            "reviewedScope": "lexical_only",
+            "reviewNote": "إثبات القاعدة المحددة فقط، دون استكمال الهمز والمد وسائر الأصول أو جواز تركيب الطرق."
+          }
+        },
+        {
+          "op": "qualify",
+          "face": 0,
+          "narrator": "ibnamir_hisham",
+          "value": "الخطاب هو الباقي عن هشام؛ لا يعمم على طرق الغيب المعينة. هذا توثيق للقاعدة المذكورة فقط؛ لا يصادق على سائر الوصف المركب."
+        }
+      ]
+    },
+    {
+      "id": "review052-003",
+      "recordId": "qp-4-94-5",
+      "kind": "bounded_correction",
+      "reason": "إثبات الوجهين عن راويي أبي جعفر مع بيان طرق الفتح وكون الكسر لسائر أصحاب أبي جعفر. المراجعة تخص الميم التي بعد الواو في مؤمنا فقط؛ لا تدعي مراجعة باب إبدال الهمزة المصاحب.",
+      "evidence": [
+        {
+          "book": "النشر في القراءات العشر",
+          "volume_page": "2:251",
+          "quote": "(واختلفوا) في: ألقى إليكم السلام لست فقرأ المدنيان، وابن عامر حمزة وخلف بحذف ألف السلام، وقرأ الباقون بإثباتها في لست مؤمنا، فروى النهرواني عن أصحابه عن ابن شبيب وابن هارون كلاهما عن الفضل والحنبلي عن هبة الله كلاهما عن عيسى بن وردان فتح الميم التي بعد الواو كذلك روى الجوهري والمغازلي عن الهاشمي في رواية ابن جماز وكسرها سائر أصحاب أبي جعفر، وكذلك قرأ الباقون.",
+          "lines": [
+            18736,
+            18741
+          ],
+          "url": "https://www.islamweb.net/ar/library/content/70/233/سورة-النساء"
+        }
+      ],
+      "changes": [
+        {
+          "op": "add",
+          "variant": {
+            "text": null,
+            "description": "كسر الميم التي بعد الواو في «مؤمناً».",
+            "narrators": [
+              "abujafar_wardan"
+            ],
+            "qualification": "كسر الميم لسائر أصحاب أبي جعفر، خارج طرق الفتح المحددة.",
+            "reviewedScope": "lexical_only",
+            "reviewNote": "إثبات القاعدة المحددة فقط، دون استكمال الهمز والمد وسائر الأصول أو جواز تركيب الطرق."
+          }
+        },
+        {
+          "op": "qualify",
+          "face": 1,
+          "narrator": "abujafar_jammaz",
+          "value": "كسر الميم لسائر أصحاب أبي جعفر، خارج طريقي الجوهري والمغازلي عن الهاشمي عن ابن جماز. هذا توثيق للقاعدة المذكورة فقط؛ لا يصادق على سائر الوصف المركب."
+        },
+        {
+          "op": "add",
+          "variant": {
+            "text": null,
+            "description": "فتح الميم التي بعد الواو في «مؤمناً».",
+            "narrators": [
+              "abujafar_jammaz"
+            ],
+            "qualification": "فتح الميم: الجوهري والمغازلي عن الهاشمي في رواية ابن جماز.",
+            "reviewedScope": "lexical_only",
+            "reviewNote": "إثبات القاعدة المحددة فقط، دون استكمال الهمز والمد وسائر الأصول أو جواز تركيب الطرق."
+          }
+        },
+        {
+          "op": "qualify",
+          "face": 2,
+          "narrator": "abujafar_wardan",
+          "value": "فتح الميم: النهرواني عن أصحابه عن ابن شبيب وابن هارون كلاهما عن الفضل، والحنبلي عن هبة الله، كلاهما عن عيسى بن وردان. هذا توثيق للقاعدة المذكورة فقط؛ لا يصادق على سائر الوصف المركب."
+        }
+      ]
+    },
+    {
+      "id": "review052-004",
+      "recordId": "qp-4-87-1",
+      "kind": "bounded_correction",
+      "reason": "أضف الصاد الخالصة لرويس في الموضعين مع فصل طرقها عن الإشمام، وصحح الخطأ الطباعي. هذا أصل نص عليه باب الفرش صراحة؛ حصر التطبيق هنا في أصدق 4:87 و4:122. لفظ «مصدق» المحلي لا يبرر إنشاء وجه في مُصَدِّقاً 4:47: صاده غير ساكنة. لا تراجع هذه النتيجة سكت حمزة أو النقل المصاحب.",
+      "evidence": [
+        {
+          "book": "النشر في القراءات العشر",
+          "volume_page": "2:250؛ 2:251",
+          "quote": ". (واختلفوا) في: ms702 مصدق (وتصديق) و (يصدفون) و (فاصدع) و (قصد) و (يصدر) وما أشبهه إذا سكنت الصاد وأتى بعدها دال فقرأ حمزة والكسائي وخلف، بإشمام الصاد الزاي، وافقهم رويس في (يصدر) ، وهو في القصص والزلزلة. واختلف عنه في غيره، فروى عنه النخاس والجوهري كذلك بالإشمام جميع ذلك، وبه قطع ابن مهران به، وروى عنه أبو الطيب وابن مقسم بالصاد الخالصة، وبه قطع الهذلي وبذلك قرأ الباقون.",
+          "lines": [
+            18719,
+            18725
+          ],
+          "url": "https://www.islamweb.net/ar/library/content/70/233/سورة-النساء"
+        }
+      ],
+      "changes": [
+        {
+          "op": "add",
+          "variant": {
+            "text": null,
+            "description": "الصاد الخالصة في «أصدق».",
+            "narrators": [
+              "yaqub_ruways"
+            ],
+            "qualification": "الصاد الخالصة: أبو الطيب وابن مقسم عن رويس؛ وبه قطع الهذلي.",
+            "reviewedScope": "lexical_only",
+            "reviewNote": "إثبات القاعدة المحددة فقط، دون استكمال الهمز والمد وسائر الأصول أو جواز تركيب الطرق."
+          }
+        },
+        {
+          "op": "qualify",
+          "face": 1,
+          "narrator": "yaqub_ruways",
+          "value": "إشمام الصاد الزاي: النخاس والجوهري عن رويس؛ وبه قطع ابن مهران. هذا توثيق للقاعدة المذكورة فقط؛ لا يصادق على سائر الوصف المركب."
+        }
+      ]
+    },
+    {
+      "id": "review052-005",
+      "recordId": "qp-4-122-2",
+      "kind": "bounded_correction",
+      "reason": "أضف الصاد الخالصة لرويس في الموضعين مع فصل طرقها عن الإشمام، وصحح الخطأ الطباعي. هذا أصل نص عليه باب الفرش صراحة؛ حصر التطبيق هنا في أصدق 4:87 و4:122. لفظ «مصدق» المحلي لا يبرر إنشاء وجه في مُصَدِّقاً 4:47: صاده غير ساكنة. لا تراجع هذه النتيجة سكت حمزة أو النقل المصاحب.",
+      "evidence": [
+        {
+          "book": "النشر في القراءات العشر",
+          "volume_page": "2:250؛ 2:251",
+          "quote": ". (واختلفوا) في: ms702 مصدق (وتصديق) و (يصدفون) و (فاصدع) و (قصد) و (يصدر) وما أشبهه إذا سكنت الصاد وأتى بعدها دال فقرأ حمزة والكسائي وخلف، بإشمام الصاد الزاي، وافقهم رويس في (يصدر) ، وهو في القصص والزلزلة. واختلف عنه في غيره، فروى عنه النخاس والجوهري كذلك بالإشمام جميع ذلك، وبه قطع ابن مهران به، وروى عنه أبو الطيب وابن مقسم بالصاد الخالصة، وبه قطع الهذلي وبذلك قرأ الباقون.",
+          "lines": [
+            18719,
+            18725
+          ],
+          "url": "https://www.islamweb.net/ar/library/content/70/233/سورة-النساء"
+        }
+      ],
+      "changes": [
+        {
+          "op": "add",
+          "variant": {
+            "text": null,
+            "description": "الصاد الخالصة في «أصدق».",
+            "narrators": [
+              "yaqub_ruways"
+            ],
+            "qualification": "الصاد الخالصة: أبو الطيب وابن مقسم عن رويس؛ وبه قطع الهذلي.",
+            "reviewedScope": "lexical_only",
+            "reviewNote": "إثبات القاعدة المحددة فقط، دون استكمال الهمز والمد وسائر الأصول أو جواز تركيب الطرق."
+          }
+        },
+        {
+          "op": "qualify",
+          "face": 0,
+          "narrator": "yaqub_ruways",
+          "value": "إشمام الصاد الزاي: النخاس والجوهري عن رويس؛ وبه قطع ابن مهران. هذا توثيق للقاعدة المذكورة فقط؛ لا يصادق على سائر الوصف المركب."
+        },
+        {
+          "op": "update",
+          "face": 0,
+          "fields": {
+            "description": "بالتحقيق وإشمام الصاد زايا",
+            "reviewedScope": "local_typographical_correction_only"
+          }
+        }
+      ]
+    },
+    {
+      "id": "review052-006",
+      "recordId": "qp-4-90-2",
+      "kind": "bounded_correction",
+      "reason": "بيان أن تنوين التاء بالفتح وجه الوصل ليعقوب، ووقفه على الكلمة بالهاء «حَصِرَهْ». قف على كلمة حصرت وحدها. لا تحول العبارة المركبة كلها إلى صيغة الوقف، ولا تعمم هذا الحكم على جميع التاءات هنا.",
+      "evidence": [
+        {
+          "book": "النشر في القراءات العشر",
+          "volume_page": "2:251",
+          "quote": "(واختلفوا) في: حصرت صدورهم فقرأ يعقوب بنصب التاء منونة، وهو على أصله في الوقف عليه بالهاء كما تقدم في باب الوقف على المرسوم، كذا نص عليه الأستاذ أبو العز وغيره، وهو الصحيح في مذهبه والذي يقتضيه أصله، وقد ذكر بعض الأئمة الوقف عليها بالتاء لجميع القراء كابن سوار وغيره فأدخل يعقوب في جملتهم إجمالا، والصواب تخصيصه بالهاء على أصله في كل ما كتب من المؤنث بالتاء ويوقف عليه هو وغيره بالهاء على أصولهم المعروفة من غير أن يسكنوا شيئا، والباقون بإسكان التاء وصلا ووقفا. وتقدم اختلافهم في إدغام تائها من فصل تاء التأنيث. وكذا مذهب الأزرق في الراء من بابها.",
+          "lines": [
+            18726,
+            18733
+          ],
+          "url": "https://www.islamweb.net/ar/library/content/70/233/سورة-النساء"
+        }
+      ],
+      "changes": [
+        {
+          "op": "qualify",
+          "face": 0,
+          "narrator": "yaqub_ruways",
+          "value": "الوصل بنصب التاء منونة «حَصِرَةً»، والوقف على الكلمة بالهاء «حَصِرَهْ». هذا توثيق للقاعدة المذكورة فقط؛ لا يصادق على سائر الوصف المركب."
+        },
+        {
+          "op": "qualify",
+          "face": 0,
+          "narrator": "yaqub_ruwh",
+          "value": "الوصل بنصب التاء منونة «حَصِرَةً»، والوقف على الكلمة بالهاء «حَصِرَهْ». هذا توثيق للقاعدة المذكورة فقط؛ لا يصادق على سائر الوصف المركب."
+        },
+        {
+          "op": "record",
+          "fields": {
+            "state": "الحالة بحسب الوجه؛ تنوين «حصرةً» ليعقوب في الوصل، ووقفه على الكلمة بالهاء. لا يعمم وصف الوصل على الوقف."
+          }
+        }
+      ]
+    },
+    {
+      "id": "review052-007",
+      "recordId": "qp-4-154-1",
+      "kind": "bounded_correction",
+      "reason": "تقييد إسكان العين المشددة للعراقيين من طريقي قالون، والاختلاس للمغاربة والطرق المذكورة؛ الداني روى الوجهين. لا يوجد وجه محلي مفقود لقالون في هذه البطاقة؛ النقص هو العزو المقيد. لا تعمم على رواة بقية السورة.",
+      "evidence": [
+        {
+          "book": "النشر في القراءات العشر",
+          "volume_page": "2:253",
+          "quote": "(واختلفوا) في: تعدوا فقرأ أبو جعفر بتشديد الدال مع إسكان العين، وكذلك روى ورش إلا أنه فتح العين، وكذلك قالون إلا أنه اختلف عنه في إسكان العين واختلاسها، فروى عنه العراقيون من طريقيه إسكان العين مع التشديد كأبي جعفر سواء وهكذا ورد النصوص عنه، وروى المغاربة عنه الاختلاس لحركة العين ويعبر بعضهن عنه بالإخفاء فرارا من الجمع بين الساكنين وهذه طريق ابن سفيان والمهدوي وابن شريح وابن غلبون، وغيرهم لم يذكروا سواه. وروى الوجهين عنه جميعا الحافظ أبو عمرو الداني، وقال: إن الإخفاء أقيس والإسكان آثر، وقرأ الباقون بإسكان العين والتخفيف.",
+          "lines": [
+            18787,
+            18794
+          ],
+          "url": "https://www.islamweb.net/ar/library/content/70/233/سورة-النساء"
+        }
+      ],
+      "changes": [
+        {
+          "op": "qualify",
+          "face": 0,
+          "narrator": "nafi_qalun",
+          "value": "اختلاس حركة العين مع تشديد الدال: المغاربة، ومنهم طريق ابن سفيان والمهدوي وابن شريح وابن غلبون؛ وروى الداني الوجهين. هذا توثيق للقاعدة المذكورة فقط؛ لا يصادق على سائر الوصف المركب."
+        },
+        {
+          "op": "qualify",
+          "face": 2,
+          "narrator": "nafi_qalun",
+          "value": "إسكان العين مع تشديد الدال: العراقيون من طريقي قالون؛ وروى الداني الوجهين. هذا توثيق للقاعدة المذكورة فقط؛ لا يصادق على سائر الوصف المركب."
+        }
+      ]
+    },
+    {
+      "id": "review052-008",
+      "recordId": "qp-4-94-2",
+      "kind": "bounded_correction",
+      "reason": "تصحيح الوصف الحرفي للوجهين دون تغيير النصوص أو النسب. هذه البطاقة ترتبط بموضعي 4:94:10 و4:94:34؛ يحفظ هذا التكرار. لا تغير مقادير المد في البطاقة المركبة qp-4-94-3.",
+      "evidence": [
+        {
+          "book": "النشر في القراءات العشر",
+          "volume_page": "2:251",
+          "quote": "(واختلفوا) في: فتبينوا الموضعين هنا، وفي الحجرات فقرأ حمزة والكسائي وخلف في الثلاثة فتثبتوا من التثبت، وقرأ الباقون في الثلاثة من التبين.",
+          "lines": [
+            18734,
+            18735
+          ],
+          "url": "https://www.islamweb.net/ar/library/content/70/233/سورة-النساء"
+        }
+      ],
+      "changes": [
+        {
+          "op": "update",
+          "face": 0,
+          "fields": {
+            "description": "(فَتَبَيَّنُوا) بباء مفتوحة بعد التاء، وبعدها ياء مشددة مفتوحة، ثم نون مضمومة.",
+            "reviewedScope": "local_typographical_correction_only"
+          }
+        },
+        {
+          "op": "update",
+          "face": 1,
+          "fields": {
+            "description": "(فَتَثَبَّتُوا) بثاء مفتوحة بعد التاء، وبعدها باء مشددة مفتوحة، ثم تاء مضمومة.",
+            "reviewedScope": "local_typographical_correction_only"
+          }
+        }
+      ]
+    },
+    {
+      "id": "review052-009",
+      "recordId": "qp-3-81-4",
+      "kind": "isolate_wrong_attachment",
+      "reason": "عزل 7 أوصاف مطابقة لسجل «جَآءَكُمْ» المجاور؛ إبقاؤها محفوظة للتدقيق وعدم تكرارها في السجل المجاور.",
+      "evidence": [
+        {
+          "sourceFile": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18447,
+            18450
+          ],
+          "volume_page": "2:241",
+          "quote": "# (واختلفوا) في: لما فقرأ حمزة بكسر اللام. وقرأ الباقون بفتحها، وقرأ\n~~الباقون بتاء مضمومة من غير ألف، (واختلفوا) في (آتيتكم من) فقرأ المدنيان\n~~(آتيناكم) بالنون والألف على التعظيم وقرأ الباقون بتاء مضمومة من غير ألف،\n~~وتقدم اختلافهم في أأقررتم من باب الهمزتين من كلمة.",
+          "pageConvention": "أول علامة PageV لاحقة تختتم صفحة النص؛ ليست عنوان الصفحة التالية.",
+          "book": "النشر في القراءات العشر — ابن الجزري، تحقيق علي محمد الضباع",
+          "url": "https://shamela.ws/book/22642"
+        },
+        {
+          "sourceFile": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            7872,
+            7882
+          ],
+          "volume_page": "1:313",
+          "quote": "# (والسبب) إما لفظي، وإما معنوي (فاللفظي) إما همزة وإما ساكن (أما\n~~الهمزة) ، فإما أن تكون قبل نحو آدم، ورأى، و (إيمان) ، وخاطئين، وأوتي،\n~~والموءودة وإما أن تكون بعد، وهي في ذلك على قسمين: (أحدهما) أن يكون معها\n~~في كلمة واحدة ويسمى متصلا (والثاني) أن يكون آخر كلمة، والهمزة أول كلمة\n~~أخرى، ويسمى منفصلا. فما كان الهمز فيه متقدما سيفرد بالكلام بعد. المتصل\n~~نحو أولئك، أولياء، يشاء الله، و \" السوأى \"، ومن سوء، ولم يمسسهم سوء،\n~~ويضيء، وسيئت ونحو بيوت النبيء في قراءة من همز، والمنفصل نحو بما أنزل،\n~~ياأيها، قالوا آمنا، وأمره إلى الله ونحو عليهم أأنذرتهم أم، لمن خشي ربه،\n~~إذا زلزلت عند من وصل الميم، أو بين السورتين في أنفسكم، وبه إلا الفاسقين،\n~~ونحو اتبعون أهدكم عند من أثبت الياء، وسواء كان حرف المد ثابتا رسما، أم\n~~ساقطا منه ثابتا لفظا كما مثلنا به، ووجه المد لأجل الهمزة أن",
+          "pageConvention": "أول علامة PageV لاحقة تختتم صفحة النص؛ ليست عنوان الصفحة التالية.",
+          "book": "النشر في القراءات العشر — ابن الجزري، تحقيق علي محمد الضباع",
+          "url": "https://shamela.ws/book/22642"
+        },
+        {
+          "sourceFile": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            13818,
+            13837
+          ],
+          "volume_page": "2:59–2:60",
+          "quote": "### | [فصل في إمالة الألف التي هي عين من الفعل الثلاثي الماضي]\n# أمالها حمزة من عشر أفعال، وهي زاد، شاء، جاء، خاب، ران، خاف، زاغ، طاب،\n~~ضاق، حاق حيث وقعت وكيف جاءت نحو: فزادهم، زادهم، جاءتهم رسلهم، جاءوا\n~~أباهم، جاءت سيارة إلا زاغت فقط، وهي في الأحزاب وصاد فإنه لا خلاف عنه في\n~~استثنائه وإن كانت\n# PageV02P059\n# عبارة التجريد تقتضي إطلاقه فهو مما اجتمعت عليه الطرق من هذه الروايات،\n~~وانفرد ابن مهران بإمالته عن خلاد نصا، وهي رواية العبسي والعجلي عن حمزة،\n~~وقد خالف ابن مهران في ذلك سائر الرواة - والله أعلم -.\n# . ووافقه خلف وابن ذكوان في جاء، شاء كيف وقعا، ووافقه ابن ذكوان وحده في\n~~فزادهم الله مرضا، أول البقرة. واختلف عنه في باقي القرآن، فروى فيه الفتح\n~~وجها واحدا صاحب العنوان، وابن شريح وابن سفيان والمهدوي وابن بليمة ومكي،\n~~وصاحب التذكرة والمغاربة قاطبة، وهي طريق ابن الأخرم عن الأخفش عنه، وبه\n~~قرأ الداني على أبي الحسن بن غلبون، ولم يذكر ابن مهران غيره، وروى الإمالة\n~~أبو العز في كتابيه، وصاحب التجريد، والمستنير، والمبهج، وجمهور العراقيين،\n~~وهي طريق الصوري والنقاش عن الأخفش، وطريق التيسير فإن الداني قرأ بها على\n~~عبد العزيز بن جعفر ms523 وعلى أبي الفتح أيضا، وكلاهما صحيح.\n# واختلف عن ابن ذكوان أيضا في خاب، وهو في أربعة مواضع في إبراهيم وموضعي\n~~طه، وفي والشمس فأماله عنه الصوري وفتحه الأخفش. واختلف عن هشام في شاء،\n~~جاء، زاد فأمالها الداجوني وفتحها الحلواني.",
+          "pageConvention": "أول علامة PageV لاحقة تختتم صفحة النص؛ ليست عنوان الصفحة التالية.",
+          "book": "النشر في القراءات العشر — ابن الجزري، تحقيق علي محمد الضباع",
+          "url": "https://shamela.ws/book/22642"
+        },
+        {
+          "sourceFile": "1117IbnMuhammadSharafDinDimyatti.IthafFudalaBashar.Shamela0010010-ara1",
+          "lineStart": 6825,
+          "volume_page": "1:226",
+          "quote": "واختلف في \"لما آتيتكم\" [الآية: 81] فحمزة بكسر اللام وتخفيف الميم على أنها لام الجر متعلقة بأخذ, وما مصدرية أي: لأجل إيتائي إياكم بعض الكتاب والحكمة, ثم مجيء رسول إلخ وافقه الحسن والأعمش والباقون بالفتح على أنها لام الابتداء, ويحتمل أن تكون للقسم؛ لأن أخذ الميثاق في معنى الاستحلاف وما شرطية منصوبة بآتيتكم وهو ومعطوفة بثم جزم بها على ما اختاره سيبويه.",
+          "book": "إتحاف فضلاء البشر — متن البنا الدمياطي في النسخة الرقمية أنس مهرة",
+          "url": "https://shamela.ws/book/10010"
+        },
+        {
+          "sourceFile": "1117IbnMuhammadSharafDinDimyatti.IthafFudalaBashar.Shamela0010010-ara1",
+          "lineStart": 6830,
+          "volume_page": "1:226",
+          "quote": "واختلف في \"آتيتكم\" فنافع وكذا أبو جعفر بالنون والألف بعدها بضمير المعظم نفسه3 وافقهما الحسن والباقون بتاء مضمومة بلا ألف.",
+          "book": "إتحاف فضلاء البشر — متن البنا الدمياطي في النسخة الرقمية أنس مهرة",
+          "url": "https://shamela.ws/book/10010"
+        }
+      ],
+      "changes": [
+        {
+          "op": "record",
+          "fields": {
+            "variants": [
+              {
+                "text": "لَمَآ ءاتيتُكمْ",
+                "description": "(لَمَآ ءاتيتُكمْ) بفتح اللام ومد المنفصل 3 حركات وقصر البدل وبتاء مضمومة بعد الياء وبإسكان الميم",
+                "narrators": [
+                  "abuamr_duri"
+                ],
+                "sourceFace": 0
+              },
+              {
+                "text": "لَمَآ ءاتيتُكُمْ",
+                "description": "(لَمَآ ءاتيتُكُمْ) بفتح اللام ومد المنفصل 4 أو 5 حركات وقصر البدل وبتاء مضمومة بعد الياء وبإسكان الميم",
+                "narrators": [
+                  "asim_hafs",
+                  "asim_shuba"
+                ],
+                "sourceFace": 1
+              },
+              {
+                "text": "لَمَآ ءَاتيتُكمْ",
+                "description": "(لَمَآ ءَاتيتُكمْ) بفتح اللام ومد المنفصل 4 حركات وقصر البدل وبتاء مضمومة بعد الياء وبإسكان الميم",
+                "narrators": [
+                  "ibnamir_dhakwan",
+                  "ibnamir_hisham",
+                  "khalaf_idris",
+                  "khalaf_ishaq",
+                  "kisai_duri",
+                  "kisai_harith"
+                ],
+                "sourceFace": 2
+              },
+              {
+                "text": "لِمَآ ءاتيتُكمْ",
+                "description": "(لِمَآ ءاتيتُكمْ) بكسر اللام ومد المنفصل 6 حركات وقصر البدل وبتاء مضمومة بعد الياء وبإسكان الميم",
+                "narrators": [
+                  "hamza_khalaf",
+                  "hamza_khallad"
+                ],
+                "sourceFace": 3
+              },
+              {
+                "text": "لَمآ ءاتيناكمُ",
+                "description": "(لَمآ ءاتيناكمُ) بفتح اللام ومد المنفصل 3 حركات وقصر البدل وبنون مفتوحة بعد الياء وبعدها ألف، وبصلة الميم",
+                "narrators": [
+                  "nafi_qalun"
+                ],
+                "sourceFace": 4
+              },
+              {
+                "text": "لَمَآ ءاتيناكمْ",
+                "description": "(لَمَآ ءاتيناكمْ) بفتح اللام ومد المنفصل 6 حركات ومد البدل 2 أو 4 أو 6 حركات وبنون مفتوحة بعد الياء وبعدها ألف وإسكان الميم",
+                "narrators": [
+                  "nafi_warsh"
+                ],
+                "sourceFace": 5
+              },
+              {
+                "text": "لَمَآ ءاتيناكمْ",
+                "description": "(لَمَآ ءاتيناكمْ) بفتح اللام ومد المنفصل حركتين أو ثلاث وقصر البدل وبنون مفتوحة بعد الياء وبعدها ألف وإسكان الميم",
+                "narrators": [
+                  "nafi_qalun"
+                ],
+                "sourceFace": 6
+              },
+              {
+                "text": "لَمَآ ءاتيناكمُ",
+                "description": "(لَمَآ ءاتيناكمُ) بفتح اللام ومد المنفصل حركتين وقصر البدل وبنون مفتوحة بعد الياء وبعدها ألف وبصلة الميم",
+                "narrators": [
+                  "abujafar_jammaz",
+                  "abujafar_wardan",
+                  "nafi_qalun"
+                ],
+                "sourceFace": 7
+              },
+              {
+                "text": "لَما ءاتيتُكمْ",
+                "description": "(لَما ءاتيتُكمْ) بفتح اللام وقصر المنفصل والبدل وبتاء مضمومة بعد الياء وبإسكان الميم",
+                "narrators": [
+                  "abuamr_duri",
+                  "abuamr_susi",
+                  "yaqub_ruways",
+                  "yaqub_ruwh"
+                ],
+                "sourceFace": 8
+              },
+              {
+                "text": "لَمَا ءاتيتُكمُ",
+                "description": "(لَمَا ءاتيتُكمُ) بفتح اللام وقصر المنفصل والبدل وبتاء مضمومة بعد الياء وبصلة الميم",
+                "narrators": [
+                  "ibnkathir_bazzi",
+                  "ibnkathir_qunbul"
+                ],
+                "sourceFace": 9
+              }
+            ],
+            "quarantinedVariants": [
+              {
+                "originalVariantIndex": 10,
+                "variant": {
+                  "text": null,
+                  "description": "بالإمالة ومد المتصل 4 حركات وإسكان الميم",
+                  "narrators": [
+                    "ibnamir_dhakwan",
+                    "khalaf_idris",
+                    "khalaf_ishaq"
+                  ],
+                  "sourceFace": 10
+                },
+                "reason": "وصف معلق بكلمة غير الكلمة التي تعينها أدلته ومطابق لسجل اللفظ الآخر؛ يعزل من المقارنة النشطة مع الاحتفاظ بنص المصدر.",
+                "attachmentStatus": "confirmed_wrong_active_attachment",
+                "relatedRecordId": "qp-3-81-3",
+                "relatedVariantIndex": 0,
+                "duplicateAlreadyPresentAtRelatedRecord": true,
+                "rawPointer": "#/data/1551/qiraat/3/qiraat/10",
+                "evidenceKeys": [
+                  "core81",
+                  "madd",
+                  "jaa",
+                  "ithaf81a",
+                  "ithaf81b"
+                ],
+                "notDeletedFromRawCorpus": true
+              },
+              {
+                "originalVariantIndex": 11,
+                "variant": {
+                  "text": null,
+                  "description": "بالإمالة ومد المتصل 6 حركات وإسكان الميم",
+                  "narrators": [
+                    "hamza_khalaf",
+                    "hamza_khallad"
+                  ],
+                  "sourceFace": 11
+                },
+                "reason": "وصف معلق بكلمة غير الكلمة التي تعينها أدلته ومطابق لسجل اللفظ الآخر؛ يعزل من المقارنة النشطة مع الاحتفاظ بنص المصدر.",
+                "attachmentStatus": "confirmed_wrong_active_attachment",
+                "relatedRecordId": "qp-3-81-3",
+                "relatedVariantIndex": 1,
+                "duplicateAlreadyPresentAtRelatedRecord": true,
+                "rawPointer": "#/data/1551/qiraat/3/qiraat/11",
+                "evidenceKeys": [
+                  "core81",
+                  "madd",
+                  "jaa",
+                  "ithaf81a",
+                  "ithaf81b"
+                ],
+                "notDeletedFromRawCorpus": true
+              },
+              {
+                "originalVariantIndex": 12,
+                "variant": {
+                  "text": null,
+                  "description": "بالفتح ومد المتصل 3 حركات وإسكان الميم",
+                  "narrators": [
+                    "abuamr_duri",
+                    "abuamr_susi",
+                    "nafi_qalun",
+                    "yaqub_ruways",
+                    "yaqub_ruwh"
+                  ],
+                  "sourceFace": 12
+                },
+                "reason": "وصف معلق بكلمة غير الكلمة التي تعينها أدلته ومطابق لسجل اللفظ الآخر؛ يعزل من المقارنة النشطة مع الاحتفاظ بنص المصدر.",
+                "attachmentStatus": "confirmed_wrong_active_attachment",
+                "relatedRecordId": "qp-3-81-3",
+                "relatedVariantIndex": 2,
+                "duplicateAlreadyPresentAtRelatedRecord": true,
+                "rawPointer": "#/data/1551/qiraat/3/qiraat/12",
+                "evidenceKeys": [
+                  "core81",
+                  "madd",
+                  "jaa",
+                  "ithaf81a",
+                  "ithaf81b"
+                ],
+                "notDeletedFromRawCorpus": true
+              },
+              {
+                "originalVariantIndex": 13,
+                "variant": {
+                  "text": null,
+                  "description": "بالفتح ومد المتصل 3 حركات وصلة الميم",
+                  "narrators": [
+                    "abujafar_jammaz",
+                    "abujafar_wardan",
+                    "ibnkathir_bazzi",
+                    "ibnkathir_qunbul",
+                    "nafi_qalun"
+                  ],
+                  "sourceFace": 13
+                },
+                "reason": "وصف معلق بكلمة غير الكلمة التي تعينها أدلته ومطابق لسجل اللفظ الآخر؛ يعزل من المقارنة النشطة مع الاحتفاظ بنص المصدر.",
+                "attachmentStatus": "confirmed_wrong_active_attachment",
+                "relatedRecordId": "qp-3-81-3",
+                "relatedVariantIndex": 3,
+                "duplicateAlreadyPresentAtRelatedRecord": true,
+                "rawPointer": "#/data/1551/qiraat/3/qiraat/13",
+                "evidenceKeys": [
+                  "core81",
+                  "madd",
+                  "jaa",
+                  "ithaf81a",
+                  "ithaf81b"
+                ],
+                "notDeletedFromRawCorpus": true
+              },
+              {
+                "originalVariantIndex": 14,
+                "variant": {
+                  "text": null,
+                  "description": "بالفتح ومد المتصل 4 أو 5 حركات وإسكان الميم",
+                  "narrators": [
+                    "asim_hafs",
+                    "asim_shuba"
+                  ],
+                  "sourceFace": 14
+                },
+                "reason": "وصف معلق بكلمة غير الكلمة التي تعينها أدلته ومطابق لسجل اللفظ الآخر؛ يعزل من المقارنة النشطة مع الاحتفاظ بنص المصدر.",
+                "attachmentStatus": "confirmed_wrong_active_attachment",
+                "relatedRecordId": "qp-3-81-3",
+                "relatedVariantIndex": 4,
+                "duplicateAlreadyPresentAtRelatedRecord": true,
+                "rawPointer": "#/data/1551/qiraat/3/qiraat/14",
+                "evidenceKeys": [
+                  "core81",
+                  "madd",
+                  "jaa",
+                  "ithaf81a",
+                  "ithaf81b"
+                ],
+                "notDeletedFromRawCorpus": true
+              },
+              {
+                "originalVariantIndex": 15,
+                "variant": {
+                  "text": null,
+                  "description": "بالفتح ومد المتصل 4 حركات وإسكان الميم",
+                  "narrators": [
+                    "ibnamir_hisham",
+                    "kisai_duri",
+                    "kisai_harith"
+                  ],
+                  "sourceFace": 15
+                },
+                "reason": "وصف معلق بكلمة غير الكلمة التي تعينها أدلته ومطابق لسجل اللفظ الآخر؛ يعزل من المقارنة النشطة مع الاحتفاظ بنص المصدر.",
+                "attachmentStatus": "confirmed_wrong_active_attachment",
+                "relatedRecordId": "qp-3-81-3",
+                "relatedVariantIndex": 5,
+                "duplicateAlreadyPresentAtRelatedRecord": true,
+                "rawPointer": "#/data/1551/qiraat/3/qiraat/15",
+                "evidenceKeys": [
+                  "core81",
+                  "madd",
+                  "jaa",
+                  "ithaf81a",
+                  "ithaf81b"
+                ],
+                "notDeletedFromRawCorpus": true
+              },
+              {
+                "originalVariantIndex": 16,
+                "variant": {
+                  "text": null,
+                  "description": "بالفتح ومد المتصل 6 حركات وإسكان الميم",
+                  "narrators": [
+                    "nafi_warsh"
+                  ],
+                  "sourceFace": 16
+                },
+                "reason": "وصف معلق بكلمة غير الكلمة التي تعينها أدلته ومطابق لسجل اللفظ الآخر؛ يعزل من المقارنة النشطة مع الاحتفاظ بنص المصدر.",
+                "attachmentStatus": "confirmed_wrong_active_attachment",
+                "relatedRecordId": "qp-3-81-3",
+                "relatedVariantIndex": 6,
+                "duplicateAlreadyPresentAtRelatedRecord": true,
+                "rawPointer": "#/data/1551/qiraat/3/qiraat/16",
+                "evidenceKeys": [
+                  "core81",
+                  "madd",
+                  "jaa",
+                  "ithaf81a",
+                  "ithaf81b"
+                ],
+                "notDeletedFromRawCorpus": true
+              }
+            ],
+            "reviewWarnings": [
+              "حُسم عزل أوصاف جاءكم المجاورة. تحقق أصل الفرش في اللام وآتيتكم/آتيناكم، ولم تكتمل مراجعة مقادير المد وميم الجمع وقيود الطرق في الأوصاف العشرة المتبقية؛ لا تعد جميع تفاصيلها محققة مستقلة."
+            ],
+            "note": "حُسم عزل أوصاف جاءكم المجاورة. تحقق أصل الفرش في اللام وآتيتكم/آتيناكم، ولم تكتمل مراجعة مقادير المد وميم الجمع وقيود الطرق في الأوصاف العشرة المتبقية؛ لا تعد جميع تفاصيلها محققة مستقلة.",
+            "scope": "نقل أوصاف المصدر ونِسبها؛ لم يحدد المصدر طريق كل وجه تفصيلاً. تعدد الأوجه داخل الرواية محفوظ، ولا يُستكمل الراوي الناقص بالافتراض. عزلت الأوصاف المحددة مع إثبات أصل الفرش فقط، ولا يشمل التحقيق كامل تفاصيل الأداء المركب.",
+            "tags": [
+              "مد وقصر",
+              "ميم الجمع",
+              "حركات"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "review052-010",
+      "recordId": "qp-3-187-2",
+      "kind": "isolate_wrong_attachment",
+      "reason": "عزل 2 أوصاف مطابقة لسجل «لِلنَّاسِ» المجاور؛ إبقاؤها محفوظة للتدقيق وعدم تكرارها في السجل المجاور.",
+      "evidence": [
+        {
+          "sourceFile": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            18591,
+            18592
+          ],
+          "volume_page": "2:246",
+          "quote": "# (واختلفوا) في: لتبيننه، ولا تكتمونه فقرأ ابن كثير وأبو عمرو وأبو بكر\n~~بالغيب فيهما، وقرأ الباقون بالخطاب.",
+          "pageConvention": "أول علامة PageV لاحقة تختتم صفحة النص؛ ليست عنوان الصفحة التالية.",
+          "book": "النشر في القراءات العشر — ابن الجزري، تحقيق علي محمد الضباع",
+          "url": "https://shamela.ws/book/22642"
+        },
+        {
+          "sourceFile": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            13842,
+            13845
+          ],
+          "volume_page": "2:60",
+          "quote": "### | فصل في إمالة حروف مخصوصة غير ما تقدم\n# ، وهي أحد وعشرون حرفا التورية حيث وقعت الكافرين حيث وقع بالياء مجرورا\n~~كان، أو منصوبا الناس حيث وقع مجرورا ضعافا في سورة النساء آتيك في موضعي\n~~النمل المحراب كيف وقع عمران.",
+          "pageConvention": "أول علامة PageV لاحقة تختتم صفحة النص؛ ليست عنوان الصفحة التالية.",
+          "book": "النشر في القراءات العشر — ابن الجزري، تحقيق علي محمد الضباع",
+          "url": "https://shamela.ws/book/22642"
+        },
+        {
+          "sourceFile": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            13878,
+            13895
+          ],
+          "volume_page": "2:62",
+          "quote": "# وأما الناس فاختلف فيه عن أبي عمرو من رواية الدوري، فروى إمالته أبو\n~~طاهر بن أبي هاشم عن أبي الزعراء عنه، وهو الذي في التيسير، وذلك أنه أسند\n~~رواية الدوري فيه عن عبد العزيز بن جعفر الفارسي عن أبي طاهر المذكور، وقال\n~~في باب الإمالة: وأقرأني الفارسي عن قراءته على أبي طاهر في قراءة أبي عمرو\n~~بإمالة فتحة النون من الناس في موضع الجر حيث وقع، وذلك صريح في أن ذلك من\n~~رواية الدوري، وبه كان يأخذ أبو القاسم الشاطبي في هذه الرواية، وهو رواية\n~~جماعة من أصحاب اليزيدي عنه عن أبي عمرو كأبي عبد الرحمن بن اليزيدي وأبي\n~~حمدون وابن سعدون، وغيرهم، وذلك كان اختيار أبي عمرو الداني من هذه\n~~الرواية. قال في جامع البيان واختياري في قراءة أبي عمرو من طريق أهل\n~~العراق الإمالة المحضة في ذلك لشهرة من رواها عن اليزيدي وحسن اطلاعهم ms525\n~~ووفور معرفتهم. ثم قال: وبذلك قرأت على الفارسي عن قراءته على أبي طاهر بن\n~~أبي هاشم، وبه آخذ. قال: وقد كان ابن مجاهد رحمه الله يقرئ بإخلاص الفتح في\n~~جميع الأحوال، وأظن ذلك اختيارا منه واستحسانا في مذهب أبي عمرو وترك لأجله\n~~ما قرأه على الموثوق به من أئمته إذ قد فعل ذلك في غير ما حرف وترك المجمع\n~~فيه عن اليزيدي ومال إلى رواية غيره إما لقوتها في العربية، أو لسهولتها\n~~على اللفظ ولقربها على المتعلم؛ من ذلك إظهار الراء الساكنة عند اللام،\n~~وكسر هاء الضمير المتصلة بالفعل المجزوم من غير صلة، وإشباع الحركة في\n~~بارئكم ويأمركم.",
+          "pageConvention": "أول علامة PageV لاحقة تختتم صفحة النص؛ ليست عنوان الصفحة التالية.",
+          "book": "النشر في القراءات العشر — ابن الجزري، تحقيق علي محمد الضباع",
+          "url": "https://shamela.ws/book/22642"
+        },
+        {
+          "sourceFile": "0833IbnJazari.Nashr.Shamela0022642-ara1",
+          "lines": [
+            13906,
+            13914
+          ],
+          "volume_page": "2:63",
+          "quote": "# قال: وقد ذكر عبد الله بن داود الحربي عن أبي عمرو أن الإمالة في الناس\n~~في موضع الخفض لغة أهل الحجاز وأنه كان يميله انتهى، ورواه الهذلي من طريق\n~~ابن فرح عن الدوري، وعن جماعة عن أبي عمرو، وروى سائر الناس عن أبي عمرو من\n~~رواية الدوري، وغيره الفتح، وهو الذي اجتمع عليه العراقيون، والشاميون،\n~~والمصريون والمغاربة، ولم يرووه بالنص عن أحد في رواية أبي عمرو إلا من\n~~طريق أبي عبد الرحمن بن اليزيدي وسبطه أبي جعفر أحمد بن محمد - والله أعلم\n~~-.\n# والوجهان صحيحان عندنا من رواية الدوري ms526 عن أبي عمرو وقرأنا بهما، وبهما\n~~نأخذ، وقرأ الباقون بالفتح والله الموفق، وأما ضعافا فأماله حمزة من رواية",
+          "pageConvention": "أول علامة PageV لاحقة تختتم صفحة النص؛ ليست عنوان الصفحة التالية.",
+          "book": "النشر في القراءات العشر — ابن الجزري، تحقيق علي محمد الضباع",
+          "url": "https://shamela.ws/book/22642"
+        },
+        {
+          "sourceFile": "1117IbnMuhammadSharafDinDimyatti.IthafFudalaBashar.Shamela0010010-ara1",
+          "lineStart": 7054,
+          "volume_page": "1:233",
+          "quote": "واختلف في \"لتبيننه للناس ولا تكتمونه\" [الآية: 187] فابن كثير وأبو عمرو وأبو بكر بالغيب فيهما إسنادا لأهل الكتاب وافقهم ابن محيصن والباقون بالخطاب على الحكاية أي: وقلنا لهم ونظيره وإذ أخذنا ميثاق بني إسرائيل لا تعبدون إلا الله.",
+          "book": "إتحاف فضلاء البشر — متن البنا الدمياطي في النسخة الرقمية أنس مهرة",
+          "url": "https://shamela.ws/book/10010"
+        }
+      ],
+      "changes": [
+        {
+          "op": "record",
+          "fields": {
+            "variants": [
+              {
+                "text": "لتبيننه",
+                "description": "(لتبيننه) بالتاء",
+                "narrators": [
+                  "abujafar_jammaz",
+                  "abujafar_wardan",
+                  "asim_hafs",
+                  "hamza_khalaf",
+                  "hamza_khallad",
+                  "ibnamir_dhakwan",
+                  "ibnamir_hisham",
+                  "khalaf_idris",
+                  "khalaf_ishaq",
+                  "kisai_duri",
+                  "kisai_harith",
+                  "nafi_qalun",
+                  "nafi_warsh",
+                  "yaqub_ruways",
+                  "yaqub_ruwh"
+                ],
+                "sourceFace": 0,
+                "reviewedScope": "lexical_only",
+                "reviewNote": "توثيق التاء/الياء ونسبتهما فقط؛ لا استيعاب لجميع أصول الأداء وطرقه."
+              },
+              {
+                "text": "ليُبيننه",
+                "description": "(ليُبيننه) بالياء",
+                "narrators": [
+                  "abuamr_duri",
+                  "abuamr_susi",
+                  "asim_shuba",
+                  "ibnkathir_bazzi",
+                  "ibnkathir_qunbul"
+                ],
+                "sourceFace": 1,
+                "reviewedScope": "lexical_only",
+                "reviewNote": "توثيق التاء/الياء ونسبتهما فقط؛ لا استيعاب لجميع أصول الأداء وطرقه."
+              }
+            ],
+            "quarantinedVariants": [
+              {
+                "originalVariantIndex": 2,
+                "variant": {
+                  "text": null,
+                  "description": "بالإمالة",
+                  "narrators": [
+                    "abuamr_duri"
+                  ],
+                  "sourceFace": 2
+                },
+                "reason": "وصف معلق بكلمة غير الكلمة التي تعينها أدلته ومطابق لسجل اللفظ الآخر؛ يعزل من المقارنة النشطة مع الاحتفاظ بنص المصدر.",
+                "attachmentStatus": "confirmed_wrong_active_attachment",
+                "relatedRecordId": "qp-3-187-3",
+                "relatedVariantIndex": 0,
+                "duplicateAlreadyPresentAtRelatedRecord": true,
+                "rawPointer": "#/data/1626/qiraat/1/qiraat/2",
+                "evidenceKeys": [
+                  "core187",
+                  "nasScope",
+                  "nasDuri",
+                  "nasBoth",
+                  "ithaf187"
+                ],
+                "notDeletedFromRawCorpus": true
+              },
+              {
+                "originalVariantIndex": 3,
+                "variant": {
+                  "text": null,
+                  "description": "بالفتح",
+                  "narrators": [
+                    "abuamr_susi",
+                    "abujafar_jammaz",
+                    "abujafar_wardan",
+                    "asim_hafs",
+                    "asim_shuba",
+                    "hamza_khalaf",
+                    "hamza_khallad",
+                    "ibnamir_dhakwan",
+                    "ibnamir_hisham",
+                    "ibnkathir_bazzi",
+                    "ibnkathir_qunbul",
+                    "khalaf_idris",
+                    "khalaf_ishaq",
+                    "kisai_duri",
+                    "kisai_harith",
+                    "nafi_qalun",
+                    "nafi_warsh",
+                    "yaqub_ruways",
+                    "yaqub_ruwh"
+                  ],
+                  "sourceFace": 3
+                },
+                "reason": "وصف معلق بكلمة غير الكلمة التي تعينها أدلته ومطابق لسجل اللفظ الآخر؛ يعزل من المقارنة النشطة مع الاحتفاظ بنص المصدر.",
+                "attachmentStatus": "confirmed_wrong_active_attachment",
+                "relatedRecordId": "qp-3-187-3",
+                "relatedVariantIndex": 1,
+                "duplicateAlreadyPresentAtRelatedRecord": true,
+                "rawPointer": "#/data/1626/qiraat/1/qiraat/3",
+                "evidenceKeys": [
+                  "core187",
+                  "nasScope",
+                  "nasDuri",
+                  "nasBoth",
+                  "ithaf187"
+                ],
+                "notDeletedFromRawCorpus": true
+              }
+            ],
+            "reviewWarnings": [],
+            "note": "عزل وصفا إمالة/فتح «للناس» من هذه البطاقة، وحفظا في سجل التدقيق. المراجعة هنا لأصل التاء والياء ونسبتهما فقط، دون بقية الأصول.",
+            "scope": "نقل أوصاف المصدر ونِسبها؛ لم يحدد المصدر طريق كل وجه تفصيلاً. تعدد الأوجه داخل الرواية محفوظ، ولا يُستكمل الراوي الناقص بالافتراض. عزلت الأوصاف المحددة مع إثبات أصل الفرش فقط، ولا يشمل التحقيق كامل تفاصيل الأداء المركب.",
+            "tags": [
+              "أوجه موضعية"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
